@@ -1,0 +1,11 @@
+{
+  "name": "g05_cubic_noise_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 48,
+    "noise_order": 3
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g05_cubic_noise_best.cpp",
+  "sha256": "920672a9dc6d1afeedeaf7439d28dacb47aebc53039be854e03a4f788929658b"
+}

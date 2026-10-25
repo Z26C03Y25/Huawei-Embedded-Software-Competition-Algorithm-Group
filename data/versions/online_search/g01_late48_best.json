@@ -1,0 +1,10 @@
+{
+  "name": "g01_late48_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 48
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g01_late48_best.cpp",
+  "sha256": "09963e32c6ceac979b5060fa645e4b21f21c1bd46de70db7cadfac507cf5c3ff"
+}

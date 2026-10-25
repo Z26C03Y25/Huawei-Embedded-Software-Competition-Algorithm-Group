@@ -1,0 +1,10 @@
+# Scored C++ files are byte-identified; preserve original line endings.
+*.cpp -text
+*.pdf binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+# Historical documents are also protected by byte hashes.
+/docs/archive/*.md -text

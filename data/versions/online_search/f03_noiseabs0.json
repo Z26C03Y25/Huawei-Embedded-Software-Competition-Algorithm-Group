@@ -1,0 +1,9 @@
+{
+  "name": "f03_noiseabs0",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f03_noiseabs0.cpp",
+  "sha256": "b6dae124191d2a4cb3f184f402542afd436ede5be5f15a8af32d25362f69109c"
+}

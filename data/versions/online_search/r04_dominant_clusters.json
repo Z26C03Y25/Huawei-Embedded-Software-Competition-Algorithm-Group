@@ -1,0 +1,15 @@
+{
+  "name": "r04_dominant_clusters",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r04_dominant_clusters.cpp",
+  "sha256": "df9d86a0152c859e5c0f58fda4bd738cf1a676209596d0b3603382cda8e41b41"
+}

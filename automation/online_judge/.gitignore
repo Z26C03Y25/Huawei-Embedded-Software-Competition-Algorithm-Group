@@ -1,0 +1,6 @@
+.venv/
+.setup-tmp/
+.chrome-profile/
+runs/
+__pycache__/
+*.pyc

@@ -1,0 +1,11 @@
+{
+  "name": "t07_dense8",
+  "config": {
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t07_dense8.cpp",
+  "sha256": "9394263e20b5bf0ae562449e52c9639a76f5426b7273548a44f37f5c7ceed097"
+}

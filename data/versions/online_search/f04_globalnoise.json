@@ -1,0 +1,10 @@
+{
+  "name": "f04_globalnoise",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "noise_local": 0
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f04_globalnoise.cpp",
+  "sha256": "4627687415b370e2a057b4e7a020a6f2cb82b648c5ad3307a2587ae7317aefa5"
+}

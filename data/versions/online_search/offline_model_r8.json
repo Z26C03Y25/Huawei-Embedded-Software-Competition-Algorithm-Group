@@ -1,0 +1,17 @@
+{
+  "name": "offline_model_r8",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.05,
+    "model_finish": true,
+    "radius": 8
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\offline_model_r8.cpp",
+  "sha256": "50db7058ae156096896999b1bbc5bfcb1775512dfaae2d20dd7aeed8f2b71ac1"
+}

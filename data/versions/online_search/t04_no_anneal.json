@@ -1,0 +1,8 @@
+{
+  "name": "t04_no_anneal",
+  "config": {
+    "anneal": false
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t04_no_anneal.cpp",
+  "sha256": "8017c01e53861cf4211c93ae2f9f76e4582d08a5a126f91963e49d06b90a54ee"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "t03_short_scout",
+  "config": {
+    "scout_min": 48,
+    "scout_max": 96
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t03_short_scout.cpp",
+  "sha256": "316ad8de26702ccaff7aa2fdefc2770ba11ecb5aa477e63a59159a9402694103"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "edge_audit8",
+  "path": "data/experiments/2026-10-25/edge_audit8.cpp",
+  "sha256": "ce2f682e10095638dd41ca4443464f726ee8902d3e5692621794ac4f6fa55ccf",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "official_score": null,
+  "purpose": "Complete a small left competitive edge before the second refinement reverses direction",
+  "max_holes": 8,
+  "status": "rejected_draft_wrong_audit_timing",
+  "finding": "At second-round entry the motor is209; the actual reversal occurs after querying202. This draft does not activate on the known case."
+}

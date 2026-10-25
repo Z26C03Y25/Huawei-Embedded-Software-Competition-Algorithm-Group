@@ -1,0 +1,10 @@
+{
+  "name": "g06_prom22_best",
+  "config": {
+    "prom": 22,
+    "noise_abs": 0,
+    "late_scout": 48
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g06_prom22_best.cpp",
+  "sha256": "9ac51f39a401cbe6cfac2c04d5f3b0b274ba56818549c03ffa00d8d577ba284e"
+}

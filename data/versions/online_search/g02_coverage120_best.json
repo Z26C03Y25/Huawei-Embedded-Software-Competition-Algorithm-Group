@@ -1,0 +1,11 @@
+{
+  "name": "g02_coverage120_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 48,
+    "coarse": 120
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g02_coverage120_best.cpp",
+  "sha256": "a0fc5fe4562d8767bde052bbee981e4c8a9b99c7533a1898c092d035b1ef4b89"
+}

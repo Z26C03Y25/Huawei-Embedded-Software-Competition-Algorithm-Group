@@ -1,0 +1,305 @@
+{
+  "batch": "2026-10-25_A",
+  "official_scores": false,
+  "input_fingerprint": "0c16c0d5dc600010a59e3a8162ad2bff7cdda369f9e366bfdf593b0eecd45f2a",
+  "sources": {
+    "M1_R12_best": "data/versions/main_online_199291.cpp",
+    "M0_R16_scored": "data/versions/online_search/scored_198409_df9d86a0152c.cpp",
+    "M0_R12": "data/versions/online_search/day20261025_m0r12.cpp",
+    "M1_R16": "data/versions/online_search/day20261025_m1r16.cpp",
+    "edge_reverse8": "data/experiments/2026-10-25/edge_reverse8.cpp"
+  },
+  "source_sha256": {
+    "M1_R12_best": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "M0_R16_scored": "df9d86a0152c859e5c0f58fda4bd738cf1a676209596d0b3603382cda8e41b41",
+    "M0_R12": "5d64465dc64074585f4524269b5d223e5a19afefebb9c2c80f8da15729b960d2",
+    "M1_R16": "6eb39b4df9e2cecaac0a59bce563bbe904737aebfcbb429adb3a1735f754c26b",
+    "edge_reverse8": "6aa27cda05fc5ef4a1b3b89bf5ec1bbae93eb4c19c56793ae60aaa4eccd24953"
+  },
+  "summaries": {
+    "M1_R12_best": {
+      "smoke": {
+        "cases": 26,
+        "total_score": 53911,
+        "zero_scores": 3,
+        "queries": 1916,
+        "movement": 13336,
+        "max_queries": 168,
+        "max_turns": 2,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "development": {
+        "cases": 84,
+        "total_score": 143200,
+        "zero_scores": 23,
+        "queries": 7438,
+        "movement": 60571,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "holdout": {
+        "cases": 84,
+        "total_score": 139167,
+        "zero_scores": 25,
+        "queries": 6712,
+        "movement": 50197,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "edge_variants": {
+        "cases": 84,
+        "total_score": 80963,
+        "zero_scores": 43,
+        "queries": 12784,
+        "movement": 69177,
+        "max_queries": 195,
+        "max_turns": 4,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      }
+    },
+    "M0_R16_scored": {
+      "smoke": {
+        "cases": 26,
+        "total_score": 53525,
+        "zero_scores": 3,
+        "queries": 2123,
+        "movement": 13514,
+        "max_queries": 172,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -386,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "development": {
+        "cases": 84,
+        "total_score": 142221,
+        "zero_scores": 23,
+        "queries": 7836,
+        "movement": 61195,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -979,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "holdout": {
+        "cases": 84,
+        "total_score": 138421,
+        "zero_scores": 25,
+        "queries": 7094,
+        "movement": 50480,
+        "max_queries": 196,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -746,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "edge_variants": {
+        "cases": 84,
+        "total_score": 86092,
+        "zero_scores": 40,
+        "queries": 12890,
+        "movement": 69313,
+        "max_queries": 199,
+        "max_turns": 4,
+        "protocol_errors": 0,
+        "delta_vs_best": 5129,
+        "resolved_zero": 7,
+        "new_zero": 4
+      }
+    },
+    "M0_R12": {
+      "smoke": {
+        "cases": 26,
+        "total_score": 53624,
+        "zero_scores": 3,
+        "queries": 2087,
+        "movement": 13452,
+        "max_queries": 172,
+        "max_turns": 2,
+        "protocol_errors": 0,
+        "delta_vs_best": -287,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "development": {
+        "cases": 84,
+        "total_score": 142610,
+        "zero_scores": 23,
+        "queries": 7668,
+        "movement": 60951,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -590,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "holdout": {
+        "cases": 84,
+        "total_score": 138691,
+        "zero_scores": 25,
+        "queries": 6914,
+        "movement": 50469,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -476,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "edge_variants": {
+        "cases": 84,
+        "total_score": 80963,
+        "zero_scores": 43,
+        "queries": 12784,
+        "movement": 69177,
+        "max_queries": 195,
+        "max_turns": 4,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      }
+    },
+    "M1_R16": {
+      "smoke": {
+        "cases": 26,
+        "total_score": 53856,
+        "zero_scores": 3,
+        "queries": 1947,
+        "movement": 13360,
+        "max_queries": 168,
+        "max_turns": 2,
+        "protocol_errors": 0,
+        "delta_vs_best": -55,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "development": {
+        "cases": 84,
+        "total_score": 142923,
+        "zero_scores": 23,
+        "queries": 7567,
+        "movement": 60731,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -277,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "holdout": {
+        "cases": 84,
+        "total_score": 138987,
+        "zero_scores": 25,
+        "queries": 6845,
+        "movement": 50164,
+        "max_queries": 196,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -180,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "edge_variants": {
+        "cases": 84,
+        "total_score": 86092,
+        "zero_scores": 40,
+        "queries": 12890,
+        "movement": 69313,
+        "max_queries": 199,
+        "max_turns": 4,
+        "protocol_errors": 0,
+        "delta_vs_best": 5129,
+        "resolved_zero": 7,
+        "new_zero": 4
+      }
+    },
+    "edge_reverse8": {
+      "smoke": {
+        "cases": 26,
+        "total_score": 53911,
+        "zero_scores": 3,
+        "queries": 1916,
+        "movement": 13336,
+        "max_queries": 168,
+        "max_turns": 2,
+        "protocol_errors": 0,
+        "delta_vs_best": 0,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "development": {
+        "cases": 84,
+        "total_score": 143188,
+        "zero_scores": 23,
+        "queries": 7442,
+        "movement": 60579,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -12,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "holdout": {
+        "cases": 84,
+        "total_score": 139152,
+        "zero_scores": 25,
+        "queries": 6717,
+        "movement": 50207,
+        "max_queries": 199,
+        "max_turns": 3,
+        "protocol_errors": 0,
+        "delta_vs_best": -15,
+        "resolved_zero": 0,
+        "new_zero": 0
+      },
+      "edge_variants": {
+        "cases": 84,
+        "total_score": 84397,
+        "zero_scores": 41,
+        "queries": 12798,
+        "movement": 69475,
+        "max_queries": 195,
+        "max_turns": 4,
+        "protocol_errors": 0,
+        "delta_vs_best": 3434,
+        "resolved_zero": 2,
+        "new_zero": 0
+      }
+    }
+  },
+  "main_unchanged": true,
+  "local_full_report": "dev/build/research/2026-10-25_batchA.json",
+  "report_sha256": "5d15f273d1300e1c461f08667ffbef0a866b16849a741f69f3720e376f9ddcd6",
+  "reproduce": "python data/experiments/2026-10-25/run_batch.py",
+  "cases_per_solver": 278,
+  "total_interactive_runs": 1390,
+  "headline": {
+    "edge_score_delta": 3407,
+    "edge_resolved_zero": 2,
+    "edge_new_zero": 0,
+    "edge_general_development_delta": -12,
+    "edge_general_holdout_delta": -15,
+    "edge_targeted_variants_delta": 3434
+  }
+}

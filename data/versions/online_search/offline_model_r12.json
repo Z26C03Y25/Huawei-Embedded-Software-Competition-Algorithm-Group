@@ -1,0 +1,17 @@
+{
+  "name": "offline_model_r12",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\offline_model_r12.cpp",
+  "sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82"
+}

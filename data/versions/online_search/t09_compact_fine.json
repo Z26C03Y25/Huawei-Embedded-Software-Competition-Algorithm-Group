@@ -1,0 +1,11 @@
+{
+  "name": "t09_compact_fine",
+  "config": {
+    "radius": 8,
+    "band_noise": 2,
+    "band_contrast": 0.02,
+    "group": 0.2
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t09_compact_fine.cpp",
+  "sha256": "7f0fe9d4ce6be05141b519bbcb58a2e25d615d70d5af855714ae28b1fd5e42d3"
+}

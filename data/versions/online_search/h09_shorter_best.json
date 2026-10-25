@@ -1,0 +1,16 @@
+{
+  "name": "h09_shorter_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "scout_min": 64,
+    "scout_max": 112
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h09_shorter_best.cpp",
+  "sha256": "9201affdfe76c00da4dc0b6d821646e2ac44433b7b7e9984466cd657e48df856"
+}

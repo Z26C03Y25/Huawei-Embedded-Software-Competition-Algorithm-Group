@@ -1,0 +1,437 @@
+[
+  {
+    "job_id": "20261024T162328342973Z_10a64c32efec",
+    "name": "flat199_only",
+    "score": 159487,
+    "sha256": "0defa270dbc1116cf21764c663b67cc5b4883d3d35ea192287911850af9dd309",
+    "submission_id": "094b02c8396e4c8186966ca0552f4330",
+    "submitted_at": "2026-10-25 00:23:31"
+  },
+  {
+    "job_id": "20261024T162627924246Z_22d5e7248d5a",
+    "name": "short_scout48",
+    "score": 153559,
+    "sha256": "316ad8de26702ccaff7aa2fdefc2770ba11ecb5aa477e63a59159a9402694103",
+    "submission_id": "8e40ed0198ad4f9387bb3d51e6dd9c90",
+    "submitted_at": "2026-10-25 00:26:30",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t03_short_scout.cpp",
+    "config": {
+      "scout_min": 48,
+      "scout_max": 96
+    }
+  },
+  {
+    "job_id": "20261024T163106492855Z_2ad33dc9a517",
+    "name": "t05_high_prominence",
+    "score": 187121,
+    "sha256": "5a5f814ecc85afd686f17dd576e3a0c83075567ec37f3db764972d1a629b78a5",
+    "submission_id": "4016c2a0523b4a4c9563947e397dd8be",
+    "submitted_at": "2026-10-25 00:31:11",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t05_high_prominence.cpp",
+    "config": {
+      "prom": 24
+    }
+  },
+  {
+    "job_id": "20261024T163259931791Z_34ef87eac409",
+    "name": "t04_no_anneal",
+    "score": 159487,
+    "sha256": "8017c01e53861cf4211c93ae2f9f76e4582d08a5a126f91963e49d06b90a54ee",
+    "submission_id": "3ef8b35754c94b21b198070c11dc81fc",
+    "submitted_at": "2026-10-25 00:33:02",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t04_no_anneal.cpp",
+    "config": {
+      "anneal": false
+    }
+  },
+  {
+    "job_id": "20261024T163627720418Z_a9bedfb74c4d",
+    "name": "h01_prom36",
+    "score": 170426,
+    "sha256": "509b84e4e73af598dcbde417f292b301b35848f7bc8ce982ac52fdc1d67406d0",
+    "submission_id": "bbc35e5e7e1146bb8e1ea5fa65079bbc",
+    "submitted_at": "2026-10-25 00:36:30",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h01_prom36.cpp",
+    "config": {
+      "prom": 36
+    }
+  },
+  {
+    "job_id": "20261024T163755827687Z_4b01809bf41f",
+    "name": "h02_prom48",
+    "score": 165417,
+    "sha256": "f3306209dc3e42f6ee067ed6761072d1940c1bea4f5a93f74d02e7ecd0013f6f",
+    "submission_id": "602683f0cb4d47e8b6b8a4584220694a",
+    "submitted_at": "2026-10-25 00:37:58",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h02_prom48.cpp",
+    "config": {
+      "prom": 48
+    }
+  },
+  {
+    "job_id": "20261024T163858510880Z_04f6b8e04902",
+    "name": "h03_prom32",
+    "score": 173226,
+    "sha256": "af03822482bbc1645acf1833cdab78ed892354d2fb3a559d582e322aff40e4cb",
+    "submission_id": "380d37f393e045798e6eefd133d68dca",
+    "submitted_at": "2026-10-25 00:39:01",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h03_prom32.cpp",
+    "config": {
+      "prom": 32
+    }
+  },
+  {
+    "job_id": "20261024T164100377597Z_04d6221a3a18",
+    "name": "h05_prom18",
+    "score": 181476,
+    "sha256": "971ca409dd7f03bc07adffd6f2822b0c57d4f5495d8333b1cb2b86e83c48ff89",
+    "submission_id": "97fea6db97874d3d9302b645cc7d5d71",
+    "submitted_at": "2026-10-25 00:41:03",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h05_prom18.cpp",
+    "config": {
+      "prom": 18
+    }
+  },
+  {
+    "job_id": "20261024T164256025931Z_ced6fd9d22b1",
+    "name": "f01_prom20",
+    "score": 185457,
+    "sha256": "04f1a301512d8a5892a1bb8cde5e6baf603329dba8ee2386559be0504125a9d7",
+    "submission_id": "01b298bc9ea841cdbf2e70583d88b1fe",
+    "submitted_at": "2026-10-25 00:42:58",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f01_prom20.cpp",
+    "config": {
+      "prom": 20
+    }
+  },
+  {
+    "job_id": "20261024T164357953370Z_fce860e4cf12",
+    "name": "f02_prom28",
+    "score": 180101,
+    "sha256": "557da9ca9afba1b8737aee2255f62f308a8fa9379f8be89701679d08214edfd4",
+    "submission_id": "3dd57172d4cf415bbce838de4ad55504",
+    "submitted_at": "2026-10-25 00:44:01",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f02_prom28.cpp",
+    "config": {
+      "prom": 28
+    }
+  },
+  {
+    "job_id": "20261024T164457460874Z_c729550151f1",
+    "name": "f03_noiseabs0",
+    "score": 187239,
+    "sha256": "b6dae124191d2a4cb3f184f402542afd436ede5be5f15a8af32d25362f69109c",
+    "submission_id": "3a6d1cbede90447db3b5861222945e25",
+    "submitted_at": "2026-10-25 00:45:00",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f03_noiseabs0.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0
+    }
+  },
+  {
+    "job_id": "20261024T164814857029Z_5be78197177a",
+    "name": "g00_plateau_follow_best",
+    "score": 187239,
+    "sha256": "53509054fdb5a26cd7367bd48c8a3ca12170f4170c87e02d2238379af8f60afe",
+    "submission_id": "023ef886c184412eb4b3fe5ef4b14d19",
+    "submitted_at": "2026-10-25 00:48:17",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g00_plateau_follow_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "plateau_follow": true
+    }
+  },
+  {
+    "job_id": "20261024T165003874213Z_3832aade1ac5",
+    "name": "f04_globalnoise",
+    "score": 185139,
+    "sha256": "4627687415b370e2a057b4e7a020a6f2cb82b648c5ad3307a2587ae7317aefa5",
+    "submission_id": "40500965d0a94577aec97e44a2b48cab",
+    "submitted_at": "2026-10-25 00:50:06",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\f04_globalnoise.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "noise_local": 0
+    }
+  },
+  {
+    "job_id": "20261024T165159833567Z_1ac0e7214e80",
+    "name": "g01_late48_best",
+    "score": 191630,
+    "sha256": "09963e32c6ceac979b5060fa645e4b21f21c1bd46de70db7cadfac507cf5c3ff",
+    "submission_id": "5fd899b03ee44cdb80b06b4850ef7488",
+    "submitted_at": "2026-10-25 00:52:02",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g01_late48_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 48
+    }
+  },
+  {
+    "job_id": "20261024T165412352868Z_2ecc1f351b51",
+    "name": "g02_coverage120_best",
+    "score": 191630,
+    "sha256": "a0fc5fe4562d8767bde052bbee981e4c8a9b99c7533a1898c092d035b1ef4b89",
+    "submission_id": "6f848de137244777a3d977a33db01c5f",
+    "submitted_at": "2026-10-25 00:54:15",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g02_coverage120_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 48,
+      "coarse": 120
+    }
+  },
+  {
+    "job_id": "20261024T165613667533Z_4ae9af029e09",
+    "name": "g03_fullflat_best",
+    "score": 191630,
+    "sha256": "7a7524d26b797c5505c6fc2014e0320c9f346b9c6bbfe8c3dc622c98ef0c953a",
+    "submission_id": "75d81ae6fcda4fa2a4ed0f1076997d91",
+    "submitted_at": "2026-10-25 00:56:16",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g03_fullflat_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 48,
+      "flat": 1000
+    }
+  },
+  {
+    "job_id": "20261024T165813475715Z_0e7367c0cd18",
+    "name": "g04_competingwide_best",
+    "score": 191629,
+    "sha256": "612975b9f2c36156b84b9ad2ccd0801dbc4ebe86e2c88e218229d6c6a8655a63",
+    "submission_id": "eeb23815136d4f97a81ec4801925c842",
+    "submitted_at": "2026-10-25 00:58:16",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g04_competingwide_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 48,
+      "comp_noise": 5,
+      "comp_frac": 0.1
+    }
+  },
+  {
+    "job_id": "20261024T170557158633Z_47cb3413e430",
+    "name": "g05_cubic_noise_best",
+    "score": 175730,
+    "sha256": "920672a9dc6d1afeedeaf7439d28dacb47aebc53039be854e03a4f788929658b",
+    "submission_id": "b7e04f4f52904db6bc8a5b37ae4ac9d2",
+    "submitted_at": "2026-10-25 01:06:00",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g05_cubic_noise_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 48,
+      "noise_order": 3
+    }
+  },
+  {
+    "job_id": "20261024T170716905800Z_55d577aa9df5",
+    "name": "g06_prom22_best",
+    "score": 189863,
+    "sha256": "9ac51f39a401cbe6cfac2c04d5f3b0b274ba56818549c03ffa00d8d577ba284e",
+    "submission_id": "761ce37a1b9b4731894c7b291c83f5ba",
+    "submitted_at": "2026-10-25 01:07:19",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g06_prom22_best.cpp",
+    "config": {
+      "prom": 22,
+      "noise_abs": 0,
+      "late_scout": 48
+    }
+  },
+  {
+    "job_id": "20261024T170929599348Z_6c133924dd27",
+    "name": "r01_late16_best",
+    "score": 194467,
+    "sha256": "82dd79087978cec3eaf10a96a75350349b20c06b69dded812fa1fd45fed8abb9",
+    "submission_id": "ed6853c6a7894e81b77c229bc903654e",
+    "submitted_at": "2026-10-25 01:09:32",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r01_late16_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16
+    }
+  },
+  {
+    "job_id": "20261024T171115731281Z_1e27287465b2",
+    "name": "s01_coarse16_scaled",
+    "score": 187076,
+    "sha256": "b0a367262d92efe743c7b292d561fada92f3e5ffa995844b0907ac211fd19d25",
+    "submission_id": "79e32469b01441f1a94502284ab5d162",
+    "submitted_at": "2026-10-25 01:11:18",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\s01_coarse16_scaled.cpp",
+    "config": {
+      "prom": 13.5,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 16,
+      "down": 16,
+      "noise_step": 16
+    }
+  },
+  {
+    "job_id": "20261024T171314938195Z_58a398703f35",
+    "name": "h08_dense8_best",
+    "score": 197661,
+    "sha256": "0effe9fbffb7c4885b2496cd0f70b8239e6cc6645f0ddaca37241043171cf822",
+    "submission_id": "e8b4f0880cb7491aa777163ee0f17ee9",
+    "submitted_at": "2026-10-25 01:13:17",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h08_dense8_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128
+    }
+  },
+  {
+    "job_id": "20261024T171515927104Z_3dbe1f5a0cc2",
+    "name": "h09_shorter_best",
+    "score": 195214,
+    "sha256": "9201affdfe76c00da4dc0b6d821646e2ac44433b7b7e9984466cd657e48df856",
+    "submission_id": "9b16dd42bc4d48f9ac1afe3ad62de27f",
+    "submitted_at": "2026-10-25 01:15:18",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\h09_shorter_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "scout_min": 64,
+      "scout_max": 112
+    }
+  },
+  {
+    "job_id": "20261024T171715310601Z_41b0faf169cb",
+    "name": "r04_dominant_clusters",
+    "score": 198409,
+    "sha256": "df9d86a0152c859e5c0f58fda4bd738cf1a676209596d0b3603382cda8e41b41",
+    "submission_id": "c8d2208f799840e6bbbab2b9f5a06100",
+    "submitted_at": "2026-10-25 01:17:17",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r04_dominant_clusters.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1
+    }
+  },
+  {
+    "job_id": "20261024T171918439177Z_2222b6cd0625",
+    "name": "s03_length_conditioned",
+    "score": 167140,
+    "sha256": "bf6836a21adaf81c2d13a5ca24e671c02969ebb89c53e581678adbe8a332ab67",
+    "submission_id": "36372195981a4e668f71be991697ff47",
+    "submitted_at": "2026-10-25 01:19:21",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\s03_length_conditioned.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "small_prom": 12
+    }
+  },
+  {
+    "job_id": "20261024T172118934316Z_5caa1023d40e",
+    "name": "s03_adaptive_shortgrid",
+    "score": 182902,
+    "sha256": "c69ad2bd45871fdbdcd89b844996822a7bfa2a9fc12a56dddb06ae7b01a2ee0d",
+    "submission_id": "7f26cab88598440d80a840adf8e5ffcf",
+    "submitted_at": "2026-10-25 01:21:21",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\s03_adaptive_shortgrid.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "small_step": 6
+    }
+  },
+  {
+    "job_id": "20261024T172313477870Z_3c476f111491",
+    "name": "r05_late1_best",
+    "score": 197207,
+    "sha256": "45779d828a51b9a317f839b0b0e1f50a04c2fb42d798e8b1fe61681061273e0f",
+    "submission_id": "a35ed3a49b8646128c92defebf211554",
+    "submitted_at": "2026-10-25 01:23:16",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r05_late1_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 1,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1
+    }
+  },
+  {
+    "job_id": "20261024T172515010446Z_f8611e8ed2ea",
+    "name": "s02_dense7",
+    "score": 191657,
+    "sha256": "acb49f13db300f73f3ff1de10b37ca7ceb17418b3d32e7bfff9da51a2587342e",
+    "submission_id": "c19520c03f484e18b8fb37c07194cc22",
+    "submitted_at": "2026-10-25 01:25:17",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\s02_dense7.cpp",
+    "config": {
+      "prom": 28,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 7,
+      "noise_step": 7,
+      "flat_step": 7,
+      "coarse": 150,
+      "group": 0.1,
+      "down": 7
+    }
+  },
+  {
+    "job_id": "20261024T172719777020Z_53694d04f1bf",
+    "name": "r03_model_finish_best",
+    "score": 199291,
+    "sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "submission_id": "ea00d99014aa450482173b08f51c74d1",
+    "submitted_at": "2026-10-25 01:27:22",
+    "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r03_model_finish_best.cpp",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "phase": "offline_batch_A_complete",
+  "last_known_official_best": 199291,
+  "best_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "confirmed_platform_quota_date": "2026-10-25",
+  "confirmed_remaining_submissions": 0,
+  "quota_source": "Previously independently confirmed final_summary; not re-polled during this batch",
+  "unresolved_jobs": 0,
+  "research_note": "docs/daily_research/2026-10-25.md",
+  "batch_summary": "data/experiments/2026-10-25/batchA_summary.json",
+  "next_day_queue": "data/experiments/2026-10-25/next_day_queue.json",
+  "next_action": "On a new Beijing date check official remaining quota, then evaluate prepared sources one at a time; while quota is zero choose a genuinely new offline hypothesis and keep this completed batch intact",
+  "network_ranking_reads_this_batch": 0,
+  "online_submissions_this_batch": 0,
+  "last_announced_batch": "2026-10-25_A"
+}

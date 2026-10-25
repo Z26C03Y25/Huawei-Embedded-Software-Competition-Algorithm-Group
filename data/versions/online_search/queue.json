@@ -1,0 +1,158 @@
+[
+  {
+    "name": "h01_prom36",
+    "config": {
+      "prom": 36
+    }
+  },
+  {
+    "name": "h02_prom48",
+    "config": {
+      "prom": 48
+    }
+  },
+  {
+    "name": "h05_prom18",
+    "config": {
+      "prom": 18
+    }
+  },
+  {
+    "name": "f01_prom20",
+    "config": {
+      "prom": 20
+    }
+  },
+  {
+    "name": "f02_prom28",
+    "config": {
+      "prom": 28
+    }
+  },
+  {
+    "name": "g00_plateau_follow_best",
+    "parent": "best",
+    "config": {
+      "plateau_follow": true
+    }
+  },
+  {
+    "name": "f03_noiseabs0",
+    "parent": "best",
+    "config": {
+      "noise_abs": 0
+    }
+  },
+  {
+    "name": "f04_globalnoise",
+    "parent": "best",
+    "config": {
+      "noise_local": 0
+    }
+  },
+  {
+    "name": "g01_late48_best",
+    "parent": "best",
+    "config": {
+      "late_scout": 48
+    }
+  },
+  {
+    "name": "g02_coverage120_best",
+    "parent": "best",
+    "config": {
+      "coarse": 120
+    }
+  },
+  {
+    "name": "g03_fullflat_best",
+    "parent": "best",
+    "config": {
+      "flat": 1000
+    }
+  },
+  {
+    "name": "g04_competingwide_best",
+    "parent": "best",
+    "config": {
+      "comp_noise": 5,
+      "comp_frac": 0.1
+    }
+  },
+  {
+    "name": "g05_cubic_noise_best",
+    "parent": "best",
+    "config": {
+      "noise_order": 3
+    }
+  },
+  {
+    "name": "g06_prom22_best",
+    "parent": "best",
+    "config": {
+      "prom": 22
+    }
+  },
+  {
+    "name": "r01_late16_best",
+    "parent": "best",
+    "config": {
+      "late_scout": 16
+    }
+  },
+  {
+    "name": "s01_coarse16_scaled",
+    "parent": "best",
+    "config": {
+      "prom": 13.5,
+      "up": 16,
+      "down": 16,
+      "noise_step": 16
+    }
+  },
+  {
+    "name": "h08_dense8_best",
+    "parent": "best",
+    "config": {
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "down": 8
+    }
+  },
+  {
+    "name": "r04_dominant_clusters",
+    "parent": "best",
+    "config": {
+      "group": 0.1
+    }
+  },
+  {
+    "name": "s03_adaptive_shortgrid",
+    "parent": "best",
+    "config": {
+      "small_step": 6,
+      "n_split": 600
+    }
+  },
+  {
+    "name": "r05_late1_best",
+    "parent": "best",
+    "config": {
+      "late_scout": 1
+    }
+  },
+  {
+    "name": "s02_dense7",
+    "parent": "best",
+    "config": {
+      "up": 7,
+      "down": 7,
+      "noise_step": 7,
+      "flat_step": 7,
+      "coarse": 150,
+      "prom": 31
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "name": "t05_high_prominence",
+    "config": {
+      "prom": 24
+    }
+  },
+  {
+    "name": "t04_no_anneal",
+    "config": {
+      "anneal": false
+    }
+  },
+  {
+    "name": "t06_coarse16",
+    "config": {
+      "up": 16,
+      "down": 12,
+      "noise_step": 16
+    }
+  },
+  {
+    "name": "t07_dense8",
+    "config": {
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128
+    }
+  },
+  {
+    "name": "t08_wide_band",
+    "config": {
+      "band_noise": 6,
+      "band_contrast": 0.1
+    }
+  },
+  {
+    "name": "t09_compact_fine",
+    "config": {
+      "radius": 8,
+      "band_noise": 2,
+      "band_contrast": 0.02,
+      "group": 0.2
+    }
+  },
+  {
+    "name": "u10_broadfine_best",
+    "parent": "best",
+    "config": {
+      "band_noise": 5,
+      "band_contrast": 0.08,
+      "radius": 24
+    }
+  },
+  {
+    "name": "u11_shorter_best",
+    "parent": "best",
+    "config": {
+      "scout_min": 64,
+      "scout_max": 112
+    }
+  },
+  {
+    "name": "u12_longer_best",
+    "parent": "best",
+    "config": {
+      "scout_min": 128,
+      "scout_max": 168
+    }
+  },
+  {
+    "name": "u13_guard140_best",
+    "parent": "best",
+    "config": {
+      "guard": 140
+    }
+  },
+  {
+    "name": "u14_guard196_best",
+    "parent": "best",
+    "config": {
+      "guard": 196
+    }
+  },
+  {
+    "name": "u15_lowsnr_best",
+    "parent": "best",
+    "config": {
+      "prom": 6
+    }
+  },
+  {
+    "name": "u16_highsnr_best",
+    "parent": "best",
+    "config": {
+      "prom": 36
+    }
+  },
+  {
+    "name": "u17_sparseprefix_best",
+    "parent": "best",
+    "config": {
+      "initial": [
+        0,
+        32,
+        64,
+        100
+      ]
+    }
+  },
+  {
+    "name": "u18_rawnoise_best",
+    "parent": "best",
+    "config": {
+      "noise_abs": 0
+    }
+  },
+  {
+    "name": "u19_onesweep_best",
+    "parent": "best",
+    "config": {
+      "rounds": 1
+    }
+  },
+  {
+    "name": "u20_morelocal_best",
+    "parent": "best",
+    "config": {
+      "rounds": 3,
+      "reserve": 64
+    }
+  },
+  {
+    "name": "u21_farflat_best",
+    "parent": "best",
+    "config": {
+      "flat": 1000
+    }
+  }
+]

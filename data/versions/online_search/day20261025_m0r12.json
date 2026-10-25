@@ -1,0 +1,16 @@
+{
+  "name": "day20261025_m0r12",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "radius": 12
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\day20261025_m0r12.cpp",
+  "sha256": "5d64465dc64074585f4524269b5d223e5a19afefebb9c2c80f8da15729b960d2"
+}

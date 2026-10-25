@@ -1,0 +1,29 @@
+{
+  "note": "Original document bytes preserved during repository organization",
+  "files": [
+    {
+      "path": "docs/archive/\u8d5b\u9898\u5206\u6790.md",
+      "sha256": "2e23b00be911069af11c1a82133a0314024651d291d7d07f504f3f897bd61f2a"
+    },
+    {
+      "path": "docs/archive/\u7b56\u7565\u5b9e\u73b0\u8bf4\u660e.md",
+      "sha256": "79a44867769c9a02f7a8d952b02123487d3b31d9dc7c1b8384cd093823eb3e36"
+    },
+    {
+      "path": "docs/archive/\u7b56\u7565\u9a8c\u8bc1\u7ed3\u679c.md",
+      "sha256": "cdbf09ca730564e6df252fccee8f347e0f6b9276be727bfcf45cc467b754424f"
+    },
+    {
+      "path": "docs/archive/159487\u590d\u76d8\u4e0e\u7b2c\u4e8c\u8f6e\u5b9e\u9a8c.md",
+      "sha256": "589778c1ab4a0cf4697cbd31d48aace7f12dfd9f2a177f163ae0444ef35a9cf7"
+    },
+    {
+      "path": "docs/archive/\u6700\u521d\u601d\u8def.md",
+      "sha256": "cb6953b4ca475610375f39c477cbd133561ab12086bbdcf1b8fa1a137a201fbe"
+    },
+    {
+      "path": "docs/archive/README-before-restructure.md",
+      "sha256": "e5ccd6dd41e2613b5fd1857447d4957b0016116e6bc773042e37a92df7681910"
+    }
+  ]
+}

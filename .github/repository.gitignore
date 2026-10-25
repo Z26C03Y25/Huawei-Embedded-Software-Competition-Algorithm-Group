@@ -1,0 +1,19 @@
+/dev/build/
+/dev/tmp/
+/dev/editor/
+__pycache__/
+*.pyc
+
+# Local editor configuration, credentials and automation runtime state
+/.vscode/
+/automation/local/
+*.local.json
+.env
+.env.*
+!.env.example
+
+# Tool-specific local environments and caches (also covered by nested ignores)
+/automation/online_judge/.venv/
+/automation/online_judge/.chrome-profile/
+/automation/online_judge/.setup-tmp/
+/automation/online_judge/runs/

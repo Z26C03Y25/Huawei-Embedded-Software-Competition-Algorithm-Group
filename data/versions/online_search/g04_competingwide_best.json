@@ -1,0 +1,12 @@
+{
+  "name": "g04_competingwide_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 48,
+    "comp_noise": 5,
+    "comp_frac": 0.1
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g04_competingwide_best.cpp",
+  "sha256": "612975b9f2c36156b84b9ad2ccd0801dbc4ebe86e2c88e218229d6c6a8655a63"
+}

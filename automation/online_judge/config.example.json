@@ -1,0 +1,17 @@
+{
+  "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application",
+  "submission_url": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+  "cdp_url": "http://127.0.0.1:9222",
+  "profile_directory": ".chrome-profile",
+  "runs_directory": "runs",
+  "upload_button_text": "\u4e0a\u4f20\u4f5c\u54c1",
+  "score_source": "auto",
+  "capture_ranking_on_completion": true,
+  "confirm_button_text": null,
+  "table_selector": "div.tiny-grid__body-wrapper table.tiny-grid__body",
+  "empty_selector": "div.tiny-grid__body-wrapper .tiny-grid__empty-block",
+  "file_input_selector": "input[type=file]",
+  "poll_interval_seconds": 5,
+  "timeout_seconds": 600,
+  "action_timeout_ms": 15000
+}

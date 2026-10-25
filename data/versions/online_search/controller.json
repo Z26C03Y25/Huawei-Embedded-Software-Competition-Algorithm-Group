@@ -1,0 +1,61 @@
+{
+  "done": [
+    "t05_high_prominence",
+    "t04_no_anneal",
+    "h01_prom36",
+    "h02_prom48",
+    "h03_prom32",
+    "h05_prom18",
+    "f01_prom20",
+    "f02_prom28",
+    "f03_noiseabs0",
+    "g00_plateau_follow_best",
+    "f04_globalnoise",
+    "g01_late48_best",
+    "g02_coverage120_best",
+    "g03_fullflat_best",
+    "g04_competingwide_best",
+    "g05_cubic_noise_best",
+    "g06_prom22_best",
+    "r01_late16_best",
+    "s01_coarse16_scaled",
+    "h08_dense8_best",
+    "h09_shorter_best",
+    "r04_dominant_clusters",
+    "s03_length_conditioned",
+    "s03_adaptive_shortgrid",
+    "r05_late1_best",
+    "s02_dense7",
+    "r03_model_finish_best"
+  ],
+  "quota": {
+    "limit": 30,
+    "used": 30,
+    "remaining": 0
+  },
+  "last": {
+    "recorded": {
+      "job_id": "20261024T172719777020Z_53694d04f1bf",
+      "name": "r03_model_finish_best",
+      "score": 199291,
+      "sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+      "submission_id": "ea00d99014aa450482173b08f51c74d1",
+      "submitted_at": "2026-10-25 01:27:22",
+      "source_path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\r03_model_finish_best.cpp",
+      "config": {
+        "prom": 24,
+        "noise_abs": 0,
+        "late_scout": 16,
+        "up": 8,
+        "noise_step": 8,
+        "flat_step": 8,
+        "coarse": 128,
+        "group": 0.1,
+        "model_finish": true,
+        "radius": 12
+      }
+    },
+    "best_score": 199291
+  },
+  "stop": "daily_quota_exhausted"
+}

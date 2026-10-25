@@ -1,0 +1,35 @@
+[
+  {
+    "name": "r03_model_finish_best",
+    "parent": "best",
+    "config": {
+      "model_finish": true,
+      "radius": 12
+    }
+  },
+  {
+    "name": "h13_widefine_best",
+    "parent": "best",
+    "config": {
+      "band_noise": 6,
+      "band_contrast": 0.1
+    }
+  },
+  {
+    "name": "h14_narrowfine_best",
+    "parent": "best",
+    "config": {
+      "radius": 8,
+      "band_noise": 2,
+      "band_contrast": 0.02,
+      "group": 0.2
+    }
+  },
+  {
+    "name": "r02_drop3percent_best",
+    "parent": "best",
+    "config": {
+      "drop_frac": 0.03
+    }
+  }
+]

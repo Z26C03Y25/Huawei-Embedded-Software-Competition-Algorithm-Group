@@ -1,0 +1,9 @@
+{
+  "name": "t08_wide_band",
+  "config": {
+    "band_noise": 6,
+    "band_contrast": 0.1
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\t08_wide_band.cpp",
+  "sha256": "648db0a82359a0a067be2322e4f14b2d2ffa636c9d1cd1dd07e94f23e879c083"
+}

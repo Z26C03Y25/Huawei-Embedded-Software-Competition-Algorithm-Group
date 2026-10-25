@@ -1,0 +1,56 @@
+{
+  "prepared_at": "2026-10-25T09:51:22+08:00",
+  "earliest_submission_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "requires_fresh_official_quota_check": true,
+  "note": "Candidate priorities are adaptive; never execute the stale historical next_queue mechanically. Official scores remain unknown.",
+  "entries": [
+    {
+      "priority": 1,
+      "name": "edge_reverse8",
+      "source": "data/experiments/2026-10-25/edge_reverse8.cpp",
+      "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+      "purpose": "Audit a small left competitive interval immediately before the physical reverse in the second plan",
+      "config_change": {
+        "left_edge_audit_max_holes": 8
+      },
+      "sha256": "6aa27cda05fc5ef4a1b3b89bf5ec1bbae93eb4c19c56793ae60aaa4eccd24953",
+      "official_score": null,
+      "status": "offline_validated_not_submitted",
+      "already_graded": false,
+      "submission_command": "python automation/judge.py submit --file data/experiments/2026-10-25/edge_reverse8.cpp"
+    },
+    {
+      "priority": 2,
+      "name": "day20261025_m0r12",
+      "source": "data/versions/online_search/day20261025_m0r12.cpp",
+      "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+      "purpose": "Complete the clean M/R ablation: disable model finish while keeping radius12",
+      "config_change": {
+        "model_finish": false,
+        "radius": 12
+      },
+      "sha256": "5d64465dc64074585f4524269b5d223e5a19afefebb9c2c80f8da15729b960d2",
+      "official_score": null,
+      "status": "offline_validated_not_submitted",
+      "already_graded": false,
+      "submission_command": "python automation/judge.py submit --file data/versions/online_search/day20261025_m0r12.cpp"
+    },
+    {
+      "priority": 3,
+      "name": "day20261025_m1r16",
+      "source": "data/versions/online_search/day20261025_m1r16.cpp",
+      "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+      "purpose": "Complete the clean M/R ablation: keep model finish while restoring radius16",
+      "config_change": {
+        "model_finish": true,
+        "radius": 16
+      },
+      "sha256": "6eb39b4df9e2cecaac0a59bce563bbe904737aebfcbb429adb3a1735f754c26b",
+      "official_score": null,
+      "status": "offline_validated_not_submitted",
+      "already_graded": false,
+      "submission_command": "python automation/judge.py submit --file data/versions/online_search/day20261025_m1r16.cpp"
+    }
+  ]
+}

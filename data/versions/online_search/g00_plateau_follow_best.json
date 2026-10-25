@@ -1,0 +1,10 @@
+{
+  "name": "g00_plateau_follow_best",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "plateau_follow": true
+  },
+  "path": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\versions\\online_search\\g00_plateau_follow_best.cpp",
+  "sha256": "53509054fdb5a26cd7367bd48c8a3ca12170f4170c87e02d2238379af8f60afe"
+}

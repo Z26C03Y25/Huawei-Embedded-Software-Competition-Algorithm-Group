@@ -1,0 +1,67 @@
+name: Offline CI
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: offline-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tooling:
+    name: Python tooling (${{ matrix.os }}, ${{ matrix.python }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.12']
+    steps:
+      # Official usage: github.com/actions/checkout and actions/setup-python
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python dev/tools/check_docs.py
+      - run: python dev/tools/setup_repository.py
+      - run: python -m unittest discover -s automation/online_judge/tests
+      - run: python -m unittest discover -s dev/tests -p test_local_judge.py
+      - run: python -m unittest discover -s dev/tests -p test_compare_solvers.py
+
+  solver:
+    name: C++ protocol and archive regressions
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python dev/run.py smoke
+      - run: python dev/tools/setup_repository.py
+      - run: python -m unittest discover -s dev/tests -p test_solver_regressions.py
+
+  strategy-diagnostics:
+    name: Strategy diagnostics (known failures retained)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run unchanged strategy assertions
+        id: strategy
+        continue-on-error: true
+        run: python dev/run.py diagnostics
+      - name: Report diagnostic outcome explicitly
+        if: always()
+        shell: bash
+        run: |
+          echo '### Strategy diagnostics' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Outcome: ${{ steps.strategy.outcome }}' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Known performance failures remain visible in the logs. This job does not certify all strategy cases pass.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'See docs/reference/known-limitations.md.' >> "$GITHUB_STEP_SUMMARY"

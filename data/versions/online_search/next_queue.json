@@ -1,0 +1,125 @@
+[
+  {
+    "name": "h01_prom36",
+    "config": {
+      "prom": 36
+    }
+  },
+  {
+    "name": "h02_prom48",
+    "config": {
+      "prom": 48
+    }
+  },
+  {
+    "name": "h03_prom32",
+    "config": {
+      "prom": 32
+    }
+  },
+  {
+    "name": "h04_prom64",
+    "config": {
+      "prom": 64
+    }
+  },
+  {
+    "name": "h05_prom18",
+    "config": {
+      "prom": 18
+    }
+  },
+  {
+    "name": "h06_noanneal_best",
+    "parent": "best",
+    "config": {
+      "anneal": false
+    }
+  },
+  {
+    "name": "h07_coarse16_best",
+    "parent": "best",
+    "config": {
+      "up": 16,
+      "down": 12,
+      "noise_step": 16
+    }
+  },
+  {
+    "name": "h08_dense8_best",
+    "parent": "best",
+    "config": {
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128
+    }
+  },
+  {
+    "name": "h09_shorter_best",
+    "parent": "best",
+    "config": {
+      "scout_min": 64,
+      "scout_max": 112
+    }
+  },
+  {
+    "name": "h10_longer_best",
+    "parent": "best",
+    "config": {
+      "scout_min": 128,
+      "scout_max": 168
+    }
+  },
+  {
+    "name": "h11_guard140_best",
+    "parent": "best",
+    "config": {
+      "guard": 140
+    }
+  },
+  {
+    "name": "h12_guard196_best",
+    "parent": "best",
+    "config": {
+      "guard": 196
+    }
+  },
+  {
+    "name": "h13_widefine_best",
+    "parent": "best",
+    "config": {
+      "band_noise": 6,
+      "band_contrast": 0.1
+    }
+  },
+  {
+    "name": "h14_narrowfine_best",
+    "parent": "best",
+    "config": {
+      "radius": 8,
+      "band_noise": 2,
+      "band_contrast": 0.02,
+      "group": 0.2
+    }
+  },
+  {
+    "name": "h15_noiseabs0_best",
+    "parent": "best",
+    "config": {
+      "noise_abs": 0
+    }
+  },
+  {
+    "name": "h16_sparseprefix_best",
+    "parent": "best",
+    "config": {
+      "initial": [
+        0,
+        32,
+        64,
+        100
+      ]
+    }
+  }
+]
