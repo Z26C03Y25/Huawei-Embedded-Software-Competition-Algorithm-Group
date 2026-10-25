@@ -47,6 +47,25 @@ class ApiParsingTests(unittest.TestCase):
         record = parse_api_response({"results": [api_row(created_time="2026-10-24 20:00:00.999999")]})[0]
         self.assertEqual(record.submitted_at, "2026-10-25 04:00:00")
 
+    def test_iso_forms_have_identical_results_on_supported_python_versions(self):
+        for digits in range(1, 10):
+            fraction = "." + "123456789"[:digits]
+            for offset in ("", "Z", "+00", "+0000", "+00:00"):
+                timestamp = "2026-10-24T23:59:59" + fraction + offset
+                with self.subTest(timestamp=timestamp):
+                    record = parse_api_response({"results": [api_row(created_time=timestamp)]})[0]
+                    self.assertEqual(record.submitted_at, "2026-10-25 07:59:59")
+        for offset in ("+08", "+0800", "+08:00"):
+            with self.subTest(offset=offset):
+                record = parse_api_response({"results": [api_row(
+                    created_time="2026-10-25T07:59:59.1" + offset)]})[0]
+                self.assertEqual(record.submitted_at, "2026-10-25 07:59:59")
+        for offset in ("-05", "-0500", "-05:00"):
+            with self.subTest(offset=offset):
+                record = parse_api_response({"results": [api_row(
+                    created_time="2026-12-31T23:59:59.999999999" + offset)]})[0]
+                self.assertEqual(record.submitted_at, "2027-01-01 12:59:59")
+
     def test_pending_numeric_zero_is_not_a_completed_zero(self):
         pending = parse_api_response({"results": [api_row(status="pending", score="0")]})[0]
         self.assertEqual(pending.score, 0)

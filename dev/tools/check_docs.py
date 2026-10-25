@@ -19,6 +19,10 @@ def main() -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     errors, checked = [], 0
+    # GitHub selects a .github README before the root project's homepage.
+    for path in (ROOT / ".github").iterdir():
+        if path.is_file() and path.stem.casefold() == "readme":
+            errors.append(f"{path.relative_to(ROOT)} shadows the root README; use CONFIGURATION.md")
     documents = []
     for directory, names, files in os.walk(ROOT):
         names[:] = [name for name in names if name not in IGNORED]

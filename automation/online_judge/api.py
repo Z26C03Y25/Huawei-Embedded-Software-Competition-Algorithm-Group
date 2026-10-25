@@ -37,7 +37,13 @@ def _local_submitted_at(value: object) -> str:
     if not isinstance(value, str) or not _TIMESTAMP.fullmatch(value.strip()):
         raise ApiResponseError("API result has an invalid created_time format")
     try:
-        parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+        # Python 3.10 accepts fewer ISO forms than 3.11+. Normalize all forms
+        # admitted above, preserving datetime's microsecond truncation semantics.
+        normalized = re.sub(r"\.(\d+)", lambda match: "." + match[1][:6].ljust(6, "0"),
+                            value.strip().replace("Z", "+00:00"))
+        normalized = re.sub(r"([+-]\d{2})(?::?(\d{2}))?\Z",
+                            lambda match: match[1] + ":" + (match[2] or "00"), normalized)
+        parsed = datetime.fromisoformat(normalized)
         if parsed.tzinfo is None:
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(CHINA_TIME).strftime("%Y-%m-%d %H:%M:%S")
