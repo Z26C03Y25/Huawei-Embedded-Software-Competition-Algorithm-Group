@@ -1,0 +1,28 @@
+{
+  "core_python312": {
+    "passed": 180,
+    "failed": 0,
+    "command": "python dev/run.py check"
+  },
+  "new_policy_and_generator_python310": {
+    "passed": 11,
+    "failed": 0
+  },
+  "strategy_diagnostics": {
+    "methods": 15,
+    "failed_assertions": 9,
+    "exit_code": 1,
+    "retained": true,
+    "raw_log": "dev/build/research/local_valley_20261026/diagnostics.log"
+  },
+  "markdown_links": 230,
+  "archive_manifests": 2,
+  "all_source_hashes_verified": true,
+  "main_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "total_interactive_runs": 16980,
+  "hard_protocol_query_turn_parking_failures": 0,
+  "true_redundancy_guaranteed": false,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "qualified_candidates": 0
+}

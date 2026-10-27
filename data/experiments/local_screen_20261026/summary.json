@@ -1,0 +1,3425 @@
+{
+  "manifest_sha256": "52e76e07d0f68dbee2c793d910afa2d619f6737713e7fcdc4ef4ef0186b9c9bb",
+  "official": false,
+  "solvers": {
+    "formal203239": {
+      "groups": {
+        "development": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 20,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 6,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 0.0,
+          "stratified_base_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "worst_family_mean_delta": 0.0,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "selection": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 10,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 0.0,
+          "stratified_base_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "worst_family_mean_delta": 0.0,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "blind_shift": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 11,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 0.0,
+          "stratified_base_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "worst_family_mean_delta": 0.0,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "regression": {
+          "families": {
+            "boundary": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "double": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "integer_range": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "monotone": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "noise": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "pdf_sample": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "retained_failure": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "spike": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "tie": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 29,
+          "macro_mean_delta": 0.0,
+          "stratified_base_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "worst_family_mean_delta": 0.0,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        }
+      },
+      "independent_base_cases": 1188,
+      "cases": 1415,
+      "hard_failures": [],
+      "max_queries": 199,
+      "max_turns": 6,
+      "max_redundancy": 871,
+      "total_synthetic_score": 2661369,
+      "qualification": {
+        "eligible": false,
+        "reasons": [
+          "development: nonpositive family-balanced gain",
+          "selection: nonpositive family-balanced gain",
+          "selection: bootstrap lower bound does not exceed0",
+          "blind_shift: nonpositive family-balanced gain",
+          "blind_shift: bootstrap lower bound does not exceed0",
+          "gain too small without a repeated zero repair"
+        ],
+        "note": "Local gate only; bootstrap uses independent base curves within families, siblings excluded. No prediction of official gain."
+      }
+    },
+    "guarded16": {
+      "groups": {
+        "development": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 9,
+              "mean_delta": 0.5,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 8,
+              "mean_delta": 0.4444444444444444,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 7,
+              "mean_delta": 0.3888888888888889,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 5,
+              "mean_delta": 0.2777777777777778,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 7,
+              "mean_delta": 0.3888888888888889,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 6
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -5,
+              "mean_delta": -0.2777777777777778,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 9,
+              "mean_delta": 0.5,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 5,
+              "mean_delta": 0.2777777777777778,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -417,
+              "mean_delta": -23.166666666666668,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 7
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -1,
+              "mean_delta": -0.05555555555555555,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 20,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 3,
+              "mean_delta": 0.16666666666666666,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 12,
+              "mean_delta": 0.6666666666666666,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 3,
+              "mean_delta": 0.16666666666666666,
+              "zeros": 6,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -0.9861111111111113,
+          "stratified_base_bootstrap_95": [
+            -3.327777777777778,
+            0.23888888888888887
+          ],
+          "worst_family_mean_delta": -23.166666666666668,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "selection": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -517,
+              "mean_delta": -28.72222222222222,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 6,
+              "mean_delta": 0.3333333333333333,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 3,
+              "mean_delta": 0.16666666666666666,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 4,
+              "mean_delta": 0.2222222222222222,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 1,
+              "mean_delta": 0.05555555555555555,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -5,
+              "mean_delta": -0.2777777777777778,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 7,
+              "mean_delta": 0.3888888888888889,
+              "zeros": 10,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -1,
+              "mean_delta": -0.05555555555555555,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 4,
+              "mean_delta": 0.2222222222222222,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 1,
+              "mean_delta": 0.05555555555555555,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 6
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 3,
+              "mean_delta": 0.16666666666666666,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 8,
+              "mean_delta": 0.4444444444444444,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 5,
+              "mean_delta": 0.2777777777777778,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 11,
+              "mean_delta": 0.6111111111111112,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -1.3055555555555556,
+          "stratified_base_bootstrap_95": [
+            -4.219444444444445,
+            0.19444444444444445
+          ],
+          "worst_family_mean_delta": -28.72222222222222,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "blind_shift": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 11,
+              "mean_delta": 0.6111111111111112,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 8
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 6,
+              "mean_delta": 0.3333333333333333,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 6,
+              "mean_delta": 0.3333333333333333,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 8
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 4,
+              "mean_delta": 0.2222222222222222,
+              "zeros": 11,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 15,
+              "mean_delta": 0.8333333333333334,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 4,
+              "mean_delta": 0.2222222222222222,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -96,
+              "mean_delta": -5.333333333333333,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 15,
+              "mean_delta": 0.8333333333333334,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -4,
+              "mean_delta": -0.2222222222222222,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 4,
+              "mean_delta": 0.2222222222222222,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -0.09722222222222221,
+          "stratified_base_bootstrap_95": [
+            -0.7111111111111111,
+            0.2611111111111111
+          ],
+          "worst_family_mean_delta": -5.333333333333333,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "regression": {
+          "families": {
+            "boundary": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "double": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "integer_range": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "monotone": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "noise": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": -1,
+              "mean_delta": -0.5,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "pdf_sample": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "retained_failure": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "spike": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "tie": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 1,
+              "mean_delta": 0.5,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            }
+          },
+          "base_structured_cases": 29,
+          "macro_mean_delta": 0.0,
+          "stratified_base_bootstrap_95": [
+            -0.08333333333333333,
+            0.08333333333333333
+          ],
+          "worst_family_mean_delta": -0.5,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        }
+      },
+      "independent_base_cases": 1188,
+      "cases": 1415,
+      "hard_failures": [],
+      "max_queries": 199,
+      "max_turns": 6,
+      "max_redundancy": 871,
+      "total_synthetic_score": 2660541,
+      "qualification": {
+        "eligible": false,
+        "reasons": [
+          "development: nonpositive family-balanced gain",
+          "selection: nonpositive family-balanced gain",
+          "selection: family degradation exceeds25 mean points",
+          "selection: bootstrap lower bound does not exceed0",
+          "blind_shift: nonpositive family-balanced gain",
+          "blind_shift: bootstrap lower bound does not exceed0",
+          "gain too small without a repeated zero repair"
+        ],
+        "note": "Local gate only; bootstrap uses independent base curves within families, siblings excluded. No prediction of official gain."
+      }
+    },
+    "drift_gate": {
+      "groups": {
+        "development": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -390,
+              "mean_delta": -21.666666666666668,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -131,
+              "mean_delta": -7.277777777777778,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -153,
+              "mean_delta": -8.5,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 1726,
+              "mean_delta": 95.88888888888889,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 1,
+              "path_changed": 2
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -746,
+              "mean_delta": -41.44444444444444,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 4
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -35,
+              "mean_delta": -1.9444444444444444,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -65,
+              "mean_delta": -3.611111111111111,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -53,
+              "mean_delta": -2.9444444444444446,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -163,
+              "mean_delta": -9.055555555555555,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 20,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -53,
+              "mean_delta": -2.9444444444444446,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 6,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -0.17500000000000013,
+          "stratified_base_bootstrap_95": [
+            -7.708333333333333,
+            10.955555555555557
+          ],
+          "worst_family_mean_delta": -41.44444444444444,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 1
+        },
+        "selection": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -153,
+              "mean_delta": -8.5,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -216,
+              "mean_delta": -12.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -51,
+              "mean_delta": -2.8333333333333335,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -499,
+              "mean_delta": -27.72222222222222,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -723,
+              "mean_delta": -40.166666666666664,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 5
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -70,
+              "mean_delta": -3.888888888888889,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -27,
+              "mean_delta": -1.5,
+              "zeros": 10,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -134,
+              "mean_delta": -7.444444444444445,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -26,
+              "mean_delta": -1.4444444444444444,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -5.275,
+          "stratified_base_bootstrap_95": [
+            -8.325,
+            -2.852777777777778
+          ],
+          "worst_family_mean_delta": -40.166666666666664,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "blind_shift": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -32,
+              "mean_delta": -1.7777777777777777,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 2161,
+              "mean_delta": 120.05555555555556,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 4,
+              "path_changed": 7
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -35,
+              "mean_delta": -1.9444444444444444,
+              "zeros": 11,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -31,
+              "mean_delta": -1.7222222222222223,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -107,
+              "mean_delta": -5.944444444444445,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 5.433333333333334,
+          "stratified_base_bootstrap_95": [
+            -2.725,
+            20.41111111111111
+          ],
+          "worst_family_mean_delta": -5.944444444444445,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 4
+        },
+        "regression": {
+          "families": {
+            "boundary": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "double": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "integer_range": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "monotone": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "noise": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "pdf_sample": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "retained_failure": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 2226,
+              "mean_delta": 742.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 1,
+              "path_changed": 2
+            },
+            "smooth": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "spike": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": -31,
+              "mean_delta": -10.333333333333334,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "tie": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 29,
+          "macro_mean_delta": 60.97222222222222,
+          "stratified_base_bootstrap_95": [
+            -10.194444444444445,
+            129.88888888888889
+          ],
+          "worst_family_mean_delta": -10.333333333333334,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 1
+        }
+      },
+      "independent_base_cases": 1188,
+      "cases": 1415,
+      "hard_failures": [],
+      "max_queries": 199,
+      "max_turns": 6,
+      "max_redundancy": 871,
+      "total_synthetic_score": 2670932,
+      "qualification": {
+        "eligible": false,
+        "reasons": [
+          "development: nonpositive family-balanced gain",
+          "development: family degradation exceeds25 mean points",
+          "selection: nonpositive family-balanced gain",
+          "selection: family degradation exceeds25 mean points",
+          "selection: bootstrap lower bound does not exceed0",
+          "blind_shift: bootstrap lower bound does not exceed0"
+        ],
+        "note": "Local gate only; bootstrap uses independent base curves within families, siblings excluded. No prediction of official gain."
+      }
+    },
+    "inverse_audit": {
+      "groups": {
+        "development": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -2,
+              "mean_delta": -0.1111111111111111,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -6,
+              "mean_delta": -0.3333333333333333,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -10,
+              "mean_delta": -0.5555555555555556,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 20,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 6,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": -0.05,
+          "stratified_base_bootstrap_95": [
+            -0.1,
+            -0.016666666666666666
+          ],
+          "worst_family_mean_delta": -0.5555555555555556,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "selection": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 231,
+              "mean_delta": 12.833333333333334,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -4,
+              "mean_delta": -0.2222222222222222,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -9,
+              "mean_delta": -0.5,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 3
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 10,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -2,
+              "mean_delta": -0.1111111111111111,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 4,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 0.6,
+          "stratified_base_bootstrap_95": [
+            -0.08055555555555556,
+            1.9277777777777778
+          ],
+          "worst_family_mean_delta": -0.5,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "blind_shift": {
+          "families": {
+            "ar1_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "asymmetric_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "boundary_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "bump_on_hump": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "chirp_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "close_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -8,
+              "mean_delta": -0.4444444444444444,
+              "zeros": 7,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 2
+            },
+            "cusp_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "delayed_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 11,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "far_competitors": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat_ties": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 8,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "heteroskedastic_noise": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "periodic_ripple": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau_edge_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 727,
+              "mean_delta": 40.388888888888886,
+              "zeros": 5,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "quantized_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "random_unstructured": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 18,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "saturated_top": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "shoulder": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": -2,
+              "mean_delta": -0.1111111111111111,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "single_spike": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 19,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "smooth_power": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "staircase": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "supergaussian": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 2,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "trend_with_peak": {
+              "cases": 21,
+              "base_cases": 18,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 3,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 360,
+          "macro_mean_delta": 1.9916666666666665,
+          "stratified_base_bootstrap_95": [
+            -0.05555555555555556,
+            6.052777777777778
+          ],
+          "worst_family_mean_delta": -0.4444444444444444,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 0
+        },
+        "regression": {
+          "families": {
+            "boundary": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "double": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "flat": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "integer_range": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "monotone": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "noise": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "pdf_sample": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "plateau": {
+              "cases": 1,
+              "base_cases": 1,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "retained_failure": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": 2412,
+              "mean_delta": 804.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 1,
+              "path_changed": 1
+            },
+            "smooth": {
+              "cases": 4,
+              "base_cases": 4,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            },
+            "spike": {
+              "cases": 3,
+              "base_cases": 3,
+              "delta": -6,
+              "mean_delta": -2.0,
+              "zeros": 1,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 1
+            },
+            "tie": {
+              "cases": 2,
+              "base_cases": 2,
+              "delta": 0,
+              "mean_delta": 0.0,
+              "zeros": 0,
+              "new_zero": 0,
+              "resolved_zero": 0,
+              "path_changed": 0
+            }
+          },
+          "base_structured_cases": 29,
+          "macro_mean_delta": 66.83333333333333,
+          "stratified_base_bootstrap_95": [
+            -0.3333333333333333,
+            134.0
+          ],
+          "worst_family_mean_delta": -2.0,
+          "structured_new_zero": 0,
+          "structured_resolved_zero": 1
+        }
+      },
+      "independent_base_cases": 1188,
+      "cases": 1415,
+      "hard_failures": [],
+      "max_queries": 199,
+      "max_turns": 5,
+      "max_redundancy": 871,
+      "total_synthetic_score": 2664690,
+      "qualification": {
+        "eligible": false,
+        "reasons": [
+          "development: nonpositive family-balanced gain",
+          "selection: bootstrap lower bound does not exceed0",
+          "blind_shift: bootstrap lower bound does not exceed0",
+          "gain too small without a repeated zero repair"
+        ],
+        "note": "Local gate only; bootstrap uses independent base curves within families, siblings excluded. No prediction of official gain."
+      }
+    }
+  }
+}

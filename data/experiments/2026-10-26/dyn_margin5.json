@@ -1,0 +1,25 @@
+{
+  "name": "dyn_margin5",
+  "source": "data/experiments/2026-10-26/dyn_margin5.cpp",
+  "sha256": "e26ad345019fdb75984cabfae37808347d512c23740dd89cad24eeb6bcc5211b",
+  "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+  "parent_official_score": 202666,
+  "purpose": "Increase uncertainty interval margin3 to5 as conservative verification control",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "both_vertices_plus3_min6",
+    "model_prediction_margin": 5
+  },
+  "official_score": null
+}

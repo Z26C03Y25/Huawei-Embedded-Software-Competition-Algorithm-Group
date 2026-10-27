@@ -1,0 +1,31 @@
+{
+  "core_python312": {
+    "passed": 202,
+    "failed": 0,
+    "command": "python dev/run.py check"
+  },
+  "relevant_python310_checks": {
+    "mixed_generator": 4,
+    "robust_score": 6,
+    "evidence_policy": 15,
+    "failed": 0
+  },
+  "markdown_links": 275,
+  "archive_manifests": 2,
+  "benchmark_interactive_runs": 26049,
+  "frozen_datasets_verified": 6,
+  "all_source_policy_and_evaluator_hashes_verified": true,
+  "hard_protocol_query_turn_parking_failures": 0,
+  "selected_candidate_independently_confirmed_on_mixed_and_classic": true,
+  "selected_candidate_evidence_gate_passed": true,
+  "severe_modal_bridge_family_retained": {
+    "cases": 54,
+    "zeros": 54,
+    "all_versions": true
+  },
+  "formal_main_preserved": true,
+  "official_best": 203239,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "strategy_diagnostics": "Original main/strategy assertions unchanged; prior15-method9-failure diagnostic retained, not rerun in this batch."
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "r8_nonflat_step7",
+    "source": "data/experiments/2026-10-26/r8_nonflat_step7.cpp",
+    "sha256": "05997fe95ee23cecfa3c28c090c52dffa45a1aa4541c239e4d781c0ec75fd471",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Clean nonflat coarse stride 7; flat-prefix grid, prominence24 and coarse budget128 fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "nonflat_step": 7
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "05997fe95ee23cecfa3c28c090c52dffa45a1aa4541c239e4d781c0ec75fd471",
+      "official": false,
+      "cases": 56,
+      "total_score": 104624,
+      "zeros": 12,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "r8_nonflat_step9",
+    "source": "data/experiments/2026-10-26/r8_nonflat_step9.cpp",
+    "sha256": "7fc089827c621024c014b0bb40ebb66825117232f2dd74938b1ffe945ccc5118",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Clean nonflat coarse stride 9; flat-prefix grid, prominence24 and coarse budget128 fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "nonflat_step": 9
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "7fc089827c621024c014b0bb40ebb66825117232f2dd74938b1ffe945ccc5118",
+      "official": false,
+      "cases": 56,
+      "total_score": 98147,
+      "zeros": 15,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "r8_nonflat_step10",
+    "source": "data/experiments/2026-10-26/r8_nonflat_step10.cpp",
+    "sha256": "88dd31fcac4b5eb525ce8a0fcd142a3e0d8185f51c672c9345fb07cb4999bd74",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Clean nonflat coarse stride 10; flat-prefix grid, prominence24 and coarse budget128 fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "nonflat_step": 10
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "88dd31fcac4b5eb525ce8a0fcd142a3e0d8185f51c672c9345fb07cb4999bd74",
+      "official": false,
+      "cases": 56,
+      "total_score": 104686,
+      "zeros": 12,
+      "max_queries": 198,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "r8_nonflat_step12",
+    "source": "data/experiments/2026-10-26/r8_nonflat_step12.cpp",
+    "sha256": "048dabb3214fe558c32db50ec732569dac58be97ed868bd0bd370dd4415828b1",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Clean nonflat coarse stride 12; flat-prefix grid, prominence24 and coarse budget128 fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "nonflat_step": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "048dabb3214fe558c32db50ec732569dac58be97ed868bd0bd370dd4415828b1",
+      "official": false,
+      "cases": 56,
+      "total_score": 102638,
+      "zeros": 13,
+      "max_queries": 197,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "r8_smooth_rising10",
+    "source": "data/experiments/2026-10-26/r8_smooth_rising10.cpp",
+    "sha256": "d10d39dedc20e639a0507e1ba33638fbfde14c5c17ac99455cc45f1a3762c448",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Use stride 10 only on significant low-noise unbracketed rising branch; retain8 in rough/multipeak branches",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "smooth_rising_step": 10
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "d10d39dedc20e639a0507e1ba33638fbfde14c5c17ac99455cc45f1a3762c448",
+      "official": false,
+      "cases": 56,
+      "total_score": 102816,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "r8_smooth_rising12",
+    "source": "data/experiments/2026-10-26/r8_smooth_rising12.cpp",
+    "sha256": "fbe4ea3bc4afae8848c31860229e2f69be8b6fa839799e2d426fb946886adcb2",
+    "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_official_score": 200494,
+    "purpose": "Use stride 12 only on significant low-noise unbracketed rising branch; retain8 in rough/multipeak branches",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "smooth_rising_step": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "fbe4ea3bc4afae8848c31860229e2f69be8b6fa839799e2d426fb946886adcb2",
+      "official": false,
+      "cases": 56,
+      "total_score": 102863,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+]

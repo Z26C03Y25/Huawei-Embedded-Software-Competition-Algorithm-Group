@@ -1,0 +1,77 @@
+{
+  "generator_version": 4,
+  "generator_sha256": "8fa7ad36281433071a22ef29102fefd562b2785a006ad832c4eb2c7fbc3ae81d",
+  "seeds": {
+    "development": 2026102641,
+    "selection": 2026102642,
+    "blind_shift": 2026102643
+  },
+  "per_family": 16,
+  "families": [
+    "skew_correlated",
+    "shoulder_colored",
+    "three_competitors",
+    "near_equal_ripple",
+    "decline_then_peak",
+    "quantized_noisy_top",
+    "noisy_flat_prefix",
+    "late_peak_echo",
+    "early_echo_late_main",
+    "ramp_micropeaks",
+    "staircase_with_background",
+    "boundary_competitor",
+    "variable_skew",
+    "heavy_tail_nuisance",
+    "nonstationary_chirp",
+    "heteroskedastic_peak",
+    "clipped_double_top",
+    "plateau_edge_bumps",
+    "drifting_double",
+    "nonlinear_sensor",
+    "multiple_quantized_ties",
+    "wave_envelope",
+    "unstructured_background",
+    "adversarial_impulse"
+  ],
+  "cases": 519,
+  "dataset_sha256": "c772ff1fa04c6f8a3119a78fe7e73ccc721200d3ca957076ad43f9b3a4a80832",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "noise_rival",
+      "source": "data/experiments/branch_lab_20261026/noise_rival.cpp",
+      "sha256": "c8dd4bd93adc78f626950474dcda922c9d3b877de855840632d2c03e67d8bbca"
+    },
+    {
+      "name": "noise_rival_tree",
+      "source": "data/experiments/branch_lab_20261026/noise_rival_tree.cpp",
+      "sha256": "ea0b03d434089497c7bb11d7a3b9e84e8329f634267fbddab114174e68bb1649"
+    },
+    {
+      "name": "plateau_guard",
+      "source": "data/experiments/branch_lab_20261026/plateau_guard.cpp",
+      "sha256": "0bf47a0e146b32c1f5f013b3a047e8885faf3dd7d9448d9fb3718792486e026b"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "research_policy_sha256": "290987484ceaaedd6ba007856a152f23bd6c9e0b7d855b301464a13b466d41f8",
+  "research_objective": "robust_total_score",
+  "score_analysis_sha256": "6da4e48b58e189d92cfd9b0b8279f1b9f87dbe75069f213504006651f2863363",
+  "suite": "mixed",
+  "mixed_seed": 20261026401,
+  "novel_families": false,
+  "splits": [
+    "development"
+  ],
+  "trace_solvers": true,
+  "extra_cases": {
+    "path": "data/experiments/zero_first_20261026/acceptance_cases.json",
+    "sha256": "9aca0e6b4d76e1f49f29192378d4fb6c3124c0f2362051353665ce93de487051"
+  }
+}

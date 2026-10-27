@@ -1,0 +1,18 @@
+{
+  "analysis_only": true,
+  "cached_base_cases": 2362,
+  "cached_zeros": 719,
+  "coarse_uncovered_or_irreversible": 634,
+  "coarse_decided_zero_share": 0.8817802503477051,
+  "covered_unread_targets": 83,
+  "top3_endpoint_gap_oracle_labels": 40,
+  "tests_passed": 4,
+  "new_validation_cases": 0,
+  "new_pipe_runs": 0,
+  "online_uploads": 0,
+  "ranking_requests": 0,
+  "next_unused_mixed_seed": 20261026409,
+  "next_unused_classic_index": 246,
+  "official_best_unchanged": 203239,
+  "interpretation": "In these cached synthetic cases, coarse coverage and irreversible overshoot dominate zero failures; refine-only fitting has limited repair scope. Offline oracle-selected gaps do not constitute a realizable policy or an official score claim."
+}

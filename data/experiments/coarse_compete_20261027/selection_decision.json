@@ -1,0 +1,201 @@
+{
+  "frozen_before_confirmation": true,
+  "selection_matrix": {
+    "mixed": {
+      "coarse": {
+        "cases": 1512,
+        "macro_mean": 1383.9735449735451,
+        "baseline_macro_mean": 1382.876984126984,
+        "macro_delta": 1.0965608465608463,
+        "zeros": 612,
+        "baseline_zeros": 613,
+        "new_zeros": 0,
+        "resolved_zeros": 1,
+        "cvar25_delta": 0.0,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": false,
+          "reasons": [
+            "blind_shift: no positive total-score gain",
+            "pooled held-out score gain remains uncertain"
+          ],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          -1.0267857142857142,
+          6.410714285714286
+        ]
+      },
+      "gap": {
+        "cases": 1512,
+        "macro_mean": 1402.202380952381,
+        "baseline_macro_mean": 1382.876984126984,
+        "macro_delta": 19.325396825396833,
+        "zeros": 598,
+        "baseline_zeros": 613,
+        "new_zeros": 0,
+        "resolved_zeros": 15,
+        "cvar25_delta": 0.0,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": true,
+          "reasons": [],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          4.377976190476191,
+          26.862103174603174
+        ]
+      },
+      "combined": {
+        "cases": 1512,
+        "macro_mean": 1403.2989417989418,
+        "baseline_macro_mean": 1382.876984126984,
+        "macro_delta": 20.421957671957678,
+        "zeros": 597,
+        "baseline_zeros": 613,
+        "new_zeros": 0,
+        "resolved_zeros": 16,
+        "cvar25_delta": 0.0,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": true,
+          "reasons": [],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          5.677579365079365,
+          28.8859126984127
+        ]
+      }
+    },
+    "classic": {
+      "coarse": {
+        "cases": 1187,
+        "macro_mean": 1818.0250049514755,
+        "baseline_macro_mean": 1818.0250049514755,
+        "macro_delta": 0.0,
+        "zeros": 260,
+        "baseline_zeros": 260,
+        "new_zeros": 0,
+        "resolved_zeros": 0,
+        "cvar25_delta": 0.0,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": false,
+          "reasons": [
+            "selection: no positive total-score gain",
+            "blind_shift: no positive total-score gain",
+            "pooled held-out score gain remains uncertain"
+          ],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gap": {
+        "cases": 1187,
+        "macro_mean": 1818.9484056248764,
+        "baseline_macro_mean": 1818.0250049514755,
+        "macro_delta": 0.9234006734006858,
+        "zeros": 259,
+        "baseline_zeros": 260,
+        "new_zeros": 0,
+        "resolved_zeros": 1,
+        "cvar25_delta": 5.891322662173536,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": false,
+          "reasons": [
+            "selection: no positive total-score gain",
+            "blind_shift: no positive total-score gain",
+            "pooled held-out score gain remains uncertain"
+          ],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          -1.7866161616161618,
+          0.20959595959595967
+        ]
+      },
+      "combined": {
+        "cases": 1187,
+        "macro_mean": 1818.9484056248764,
+        "baseline_macro_mean": 1818.0250049514755,
+        "macro_delta": 0.9234006734006858,
+        "zeros": 259,
+        "baseline_zeros": 260,
+        "new_zeros": 0,
+        "resolved_zeros": 1,
+        "cvar25_delta": 5.891322662173536,
+        "hard_failures": [],
+        "automatic_qualification": {
+          "eligible": false,
+          "reasons": [
+            "selection: no positive total-score gain",
+            "blind_shift: no positive total-score gain",
+            "pooled held-out score gain remains uncertain"
+          ],
+          "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+        },
+        "heldout_ci95": [
+          -1.7866161616161618,
+          0.20959595959595967
+        ]
+      }
+    }
+  },
+  "paired_contrasts": {
+    "gap_vs_formal": {
+      "contrast": "gap-formal203239",
+      "heldout_mean_delta": 6.780573593073593,
+      "ci95": [
+        1.578508297258297,
+        13.379419191919192
+      ],
+      "independent_arrays": 1799,
+      "strata": 100,
+      "method": "1000 same-array paired draws within domain/split/family; domains and splits equally weighted; siblings excluded."
+    },
+    "combined_vs_gap": {
+      "contrast": "combined-gap",
+      "heldout_mean_delta": 0.8566468253968254,
+      "ci95": [
+        -0.4801587301587302,
+        3.1721230158730163
+      ],
+      "independent_arrays": 1799,
+      "strata": 100,
+      "method": "1000 same-array paired draws within domain/split/family; domains and splits equally weighted; siblings excluded."
+    },
+    "coarse_vs_formal": {
+      "contrast": "coarse-formal203239",
+      "heldout_mean_delta": 0.8566468253968254,
+      "ci95": [
+        -0.4801587301587302,
+        3.1721230158730163
+      ],
+      "independent_arrays": 1799,
+      "strata": 100,
+      "method": "1000 same-array paired draws within domain/split/family; domains and splits equally weighted; siblings excluded."
+    }
+  },
+  "equal_domain_macro_delta": {
+    "coarse": 0.5482804232804231,
+    "gap": 10.12439874939876,
+    "combined": 10.672679172679182
+  },
+  "selected": {
+    "name": "gap",
+    "source": "data/experiments/coarse_compete_20261027/gap/competing_gap_midpoints.cpp",
+    "sha256": "ce8d3422a9c430a8dae7ddbbd6c69f2ea3ccfb377b00e3901bf5e5d7e83f7288"
+  },
+  "reason": "Combined-minus-gap paired interval includes0, so retain simpler in-range gap operator rather than an unsupported coarse-tail addition.",
+  "automatic_eligible_all_domains": false,
+  "confirmation_only": true,
+  "confirmation_mixed_seed": 20261026410,
+  "confirmation_classic_offset": 264,
+  "source_may_not_change": true
+}

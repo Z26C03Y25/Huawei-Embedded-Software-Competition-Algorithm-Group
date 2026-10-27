@@ -1,0 +1,33 @@
+{
+  "name": "probe_valley_gate",
+  "source": "data/experiments/local_valley_20261026/probe_valley_gate.cpp",
+  "sha256": "6370609115ad056ec8a4a91e7fbdd71bc7995882330284639b91f92a76f650c3",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "official": false,
+  "parameters": {
+    "audit_window": 32,
+    "drift_threshold": 2,
+    "local_valley_depth": 2
+  },
+  "purpose": "After original raw verification, require both local descent-ascent evidence and a finite disagreeing wider fit to veto early finish. Retains original queries, certificate and shared Q/O/parking guard.",
+  "design_evidence": "local_screen_20261026 development only; new case-index block freezes all three fresh splits before scoring.",
+  "inherited_formal_config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3
+  },
+  "online_eligible": false
+}

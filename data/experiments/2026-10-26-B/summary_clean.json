@@ -1,0 +1,154 @@
+{
+  "formal203239": {
+    "smoke": {
+      "cases": 26,
+      "total": 54293,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 2
+    },
+    "development": {
+      "cases": 84,
+      "total": 134226,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "total": 136495,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "total": 7237,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    }
+  },
+  "guarded_fit16_v2": {
+    "smoke": {
+      "cases": 26,
+      "total": 54293,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 2
+    },
+    "development": {
+      "cases": 84,
+      "total": 134229,
+      "delta": 3,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "total": 136500,
+      "delta": 5,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "total": 7237,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    }
+  },
+  "drift32_directional2": {
+    "smoke": {
+      "cases": 26,
+      "total": 54291,
+      "delta": -2,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 2
+    },
+    "development": {
+      "cases": 84,
+      "total": 134224,
+      "delta": -2,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "total": 136487,
+      "delta": -8,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "total": 7235,
+      "delta": -2,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    }
+  },
+  "post_probe_scale32_gate": {
+    "smoke": {
+      "cases": 26,
+      "total": 54262,
+      "delta": -31,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 3
+    },
+    "development": {
+      "cases": 84,
+      "total": 133823,
+      "delta": -403,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "total": 138638,
+      "delta": 2143,
+      "new_zero": 0,
+      "resolved_zero": 1,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "total": 7125,
+      "delta": -112,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "main_preserved": true,
+  "solvers": 4,
+  "case_count": 281,
+  "new_pipe_runs": 730,
+  "queries_le199": true,
+  "turns_le6": true,
+  "observed_winner_parked": true,
+  "online_submissions": 0,
+  "ranking_network_reads": 0
+}

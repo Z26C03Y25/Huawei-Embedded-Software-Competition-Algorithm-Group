@@ -1,0 +1,53 @@
+{
+  "user_request": "Sparse sample curve reconstruction, remove spikes in model, use online score because local data may not transfer.",
+  "primary_metric": "Official aggregate total; local paired inclusive-of-zero score used as fallible evidence, protocol always mandatory.",
+  "online_trial_cap_this_request": 1,
+  "automatic_daily_cap_unchanged": 3,
+  "known_completed_team_attempts_today": 6,
+  "source": "data/experiments/sparse_curve_20261027/sparse_relative_support.cpp",
+  "sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "parameters_frozen": true,
+  "local_mixed_seed": 20261026408,
+  "independent_classic_offset": 228,
+  "online_upload_requires": "No pending work, actual legal team quota, frozen source/protocol pass, explicit analysis of local gains/losses; no adjacent parameter uploads.",
+  "raw_values": "Never denoised in cache or final target choice; only model weights reduced for isolated positive residuals.",
+  "rejected_initial_source": "data/experiments/sparse_curve_20261027/sparse_model_finish.cpp",
+  "rejected_initial_reason": "Mixed fresh mean -11.2645, zero count +5; clean-only benefit does not justify original early finish.",
+  "source_revision_reason": "Propagate raw peak error through curvature and move trustworthy fit before scout overshoot; no reuse of consumed confirmation as independent.",
+  "revision_note": "Absolute model-error slack admitted bad models on noiseless signals and made the valid gate inactive. Use predictive-error ratios and integer quantization instead. First two sources retained and will not be uploaded.",
+  "execution": {
+    "mode": "single_direct_user_authorized_structural_trial",
+    "started_at": "2026-10-27T08:09:13.615266+08:00",
+    "quota_before": {
+      "date": "2026-10-27",
+      "checked_at": "2026-10-27T08:09:13.589386+08:00",
+      "limit": 30,
+      "used": 6,
+      "remaining": 24
+    },
+    "source_sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+    "online_trial_cap": 1,
+    "automatic_research_cap_unchanged": 3,
+    "local_auto_qualification": false,
+    "qualification_note": "Frozen local studies show negligible changes, not automatic qualification. Latest direct user request permits one online calibration because local distributions may not transfer. No parameter sweep.",
+    "job_id": "20261027T000915713770Z_905abbff50e8",
+    "state": "completed",
+    "score": 203239,
+    "outcome": {
+      "job_id": "20261027T000915713770Z_905abbff50e8",
+      "submission_id": "b2c83af50e014a1585074848774b6a69",
+      "submitted_at": "2026-10-27 08:09:15",
+      "source_sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "official_score": 203239,
+      "baseline": 203239,
+      "delta": 0,
+      "best_official_score": 203239,
+      "best_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "single_request_uploads": 1,
+      "further_uploads_today_this_direction": false
+    },
+    "completed": true
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "v1": {
+    "sparse_curve_mixed_20261027": {
+      "cases": 1176,
+      "macro_mean": 1353.0246598639455,
+      "baseline_macro_mean": 1364.2891156462586,
+      "macro_delta": -11.26445578231293,
+      "zeros": 487,
+      "baseline_zeros": 482,
+      "new_zeros": 9,
+      "resolved_zeros": 4,
+      "cvar25_delta": 0.0,
+      "heldout_ci95": [
+        -28.723214285714285,
+        9.048469387755102
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "selection: no positive total-score gain",
+          "selection: aggregate zero rate increased",
+          "blind_shift: no positive total-score gain",
+          "blind_shift: aggregate zero rate increased",
+          "pooled held-out score gain remains uncertain"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 3890,
+        "probes": 1949,
+        "finishes": 177,
+        "spike_weights": 597
+      },
+      "early_stop_cases": 0,
+      "source_sha256": "8e2a377341ba2b0f5c97a9a1e422065d545d3d51e18fb1fc4957e32bbb10e5d5",
+      "manifest": "data/experiments/sparse_curve_mixed_20261027/manifest.json"
+    },
+    "sparse_curve_classic_20261027": {
+      "cases": 1188,
+      "macro_mean": 1866.0513468013469,
+      "baseline_macro_mean": 1860.4292929292926,
+      "macro_delta": 5.62205387205386,
+      "zeros": 240,
+      "baseline_zeros": 242,
+      "new_zeros": 0,
+      "resolved_zeros": 2,
+      "cvar25_delta": 13.626262626262644,
+      "heldout_ci95": [
+        0.1313131313131313,
+        8.98358585858586
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "blind_shift: lower-quarter score deteriorated"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 3268,
+        "probes": 1690,
+        "finishes": 146,
+        "spike_weights": 1038
+      },
+      "early_stop_cases": 0,
+      "source_sha256": "8e2a377341ba2b0f5c97a9a1e422065d545d3d51e18fb1fc4957e32bbb10e5d5",
+      "manifest": "data/experiments/sparse_curve_classic_20261027/manifest.json"
+    }
+  },
+  "v2": {
+    "sparse_early_mixed_20261027": {
+      "cases": 1176,
+      "macro_mean": 1383.265306122449,
+      "baseline_macro_mean": 1383.265306122449,
+      "macro_delta": 0.0,
+      "zeros": 478,
+      "baseline_zeros": 478,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25_delta": 0.0,
+      "heldout_ci95": [
+        0.0,
+        0.0
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "selection: no positive total-score gain",
+          "blind_shift: no positive total-score gain",
+          "pooled held-out score gain remains uncertain"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 18481,
+        "probes": 36,
+        "finishes": 4,
+        "spike_weights": 2982,
+        "early_stops": 4
+      },
+      "early_stop_cases": 4,
+      "source_sha256": "2455bceec2b9b326ecafa22a3678b7218358d35307f0e71a7fd721295368fb53",
+      "manifest": "data/experiments/sparse_early_mixed_20261027/manifest.json"
+    },
+    "sparse_early_classic_20261027": {
+      "cases": 1188,
+      "macro_mean": 1875.293771043771,
+      "baseline_macro_mean": 1875.246632996633,
+      "macro_delta": 0.04713804713804331,
+      "zeros": 238,
+      "baseline_zeros": 238,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25_delta": 0.0,
+      "heldout_ci95": [
+        0.0,
+        0.0
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "selection: no positive total-score gain",
+          "blind_shift: no positive total-score gain",
+          "pooled held-out score gain remains uncertain"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 15196,
+        "probes": 29,
+        "finishes": 2,
+        "spike_weights": 5052,
+        "early_stops": 2
+      },
+      "early_stop_cases": 2,
+      "source_sha256": "2455bceec2b9b326ecafa22a3678b7218358d35307f0e71a7fd721295368fb53",
+      "manifest": "data/experiments/sparse_early_classic_20261027/manifest.json"
+    }
+  },
+  "v3": {
+    "sparse_relative_mixed_20261027": {
+      "cases": 1176,
+      "macro_mean": 1396.6003401360542,
+      "baseline_macro_mean": 1396.436224489796,
+      "macro_delta": 0.16411564625850264,
+      "zeros": 480,
+      "baseline_zeros": 480,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25_delta": 0.0,
+      "heldout_ci95": [
+        0.0,
+        0.0
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "selection: no positive total-score gain",
+          "blind_shift: no positive total-score gain",
+          "pooled held-out score gain remains uncertain"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 19918,
+        "probes": 80,
+        "finishes": 9,
+        "spike_weights": 2121,
+        "early_stops": 5
+      },
+      "early_stop_cases": 5,
+      "source_sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+      "manifest": "data/experiments/sparse_relative_mixed_20261027/manifest.json"
+    },
+    "sparse_relative_classic_20261027": {
+      "cases": 1186,
+      "macro_mean": 1869.8934132996635,
+      "baseline_macro_mean": 1870.0264099326598,
+      "macro_delta": -0.13299663299664063,
+      "zeros": 239,
+      "baseline_zeros": 239,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25_delta": 0.0,
+      "heldout_ci95": [
+        0.0,
+        0.0
+      ],
+      "automatic_qualification": {
+        "eligible": false,
+        "reasons": [
+          "selection: no positive total-score gain",
+          "blind_shift: no positive total-score gain",
+          "pooled held-out score gain remains uncertain"
+        ],
+        "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+      },
+      "hard_failures": [],
+      "trace_counts": {
+        "fits": 15116,
+        "probes": 51,
+        "finishes": 5,
+        "spike_weights": 4968,
+        "early_stops": 2
+      },
+      "early_stop_cases": 2,
+      "source_sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+      "manifest": "data/experiments/sparse_relative_classic_20261027/manifest.json"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "formal203239": {
+    "events": {},
+    "triggered_cases": {}
+  },
+  "noise_radius": {
+    "events": {
+      "stair": 0,
+      "rival": 0,
+      "noise": 141,
+      "edge": 0
+    },
+    "triggered_cases": {
+      "noise": 141
+    }
+  },
+  "plateau_route": {
+    "events": {
+      "stair": 0,
+      "rival": 0,
+      "noise": 0,
+      "edge": 4
+    },
+    "triggered_cases": {
+      "edge": 4
+    }
+  },
+  "portfolio": {
+    "events": {
+      "stair": 15,
+      "rival": 98,
+      "noise": 122,
+      "edge": 1
+    },
+    "triggered_cases": {
+      "noise": 122,
+      "rival": 98,
+      "stair": 4,
+      "edge": 1
+    }
+  },
+  "previous": {
+    "events": {},
+    "triggered_cases": {}
+  },
+  "rival_audit": {
+    "events": {
+      "stair": 0,
+      "rival": 98,
+      "noise": 0,
+      "edge": 0
+    },
+    "triggered_cases": {
+      "rival": 98
+    }
+  },
+  "stair_gate": {
+    "events": {
+      "stair": 15,
+      "rival": 0,
+      "noise": 0,
+      "edge": 0
+    },
+    "triggered_cases": {
+      "stair": 4
+    }
+  }
+}

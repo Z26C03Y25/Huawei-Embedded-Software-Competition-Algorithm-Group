@@ -1,0 +1,25 @@
+{
+  "name": "dyn_fullfit_dominance",
+  "source": "data/experiments/2026-10-26/dyn_fullfit_dominance.cpp",
+  "sha256": "21c435929335236fb45f203db058b4456292c139ef8c82e30725c5f32404e4cd",
+  "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+  "parent_official_score": 202666,
+  "purpose": "Check existing finite-model empty-plan dominance before eager all-candidate execution, only with measured neighbors, low noise and unique observed peak; no global certificate",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "both_vertices_plus3_min6",
+    "fullfit_dominance": true
+  },
+  "official_score": null
+}

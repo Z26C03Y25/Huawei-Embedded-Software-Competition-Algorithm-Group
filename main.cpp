@@ -1,4 +1,4 @@
-// Online policy: {"coarse": 128, "flat_step": 8, "group": 0.1, "late_scout": 16, "model_finish": true, "noise_abs": 0, "noise_step": 8, "prom": 24, "radius": 12, "up": 8}
+// Day26 derived experiment: {"coarse": 128, "flat_step": 8, "group": 0.1, "late_scout": 16, "model_agreement": 10.0, "model_finish": true, "model_fit_window": 24, "model_min_radius": 3, "model_noise_fraction": 0.05, "model_prediction_margin": 3, "model_radius_mode": "asymmetric_vertex_interval", "noise_abs": 0, "noise_step": 8, "prom": 24, "radius": 8, "up": 8}
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,6 +6,43 @@ using namespace std;
 namespace af {
 constexpr long long VMAX = 2147483647LL;
 constexpr int QMAX = 199, OMAX = 6;
+// Only this transport may write stdout. Counters describe emitted messages,
+// independently of whether the judge's next reply can be read.
+class Protocol {
+    int length, emittedQueries=0, emittedMessages=0;
+    bool doneSent=false, inputUsable=true;
+public:
+    explicit Protocol(int n) noexcept : length(n) {}
+    int queries() const noexcept { return emittedQueries; }
+    bool query(int index,long long& answer) {
+        if (doneSent || !inputUsable || index<0 || index>=length ||
+            emittedQueries>=QMAX || emittedMessages+2>201) return false;
+        char line[32];
+        const auto encoded=to_chars(line,line+sizeof(line)-1,index);
+        if (encoded.ec!=errc{}) return false;
+        *encoded.ptr='\n';
+        const size_t bytes=static_cast<size_t>(encoded.ptr-line)+1;
+        ++emittedQueries; ++emittedMessages;
+        if (fwrite(line,1,bytes,stdout)!=bytes || fflush(stdout)!=0) {
+            inputUsable=false; return false;
+        }
+        if (!(cin>>answer) || answer<0 || answer>VMAX) {
+            inputUsable=false; return false;
+        }
+        return true;
+    }
+    void done() noexcept {
+        if (doneSent) return;
+        doneSent=true;
+        ++emittedMessages;
+        static constexpr char line[]="DONE\n";
+        (void)fwrite(line,1,sizeof(line)-1,stdout);
+        (void)fflush(stdout);
+    }
+    ~Protocol() { done(); }
+};
+
+
 #define OPS(X) \
  X(A01) X(A02) X(A03) X(A04) X(A05) X(A06) X(A07) X(A08) \
  X(B01) X(B02) X(B03) X(B04) X(B05) X(B06) X(B07) X(B08) \
@@ -60,6 +97,7 @@ struct Point { int x; double priority; int cluster; };
 struct Scenario { vector<long long> value; int target=0; };
 
 class Solver {
+    Protocol& wire;
     int n, q=0, pos=0, direction=0, turns=0, rightmost=0, best=-1, coarseFrontier=0;
     long long travel=0, bestValue=-1;
     vector<long long> value;
@@ -68,6 +106,7 @@ class Solver {
     bool trace, strict, lateFlat, alive=true, oldPeakRisk=false;
     Shape state=Shape::Flat, pending=Shape::Flat;
     int votes=0;
+    int rivalChecks=0,rivalReleases=0,rivalMaxBeyondBest=0,sentinelTrials=0,sentinelForBest=-1,sentinelMidpoints=0;
     uint64_t rng=0x9e3779b97f4a7c15ULL;
     chrono::steady_clock::time_point started=chrono::steady_clock::now();
     void use(Op op) { ++uses[static_cast<size_t>(op)]; }
@@ -103,7 +142,7 @@ class Solver {
     }
     bool canRead(int x,bool terminal) {
         use(Op::I01); use(Op::I02); use(Op::I03);
-        if (!alive || x<0 || x>=n || q+1+(terminal?0:1)>QMAX) return false;
+        if (!alive || x<0 || x>=n || max(q,wire.queries())+1+(terminal?0:1)>QMAX) return false;
         if (!terminal && seconds()>8.0) { use(Op::I07); return false; }
         int p=pos,d=direction,o=turns; long long m=travel;
         moveTo(x,p,d,o,m);
@@ -115,9 +154,8 @@ class Solver {
     }
     bool readReal(int x,bool terminal=false) {
         if (!canRead(x,terminal)) return false;
-        cout<<x<<'\n'<<flush;
         long long answer;
-        if (!(cin>>answer) || answer<0 || answer>VMAX) { alive=false; return false; }
+        if (!wire.query(x,answer)) { alive=false; return false; }
         moveTo(x,pos,direction,turns,travel);
         ++q; rightmost=max(rightmost,x); value[x]=answer;
         if (better(x,answer,best,bestValue)) {
@@ -242,6 +280,51 @@ class Solver {
         ++visits[static_cast<size_t>(state)];
         return f;
     }
+
+    bool coarseRivalEvidence(const Features& f) {
+        ++rivalChecks;
+        if (strict || f.flat || f.plateau || !f.significant || f.x.size()<9 ||
+            best<0 || rightmost-best<48 || rightmost-best>=191) return false;
+        const size_t first=f.x.size()-9;
+        if (f.x[first]<=best+16) return false;
+        // Three non-overlapping median blocks suppress an isolated spike in the
+        // trend test only. Raw replies and the raw best point are unchanged.
+        array<double,3> level{};
+        for (size_t block=0;block<3;++block) {
+            array<long long,3> v{};
+            for (size_t j=0;j<3;++j) v[j]=value[f.x[first+3*block+j]];
+            sort(v.begin(),v.end());level[block]=static_cast<double>(v[1]);
+        }
+        const double rise=max(2*f.noise,0.005*f.contrast);
+        if (level[1]-level[0]<=rise || level[2]-level[1]<=rise) return false;
+        // A second competitive shoulder must be close to the old raw winner;
+        // a tiny recovery in the floor is not evidence for a new main peak.
+        return level[2]>=bestValue-0.15*f.contrast;
+    }
+
+
+    optional<int> coarseShoulderSentinel(const Features& f) const {
+        if (strict || !f.significant || f.flat || f.plateau || f.noisy ||
+            best<0 || best>=(n-1)/2 || sentinelForBest==best || q>=112 ||
+            rightmost-best<80 || rightmost-best>128 || f.x.size()<12) return nullopt;
+        const size_t first=f.x.size()-9;
+        array<double,3> level{};
+        for (size_t block=0;block<3;++block) {
+            array<long long,3> v{};
+            for (size_t j=0;j<3;++j) v[j]=value[f.x[first+3*block+j]];
+            sort(v.begin(),v.end());level[block]=static_cast<double>(v[1]);
+        }
+        const double height=(level[2]-f.floor)/max(1.0,f.contrast);
+        const double previousDrop=level[0]-level[1],lastDrop=level[1]-level[2];
+        // A resolved shoulder: nontrivial tail, robust descent decelerating
+        // more than2.5x. An isolated high reply cannot alone pass median blocks.
+        if (height<0.12 || height>0.60 || previousDrop<=max(3*f.noise,0.01*f.contrast) ||
+            lastDrop<0 || lastDrop>0.4*previousDrop) return nullopt;
+        const int target=min(n-1,min(best+176,f.left+191));
+        if (target<=rightmost+16) return nullopt;
+        return target;
+    }
+
     int frontierLimit(const Features& f) {
         if (strict) return min(n-1,certifiedLeft()+199);
         if (f.flat) {
@@ -254,7 +337,7 @@ class Solver {
         // terminate long, slowly emerging right-side peaks in their background.
         if (!f.significant) return n-1;
         use(Op::E02);
-        return min(n-1,f.left+180);
+        return min(n-1,f.left+199);
     }
     void explore() {
         use(Op::B01); use(Op::J01);
@@ -266,7 +349,18 @@ class Solver {
         while (q<128 && rightmost<n-1 && seconds()<7.0) {
             const Features f=features();
             if (certificate()) return;
-            const int limit=frontierLimit(f);
+            int limit=frontierLimit(f);
+            const bool rival=coarseRivalEvidence(f);
+            if (rival) {
+                // Advance in the ordinary eight-position scan, not by a jump.
+                // The48-position lease is rechecked after every reply; it is
+                // not a proof of global peak identity or redundancy safety.
+                const int released=min(n-1,min(best+191,rightmost+48));
+                if (released>limit) {
+                    limit=released;++rivalReleases;
+                    rivalMaxBeyondBest=max(rivalMaxBeyondBest,released-best);
+                }
+            }
             if (rightmost>=limit) break;
             int step=12;
             if (f.flat) {
@@ -283,8 +377,28 @@ class Solver {
                 if (f.leftEdge && rightmost-best>=48) { use(Op::H01); break; }
                 int scout=clamp(static_cast<int>(f.halfLeft*1.2),96,144);
                 if (best>=(n-1)/2) scout=min(scout,16);
-                if (f.significant && rightmost-best>=scout && !f.rebound &&
+                if (f.significant && rightmost-best>=scout && !f.rebound && !rival &&
                     bestValue-value[rightmost]>max(3*f.noise,0.08*f.contrast)) {
+                    if (auto sentinel=coarseShoulderSentinel(f)) {
+                        sentinelForBest=best;++sentinelTrials;
+                        // Freeze the successful parent's outer target before
+                        // any new reply can change best or the feature model.
+                        const int outer=*sentinel;
+                        const int span=outer-rightmost;
+                        const int m1=rightmost+span/3;
+                        const int m2=rightmost+2*span/3;
+                        if (m1>rightmost && m2<outer && q+3<=128 &&
+                            max(q,wire.queries())+4<=QMAX && seconds()<7.0 &&
+                            canRead(outer,false) && canRead(m1,false) && canRead(m2,false)) {
+                            if (sample(m1)) ++sentinelMidpoints;
+                            if (sample(m2)) ++sentinelMidpoints;
+                        }
+                        // No certificate shortcut after the midpoints. Always
+                        // attempt the original outer probe through the ledger.
+                        if (!sample(outer)) break;
+                        if (certificate()) return;
+                        continue;
+                    }
                     use(Op::K07); break;
                 }
                 if (rightmost>best+24) use(Op::F02);
@@ -368,6 +482,106 @@ class Solver {
         if (!isfinite(at) || at<xs.front() || at>xs.back()) return nullopt;
         return at;
     }
+    // ---- Multi-model curve fitting: pick the model that best matches the
+    // observed points, so asymmetric or spiky peaks are not forced through a
+    // parabola. Each model estimates a vertex; agreement raises confidence,
+    // disagreement falls back to the already-tuned quadratic model. ----
+    bool robustFit(const vector<int>& xs,int degree,const vector<double>& y,vector<double>& coef) {
+        const size_t m=xs.size();
+        if (m<static_cast<size_t>(degree+2)) return false;
+        const int D=degree+1;
+        coef.assign(D,0.0);
+        vector<double> w(m,1.0),basis(D),residual(m);
+        for (int iter=0;iter<3;++iter) {
+            vector<vector<double>> mat(D,vector<double>(D+1,0.0));
+            for (size_t k=0;k<m;++k) {
+                const double t=static_cast<double>(xs[k]-best)/16.0;
+                basis[0]=1.0;
+                for (int i=1;i<D;++i) basis[i]=basis[i-1]*t;
+                const double wt=w[k]/(1.0+abs(t));
+                for (int i=0;i<D;++i) {
+                    for (int j=0;j<D;++j) mat[i][j]+=wt*basis[i]*basis[j];
+                    mat[i][D]+=wt*basis[i]*y[k];
+                }
+            }
+            for (int i=0;i<D;++i) {
+                int pivot=i;
+                for (int j=i+1;j<D;++j) if (abs(mat[j][i])>abs(mat[pivot][i])) pivot=j;
+                if (abs(mat[pivot][i])<1e-10) return false;
+                if (pivot!=i) swap(mat[pivot],mat[i]);
+                const double div=mat[i][i];
+                for (int j=i;j<=D;++j) mat[i][j]/=div;
+                for (int r=0;r<D;++r) if (r!=i) {
+                    const double k=mat[r][i];
+                    for (int j=i;j<=D;++j) mat[r][j]-=k*mat[i][j];
+                }
+            }
+            for (int i=0;i<D;++i) coef[i]=mat[i][D];
+            for (size_t k=0;k<m;++k) {
+                const double t=static_cast<double>(xs[k]-best)/16.0;
+                double pred=coef[0],pw=t;
+                for (int i=1;i<D;++i) { pred+=coef[i]*pw; pw*=t; }
+                residual[k]=y[k]-pred;
+            }
+            const double scale=max(1.0,mad(residual));
+            for (size_t k=0;k<m;++k)
+                w[k]=min(1.0,1.5*scale/max(1.0,abs(residual[k])));
+        }
+        return true;
+    }
+    optional<double> quadPeak(const vector<double>& coef) {
+        if (coef.size()<3 || coef[2]>=-1e-10) return nullopt;
+        const double x=best-8.0*coef[1]/coef[2];
+        if (!isfinite(x)) return nullopt;
+        return x;
+    }
+    optional<double> cubicPeak(const vector<double>& coef) {
+        if (coef.size()<4) return nullopt;
+        const double c1=coef[1],c2=coef[2],c3=coef[3];
+        if (abs(c3)<1e-12) return quadPeak(coef);
+        const double disc=c2*c2-3.0*c1*c3;
+        if (disc<0) return nullopt;
+        const double s=sqrt(disc);
+        const double roots[2]={(-c2+s)/(3.0*c3),(-c2-s)/(3.0*c3)};
+        optional<double> ret;
+        for (double t:roots) {
+            if (!isfinite(t)) continue;
+            if (2.0*c2+6.0*c3*t>=-1e-10) continue;
+            const double x=best+16.0*t;
+            if (!ret || abs(t)<abs((*ret-best)/16.0)) ret=x;
+        }
+        return ret;
+    }
+    optional<double> multiModelVertex(const Features& f) {
+        vector<int> near;
+        for (int x:f.x) if (abs(x-best)<=24) near.push_back(x);
+        if (near.size()<5) return nullopt;
+        optional<double> quad=fittedVertex(near);
+        optional<double> cubic,logq;
+        {
+            vector<double> coef,y;
+            for (int x:near) y.push_back(static_cast<double>(value[x])-bestValue);
+            if (robustFit(near,3,y,coef)) cubic=cubicPeak(coef);
+        }
+        {
+            vector<double> coef,y;
+            for (int x:near) y.push_back(log(static_cast<double>(value[x])-f.floor+1.0));
+            if (robustFit(near,2,y,coef)) logq=quadPeak(coef);
+        }
+        auto close=[&](double a,double b){ return abs(a-b)<10.0; };
+        const double lo=static_cast<double>(near.front()),hi=static_cast<double>(near.back());
+        auto inRange=[&](double x){ return isfinite(x) && x>=lo-4 && x<=hi+4; };
+        optional<double> q,c,l;
+        if (quad && inRange(*quad)) q=quad;
+        if (cubic && inRange(*cubic)) c=cubic;
+        if (logq && inRange(*logq)) l=logq;
+        if (q && c && l && close(*q,*c) && close(*q,*l) && close(*c,*l))
+            return (*q+*c+*l)/3.0;
+        if (q && c && close(*q,*c)) return (*q+*c)/2.0;
+        if (q && l && close(*q,*l)) return (*q+*l)/2.0;
+        if (c && l && close(*c,*l)) return (*c+*l)/2.0;
+        return q;
+    }
     vector<Point> pool(const Features& f) {
         vector<double> priority(n,-1); vector<int> cluster(n,-1); int overlap=0;
         auto add=[&](int x,double score,int group=-1) {
@@ -405,7 +619,7 @@ class Solver {
             }
         }
         use(Op::D01); use(Op::D02); use(Op::C06);
-        for (int x=best-12;x<=best+12;++x) add(x,82-0.5*abs(x-best));
+        for (int x=best-8;x<=best+8;++x) add(x,82-0.5*abs(x-best));
         for (int x=best-3;x<=best+3;++x) add(x,115-abs(x-best));
         if (best>0 && value[0]>=threshold) {
             use(Op::H03);
@@ -450,6 +664,11 @@ class Solver {
             if (auto v=fittedVertex(near)) {
                 const int center=static_cast<int>(llround(*v));
                 for (int x=center-2;x<=center+2;++x) add(x,105-abs(x-*v));
+            }
+            if (auto mv=multiModelVertex(f)) {
+                use(Op::C04);
+                const int center=static_cast<int>(llround(*mv));
+                for (int x=center-2;x<=center+2;++x) add(x,107-abs(x-*mv));
             }
             if (f.halfLeft>0 && f.halfRight>0 &&
                 max(f.halfLeft,f.halfRight)>1.6*min(f.halfLeft,f.halfRight)) {
@@ -689,20 +908,20 @@ class Solver {
             auto it=lower_bound(f.x.begin(),f.x.end(),best);
             bool uniquePeak=true;
             for (int x:f.peaks) if (abs(x-best)>32 && value[x]>bestValue-0.25*f.contrast) uniquePeak=false;
-            if (uniquePeak && !f.plateau && f.significant && f.noise<0.005*f.contrast &&
+            if (uniquePeak && !f.plateau && f.significant && f.noise<0.05*f.contrast &&
                 it!=f.x.begin() && it!=f.x.end() && next(it)!=f.x.end()) {
-                vector<int> near;
-                for (int x:f.x) if (abs(x-best)<=32) near.push_back(x);
                 auto v1=vertex(*prev(it),*it,*next(it));
-                auto v2=fittedVertex(near);
-                if (v1 && v2 && abs(*v1-*v2)<0.75) {
+                auto v2=multiModelVertex(f);
+                if (v1 && v2 && abs(*v1-*v2)<10.0) {
                     const int center=static_cast<int>(llround((*v1+*v2)/2));
+                    const int modelLo=max(0,min(center-3,static_cast<int>(floor(min(*v1,*v2)))-3));
+                    const int modelHi=min(rightmost,max(center+3,static_cast<int>(ceil(max(*v1,*v2)))+3));
                     vector<int> probe;
-                    for (int x=min(rightmost,center+6);x>=max(0,center-6);--x)
+                    for (int x=modelHi;x>=modelLo;--x)
                         if (value[x]<0) probe.push_back(x);
                     if (routeSafe(probe)) {
                         for (int x:probe) if (!sample(x)) return;
-                        if (certificate() || (bestValue<VMAX && abs(best-center)<=5)) return;
+                        if (certificate() || (bestValue<VMAX && best>modelLo && best<modelHi)) return;
                     }
                 }
             }
@@ -732,7 +951,7 @@ class Solver {
     void finish() {
         use(Op::I07);
         if (alive && best>=0 && pos!=best) readReal(best,true);
-        cout<<"DONE\n"<<flush;
+        wire.done();
         if (trace) {
             cerr<<"TRACE {\"queries\":"<<q<<",\"travel\":"<<travel<<",\"oscillations\":"<<turns
                 <<",\"rightmost\":"<<rightmost<<",\"coarse_frontier\":"<<coarseFrontier
@@ -749,11 +968,13 @@ class Solver {
                 first=false; cerr<<'"'<<opNames[i]<<"\":"<<uses[i];
             }
             cerr<<"}}\n";
+            cerr<<"COARSE_RIVAL {"<<'"'<<"checks"<<'"'<<':'<<rivalChecks<<','<<'"'<<"releases"<<'"'<<':'<<rivalReleases
+                <<','<<'"'<<"max_beyond_best"<<'"'<<':'<<rivalMaxBeyondBest<<','<<'"'<<"sentinels"<<'"'<<':'<<sentinelTrials<<','<<'"'<<"midpoints"<<'"'<<':'<<sentinelMidpoints<<"}\n";
         }
     }
 public:
-    Solver(int length,bool diagnostics,bool certified,bool delayed)
-        : n(length),value(length,-1),trace(diagnostics),strict(certified),lateFlat(delayed) {
+    Solver(int length,bool diagnostics,bool certified,bool delayed,Protocol& transport)
+        : wire(transport),n(length),value(length,-1),trace(diagnostics),strict(certified),lateFlat(delayed) {
         rng^=static_cast<uint64_t>(n)*1000003ULL;
     }
     void run() {
@@ -775,6 +996,12 @@ int main(int argc,char** argv) {
     }
     int n;
     if (!(cin>>n) || n<=0 || n>1000) return 0;
-    af::Solver(n,trace,strict,late).run();
+    af::Protocol wire(n);
+    try { af::Solver(n,trace,strict,late,wire).run(); }
+    catch (...) {
+        fputs("solver exception: finishing current interaction\n",stderr);
+        if (wire.queries()==0) { long long ignored; try { (void)wire.query(0,ignored); } catch (...) {} }
+    }
+    wire.done();
     return 0;
 }

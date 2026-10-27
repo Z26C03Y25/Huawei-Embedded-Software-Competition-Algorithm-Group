@@ -1,6 +1,6 @@
 """Protect immutable scored archives and validate core interaction behavior.
 
-The entry point currently matches the recorded 199291 archive. New experiments
+The entry point must match the highest confirmed score record. New experiments
 must preserve graded bytes; synthetic checks do not reproduce official scores.
 
 Protocol/parking checks run against the current entry point and both scored
@@ -11,6 +11,7 @@ Synthetic scores do not predict the official score or guarantee arbitrary peaks.
 
 from pathlib import Path
 import hashlib
+import json
 import os
 import random
 import shutil
@@ -44,6 +45,14 @@ class SubmissionSourceSelectionTests(unittest.TestCase):
                 self.assertTrue(source.is_file(), f"Missing immutable scored archive: {source}")
                 self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), expected_digest,
                                  "An officially scored archive must not be edited in place")
+
+    def test_entry_point_matches_the_highest_confirmed_score_snapshot(self):
+        rows = json.loads((ROOT / "data/versions/online_search/results.json").read_text(encoding="utf-8"))
+        best = max(rows, key=lambda row: row["score"])
+        archive = ROOT / "data/versions/online_search" / f"scored_{best['score']}_{best['sha256'][:12]}.cpp"
+        self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(), best["sha256"])
+        self.assertEqual(hashlib.sha256((ROOT / "main.cpp").read_bytes()).hexdigest(), best["sha256"],
+                         "Do not publish an ungraded/lower-score candidate as main.cpp")
 
     def test_pre_strategy_source_is_preserved_exactly(self):
         source = ROOT / "data/versions" / "main_before_strategy.cpp"

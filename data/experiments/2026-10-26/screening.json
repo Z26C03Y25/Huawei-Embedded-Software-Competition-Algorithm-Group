@@ -1,0 +1,800 @@
+[
+  {
+    "name": "model_probe3",
+    "source": "data/experiments/2026-10-26/model_probe3.cpp",
+    "sha256": "56787b36feca9a0e0c52c750f735a5e367c97c864794d8f1416006cc5a30e122",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Model validation radius 3; preserve interior-best stopping and true parking",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_probe_radius": 3
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "56787b36feca9a0e0c52c750f735a5e367c97c864794d8f1416006cc5a30e122",
+      "official": false,
+      "cases": 56,
+      "total_score": 102157,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_probe4",
+    "source": "data/experiments/2026-10-26/model_probe4.cpp",
+    "sha256": "8b47b1d8e2edc10fd45398c117674f3909a01c2d4d5a193083f55a5e9ec0777c",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Model validation radius 4; preserve interior-best stopping and true parking",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_probe_radius": 4
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "8b47b1d8e2edc10fd45398c117674f3909a01c2d4d5a193083f55a5e9ec0777c",
+      "official": false,
+      "cases": 56,
+      "total_score": 102128,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_probe5",
+    "source": "data/experiments/2026-10-26/model_probe5.cpp",
+    "sha256": "92a3e9476511545a73c462972fb065d48a96e236201dc4353f03643aab27712b",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Model validation radius 5; preserve interior-best stopping and true parking",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_probe_radius": 5
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "92a3e9476511545a73c462972fb065d48a96e236201dc4353f03643aab27712b",
+      "official": false,
+      "cases": 56,
+      "total_score": 102102,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_probe8",
+    "source": "data/experiments/2026-10-26/model_probe8.cpp",
+    "sha256": "260462e114aa72037c5741ef5d5ff75fd9f004d99a31fd7d2b881eed05787810",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Model validation radius 8; preserve interior-best stopping and true parking",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_probe_radius": 8
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "260462e114aa72037c5741ef5d5ff75fd9f004d99a31fd7d2b881eed05787810",
+      "official": false,
+      "cases": 56,
+      "total_score": 102023,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius8",
+    "source": "data/experiments/2026-10-26/fine_radius8.cpp",
+    "sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Clean fine radius 8; model validation and all other controls fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+      "official": false,
+      "cases": 56,
+      "total_score": 102284,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius10",
+    "source": "data/experiments/2026-10-26/fine_radius10.cpp",
+    "sha256": "ce5f8f4aa54d7d68f93c6f156dc0b4e2544fbf4ab9bf3534d1b5e8dc5066c67d",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Clean fine radius 10; model validation and all other controls fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 10
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "ce5f8f4aa54d7d68f93c6f156dc0b4e2544fbf4ab9bf3534d1b5e8dc5066c67d",
+      "official": false,
+      "cases": 56,
+      "total_score": 102177,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius14",
+    "source": "data/experiments/2026-10-26/fine_radius14.cpp",
+    "sha256": "721ac8ba11a80b3f2e285b4e6a4e8526494c345f1a95a25e4dff9d59f178936e",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Clean fine radius 14; model validation and all other controls fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 14
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "721ac8ba11a80b3f2e285b4e6a4e8526494c345f1a95a25e4dff9d59f178936e",
+      "official": false,
+      "cases": 56,
+      "total_score": 102003,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius18",
+    "source": "data/experiments/2026-10-26/fine_radius18.cpp",
+    "sha256": "6df24f10fe3ea2b227126cb25aadb29b031d7f8ae31b74f1dcadf1ec65e57420",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Clean fine radius 18; model validation and all other controls fixed",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 18
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "6df24f10fe3ea2b227126cb25aadb29b031d7f8ae31b74f1dcadf1ec65e57420",
+      "official": false,
+      "cases": 56,
+      "total_score": 101767,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_noise0p001",
+    "source": "data/experiments/2026-10-26/model_noise0p001.cpp",
+    "sha256": "01e5f20a093ae2d27314d89506e1e17e27621e478cb28599037855b731612fa1",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Test model finish eligibility at noise/contrast 0.001; raw champion unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_noise_fraction": 0.001
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "01e5f20a093ae2d27314d89506e1e17e27621e478cb28599037855b731612fa1",
+      "official": false,
+      "cases": 56,
+      "total_score": 101866,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_noise0p01",
+    "source": "data/experiments/2026-10-26/model_noise0p01.cpp",
+    "sha256": "e2e2b831cfab9ff2583df689f40a9829fe56381e0a5221069d797e0ea0a5f5d1",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Test model finish eligibility at noise/contrast 0.01; raw champion unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_noise_fraction": 0.01
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "e2e2b831cfab9ff2583df689f40a9829fe56381e0a5221069d797e0ea0a5f5d1",
+      "official": false,
+      "cases": 56,
+      "total_score": 102128,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_noise0p02",
+    "source": "data/experiments/2026-10-26/model_noise0p02.cpp",
+    "sha256": "b435966e8565c3f5bf50c2d68d6f763b0055c2e4813ecb11dfa8230faf46edf9",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Test model finish eligibility at noise/contrast 0.02; raw champion unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "model_noise_fraction": 0.02
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "b435966e8565c3f5bf50c2d68d6f763b0055c2e4813ecb11dfa8230faf46edf9",
+      "official": false,
+      "cases": 56,
+      "total_score": 102210,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "early_scout64",
+    "source": "data/experiments/2026-10-26/early_scout64.cpp",
+    "sha256": "ae7ac5ebae65888af7d6da8a9441b28d845f6a14f983e952678c5c2f1ab9b4bd",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Early-peak scouting lower clamp 64; late clamp16 unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "scout_min": 64
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "ae7ac5ebae65888af7d6da8a9441b28d845f6a14f983e952678c5c2f1ab9b4bd",
+      "official": false,
+      "cases": 56,
+      "total_score": 100819,
+      "zeros": 14,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "early_scout80",
+    "source": "data/experiments/2026-10-26/early_scout80.cpp",
+    "sha256": "804bea7ef9847c532ec5da5bf8f73acfbe78ef85c44a15c68c35caa89b307e3c",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Early-peak scouting lower clamp 80; late clamp16 unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "scout_min": 80
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "804bea7ef9847c532ec5da5bf8f73acfbe78ef85c44a15c68c35caa89b307e3c",
+      "official": false,
+      "cases": 56,
+      "total_score": 100344,
+      "zeros": 14,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "early_scout112",
+    "source": "data/experiments/2026-10-26/early_scout112.cpp",
+    "sha256": "6a63bef7941a63af54e6229ad36ddb71971a42ed6b937308d0215496fbcaf071",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Early-peak scouting lower clamp 112; late clamp16 unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "scout_min": 112
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "6a63bef7941a63af54e6229ad36ddb71971a42ed6b937308d0215496fbcaf071",
+      "official": false,
+      "cases": 56,
+      "total_score": 101328,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "late_scout8",
+    "source": "data/experiments/2026-10-26/late_scout8.cpp",
+    "sha256": "8c906b74de96b936b9cbcacfd7b23897b44e81aef88e049484b0d3412e47cf27",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Late-peak scouting 8; test overrun versus second-peak risk",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 8,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "8c906b74de96b936b9cbcacfd7b23897b44e81aef88e049484b0d3412e47cf27",
+      "official": false,
+      "cases": 56,
+      "total_score": 102107,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "late_scout24",
+    "source": "data/experiments/2026-10-26/late_scout24.cpp",
+    "sha256": "4e3b0189f0a9d436991507623baee7996ce8c7712c1afdaf87f2032a8b67af5d",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Late-peak scouting 24; test overrun versus second-peak risk",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 24,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "4e3b0189f0a9d436991507623baee7996ce8c7712c1afdaf87f2032a8b67af5d",
+      "official": false,
+      "cases": 56,
+      "total_score": 102053,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "late_scout32",
+    "source": "data/experiments/2026-10-26/late_scout32.cpp",
+    "sha256": "bcb93822b2f30883db5005a24a9bd17dd2f571b9f14df0ce26048c2ba0dbcdf8",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Late-peak scouting 32; test overrun versus second-peak risk",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 32,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "bcb93822b2f30883db5005a24a9bd17dd2f571b9f14df0ce26048c2ba0dbcdf8",
+      "official": false,
+      "cases": 56,
+      "total_score": 102025,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "cluster0p05",
+    "source": "data/experiments/2026-10-26/cluster0p05.cpp",
+    "sha256": "c6509de308e12974e9e9fa089e8a9bce06a8d9476b58248d2508bfe7afd60e43",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Competitive cluster retention tolerance 0.05; test missed secondary basins",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.05,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "c6509de308e12974e9e9fa089e8a9bce06a8d9476b58248d2508bfe7afd60e43",
+      "official": false,
+      "cases": 56,
+      "total_score": 102078,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "cluster0p15",
+    "source": "data/experiments/2026-10-26/cluster0p15.cpp",
+    "sha256": "aca696733fe334f8165b94f6db981480b0b25d00183f5a4ffd4f431346bc9167",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Competitive cluster retention tolerance 0.15; test missed secondary basins",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.15,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "aca696733fe334f8165b94f6db981480b0b25d00183f5a4ffd4f431346bc9167",
+      "official": false,
+      "cases": 56,
+      "total_score": 101942,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "cluster0p2",
+    "source": "data/experiments/2026-10-26/cluster0p2.cpp",
+    "sha256": "8a8520e723d670d0178ad9ec65ef83e28561e740da299981367eeb9f089f51a0",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Competitive cluster retention tolerance 0.2; test missed secondary basins",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.2,
+      "model_finish": true,
+      "radius": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "8a8520e723d670d0178ad9ec65ef83e28561e740da299981367eeb9f089f51a0",
+      "official": false,
+      "cases": 56,
+      "total_score": 101942,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "reserve24",
+    "source": "data/experiments/2026-10-26/reserve24.cpp",
+    "sha256": "f9ffb0dd1f145de3aa331ecbd12eaea908ad8881e02a195118109274144b81e1",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Change first-round fine reserve to 24; unified total budget unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "reserve": 24
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "f9ffb0dd1f145de3aa331ecbd12eaea908ad8881e02a195118109274144b81e1",
+      "official": false,
+      "cases": 56,
+      "total_score": 102079,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "reserve32",
+    "source": "data/experiments/2026-10-26/reserve32.cpp",
+    "sha256": "2f962e4f0292830920d1312a85b2fa5f0684521762dc76314b3331917d7f6efa",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Change first-round fine reserve to 32; unified total budget unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "reserve": 32
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "2f962e4f0292830920d1312a85b2fa5f0684521762dc76314b3331917d7f6efa",
+      "official": false,
+      "cases": 56,
+      "total_score": 102110,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "reserve64",
+    "source": "data/experiments/2026-10-26/reserve64.cpp",
+    "sha256": "7e7d639f9d7611a5ada77a38d733201dc096460f5603c9b9572a75333bacdd24",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Change first-round fine reserve to 64; unified total budget unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "reserve": 64
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "7e7d639f9d7611a5ada77a38d733201dc096460f5603c9b9572a75333bacdd24",
+      "official": false,
+      "cases": 56,
+      "total_score": 102108,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "band0p02",
+    "source": "data/experiments/2026-10-26/band0p02.cpp",
+    "sha256": "f1d03b22f63d0523887141cc1d5329ed5bcfaeb69eec86e57c5284422ce972d5",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "High-value candidate band contrast fraction 0.02",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "band_contrast": 0.02
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "f1d03b22f63d0523887141cc1d5329ed5bcfaeb69eec86e57c5284422ce972d5",
+      "official": false,
+      "cases": 56,
+      "total_score": 102187,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "band0p06",
+    "source": "data/experiments/2026-10-26/band0p06.cpp",
+    "sha256": "8648d73eb503b088c38fad6dbb873cfebf3be8afe0ae9cb0abbaea96d52a7f3e",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "High-value candidate band contrast fraction 0.06",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 12,
+      "band_contrast": 0.06
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "8648d73eb503b088c38fad6dbb873cfebf3be8afe0ae9cb0abbaea96d52a7f3e",
+      "official": false,
+      "cases": 56,
+      "total_score": 101955,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius6",
+    "source": "data/experiments/2026-10-26/fine_radius6.cpp",
+    "sha256": "d60d17483792ec47fc5104cc8a7b331c46aea9992f0fd66a8aa01c7e5155e043",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Continue clean radius ablation at 6, retaining mandatory +-3 neighbors and all stopping/parking rules",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 6
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "d60d17483792ec47fc5104cc8a7b331c46aea9992f0fd66a8aa01c7e5155e043",
+      "official": false,
+      "cases": 56,
+      "total_score": 102284,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "fine_radius4",
+    "source": "data/experiments/2026-10-26/fine_radius4.cpp",
+    "sha256": "e017b3d8895d7ecd8bbdca138a2b29c7a6061ecb86589bf9ddbf4e7fa395b7c7",
+    "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "purpose": "Continue clean radius ablation at 4, retaining mandatory +-3 neighbors and all stopping/parking rules",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 4
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "e017b3d8895d7ecd8bbdca138a2b29c7a6061ecb86589bf9ddbf4e7fa395b7c7",
+      "official": false,
+      "cases": 56,
+      "total_score": 102284,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+]

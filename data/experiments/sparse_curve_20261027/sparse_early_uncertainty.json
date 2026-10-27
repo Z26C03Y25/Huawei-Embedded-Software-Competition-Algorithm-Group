@@ -1,0 +1,71 @@
+{
+  "name": "sparse_early_uncertainty",
+  "source": "data/experiments/sparse_curve_20261027/sparse_early_uncertainty.cpp",
+  "sha256": "2455bceec2b9b326ecafa22a3678b7218358d35307f0e71a7fd721295368fb53",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "purpose": "Use robust sparse models during the coarse sweep; propagate maximum unweighted leave-one-out error through raw peak curvature before allowing early stop. Noise/spikes cannot disappear from location uncertainty.",
+  "parameters": {
+    "windows": [
+      32,
+      64
+    ],
+    "models": [
+      "intensity_quadratic",
+      "log_quadratic",
+      "negative_reciprocal_quadratic"
+    ],
+    "min_fit_points": 6,
+    "min_raw_peak_radius": 3,
+    "max_supported_center_span": 4,
+    "spike_model_weight_floor": 0.15,
+    "max_fit_noise_fraction": 0.025,
+    "max_model_location_radius": 2,
+    "early_min_downhill_distance": 32,
+    "early_min_right_samples": 4,
+    "early_min_contrast_drop": 0.15
+  },
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3,
+    "sparse_curve": true,
+    "protocol_hardened": true,
+    "raw_target_unchanged": true,
+    "sparse_parameters": {
+      "windows": [
+        32,
+        64
+      ],
+      "models": [
+        "intensity_quadratic",
+        "log_quadratic",
+        "negative_reciprocal_quadratic"
+      ],
+      "min_fit_points": 6,
+      "min_raw_peak_radius": 3,
+      "max_supported_center_span": 4,
+      "spike_model_weight_floor": 0.15,
+      "max_fit_noise_fraction": 0.025,
+      "max_model_location_radius": 2,
+      "early_min_downhill_distance": 32,
+      "early_min_right_samples": 4,
+      "early_min_contrast_drop": 0.15
+    }
+  },
+  "status": "frozen_revised_structural_candidate",
+  "official_score": null,
+  "derived_local_parent_sha256": "8e2a377341ba2b0f5c97a9a1e422065d545d3d51e18fb1fc4957e32bbb10e5d5"
+}

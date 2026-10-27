@@ -34,6 +34,13 @@ def record(**overrides):
 
 
 class ParseTests(unittest.TestCase):
+    def test_visible_internal_error_minus_one_is_failure_not_zero(self):
+        failed = parse_submission_html(grid(row(score="-1", status="internal_error")))[0]
+        self.assertEqual(failed.status, "failed")
+        self.assertEqual(failed.status_text, "internal_error")
+        self.assertTrue(failed.is_terminal)
+        self.assertIsNone(failed.score)
+
     def test_first_row_is_latest_even_when_second_score_is_higher(self):
         records = parse_submission_html(grid(row(), row(submitted_at="2026-10-24 18:01:00",
                                                         score="154353", row_id="row_2")))

@@ -53,7 +53,7 @@ def main(argv=None) -> int:
     commands = [[py, "dev/tools/check_docs.py"],
                 [py, "-m", "unittest", "discover", "-s", "automation/online_judge/tests"],
                 *[[py, "-m", "unittest", "discover", "-s", "dev/tests", "-p", pattern]
-                  for pattern in ("test_local_judge.py", "test_compare_solvers.py", "test_solver_regressions.py")]]
+                  for pattern in ("test_local_judge.py", "test_compare_solvers.py", "test_research_policy.py", "test_zero_first.py", "test_robust_score.py", "test_mixed_scenarios.py", "test_search_losses.py", "test_coarse_gaps.py", "test_protocol_transport.py", "test_sparse_curve_solver.py", "test_coarse_compete_solver.py", "test_solver_regressions.py")]]
     for command in commands:
         result = run(command)
         if result:

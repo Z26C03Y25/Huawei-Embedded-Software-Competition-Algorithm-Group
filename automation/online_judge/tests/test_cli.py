@@ -119,6 +119,55 @@ class CliTests(unittest.TestCase):
     def assert_no_upload(self, page):
         self.assertEqual(page.upload_calls, [], "Read/resume paths must never upload")
 
+    def test_bound_timed_out_work_refreshes_immediately_and_confirms_twice(self):
+        job = self.create_job(state="timed_out")
+        job["bound_identity"] = ["main.cpp", "2026-10-24 19:00:01"]
+        self.store.save(job)
+        final = table(row(1, score="205376"), row())
+        class RefreshOnlyPage(FakePage):
+            def table_html(inner, *, refresh=False):
+                inner.table_calls.append(refresh)
+                return final if refresh else table(row(1, score="--", status="unknown"), row())
+        page = RefreshOnlyPage([final])
+        code, result, _, _, _ = self.invoke(["wait", job["job_id"]], page)
+        self.assertEqual(code, 0)
+        self.assertEqual(result["score"], 205376)
+        self.assertEqual(page.table_calls, [True, True])
+        self.assert_no_upload(page)
+
+    def test_unacknowledged_delivery_waits_twenty_seconds_before_reload(self):
+        job = self.create_job(state="delivery_uncertain")
+        page = FakePage([self.old_html])
+        code, result, _, _, _ = self.invoke(["wait", job["job_id"], "--timeout", "25", "--interval", "5"], page)
+        self.assertEqual(code, 2)
+        self.assertEqual(result["state"], "timed_out")
+        self.assertEqual(page.table_calls, [False, False, False, False, True])
+        self.assert_no_upload(page)
+
+    def test_old_delivery_attempt_refreshes_immediately_without_new_grace(self):
+        job = self.create_job(state="delivery_uncertain")
+        job["submission_attempt_at"] = "2020-01-01T00:00:00+00:00"
+        self.store.save(job)
+        final = table(row(1, score="205376"), row())
+        page = FakePage([final, final])
+        code, result, _, _, _ = self.invoke(["wait", job["job_id"]], page)
+        self.assertEqual(code, 0)
+        self.assertEqual(result["score"], 205376)
+        self.assertEqual(page.table_calls, [True, True])
+        self.assert_no_upload(page)
+
+    def test_transient_read_failure_resets_final_confirmation(self):
+        job = self.create_job(state="pending")
+        final = table(row(1, score="205376"), row())
+        def fail_second_read(index):
+            if index == 1: raise RuntimeError("transient read failed")
+        page = FakePage([final], on_table=fail_second_read)
+        code, result, _, _, _ = self.invoke(["wait", job["job_id"]], page)
+        self.assertEqual(code, 0)
+        self.assertEqual(result["score"], 205376)
+        self.assertEqual(page.table_calls, [True, True, True, True])
+        self.assert_no_upload(page)
+
     def test_first_submit_uploads_frozen_bytes_once_after_uncertain_state_is_saved(self):
         observed = []
 
@@ -272,8 +321,8 @@ class CliTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(result["score"], 0)
         self.assertEqual(result["state"], "completed")
-        self.assertEqual(len(page.table_calls), 2)
-        self.assertEqual(clock.sleeps, [1])
+        self.assertEqual(page.table_calls, [False, True, True])
+        self.assertEqual(clock.sleeps, [1, 1])
         self.assert_no_upload(page)
 
     def test_success_zero_then_145904_waits_for_positive_score_to_stabilize(self):
@@ -364,7 +413,7 @@ class CliTests(unittest.TestCase):
         page = FakePage([final, final])
 
         def collect(*args, **kwargs):
-            self.assertEqual(len(page.table_calls), 2)
+            self.assertEqual(page.table_calls, [False, True, True])
             self.assertEqual(self.store.load(job["job_id"])["state"], "completed")
             return self.ranking_snapshot(), {}
 

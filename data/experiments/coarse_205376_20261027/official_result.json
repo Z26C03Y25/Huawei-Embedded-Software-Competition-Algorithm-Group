@@ -1,0 +1,14 @@
+{
+  "job_id": "20261027T010412959514Z_96d97f3dd4f1",
+  "submission_id": "d3835c4f2cc7409ca6f71148b61dc46d",
+  "submitted_at": "2026-10-27 09:04:12",
+  "score": 203239,
+  "baseline": 205376,
+  "delta": -2137,
+  "sha256": "8191d892b0ea1bdec74d9a2c85e30dcaab5c157b0ae98eb537d6240ed327b3d5",
+  "parent_sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "best_score": 205376,
+  "best_sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "interpretation": "Aggregate ablation only; no official per-case attribution.",
+  "further_attribution_uploads": false
+}

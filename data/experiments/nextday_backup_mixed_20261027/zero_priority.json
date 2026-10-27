@@ -1,0 +1,189 @@
+{
+  "objective": "zero_first",
+  "ranking": [
+    "backup_B",
+    "formal203239",
+    "primary_A"
+  ],
+  "solvers": {
+    "formal203239": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1827,
+      "independent_mothers": 1569,
+      "unique_base_curves": 1569,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        }
+      ],
+      "structured_unique_zero_cases": 517,
+      "information_limited_unique_zero_cases": 94,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 611,
+      "independent_baseline_zero_cases": 611,
+      "independent_repairs": 0,
+      "repair_entries_including_siblings": 0,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1945,
+      "macro_mean_score": 1482.0058922558924,
+      "rank_key": [
+        0,
+        0,
+        611,
+        1.0,
+        -1945,
+        -1482.0058922558924
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 553,
+        "redundancy >= 200": 96
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "primary_A": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1827,
+      "independent_mothers": 1569,
+      "unique_base_curves": 1569,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        }
+      ],
+      "structured_unique_zero_cases": 460,
+      "information_limited_unique_zero_cases": 94,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [
+        "20261026404/blind_shift/background_change_points/012"
+      ],
+      "independent_zero_cases": 554,
+      "independent_baseline_zero_cases": 611,
+      "independent_repairs": 58,
+      "repair_entries_including_siblings": 69,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1934,
+      "macro_mean_score": 1561.111672278339,
+      "rank_key": [
+        0,
+        1,
+        554,
+        1.0,
+        -1934,
+        -1561.111672278339
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 508,
+        "redundancy >= 200": 88
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "backup_B": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1827,
+      "independent_mothers": 1569,
+      "unique_base_curves": 1569,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        }
+      ],
+      "structured_unique_zero_cases": 488,
+      "information_limited_unique_zero_cases": 94,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 582,
+      "independent_baseline_zero_cases": 611,
+      "independent_repairs": 29,
+      "repair_entries_including_siblings": 36,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1947,
+      "macro_mean_score": 1522.138888888889,
+      "rank_key": [
+        0,
+        0,
+        582,
+        1.0,
+        -1947,
+        -1522.138888888889
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 524,
+        "redundancy >= 200": 96
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    }
+  }
+}

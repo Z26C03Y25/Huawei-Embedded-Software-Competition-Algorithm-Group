@@ -1,0 +1,61 @@
+{
+  "generator_version": 3,
+  "generator_sha256": "6de8b809abd6fdf47b296f236c812b9b92c1983f787db93a932e99dfd73b6c16",
+  "seeds": {
+    "development": 26102661,
+    "selection": 27102662,
+    "blind_shift": 28102663
+  },
+  "per_family": 18,
+  "families": [
+    "smooth_power",
+    "asymmetric_peak",
+    "cusp_peak",
+    "supergaussian",
+    "shoulder",
+    "close_competitors",
+    "far_competitors",
+    "bump_on_hump",
+    "ar1_noise",
+    "heteroskedastic_noise",
+    "periodic_ripple",
+    "chirp_ripple",
+    "quantized_top",
+    "saturated_top",
+    "plateau_edge_peak",
+    "trend_with_peak",
+    "delayed_peak",
+    "boundary_peak",
+    "staircase",
+    "flat_ties",
+    "random_unstructured",
+    "single_spike"
+  ],
+  "cases": 2864,
+  "dataset_sha256": "bf11fc24eb2d06a548d40714c13d230b9f7c60d87c83406ef33d906b8d86a4ec",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "flat175",
+      "source": "data/experiments/zero_first_20261026/flat175_waypoint.cpp",
+      "sha256": "a1fbca2f9a6e08f2b01abf4ec1a3cfc0d1e56d97332f04f087f23e3721dded90"
+    },
+    {
+      "name": "flat175_wide",
+      "source": "data/experiments/zero_first_20261026/flat175_widevalley.cpp",
+      "sha256": "3143dc2771daf7546352f88af9e1343ba6b63e33bc342b29e9b9a7bb3221defd"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "extra_cases": {
+    "path": "data/experiments/zero_first_20261026/observed_and_acceptance.json",
+    "sha256": "35c6516e8dcbfb23eda05fbc7dbe794fcf9eb5345fe093ffdec06e0a406ad5aa"
+  },
+  "case_offset": 72
+}

@@ -1,0 +1,62 @@
+{
+  "name": "sparse_model_finish",
+  "source": "data/experiments/sparse_curve_20261027/sparse_model_finish.cpp",
+  "sha256": "8e2a377341ba2b0f5c97a9a1e422065d545d3d51e18fb1fc4957e32bbb10e5d5",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "purpose": "Structural sparse-curve model selection: identity/log/negative reciprocal with local spike downweighting and leave-one-out validation; verify raw peak interval, fallback on uncertainty.",
+  "parameters": {
+    "windows": [
+      32,
+      64
+    ],
+    "models": [
+      "intensity_quadratic",
+      "log_quadratic",
+      "negative_reciprocal_quadratic"
+    ],
+    "min_fit_points": 6,
+    "min_raw_peak_radius": 3,
+    "max_supported_center_span": 4,
+    "spike_model_weight_floor": 0.15,
+    "max_fit_noise_fraction": 0.025
+  },
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3,
+    "sparse_curve": true,
+    "protocol_hardened": true,
+    "raw_target_unchanged": true,
+    "sparse_parameters": {
+      "windows": [
+        32,
+        64
+      ],
+      "models": [
+        "intensity_quadratic",
+        "log_quadratic",
+        "negative_reciprocal_quadratic"
+      ],
+      "min_fit_points": 6,
+      "min_raw_peak_radius": 3,
+      "max_supported_center_span": 4,
+      "spike_model_weight_floor": 0.15,
+      "max_fit_noise_fraction": 0.025
+    }
+  },
+  "status": "frozen_development_candidate",
+  "official_score": null
+}

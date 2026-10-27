@@ -1,0 +1,27 @@
+{
+  "core_python312": {
+    "passed": 198,
+    "failed": 0,
+    "command": "python dev/run.py check"
+  },
+  "relevant_checks_python310": {
+    "robust_scoring_passed": 6,
+    "evidence_policy_passed": 15,
+    "failed": 0
+  },
+  "markdown_links": 258,
+  "archive_manifests": 2,
+  "source_policy_evaluator_hashes_verified": true,
+  "actual_selected_candidate_evidence_gate_passed": true,
+  "formal_main_preserved": true,
+  "screen_interactive_runs": 13185,
+  "independent_confirmation_interactive_runs": 2898,
+  "total_interactive_runs": 16083,
+  "hard_protocol_query_turn_parking_failures": 0,
+  "official_submissions": 0,
+  "ranking_requests": 0,
+  "individual_score_regressions_reported": true,
+  "only_one_source_qualified": true,
+  "full_strategy_diagnostics": "Main and original strategy assertions unchanged; previous15-method/9-failure diagnostic retained, not rerun in this batch.",
+  "automation_status_preserved": "PAUSED"
+}

@@ -1,0 +1,210 @@
+{
+  "official": false,
+  "study": "data/experiments/branch_confirm_mixed_20261026",
+  "solver": "champion",
+  "source_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+  "totals": {
+    "cases": 1512,
+    "actual_score": 2136674,
+    "omniscient_upper": 3931719,
+    "positive": 924,
+    "positive_loss": 319825,
+    "zeros": 588,
+    "zero_cliff_loss": 1475220
+  },
+  "positive_loss_components": {
+    "query": 77061,
+    "extra_travel": 177644,
+    "turns": 2005,
+    "redundancy": 61915,
+    "distance": 1200
+  },
+  "positive_distance_histogram": {
+    "0": 920,
+    "1": 2,
+    "2": 2
+  },
+  "zero_reason_counts": {
+    "distance > 3": 532,
+    "redundancy >= 200": 99,
+    "score_floor_or_protocol": 1
+  },
+  "zero_reasons_overlap": true,
+  "failure_share_of_observed_oracle_gap": 0.8218289792177912,
+  "positive_component_shares": {
+    "query": 0.24094739310560462,
+    "extra_travel": 0.5554412569373877,
+    "turns": 0.006269053388571875,
+    "redundancy": 0.1935902446650512,
+    "distance": 0.0037520519033846637
+  },
+  "families": {
+    "skew_correlated": {
+      "cases": 54,
+      "score": 114944,
+      "zero_cliff_loss": 7887,
+      "zeros": 3
+    },
+    "shoulder_colored": {
+      "cases": 54,
+      "score": 124036,
+      "zero_cliff_loss": 5067,
+      "zeros": 2
+    },
+    "three_competitors": {
+      "cases": 54,
+      "score": 57179,
+      "zero_cliff_loss": 72493,
+      "zeros": 29
+    },
+    "near_equal_ripple": {
+      "cases": 54,
+      "score": 82423,
+      "zero_cliff_loss": 45718,
+      "zeros": 18
+    },
+    "decline_then_peak": {
+      "cases": 54,
+      "score": 38338,
+      "zero_cliff_loss": 91444,
+      "zeros": 37
+    },
+    "quantized_noisy_top": {
+      "cases": 54,
+      "score": 95234,
+      "zero_cliff_loss": 25986,
+      "zeros": 11
+    },
+    "noisy_flat_prefix": {
+      "cases": 54,
+      "score": 122801
+    },
+    "late_peak_echo": {
+      "cases": 54,
+      "score": 31994,
+      "zero_cliff_loss": 98352,
+      "zeros": 41
+    },
+    "early_echo_late_main": {
+      "cases": 54,
+      "score": 5010,
+      "zero_cliff_loss": 126738,
+      "zeros": 52
+    },
+    "ramp_micropeaks": {
+      "cases": 54,
+      "score": 75530,
+      "zero_cliff_loss": 57238,
+      "zeros": 23
+    },
+    "staircase_with_background": {
+      "cases": 54,
+      "score": 108089,
+      "zero_cliff_loss": 14975,
+      "zeros": 5
+    },
+    "boundary_competitor": {
+      "cases": 54,
+      "score": 71818,
+      "zero_cliff_loss": 64641,
+      "zeros": 28
+    },
+    "variable_skew": {
+      "cases": 54,
+      "score": 111353,
+      "zero_cliff_loss": 17011,
+      "zeros": 7
+    },
+    "heavy_tail_nuisance": {
+      "cases": 54,
+      "score": 122476,
+      "zero_cliff_loss": 5111,
+      "zeros": 2
+    },
+    "nonstationary_chirp": {
+      "cases": 54,
+      "score": 95882,
+      "zero_cliff_loss": 26506,
+      "zeros": 10
+    },
+    "heteroskedastic_peak": {
+      "cases": 54,
+      "score": 127566,
+      "zero_cliff_loss": 2427,
+      "zeros": 1
+    },
+    "clipped_double_top": {
+      "cases": 54,
+      "score": 57478,
+      "zero_cliff_loss": 69405,
+      "zeros": 28
+    },
+    "plateau_edge_bumps": {
+      "cases": 54,
+      "score": 17164,
+      "zero_cliff_loss": 114033,
+      "zeros": 46
+    },
+    "drifting_double": {
+      "cases": 54,
+      "score": 54468,
+      "zero_cliff_loss": 73566,
+      "zeros": 30
+    },
+    "nonlinear_sensor": {
+      "cases": 54,
+      "score": 119612,
+      "zero_cliff_loss": 10067,
+      "zeros": 4
+    },
+    "multiple_quantized_ties": {
+      "cases": 54,
+      "score": 83538,
+      "zero_cliff_loss": 43216,
+      "zeros": 17
+    },
+    "wave_envelope": {
+      "cases": 54,
+      "score": 91543,
+      "zero_cliff_loss": 29783,
+      "zeros": 11
+    },
+    "unstructured_background": {
+      "cases": 54,
+      "score": 1610,
+      "zero_cliff_loss": 140890,
+      "zeros": 53
+    },
+    "adversarial_impulse": {
+      "cases": 54,
+      "score": 14979,
+      "zero_cliff_loss": 128402,
+      "zeros": 48
+    },
+    "modal_bridge": {
+      "cases": 54,
+      "score": 0,
+      "zero_cliff_loss": 131823,
+      "zeros": 54
+    },
+    "background_change_points": {
+      "cases": 54,
+      "score": 103102,
+      "zero_cliff_loss": 29369,
+      "zeros": 12
+    },
+    "occluded_peak": {
+      "cases": 54,
+      "score": 115393,
+      "zero_cliff_loss": 12052,
+      "zeros": 5
+    },
+    "compound_ripples": {
+      "cases": 54,
+      "score": 93114,
+      "zero_cliff_loss": 31020,
+      "zeros": 11
+    }
+  },
+  "warning": "2999-target is an omniscient one-query upper bound, not a feasible score promise. extra_travel may be slightly negative when final position is left of target. All measured zeros retain their full loss; components are not conditioned away from the main total."
+}

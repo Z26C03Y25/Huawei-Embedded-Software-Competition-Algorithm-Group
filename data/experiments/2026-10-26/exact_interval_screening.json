@@ -1,0 +1,38 @@
+[
+  {
+    "name": "exact_vertex_hull_7517b317",
+    "source": "data/experiments/2026-10-26/exact_vertex_hull_7517b317.cpp",
+    "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "parent_sha256": "7517b317969c5bb2ae465fdeb49ed2eba6489ee4e18704e3a2d670b55b624694",
+    "parent_official_score": 203171,
+    "purpose": "Use exact outward-rounded integer vertex hull plus the same margin/central minimum; remove symmetric rounding overcoverage, retain interior raw winner and shared limits",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 10.0,
+      "model_radius_mode": "asymmetric_vertex_interval",
+      "model_min_radius": 3,
+      "model_fit_window": 24,
+      "model_prediction_margin": 3
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "official": false,
+      "cases": 56,
+      "total_score": 102565,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  }
+]

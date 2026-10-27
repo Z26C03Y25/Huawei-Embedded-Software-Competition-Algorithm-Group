@@ -1,0 +1,21 @@
+{
+  "name": "early_scout64",
+  "source": "data/experiments/2026-10-26/early_scout64.cpp",
+  "sha256": "ae7ac5ebae65888af7d6da8a9441b28d845f6a14f983e952678c5c2f1ab9b4bd",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Early-peak scouting lower clamp 64; late clamp16 unchanged",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12,
+    "scout_min": 64
+  },
+  "official_score": null
+}

@@ -1,0 +1,6 @@
+{
+  "valid_for_independent_family_claim": false,
+  "reason": "The attemptedV2 text replacement missed CRLF input; the new component-width unit test caught it. All raw data and reports retained; no candidates eligible or uploaded.",
+  "snapshot": "scenario_factory_v2_incomplete.py",
+  "successor": "data/experiments/local_factory_v3_20261026/manifest.json"
+}

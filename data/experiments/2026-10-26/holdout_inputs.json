@@ -1,0 +1,18 @@
+{
+  "seed": 947261,
+  "count": 84,
+  "names": [
+    "formal199291",
+    "fine_radius8",
+    "model_probe3",
+    "model_noise0p02",
+    "band0p02"
+  ],
+  "hashes": [
+    "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+    "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+    "56787b36feca9a0e0c52c750f735a5e367c97c864794d8f1416006cc5a30e122",
+    "b435966e8565c3f5bf50c2d68d6f763b0055c2e4813ecb11dfa8230faf46edf9",
+    "f1d03b22f63d0523887141cc1d5329ed5bcfaeb69eec86e57c5284422ce972d5"
+  ]
+}

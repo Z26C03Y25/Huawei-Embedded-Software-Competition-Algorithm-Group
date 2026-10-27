@@ -1,0 +1,26 @@
+{
+  "core_python312": {
+    "passed": 209,
+    "failed": 0
+  },
+  "relevant_python310": {
+    "loss_accounting": 3,
+    "evidence_and_conditional_policy": 19,
+    "failed": 0
+  },
+  "markdown_links": 286,
+  "archive_manifests": 2,
+  "extra_benchmark_interactive_runs": 9828,
+  "source_policy_evaluator_hashes_verified": true,
+  "primary_local_evidence_admitted": true,
+  "backup_blocked_until_primary_official_result": true,
+  "conditional_backup_tests": "Missing/old/undated primary rejected; tie/regression allows; improvement or unknown condition rejected.",
+  "metadata_recording": "Source config,parent,purpose and actual parameters preserved by policy_search.record",
+  "formal_main_preserved": true,
+  "online_submissions_today": 0,
+  "ranking_requests": 0,
+  "automation_status": "ACTIVE",
+  "planned_date": "2026-10-27",
+  "date_gated": true,
+  "strategy_diagnostics": "Original formal main and strategy assertions unchanged; previous15-method9-failure diagnostic remains, not rerun in this batch."
+}

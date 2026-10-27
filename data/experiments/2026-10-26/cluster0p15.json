@@ -1,0 +1,20 @@
+{
+  "name": "cluster0p15",
+  "source": "data/experiments/2026-10-26/cluster0p15.cpp",
+  "sha256": "aca696733fe334f8165b94f6db981480b0b25d00183f5a4ffd4f431346bc9167",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Competitive cluster retention tolerance 0.15; test missed secondary basins",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.15,
+    "model_finish": true,
+    "radius": 12
+  },
+  "official_score": null
+}

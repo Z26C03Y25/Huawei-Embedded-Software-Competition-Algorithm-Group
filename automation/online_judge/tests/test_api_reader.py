@@ -1,6 +1,8 @@
 """Offline API-first browser reader contracts; no browser or network is started."""
 
 from contextlib import redirect_stderr, redirect_stdout
+from dataclasses import replace
+import tempfile
 from io import StringIO
 from pathlib import Path
 import sys
@@ -141,6 +143,107 @@ class FakePage:
 
 
 class ApiReaderTests(unittest.TestCase):
+    def test_unknown_api_state_uses_same_refresh_rendered_score_and_preserves_id(self):
+        page, adapter = self.adapter([FakeResponse()])
+        adapter.table_html.return_value = DOM_HTML.replace("145904", "205376")
+        unknown = replace(record(None, status="unknown"), submission_id="current-work", source="api")
+        with self.parser(return_value=[unknown]):
+            result = adapter.records(refresh=True)
+        self.assertEqual(result[0].score, 205376)
+        self.assertEqual(result[0].status, "success")
+        self.assertEqual(result[0].submission_id, "current-work")
+        self.assertEqual(result[0].source, "api_dom")
+        self.assertEqual(len(page.reload_calls), 1)
+        adapter.table_html.assert_called_once_with(refresh=False)
+
+    def test_pending_api_zero_can_lag_same_id_rendered_terminal_score(self):
+        _, adapter = self.adapter([FakeResponse()])
+        pending = replace(record(0, status="pending"), submission_id="current-work", source="api")
+        with self.parser(return_value=[pending]):
+            result = adapter.records(refresh=True)
+        self.assertEqual(result[0].score, 145904)
+        self.assertEqual(result[0].submission_id, "current-work")
+        self.assertEqual(result[0].status, "success")
+
+    def test_stale_dom_success_at_another_time_cannot_complete_current_api_id(self):
+        _, adapter = self.adapter([FakeResponse()])
+        unknown = replace(record(None, second=21, status="unknown"), submission_id="new-work", source="api")
+        with self.parser(return_value=[unknown]):
+            self.assertEqual(adapter.records(refresh=True), [unknown])
+
+    def test_conflicting_explicit_dom_id_cannot_complete_current_api_id(self):
+        _, adapter = self.adapter([FakeResponse()])
+        unknown = replace(record(None, status="unknown"), submission_id="new-work", source="api")
+        other = replace(record(), submission_id="old-work", source="dom")
+        with self.parser(return_value=[unknown]), mock.patch.object(browser, "parse_submission_html", return_value=[other]):
+            self.assertEqual(adapter.records(refresh=True), [unknown])
+
+    def test_same_second_api_ids_are_not_guessed_from_one_dom_terminal(self):
+        _, adapter = self.adapter([FakeResponse()])
+        first = replace(record(None, status="unknown"), submission_id="first-work", source="api")
+        second = replace(first, submission_id="second-work")
+        with self.parser(return_value=[first, second]):
+            self.assertEqual(adapter.records(refresh=True), [first, second])
+
+    def test_duplicate_dom_identity_is_not_matched_to_one_api_id(self):
+        _, adapter = self.adapter([FakeResponse()])
+        unknown = replace(record(None, status="unknown"), submission_id="new-work", source="api")
+        with self.parser(return_value=[unknown]), mock.patch.object(browser, "parse_submission_html", return_value=[record(), record()]):
+            self.assertEqual(adapter.records(refresh=True), [unknown])
+
+    def test_nonrefreshed_passive_unknown_api_does_not_reconcile_old_dom(self):
+        page, adapter = self.adapter()
+        page.emit(FakeResponse())
+        unknown = replace(record(None, status="unknown"), submission_id="new-work", source="api")
+        with self.parser(return_value=[unknown]):
+            self.assertEqual(adapter.records(refresh=False), [unknown])
+        adapter.table_html.assert_not_called()
+        self.assertEqual(page.reload_calls, [])
+
+    def test_strict_api_mode_does_not_reconcile_a_valid_unknown_state(self):
+        _, adapter = self.adapter([FakeResponse()], source="api")
+        unknown = replace(record(None, status="unknown"), submission_id="new-work", source="api")
+        with self.parser(return_value=[unknown]):
+            self.assertEqual(adapter.records(refresh=True), [unknown])
+        adapter.table_html.assert_not_called()
+
+    def test_api_bound_timeout_recovers_from_two_fresh_unique_dom_terminal_rows(self):
+        from online_judge import judge
+        from online_judge.jobs import JobStore
+        payload = {"results": [{"id": "stable-work", "name": "main.cpp", "stage_name": "赛事",
+            "created_time": "2026-10-24T10:22:20Z", "status": "mystery", "message": "mystery", "score": None}]}
+        class FreshPage(FakePage):
+            def reload(self, **kwargs):
+                self.responses = [FakeResponse(payload=payload)]
+                return super().reload(**kwargs)
+        class Clock:
+            now = 1000.0
+            def monotonic(self): return self.now
+            def sleep(self, seconds): self.now += seconds
+        page = FreshPage()
+        settings = {"submission_url": browser.DEFAULT_URL, "action_timeout_ms": 250,
+                    "table_selector": "table.tiny-grid__body", "upload_button_text": "上传作品"}
+        adapter = browser.SubmissionPage(page, settings)
+        adapter.ensure_ready = mock.Mock()
+        adapter.table_html = mock.Mock(return_value=DOM_HTML.replace("145904", "205376"))
+        self.addCleanup(adapter.close)
+        scratch = Path(__file__).resolve().parents[3] / "dev/tmp"
+        scratch.mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(prefix="reader_recovery_", dir=scratch) as folder:
+            root = Path(folder); source = root / "candidate.cpp"; source.write_text("int main() { return 0; }", encoding="utf-8")
+            store = JobStore(root / "runs"); job = store.create(source, [])
+            job.update(state="timed_out", bound_identity=["main.cpp", "2026-10-24 18:22:20"], bound_submission_id="stable-work")
+            store.save(job)
+            with mock.patch.object(judge, "time", Clock()), redirect_stdout(StringIO()), redirect_stderr(StringIO()):
+                code = judge.wait_for_job(adapter, store, job, 5, 1)
+            self.assertEqual(code, 0)
+            self.assertEqual(job["state"], "completed")
+            self.assertEqual(job["score"], 205376)
+            self.assertEqual(job["bound_submission_id"], "stable-work")
+            self.assertEqual(job["record"]["source"], "api_dom")
+            self.assertEqual(len(page.reload_calls), 2)
+            self.assertEqual(len(list(store.root.glob("*/job.json"))), 1)
+
     def adapter(self, responses=(), *, source=None):
         page = FakePage(responses)
         settings = {"submission_url": browser.DEFAULT_URL, "action_timeout_ms": 250,

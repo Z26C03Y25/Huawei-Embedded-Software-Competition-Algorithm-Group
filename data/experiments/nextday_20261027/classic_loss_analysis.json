@@ -1,0 +1,160 @@
+{
+  "official": false,
+  "study": "data/experiments/branch_confirm_classic_20261026",
+  "solver": "champion",
+  "source_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+  "totals": {
+    "cases": 1188,
+    "actual_score": 2278138,
+    "omniscient_upper": 3165350,
+    "positive": 978,
+    "positive_loss": 348250,
+    "zeros": 210,
+    "zero_cliff_loss": 538962
+  },
+  "positive_loss_components": {
+    "query": 77952,
+    "extra_travel": 196815,
+    "turns": 2184,
+    "redundancy": 70299,
+    "distance": 1000
+  },
+  "positive_distance_histogram": {
+    "0": 973,
+    "1": 5
+  },
+  "zero_reason_counts": {
+    "distance > 3": 187,
+    "redundancy >= 200": 75
+  },
+  "zero_reasons_overlap": true,
+  "failure_share_of_observed_oracle_gap": 0.6074782577332137,
+  "positive_component_shares": {
+    "query": 0.22383919597989949,
+    "extra_travel": 0.5651543431442929,
+    "turns": 0.006271356783919598,
+    "redundancy": 0.20186360373295045,
+    "distance": 0.002871500358937545
+  },
+  "families": {
+    "smooth_power": {
+      "cases": 54,
+      "score": 128118
+    },
+    "asymmetric_peak": {
+      "cases": 54,
+      "score": 131000
+    },
+    "cusp_peak": {
+      "cases": 54,
+      "score": 129371
+    },
+    "supergaussian": {
+      "cases": 54,
+      "score": 117590,
+      "zero_cliff_loss": 6825,
+      "zeros": 3
+    },
+    "shoulder": {
+      "cases": 54,
+      "score": 124764
+    },
+    "close_competitors": {
+      "cases": 54,
+      "score": 104954,
+      "zero_cliff_loss": 22536,
+      "zeros": 9
+    },
+    "far_competitors": {
+      "cases": 54,
+      "score": 138413
+    },
+    "bump_on_hump": {
+      "cases": 54,
+      "score": 90607,
+      "zero_cliff_loss": 37856,
+      "zeros": 15
+    },
+    "ar1_noise": {
+      "cases": 54,
+      "score": 125288
+    },
+    "heteroskedastic_noise": {
+      "cases": 54,
+      "score": 124092,
+      "zero_cliff_loss": 5658,
+      "zeros": 2
+    },
+    "periodic_ripple": {
+      "cases": 54,
+      "score": 117675,
+      "zero_cliff_loss": 11076,
+      "zeros": 4
+    },
+    "chirp_ripple": {
+      "cases": 54,
+      "score": 118617,
+      "zero_cliff_loss": 10150,
+      "zeros": 4
+    },
+    "quantized_top": {
+      "cases": 54,
+      "score": 108706,
+      "zero_cliff_loss": 9074,
+      "zeros": 4
+    },
+    "saturated_top": {
+      "cases": 54,
+      "score": 109020,
+      "zero_cliff_loss": 7504,
+      "zeros": 3
+    },
+    "plateau_edge_peak": {
+      "cases": 54,
+      "score": 88871,
+      "zero_cliff_loss": 28928,
+      "zeros": 12
+    },
+    "trend_with_peak": {
+      "cases": 54,
+      "score": 96365,
+      "zero_cliff_loss": 35807,
+      "zeros": 14
+    },
+    "delayed_peak": {
+      "cases": 54,
+      "score": 85835,
+      "zero_cliff_loss": 42252,
+      "zeros": 19
+    },
+    "boundary_peak": {
+      "cases": 54,
+      "score": 130042,
+      "zero_cliff_loss": 9362,
+      "zeros": 4
+    },
+    "staircase": {
+      "cases": 54,
+      "score": 118317
+    },
+    "flat_ties": {
+      "cases": 54,
+      "score": 73112,
+      "zero_cliff_loss": 48049,
+      "zeros": 18
+    },
+    "random_unstructured": {
+      "cases": 54,
+      "score": 2309,
+      "zero_cliff_loss": 137273,
+      "zeros": 51
+    },
+    "single_spike": {
+      "cases": 54,
+      "score": 15072,
+      "zero_cliff_loss": 126612,
+      "zeros": 48
+    }
+  },
+  "warning": "2999-target is an omniscient one-query upper bound, not a feasible score promise. extra_travel may be slightly negative when final position is left of target. All measured zeros retain their full loss; components are not conditioned away from the main total."
+}

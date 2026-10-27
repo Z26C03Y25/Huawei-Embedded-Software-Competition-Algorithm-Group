@@ -1,0 +1,28 @@
+{
+  "status": "offline_hypotheses_only",
+  "formal_parent_sha256": "827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37",
+  "formal_parent_score": 205415,
+  "next_unused_mixed_seed": 20261026411,
+  "next_unused_classic_index": 264,
+  "stop_adjacent_midpoint_parameter_uploads": true,
+  "priorities": [
+    {
+      "rank": 1,
+      "hypothesis": "Separate optional-probe observation from unrelated Monte-Carlo RNG consumption, while retaining real output/route ledger and raw winner.",
+      "reason": "New replies alter RNG and later plans; test common-random-number stability before assuming score change is merely query cost.",
+      "source": null
+    },
+    {
+      "rank": 2,
+      "hypothesis": "Feature-conditioned multi-resolution with explicit local resolution repair, preserving the proven outer scout.",
+      "reason": "Uniform step16/10/7 have prior failures; do not repeat them as new work.",
+      "source": null
+    },
+    {
+      "rank": 3,
+      "hypothesis": "Analyze when extra forward measurements discover a competitive raw maximum versus only change fitted shape.",
+      "reason": "Keep original values, raw spikes and complete counterexamples; official total alone does not identify cases.",
+      "source": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "trend_w5_factor8",
+  "source": "data/experiments/2026-10-26/trend_w5_factor8.cpp",
+  "sha256": "805720f1ccff9b7bf6ce8a40b87e1fa55810010b170d64be2ba3409acd78dd9a",
+  "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+  "parent_official_score": 200780,
+  "purpose": "Noisy broad trend evidence: median window5 span>8*MAD; retain raw champion and all execution limits",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.02,
+    "trend_window": 5,
+    "trend_prominence": 8
+  },
+  "official_score": null
+}

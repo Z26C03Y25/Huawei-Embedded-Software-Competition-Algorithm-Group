@@ -1,0 +1,24 @@
+{
+  "name": "raw_concavity4",
+  "source": "data/experiments/2026-10-26/raw_concavity4.cpp",
+  "sha256": "7cbc16d99d5538148fe273ace14605e4787d3ed0ce614270636008050b3c8e70",
+  "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+  "parent_official_score": 201049,
+  "purpose": "After real fine samples stop only with complete raw +/-4 strict concavity, comparable curvature, low noise and no observed competitor; heuristic global risk remains",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "raw_concavity_span": 4,
+    "raw_concavity_ratio": 3
+  },
+  "official_score": null
+}

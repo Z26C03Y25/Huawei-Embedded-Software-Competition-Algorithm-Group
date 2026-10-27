@@ -1,0 +1,84 @@
+{
+  "version": 4,
+  "policy": "automation/research_policy.json",
+  "candidates": [
+    {
+      "name": "noise_radius_mixed_validated",
+      "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+      "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "status": "withheld_after_internal_error",
+      "official_score": null,
+      "research_objective": "robust_total_score",
+      "scope": "single_online_validation_after_fresh_quota_check",
+      "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+      "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+      "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+      "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+      "additional_confirmations": [
+        {
+          "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+          "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+          "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+        }
+      ],
+      "claims_all_measured_nonzero": false,
+      "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed.",
+      "trial_role": "primary_A",
+      "planned_online_date": "2026-10-27",
+      "last_online_attempt": {
+        "job_id": "20261026T160209449105Z_2c007044e331",
+        "outcome": "platform_internal_error",
+        "official_score": null
+      },
+      "withheld_reason": "User requested protocol/code audit. Original error not reproduced locally; do not repeat this source automatically.",
+      "protocol_audit": "data/experiments/protocol_audit_20261027/audit_summary.json",
+      "derivative_execution": {
+        "source": "data/experiments/protocol_audit_20261027/main_protocol.cpp",
+        "sha256": "775192f6e56a0b9e50d7a2b0136ab56dac19cff4d7d9012f1e66f8638baa4251",
+        "submitted_at": "2026-10-27 00:30:11",
+        "submission_id": "7c3acc7737ff4bc2acadb2d8ba592a03",
+        "score": 202672,
+        "vs_baseline": -567,
+        "note": "Protocol-hardened derivative of A was manually submitted; it did not beat 203239."
+      }
+    },
+    {
+      "name": "formal_noise_only_backup",
+      "source": "data/experiments/nextday_20261027/formal_noise_only.cpp",
+      "sha256": "b75dfd86829abc9b02fc486ed055a78eab76583005513e130ce8a0eb3d999e88",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "status": "executed_no_improvement",
+      "official_score": 202849,
+      "trial_role": "conditional_backup_B",
+      "execution_result": {
+        "submitted_at": "2026-10-27 00:36:03",
+        "submission_id": "ad130af54316408f96a53b2fb2d769d1",
+        "score": 202849,
+        "vs_baseline": -390,
+        "note": "Manually submitted after A protocol-hardened result (202672) did not beat 203239."
+      },
+      "planned_online_date": "2026-10-27",
+      "research_objective": "robust_total_score",
+      "manifest": "data/experiments/nextday_backup_mixed_20261027/manifest.json",
+      "evidence": "data/experiments/nextday_backup_mixed_20261027/summary.json",
+      "evidence_sha256": "e803414c59e73ff43421ab6d663ce773c8350aa827e360a90f4e202cbee53e39",
+      "additional_confirmations": [
+        {
+          "manifest": "data/experiments/nextday_backup_classic_20261027/manifest.json",
+          "evidence": "data/experiments/nextday_backup_classic_20261027/summary.json",
+          "evidence_sha256": "34afa3023a6c29cbc4a773b8b1f0781275a0274aab2c5203498da2286455b61c"
+        }
+      ],
+      "execution_condition": {
+        "kind": "primary_not_improved",
+        "primary_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+        "baseline_score": 203239,
+        "not_before_date": "2026-10-27"
+      },
+      "claims_all_measured_nonzero": false,
+      "qualification_note": "Single-factor scope on formal203239. Lower expected local score thanA; execute only after recorded officialA fails to beat203239. Conservative describes scope, not a proved lower risk."
+    }
+  ],
+  "note": "A is the sole primary. B passed local checks but is conditionally blocked untilA has an official dated result without improvement. Do not iterate this list as an unconditional upload batch."
+}

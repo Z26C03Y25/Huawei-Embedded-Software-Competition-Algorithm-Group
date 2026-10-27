@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-26",
+  "official": false,
+  "studies": [
+    {
+      "study": "local_screen_20261026",
+      "completion": {
+        "complete": true,
+        "cases": 1415,
+        "solvers": 4,
+        "interactive_runs": 5660,
+        "main_preserved": true,
+        "online_submissions": 0,
+        "ranking_requests": 0
+      },
+      "independent_base_cases": 1188,
+      "structured_base_cases": 1080,
+      "transformed_siblings": 198,
+      "independent_case_indices": [
+        0,
+        17
+      ]
+    },
+    {
+      "study": "local_valley_20261026",
+      "completion": {
+        "complete": true,
+        "cases": 1415,
+        "solvers": 3,
+        "interactive_runs": 4245,
+        "main_preserved": true,
+        "online_submissions": 0,
+        "ranking_requests": 0
+      },
+      "independent_base_cases": 1188,
+      "structured_base_cases": 1080,
+      "transformed_siblings": 198,
+      "independent_case_indices": [
+        18,
+        35
+      ]
+    }
+  ],
+  "total_pipe_runs": 9905,
+  "independent_base_cases": 2376,
+  "structured_base_cases": 2160,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "qualified_candidates": [],
+  "formal_best": 203239,
+  "formal_main_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "policy": "automation/research_policy.json",
+  "decision": "No automatic upload. Preserve baseline; four candidate operators failed robust local gate. Prior small B results were not reliable selection evidence."
+}

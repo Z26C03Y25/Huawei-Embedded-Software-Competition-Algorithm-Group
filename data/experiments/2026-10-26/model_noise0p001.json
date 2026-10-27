@@ -1,0 +1,21 @@
+{
+  "name": "model_noise0p001",
+  "source": "data/experiments/2026-10-26/model_noise0p001.cpp",
+  "sha256": "01e5f20a093ae2d27314d89506e1e17e27621e478cb28599037855b731612fa1",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Test model finish eligibility at noise/contrast 0.001; raw champion unchanged",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12,
+    "model_noise_fraction": 0.001
+  },
+  "official_score": null
+}

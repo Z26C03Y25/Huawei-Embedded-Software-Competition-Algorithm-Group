@@ -1,0 +1,23 @@
+{
+  "mode": "direct_user_online_coarse_only_contrast",
+  "reason": "Gap branch formally fell223 points; test the independent frozen coarse-only operator once under latest explicit direct-online instruction. No combined or adjacent parameter sweep.",
+  "source": "data/experiments/coarse_compete_20261027/coarse/coarse_rival_release.cpp",
+  "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "quota_before": {
+    "date": "2026-10-27",
+    "checked_at": "2026-10-27T08:44:02.858084+08:00",
+    "limit": 30,
+    "used": 8,
+    "remaining": 22
+  },
+  "automatic_daily_cap_unchanged": 3,
+  "max_new_uploads": 1,
+  "local_auto_qualification": false,
+  "job_id": "20261027T004404672217Z_0f4ac811b94e",
+  "state": "completed",
+  "score": 205376,
+  "delta": 2137,
+  "formal_recorded": true,
+  "verification": "Normal auto wait after refresh fix: two fresh same-ID final observations."
+}

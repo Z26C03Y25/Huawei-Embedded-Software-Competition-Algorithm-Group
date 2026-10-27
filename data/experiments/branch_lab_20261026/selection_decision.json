@@ -1,0 +1,72 @@
+{
+  "frozen_before_confirmation": true,
+  "selected": "noise_radius",
+  "source": {
+    "name": "noise_radius",
+    "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "derived_local_parent_sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235",
+    "switches": {
+      "stair": false,
+      "rival": false,
+      "noise": true,
+      "edge": false,
+      "rival_clean_only": false,
+      "edge_model_guard": false
+    },
+    "official_score": null,
+    "parameters": {
+      "stair_equal_min": 3,
+      "stair_equal_fraction": 0.3333333333333333,
+      "stair_drop_ratio": 2.25,
+      "rival_distance": [
+        8,
+        32
+      ],
+      "rival_max_gap_contrast": 0.06,
+      "rival_radius": 3,
+      "rival_max_reads": 12,
+      "noise_radius": [
+        3,
+        8
+      ],
+      "noise_scale": 2,
+      "edge_equal_witnesses": 3,
+      "edge_span_min": 24,
+      "edge_reads": 3
+    },
+    "note": "Only observed replies/features, query and route ledger. No case names, generator IDs, seeds or hidden target access."
+  },
+  "selection_scores": {
+    "branch_select_mixed_20261026": {
+      "formal203239": 1386.593364197531,
+      "previous": 1420.1280864197531,
+      "noise_radius": 1442.726851851852,
+      "noise_rival": 1437.9197530864196
+    },
+    "branch_select_classic_20261026": {
+      "formal203239": 1860.7929292929293,
+      "previous": 1911.3295454545453,
+      "noise_radius": 1918.4987373737374,
+      "noise_rival": 1918.5820707070707
+    }
+  },
+  "balanced_scores": {
+    "formal203239": 1623.69314674523,
+    "previous": 1665.7288159371492,
+    "noise_radius": 1680.6127946127947,
+    "noise_rival": 1678.250911896745
+  },
+  "weighting": "50% classic and50% mixed; family-balanced mean including zeros",
+  "independent_confirmation": {
+    "mixed_seed": 20261026403,
+    "novel_families": true,
+    "per_family": 18,
+    "classic_case_block": [
+      156,
+      173
+    ]
+  },
+  "acceptance": "Keep source frozen. Require score/robustness against formal parent, gains over prior local source in both domains, and report novel-family aggregate separately. Confirmation failure returns to research; no switching among candidates."
+}

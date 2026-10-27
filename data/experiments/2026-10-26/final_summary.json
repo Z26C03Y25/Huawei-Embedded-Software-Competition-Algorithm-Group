@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-26",
+  "new_submissions": 30,
+  "official_quota": {
+    "date": "2026-10-26",
+    "limit": 30,
+    "used": 30,
+    "remaining": 0,
+    "checked_at": "2026-10-26T02:54:55+08:00"
+  },
+  "best_score": 203239,
+  "previous_best": 199291,
+  "improvement": 3948,
+  "target_met": true,
+  "continued_after_target": true,
+  "best_job_id": "20261025T185010777575Z_dcc5fd715e4d",
+  "best_submission_id": "9b7d32ca96b94c4aa7392a11bf02af02",
+  "best_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "best_source": "data/versions/main_online_203239.cpp",
+  "unresolved_jobs": 0,
+  "main_restored_to_formal_best": true,
+  "status": "daily_quota_exhausted_offline_preparation",
+  "leader_reference": {
+    "score": 220045,
+    "team": "遥遥领先",
+    "refreshed_at": "2026-10-25T23:50:00+08:00",
+    "captured_at": "2026-10-26T01:40:51+08:00",
+    "scope": "first_page",
+    "network_reads_today": 1
+  },
+  "validation": "169 core tests passed separately on Python3.10.11 and3.12.14; full diagnostics retain8 existing subcase failures, new ripple regression passes",
+  "verification": {
+    "python310": "3.10.11",
+    "python_current": "3.12.14",
+    "core_tests_each_environment": 169,
+    "core_passed": true,
+    "markdown_links_checked": 204,
+    "archive_manifests_checked": 2,
+    "diagnostic_exit": 1,
+    "diagnostic_failed_subcases": 8,
+    "diagnostic_failed_methods": [
+      "test_boundary_peaks_and_clean_peaks_do_not_oscillate_per_refinement",
+      "test_early_raw_peak_inside_wide_top_retains_redundancy_margin",
+      "test_flat_horizon_uses_199_without_crossing_the_zero_threshold",
+      "test_supported_noisy_peak_does_not_require_raw_twelve_sigma_contrast"
+    ],
+    "new_ripple_regression_failed": false,
+    "controller_recovery_cases_per_environment": 2,
+    "controller_recovery_python_versions": [
+      "3.10.11",
+      "3.12.14"
+    ],
+    "controller_recovery_passed": true
+  },
+  "saved_synthetic_interactions": 7308,
+  "saved_synthetic_reports": 95,
+  "next_day_queue": "data/experiments/2026-10-26/next_day_queue.json",
+  "next_day_candidates": 2,
+  "rejected_next_day_candidates": 1
+}

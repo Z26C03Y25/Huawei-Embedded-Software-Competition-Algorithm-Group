@@ -1,0 +1,37 @@
+[
+  {
+    "name": "formal201049",
+    "total": 145881,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "raw_concavity3",
+    "total": 146012,
+    "delta": 131,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "raw_concavity4",
+    "total": 145983,
+    "delta": 102,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "edge_scenarios1",
+    "total": 145972,
+    "delta": 91,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "edge_scenarios2",
+    "total": 145972,
+    "delta": 91,
+    "resolved_zero": 0,
+    "new_zero": 0
+  }
+]

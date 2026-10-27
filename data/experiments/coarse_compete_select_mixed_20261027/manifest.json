@@ -1,0 +1,78 @@
+{
+  "generator_version": 4,
+  "generator_sha256": "8fa7ad36281433071a22ef29102fefd562b2785a006ad832c4eb2c7fbc3ae81d",
+  "seeds": {
+    "development": 2026102641,
+    "selection": 2026102642,
+    "blind_shift": 2026102643
+  },
+  "per_family": 18,
+  "families": [
+    "skew_correlated",
+    "shoulder_colored",
+    "three_competitors",
+    "near_equal_ripple",
+    "decline_then_peak",
+    "quantized_noisy_top",
+    "noisy_flat_prefix",
+    "late_peak_echo",
+    "early_echo_late_main",
+    "ramp_micropeaks",
+    "staircase_with_background",
+    "boundary_competitor",
+    "variable_skew",
+    "heavy_tail_nuisance",
+    "nonstationary_chirp",
+    "heteroskedastic_peak",
+    "clipped_double_top",
+    "plateau_edge_bumps",
+    "drifting_double",
+    "nonlinear_sensor",
+    "multiple_quantized_ties",
+    "wave_envelope",
+    "unstructured_background",
+    "adversarial_impulse",
+    "modal_bridge",
+    "background_change_points",
+    "occluded_peak",
+    "compound_ripples"
+  ],
+  "cases": 1810,
+  "dataset_sha256": "9550c49152642fc4c16b715d45e725801357378a16f3f3aab200da2fc8f72c0f",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "coarse",
+      "source": "data/experiments/coarse_compete_20261027/coarse/coarse_rival_release.cpp",
+      "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2"
+    },
+    {
+      "name": "gap",
+      "source": "data/experiments/coarse_compete_20261027/gap/competing_gap_midpoints.cpp",
+      "sha256": "ce8d3422a9c430a8dae7ddbbd6c69f2ea3ccfb377b00e3901bf5e5d7e83f7288"
+    },
+    {
+      "name": "combined",
+      "source": "data/experiments/coarse_compete_20261027/combined_coarse_gap.cpp",
+      "sha256": "8ca632d14f3fcd745ad800ff74ef7cc2443aab84490a7bc7c6a7b4f9df77133d"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "research_policy_sha256": "290987484ceaaedd6ba007856a152f23bd6c9e0b7d855b301464a13b466d41f8",
+  "research_objective": "robust_total_score",
+  "score_analysis_sha256": "6da4e48b58e189d92cfd9b0b8279f1b9f87dbe75069f213504006651f2863363",
+  "suite": "mixed",
+  "mixed_seed": 20261026409,
+  "novel_families": true,
+  "trace_solvers": true,
+  "extra_cases": {
+    "path": "data/experiments/coarse_compete_20261027/structural_controls.json",
+    "sha256": "262c30c4edff549cd116e64c0c883b6fcd1cc01a46c0fb68e98f55eda1b0bcde"
+  }
+}

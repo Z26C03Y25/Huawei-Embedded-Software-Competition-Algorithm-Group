@@ -1,0 +1,22 @@
+{
+  "name": "cluster_tight0p03",
+  "source": "data/experiments/2026-10-26/cluster_tight0p03.cpp",
+  "sha256": "71d9a5257e2957d50a4496c294dc84233a6a13252919d9a90291c28b49be8a3f",
+  "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+  "parent_official_score": 201049,
+  "purpose": "On 201049 tighten weak cluster retention to 0.03; local candidate band unchanged",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.03,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05
+  },
+  "official_score": null
+}

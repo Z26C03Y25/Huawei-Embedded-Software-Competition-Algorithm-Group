@@ -1,0 +1,22 @@
+{
+  "name": "r8_nonflat_step9",
+  "source": "data/experiments/2026-10-26/r8_nonflat_step9.cpp",
+  "sha256": "7fc089827c621024c014b0bb40ebb66825117232f2dd74938b1ffe945ccc5118",
+  "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+  "parent_official_score": 200494,
+  "purpose": "Clean nonflat coarse stride 9; flat-prefix grid, prominence24 and coarse budget128 fixed",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "nonflat_step": 9
+  },
+  "official_score": null
+}

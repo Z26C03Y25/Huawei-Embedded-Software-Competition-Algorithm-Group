@@ -1,0 +1,91 @@
+{
+  "official": false,
+  "scope": "independent structured base cases only, all three splits",
+  "zero_reason_counts": {
+    "distance > 3": 114,
+    "redundancy >= 200": 19
+  },
+  "counts_overlap": true,
+  "families": {
+    "smooth_power": {
+      "cases": 54,
+      "zeros": 3
+    },
+    "asymmetric_peak": {
+      "cases": 54,
+      "zeros": 1
+    },
+    "cusp_peak": {
+      "cases": 54
+    },
+    "supergaussian": {
+      "cases": 54,
+      "zeros": 3
+    },
+    "shoulder": {
+      "cases": 54,
+      "zeros": 11
+    },
+    "close_competitors": {
+      "cases": 54,
+      "zeros": 6
+    },
+    "far_competitors": {
+      "cases": 54
+    },
+    "bump_on_hump": {
+      "cases": 54,
+      "zeros": 7
+    },
+    "ar1_noise": {
+      "cases": 54,
+      "zeros": 2
+    },
+    "heteroskedastic_noise": {
+      "cases": 54,
+      "zeros": 2
+    },
+    "periodic_ripple": {
+      "cases": 54,
+      "zeros": 4
+    },
+    "chirp_ripple": {
+      "cases": 54,
+      "zeros": 4
+    },
+    "quantized_top": {
+      "cases": 54,
+      "zeros": 6
+    },
+    "saturated_top": {
+      "cases": 54,
+      "zeros": 2
+    },
+    "plateau_edge_peak": {
+      "cases": 54,
+      "zeros": 8
+    },
+    "trend_with_peak": {
+      "cases": 54,
+      "zeros": 13
+    },
+    "delayed_peak": {
+      "cases": 54,
+      "zeros": 25
+    },
+    "boundary_peak": {
+      "cases": 54,
+      "zeros": 9
+    },
+    "staircase": {
+      "cases": 54,
+      "zeros": 5
+    },
+    "flat_ties": {
+      "cases": 54,
+      "zeros": 19
+    }
+  },
+  "max_redundancy": 871,
+  "note": "Default redundancy has no universal guarantee; retained zero cases are not removed from evaluation."
+}

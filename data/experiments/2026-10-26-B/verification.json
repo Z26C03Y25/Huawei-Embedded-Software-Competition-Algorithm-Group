@@ -1,0 +1,17 @@
+{
+  "main_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "main_changed": false,
+  "diagnostic_methods": 15,
+  "diagnostic_failed_subcases": 9,
+  "failed_methods": [
+    "test_boundary_peaks_and_clean_peaks_do_not_oscillate_per_refinement",
+    "test_early_raw_peak_inside_wide_top_retains_redundancy_margin",
+    "test_flat_horizon_uses_199_without_crossing_the_zero_threshold",
+    "test_multiscale_ripple_does_not_finish_five_grids_early",
+    "test_supported_noisy_peak_does_not_require_raw_twelve_sigma_contrast"
+  ],
+  "previous_failures": 8,
+  "new_retained_counterexample_failures": 1,
+  "exit": 1,
+  "core_source_unchanged": true
+}

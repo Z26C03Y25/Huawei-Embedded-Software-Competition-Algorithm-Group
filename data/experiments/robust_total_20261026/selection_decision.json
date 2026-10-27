@@ -1,0 +1,17 @@
+{
+  "selected": "desc175",
+  "source": {
+    "name": "desc175",
+    "source": "data/experiments/robust_total_20261026/flat175_desc.cpp",
+    "sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235"
+  },
+  "objective": "robust_total_score",
+  "frozen_before_confirmation": true,
+  "comparison_report": "data/experiments/robust_total_20261026/summary.json",
+  "confirmation_study": "data/experiments/robust_confirm_20261026",
+  "confirmation_case_block": [
+    126,
+    143
+  ],
+  "protocol": "One selected source is fixed before fresh confirmation. No switching among the4 variants after confirmation scores. A failed confirmation returns to research."
+}

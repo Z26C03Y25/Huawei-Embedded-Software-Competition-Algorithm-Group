@@ -1,0 +1,17 @@
+{
+  "name": "flat175_waypoint",
+  "source": "data/experiments/zero_first_20261026/flat175_waypoint.cpp",
+  "sha256": "a1fbca2f9a6e08f2b01abf4ec1a3cfc0d1e56d97332f04f087f23e3721dded90",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "derived_source": "data/versions/main_online_203239.cpp",
+  "parameters": {
+    "flat_horizon": 175,
+    "preserve_legacy_waypoint": true,
+    "combine_wide_valley": false
+  },
+  "official": false,
+  "online_eligible": false,
+  "purpose": "Repair late quantized-flat prefixes while preserving original mandatory waypoint; test every known positive sample for newly introduced zero.",
+  "latest_report": "data/experiments/zero_priority_screen_20261026/summary.json",
+  "status": "local_zero_first_research_candidate_not_formally_scored"
+}

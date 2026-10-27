@@ -1,0 +1,30 @@
+[
+  {
+    "name": "formal203239",
+    "total": 147043,
+    "delta": 0,
+    "new_zero": 0,
+    "resolved_zero": 0
+  },
+  {
+    "name": "next_tau6",
+    "total": 146954,
+    "delta": -89,
+    "new_zero": 0,
+    "resolved_zero": 0
+  },
+  {
+    "name": "next_tau12",
+    "total": 147043,
+    "delta": 0,
+    "new_zero": 0,
+    "resolved_zero": 0
+  },
+  {
+    "name": "next_fit16",
+    "total": 141848,
+    "delta": -5195,
+    "new_zero": 2,
+    "resolved_zero": 0
+  }
+]

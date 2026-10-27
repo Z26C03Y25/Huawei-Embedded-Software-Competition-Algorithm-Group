@@ -1,7 +1,7 @@
 {
-  "recorded_at": "2026-10-25",
+  "recorded_at": "2026-10-27",
   "entry_point": "main.cpp",
-  "recorded_best_score": 199291,
+  "recorded_best_score": 207650,
   "note": "Scores are recorded online totals; immutable source bytes are verified locally. This is not a hidden-dataset reproduction.",
   "files": [
     {
@@ -33,6 +33,38 @@
       "path": "data/versions/main_before_strategy.cpp",
       "score": null,
       "sha256": "b0b2ff0bb4885dd0ed554782c0565476bba1803604d8128a68487f69e28b67dc"
+    },
+    {
+      "path": "data/versions/main_online_203239.cpp",
+      "score": 203239,
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "job_id": "20261025T185010777575Z_dcc5fd715e4d",
+      "submission_id": "9b7d32ca96b94c4aa7392a11bf02af02"
+    },
+    {
+      "path": "data/versions/main_online_205376.cpp",
+      "score": 205376,
+      "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2"
+    },
+    {
+      "path": "data/versions/main_online_205415.cpp",
+      "score": 205415,
+      "sha256": "827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37"
+    },
+    {
+      "path": "data/versions/main_online_205427.cpp",
+      "score": 205427,
+      "sha256": "e965e0d618ab8c14460a7b2548113b8e090a0137e036db69136733ef84b39d24"
+    },
+    {
+      "path": "data/versions/main_online_207607.cpp",
+      "score": 207607,
+      "sha256": "46f5ae9e5fa414186a053e94b4a179867e9863470768ad09a77989affde83c35"
+    },
+    {
+      "path": "data/versions/main_online_207650.cpp",
+      "score": 207650,
+      "sha256": "19e8c6db476f82fbd2261f0940393fbaf02da9da914c052e4ce7b32e0bda42c4"
     }
   ]
 }

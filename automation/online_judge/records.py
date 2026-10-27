@@ -68,7 +68,7 @@ def normalize_status(value: object, hint: object = None) -> str:
     aliases = {
         "success": "success", "succeeded": "success", "completed": "success",
         "failed": "failed", "fail": "failed", "failure": "failed", "error": "failed",
-        "rejected": "failed", "pending": "pending", "running": "pending",
+        "rejected": "failed", "internal_error": "failed", "pending": "pending", "running": "pending",
         "scoring": "pending", "judging": "pending", "queued": "pending",
         "waiting": "pending", "processing": "pending", "queue": "pending",
     }

@@ -1,0 +1,23 @@
+{
+  "name": "model_fit_window24",
+  "source": "data/experiments/2026-10-26/model_fit_window24.cpp",
+  "sha256": "90e33078a450179676d4aabe75d2b5b5aaad859561b6d7668e60e8ca7feafbed",
+  "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+  "parent_official_score": 201049,
+  "purpose": "On 201049 fit model on nearer +/-24 samples, preserve independent three-point comparison",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_fit_window": 24
+  },
+  "official_score": null
+}

@@ -22,6 +22,19 @@ def api_row(**changes):
 
 
 class ApiParsingTests(unittest.TestCase):
+    def test_internal_error_is_terminal_without_a_numeric_score(self):
+        for changes in ({"message": "internal_error"}, {"status": "internal_error"},
+                        {"status": "unknown", "message": " INTERNAL_ERROR "}):
+            with self.subTest(changes=changes):
+                result = parse_api_response({"results": [api_row(score="-1", **changes)]})[0]
+                self.assertEqual(result.status, "failed")
+                self.assertEqual(result.status_text, "internal_error")
+                self.assertTrue(result.is_terminal)
+                self.assertIsNone(result.score)
+        result = parse_api_response({"results": [api_row(message="internal_error " + SECRET)]})[0]
+        self.assertEqual(result.status, "unknown")
+        self.assertNotIn(SECRET, json.dumps(result.to_dict()))
+
     def test_confirmed_endpoint_and_latest_order_match_the_dom(self):
         self.assertEqual(API_URL, "https://devdata2.huaweicloud.com/rest/developer/fwdu/rest/developer/user/hdcompetitionservice/v1/works/get-competition-works")
         records = parse_api_response({"results": [api_row(), api_row(id="older-id", score="154353",

@@ -1,0 +1,23 @@
+{
+  "name": "model_agree3p0",
+  "source": "data/experiments/2026-10-26/model_agree3p0.cpp",
+  "sha256": "17bf77cad8a4f6d497fc01cb1fc2901cf2b0d2a7c156f694bf3ee66e4957311f",
+  "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+  "parent_official_score": 201049,
+  "purpose": "On 201049 relax two local vertex agreement to 3.0; retain13 raw-point verification and interior winner test",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 3.0
+  },
+  "official_score": null
+}

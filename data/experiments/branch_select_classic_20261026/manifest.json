@@ -1,0 +1,69 @@
+{
+  "generator_version": 3,
+  "generator_sha256": "6de8b809abd6fdf47b296f236c812b9b92c1983f787db93a932e99dfd73b6c16",
+  "seeds": {
+    "development": 26102661,
+    "selection": 27102662,
+    "blind_shift": 28102663
+  },
+  "per_family": 12,
+  "families": [
+    "smooth_power",
+    "asymmetric_peak",
+    "cusp_peak",
+    "supergaussian",
+    "shoulder",
+    "close_competitors",
+    "far_competitors",
+    "bump_on_hump",
+    "ar1_noise",
+    "heteroskedastic_noise",
+    "periodic_ripple",
+    "chirp_ripple",
+    "quantized_top",
+    "saturated_top",
+    "plateau_edge_peak",
+    "trend_with_peak",
+    "delayed_peak",
+    "boundary_peak",
+    "staircase",
+    "flat_ties",
+    "random_unstructured",
+    "single_spike"
+  ],
+  "cases": 1053,
+  "dataset_sha256": "dfe3b80a0a3e607bd04bf5ccd33c721f882ca418c16dd8c95800f90610fe8413",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "previous",
+      "source": "data/experiments/robust_total_20261026/flat175_desc.cpp",
+      "sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235"
+    },
+    {
+      "name": "noise_radius",
+      "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+      "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7"
+    },
+    {
+      "name": "noise_rival",
+      "source": "data/experiments/branch_lab_20261026/noise_rival.cpp",
+      "sha256": "c8dd4bd93adc78f626950474dcda922c9d3b877de855840632d2c03e67d8bbca"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "research_policy_sha256": "290987484ceaaedd6ba007856a152f23bd6c9e0b7d855b301464a13b466d41f8",
+  "research_objective": "robust_total_score",
+  "score_analysis_sha256": "6da4e48b58e189d92cfd9b0b8279f1b9f87dbe75069f213504006651f2863363",
+  "extra_cases": {
+    "path": "data/experiments/zero_first_20261026/acceptance_cases.json",
+    "sha256": "9aca0e6b4d76e1f49f29192378d4fb6c3124c0f2362051353665ce93de487051"
+  },
+  "case_offset": 144
+}

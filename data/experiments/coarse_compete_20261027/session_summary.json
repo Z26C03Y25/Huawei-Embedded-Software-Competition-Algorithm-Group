@@ -1,0 +1,21 @@
+{
+  "baseline_score": 203239,
+  "official_gap_score": 203016,
+  "official_coarse_score": 205376,
+  "coarse_delta": 2137,
+  "main_sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "paired_screen_interactions": 12968,
+  "supplementary_mixed_confirmation_interactions": 3620,
+  "total_batch_pipe_interactions": 16588,
+  "classic_confirmation264_run": false,
+  "online_gap_uploads": 1,
+  "online_coarse_uploads": 1,
+  "refresh_fix_tests_python312": 150,
+  "refresh_fix_tests_python310": 150,
+  "core_checks_passed_before_ablation": 242,
+  "core_checks_failed": 0,
+  "refresh_recovery_real_work": "20261027T004404672217Z_0f4ac811b94e",
+  "recovery_actual_score_source": "api",
+  "counterexamples_retained": true,
+  "warning": "Official total alone does not identify cases or mechanism counts. Local gaps positive gains did not transfer; coarse online improvement is the actual breakthrough."
+}

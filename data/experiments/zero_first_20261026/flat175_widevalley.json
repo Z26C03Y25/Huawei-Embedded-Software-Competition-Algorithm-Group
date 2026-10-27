@@ -1,0 +1,17 @@
+{
+  "name": "flat175_widevalley",
+  "source": "data/experiments/zero_first_20261026/flat175_widevalley.cpp",
+  "sha256": "3143dc2771daf7546352f88af9e1343ba6b63e33bc342b29e9b9a7bb3221defd",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "derived_source": "data/experiments/local_widevalley_20261026/wide_observed_valley_gate.cpp",
+  "parameters": {
+    "flat_horizon": 175,
+    "preserve_legacy_waypoint": true,
+    "combine_wide_valley": true
+  },
+  "official": false,
+  "online_eligible": false,
+  "purpose": "Repair late quantized-flat prefixes while preserving original mandatory waypoint; test every known positive sample for newly introduced zero.",
+  "latest_report": "data/experiments/zero_priority_screen_20261026/summary.json",
+  "status": "local_zero_first_research_candidate_not_formally_scored"
+}

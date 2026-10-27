@@ -1,0 +1,51 @@
+[
+  {
+    "name": "formal200494",
+    "total": 139451,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "r8_nonflat_step7",
+    "total": 140616,
+    "delta": 1165,
+    "resolved_zero": 3,
+    "new_zero": 1
+  },
+  {
+    "name": "r8_nonflat_step9",
+    "total": 141303,
+    "delta": 1852,
+    "resolved_zero": 1,
+    "new_zero": 0
+  },
+  {
+    "name": "r8_nonflat_step10",
+    "total": 142282,
+    "delta": 2831,
+    "resolved_zero": 3,
+    "new_zero": 1
+  },
+  {
+    "name": "r8_nonflat_step12",
+    "total": 136092,
+    "delta": -3359,
+    "resolved_zero": 0,
+    "new_zero": 1
+  },
+  {
+    "name": "r8_smooth_rising10",
+    "total": 141470,
+    "delta": 2019,
+    "resolved_zero": 1,
+    "new_zero": 0
+  },
+  {
+    "name": "r8_smooth_rising12",
+    "total": 141447,
+    "delta": 1996,
+    "resolved_zero": 1,
+    "new_zero": 0
+  }
+]

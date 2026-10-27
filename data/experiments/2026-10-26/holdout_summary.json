@@ -1,0 +1,37 @@
+[
+  {
+    "name": "formal199291",
+    "total": 139256,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "fine_radius8",
+    "total": 139633,
+    "delta": 377,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "model_probe3",
+    "total": 139182,
+    "delta": -74,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "model_noise0p02",
+    "total": 139342,
+    "delta": 86,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "band0p02",
+    "total": 139315,
+    "delta": 59,
+    "resolved_zero": 0,
+    "new_zero": 0
+  }
+]

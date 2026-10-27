@@ -1,0 +1,64 @@
+{
+  "generator_version": 4,
+  "generator_sha256": "8fa7ad36281433071a22ef29102fefd562b2785a006ad832c4eb2c7fbc3ae81d",
+  "seeds": {
+    "development": 2026102641,
+    "selection": 2026102642,
+    "blind_shift": 2026102643
+  },
+  "per_family": 14,
+  "families": [
+    "skew_correlated",
+    "shoulder_colored",
+    "three_competitors",
+    "near_equal_ripple",
+    "decline_then_peak",
+    "quantized_noisy_top",
+    "noisy_flat_prefix",
+    "late_peak_echo",
+    "early_echo_late_main",
+    "ramp_micropeaks",
+    "staircase_with_background",
+    "boundary_competitor",
+    "variable_skew",
+    "heavy_tail_nuisance",
+    "nonstationary_chirp",
+    "heteroskedastic_peak",
+    "clipped_double_top",
+    "plateau_edge_bumps",
+    "drifting_double",
+    "nonlinear_sensor",
+    "multiple_quantized_ties",
+    "wave_envelope",
+    "unstructured_background",
+    "adversarial_impulse",
+    "modal_bridge",
+    "background_change_points",
+    "occluded_peak",
+    "compound_ripples"
+  ],
+  "cases": 1457,
+  "dataset_sha256": "cb3357018987a123190204e2ae04152ae5986b9fb394d72edccfdbf1558dea2d",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "sparse_relative",
+      "source": "data/experiments/sparse_curve_20261027/sparse_relative_support.cpp",
+      "sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "research_policy_sha256": "290987484ceaaedd6ba007856a152f23bd6c9e0b7d855b301464a13b466d41f8",
+  "research_objective": "robust_total_score",
+  "score_analysis_sha256": "6da4e48b58e189d92cfd9b0b8279f1b9f87dbe75069f213504006651f2863363",
+  "suite": "mixed",
+  "mixed_seed": 20261026408,
+  "novel_families": true,
+  "trace_solvers": true
+}

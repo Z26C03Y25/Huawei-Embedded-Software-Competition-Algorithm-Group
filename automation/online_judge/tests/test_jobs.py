@@ -34,6 +34,17 @@ def row(second=0, *, filename="main.cpp", status="pending", score=None,
 
 
 class JobStoreTests(unittest.TestCase):
+    def test_api_internal_error_finishes_bound_job_without_a_score(self):
+        from online_judge.api import parse_api_response
+        failed = parse_api_response({"results": [{"id": "platform-error-work", "name": "main.cpp",
+            "created_time": "2026-10-24T11:00:01Z", "status": "unknown",
+            "message": "internal_error", "score": "-1"}]})[0]
+        self.assertEqual(self.store.observe(self.job, [failed, self.old]), "failed")
+        self.assertEqual(self.job["bound_submission_id"], "platform-error-work")
+        self.assertIsNone(self.job["score"])
+        self.assertEqual(self.job["last_error"], "internal_error")
+        self.assertIn("finished_at", self.job)
+
     def setUp(self):
         temporary = temporary_directory()
         self.addCleanup(temporary.cleanup)

@@ -1,0 +1,22 @@
+{
+  "name": "r8_model_probe3",
+  "source": "data/experiments/2026-10-26/r8_model_probe3.cpp",
+  "sha256": "d515289caf895b75207586a8fc259f17eaac9457a483c4aec73b06f361a939e0",
+  "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+  "parent_official_score": 200494,
+  "purpose": "On formal 200494 shrink the local model verification to radius3 with interior champion check",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_probe_radius": 3
+  },
+  "official_score": null
+}

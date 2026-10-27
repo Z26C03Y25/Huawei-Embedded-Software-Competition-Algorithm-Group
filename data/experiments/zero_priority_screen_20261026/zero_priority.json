@@ -1,0 +1,535 @@
+{
+  "objective": "zero_first",
+  "ranking": [
+    "flat175_wide",
+    "flat175",
+    "formal203239"
+  ],
+  "solvers": {
+    "formal203239": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 2864,
+      "independent_mothers": 2433,
+      "unique_base_curves": 2433,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/pdf_sample_12",
+          "same_as": "pdf_sample_12"
+        },
+        {
+          "name": "observed_v3/smooth_n400_p47_w42",
+          "same_as": "smooth_n400_p47_w42"
+        },
+        {
+          "name": "observed_v3/smooth_n600_p293_w75",
+          "same_as": "smooth_n600_p293_w75"
+        },
+        {
+          "name": "observed_v3/smooth_n1000_p837_w110",
+          "same_as": "smooth_n1000_p837_w110"
+        },
+        {
+          "name": "observed_v3/boundary_n400_p0_w65",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/boundary_n1000_p999_w130",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p3_w35",
+          "same_as": "boundary_n700_p3_w35"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p696_w35",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "observed_v3/smooth_n800_p401_w9",
+          "same_as": "smooth_n800_p401_w9"
+        },
+        {
+          "name": "observed_v3/noise_n600_p240_a200",
+          "same_as": "noise_n600_p240_a200"
+        },
+        {
+          "name": "observed_v3/noise_n1000_p710_a1500",
+          "same_as": "noise_n1000_p710_a1500"
+        },
+        {
+          "name": "observed_v3/plateau_270_330_n600",
+          "same_as": "plateau_270_330_n600"
+        },
+        {
+          "name": "observed_v3/equal_peaks_180_419_n600",
+          "same_as": "equal_peaks_180_419_n600"
+        },
+        {
+          "name": "observed_v3/double_later_higher",
+          "same_as": "double_later_higher"
+        },
+        {
+          "name": "observed_v3/double_earlier_higher",
+          "same_as": "double_earlier_higher"
+        },
+        {
+          "name": "observed_v3/double_nearby_recovery",
+          "same_as": "double_nearby_recovery"
+        },
+        {
+          "name": "observed_v3/flat_n400",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "observed_v3/flat_n1000",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "observed_v3/all_zero_n400",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "observed_v3/central_tie_199_200_n400",
+          "same_as": "central_tie_199_200_n400"
+        },
+        {
+          "name": "observed_v3/int_max_peak_n600_p321",
+          "same_as": "int_max_peak_n600_p321"
+        },
+        {
+          "name": "observed_v3/strictly_increasing_n1000",
+          "same_as": "strictly_increasing_n1000"
+        },
+        {
+          "name": "observed_v3/strictly_decreasing_n400",
+          "same_as": "strictly_decreasing_n400"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p0",
+          "same_as": "spike_n1000_p0"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p337",
+          "same_as": "spike_n1000_p337"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p999",
+          "same_as": "spike_n1000_p999"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0003_noisy_broad_top",
+          "same_as": "frozen/s20261027_0003_noisy_broad_top"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0078_rippled_peak",
+          "same_as": "frozen/s20261027_0078_rippled_peak"
+        },
+        {
+          "name": "observed_v3/frozen/s27102603_0008_rippled_peak",
+          "same_as": "frozen/s27102603_0008_rippled_peak"
+        }
+      ],
+      "structured_unique_zero_cases": 305,
+      "information_limited_unique_zero_cases": 192,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 497,
+      "independent_baseline_zero_cases": 497,
+      "independent_repairs": 0,
+      "repair_entries_including_siblings": 0,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1960,
+      "macro_mean_score": 1870.7962064005753,
+      "rank_key": [
+        0,
+        0,
+        497,
+        1.0,
+        -1960,
+        -1870.7962064005753
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 423,
+        "redundancy >= 200": 176
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "flat175": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 2864,
+      "independent_mothers": 2433,
+      "unique_base_curves": 2433,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/pdf_sample_12",
+          "same_as": "pdf_sample_12"
+        },
+        {
+          "name": "observed_v3/smooth_n400_p47_w42",
+          "same_as": "smooth_n400_p47_w42"
+        },
+        {
+          "name": "observed_v3/smooth_n600_p293_w75",
+          "same_as": "smooth_n600_p293_w75"
+        },
+        {
+          "name": "observed_v3/smooth_n1000_p837_w110",
+          "same_as": "smooth_n1000_p837_w110"
+        },
+        {
+          "name": "observed_v3/boundary_n400_p0_w65",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/boundary_n1000_p999_w130",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p3_w35",
+          "same_as": "boundary_n700_p3_w35"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p696_w35",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "observed_v3/smooth_n800_p401_w9",
+          "same_as": "smooth_n800_p401_w9"
+        },
+        {
+          "name": "observed_v3/noise_n600_p240_a200",
+          "same_as": "noise_n600_p240_a200"
+        },
+        {
+          "name": "observed_v3/noise_n1000_p710_a1500",
+          "same_as": "noise_n1000_p710_a1500"
+        },
+        {
+          "name": "observed_v3/plateau_270_330_n600",
+          "same_as": "plateau_270_330_n600"
+        },
+        {
+          "name": "observed_v3/equal_peaks_180_419_n600",
+          "same_as": "equal_peaks_180_419_n600"
+        },
+        {
+          "name": "observed_v3/double_later_higher",
+          "same_as": "double_later_higher"
+        },
+        {
+          "name": "observed_v3/double_earlier_higher",
+          "same_as": "double_earlier_higher"
+        },
+        {
+          "name": "observed_v3/double_nearby_recovery",
+          "same_as": "double_nearby_recovery"
+        },
+        {
+          "name": "observed_v3/flat_n400",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "observed_v3/flat_n1000",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "observed_v3/all_zero_n400",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "observed_v3/central_tie_199_200_n400",
+          "same_as": "central_tie_199_200_n400"
+        },
+        {
+          "name": "observed_v3/int_max_peak_n600_p321",
+          "same_as": "int_max_peak_n600_p321"
+        },
+        {
+          "name": "observed_v3/strictly_increasing_n1000",
+          "same_as": "strictly_increasing_n1000"
+        },
+        {
+          "name": "observed_v3/strictly_decreasing_n400",
+          "same_as": "strictly_decreasing_n400"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p0",
+          "same_as": "spike_n1000_p0"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p337",
+          "same_as": "spike_n1000_p337"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p999",
+          "same_as": "spike_n1000_p999"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0003_noisy_broad_top",
+          "same_as": "frozen/s20261027_0003_noisy_broad_top"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0078_rippled_peak",
+          "same_as": "frozen/s20261027_0078_rippled_peak"
+        },
+        {
+          "name": "observed_v3/frozen/s27102603_0008_rippled_peak",
+          "same_as": "frozen/s27102603_0008_rippled_peak"
+        }
+      ],
+      "structured_unique_zero_cases": 275,
+      "information_limited_unique_zero_cases": 192,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 467,
+      "independent_baseline_zero_cases": 497,
+      "independent_repairs": 30,
+      "repair_entries_including_siblings": 37,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1929,
+      "macro_mean_score": 1890.240021574973,
+      "rank_key": [
+        0,
+        0,
+        467,
+        1.0,
+        -1929,
+        -1890.240021574973
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 393,
+        "redundancy >= 200": 181
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "flat175_wide": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 2864,
+      "independent_mothers": 2433,
+      "unique_base_curves": 2433,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/pdf_sample_12",
+          "same_as": "pdf_sample_12"
+        },
+        {
+          "name": "observed_v3/smooth_n400_p47_w42",
+          "same_as": "smooth_n400_p47_w42"
+        },
+        {
+          "name": "observed_v3/smooth_n600_p293_w75",
+          "same_as": "smooth_n600_p293_w75"
+        },
+        {
+          "name": "observed_v3/smooth_n1000_p837_w110",
+          "same_as": "smooth_n1000_p837_w110"
+        },
+        {
+          "name": "observed_v3/boundary_n400_p0_w65",
+          "same_as": "boundary_n400_p0_w65"
+        },
+        {
+          "name": "observed_v3/boundary_n1000_p999_w130",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p3_w35",
+          "same_as": "boundary_n700_p3_w35"
+        },
+        {
+          "name": "observed_v3/boundary_n700_p696_w35",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "observed_v3/smooth_n800_p401_w9",
+          "same_as": "smooth_n800_p401_w9"
+        },
+        {
+          "name": "observed_v3/noise_n600_p240_a200",
+          "same_as": "noise_n600_p240_a200"
+        },
+        {
+          "name": "observed_v3/noise_n1000_p710_a1500",
+          "same_as": "noise_n1000_p710_a1500"
+        },
+        {
+          "name": "observed_v3/plateau_270_330_n600",
+          "same_as": "plateau_270_330_n600"
+        },
+        {
+          "name": "observed_v3/equal_peaks_180_419_n600",
+          "same_as": "equal_peaks_180_419_n600"
+        },
+        {
+          "name": "observed_v3/double_later_higher",
+          "same_as": "double_later_higher"
+        },
+        {
+          "name": "observed_v3/double_earlier_higher",
+          "same_as": "double_earlier_higher"
+        },
+        {
+          "name": "observed_v3/double_nearby_recovery",
+          "same_as": "double_nearby_recovery"
+        },
+        {
+          "name": "observed_v3/flat_n400",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "observed_v3/flat_n1000",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "observed_v3/all_zero_n400",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "observed_v3/central_tie_199_200_n400",
+          "same_as": "central_tie_199_200_n400"
+        },
+        {
+          "name": "observed_v3/int_max_peak_n600_p321",
+          "same_as": "int_max_peak_n600_p321"
+        },
+        {
+          "name": "observed_v3/strictly_increasing_n1000",
+          "same_as": "strictly_increasing_n1000"
+        },
+        {
+          "name": "observed_v3/strictly_decreasing_n400",
+          "same_as": "strictly_decreasing_n400"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p0",
+          "same_as": "spike_n1000_p0"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p337",
+          "same_as": "spike_n1000_p337"
+        },
+        {
+          "name": "observed_v3/spike_n1000_p999",
+          "same_as": "spike_n1000_p999"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0003_noisy_broad_top",
+          "same_as": "frozen/s20261027_0003_noisy_broad_top"
+        },
+        {
+          "name": "observed_v3/frozen/s20261027_0078_rippled_peak",
+          "same_as": "frozen/s20261027_0078_rippled_peak"
+        },
+        {
+          "name": "observed_v3/frozen/s27102603_0008_rippled_peak",
+          "same_as": "frozen/s27102603_0008_rippled_peak"
+        }
+      ],
+      "structured_unique_zero_cases": 267,
+      "information_limited_unique_zero_cases": 192,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 459,
+      "independent_baseline_zero_cases": 497,
+      "independent_repairs": 38,
+      "repair_entries_including_siblings": 49,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1928,
+      "macro_mean_score": 1900.5704782452356,
+      "rank_key": [
+        0,
+        0,
+        459,
+        1.0,
+        -1928,
+        -1900.5704782452356
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 385,
+        "redundancy >= 200": 181
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    }
+  }
+}

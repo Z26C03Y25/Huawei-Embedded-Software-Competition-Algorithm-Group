@@ -1,0 +1,39 @@
+{
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "baseline_score": 203239,
+  "scope": "Structural coarse coverage and competing-gap allocation; no local fitting parameter uploads.",
+  "selection_rule": "Hard protocol/parking pass; compare both domains with equal-domain family-balanced score INCLUDING zeros; report zero rate/CVaR25 and paired intervals. Freeze selected winner before fresh confirmation; do not swap after confirmation.",
+  "screen_mixed_seed": 20261026409,
+  "screen_classic_case_offset": 246,
+  "confirm_mixed_seed": 20261026410,
+  "confirm_classic_case_offset": 264,
+  "per_family": 18,
+  "online": "At most one new distinct candidate after current direct request, only if meaningful evidence survives; existing automatic daily3 cap unchanged. No repeated source, uncertain job recovery first.",
+  "raw_target": "Raw values and tie rule unchanged; model de-spiking only in guidance. All counterexamples retained.",
+  "source_base": "data/experiments/coarse_compete_20261027/formal_protocol_base.cpp",
+  "candidates": [
+    {
+      "name": "coarse",
+      "source": "data/experiments/coarse_compete_20261027/coarse/coarse_rival_release.cpp",
+      "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2"
+    },
+    {
+      "name": "gap",
+      "source": "data/experiments/coarse_compete_20261027/gap/competing_gap_midpoints.cpp",
+      "sha256": "ce8d3422a9c430a8dae7ddbbd6c69f2ea3ccfb377b00e3901bf5e5d7e83f7288"
+    },
+    {
+      "name": "combined",
+      "source": "data/experiments/coarse_compete_20261027/combined_coarse_gap.cpp",
+      "sha256": "8ca632d14f3fcd745ad800ff74ef7cc2443aab84490a7bc7c6a7b4f9df77133d"
+    }
+  ],
+  "frozen_before_screening": true,
+  "tie_rule_before_classic_result_review": {
+    "context": "Mixed selection result has been reviewed; classic result has not yet been read by root.",
+    "rule": "Compare equal-domain macro gains and validate hard/aggregate risk criteria first. If combined only has a small empirical edge, compute paired combined-minus-gap bootstrap on same fresh base curves stratified by domain, held-out split and family. If its95% interval includes0, freeze simpler gap candidate; do not compare overlap of separate baseline CIs. Freeze one winner before independent confirmation.",
+    "resampling": "1000 stratified bootstrap draws; transformed siblings excluded; exact arrays deduplicated. No new curve generation."
+  },
+  "latest_user_steering": "本地数据可能不够好，你可以直接线上测",
+  "online_order_change": "The frozen gap winner was directly uploaded after source/protocol/paired screening and live official quota; in-flight mixed410 remains independent supplementary evidence. Classic264 confirmation is not started and not claimed as passed."
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "policy": "automation/research_policy.json",
+  "candidates": [
+    {
+      "name": "flat175_desc",
+      "source": "data/experiments/robust_total_20261026/flat175_desc.cpp",
+      "sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "status": "qualified",
+      "official_score": null,
+      "research_objective": "robust_total_score",
+      "scope": "one_limited_online_validation_only_when_official_quota_and_local_cap_allow",
+      "manifest": "data/experiments/robust_confirm_20261026/manifest.json",
+      "evidence": "data/experiments/robust_confirm_20261026/summary.json",
+      "evidence_sha256": "ce1b57764220c08517f58ed313713b4d74132b131c35862e273ec9ddc6760506",
+      "selection_decision": "data/experiments/robust_total_20261026/selection_decision.json",
+      "claims_all_measured_nonzero": false,
+      "local_confirm_mean": 1915.888888888889,
+      "local_confirm_gain": 43.563131313131315,
+      "qualification_note": "Selected on a2x2 ablation then frozen and independently confirmed. Individual new zeros in the screen are reported; aggregate score, zero rate and lower-tail checks passed."
+    }
+  ],
+  "note": "Only the fixed, independently confirmed best source is eligible. Other ablation variants are controls, not an automatic upload queue."
+}

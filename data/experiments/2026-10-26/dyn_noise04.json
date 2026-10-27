@@ -1,0 +1,24 @@
+{
+  "name": "dyn_noise04",
+  "source": "data/experiments/2026-10-26/dyn_noise04.cpp",
+  "sha256": "f1c934c74e26121d487d5f89d91e80454cd1540af24e170f6c08160939420151",
+  "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+  "parent_official_score": 202666,
+  "purpose": "Trim marginal model eligibility to0.04 below the significance-implied ceiling1/24; unlike0.1 this can change behavior",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.04,
+    "model_agreement": 10.0,
+    "model_radius_mode": "both_vertices_plus3_min6"
+  },
+  "official_score": null
+}

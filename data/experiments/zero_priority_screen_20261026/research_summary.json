@@ -1,0 +1,27 @@
+{
+  "official": false,
+  "objective": "zero_first",
+  "cases": 2864,
+  "interactive_screen_runs": 8592,
+  "targeted_runs": 136,
+  "total_new_interactive_runs": 8728,
+  "official_best": 203239,
+  "formal_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "source": "data/experiments/zero_first_20261026/flat175_widevalley.cpp",
+  "source_sha256": "3143dc2771daf7546352f88af9e1343ba6b63e33bc342b29e9b9a7bb3221defd",
+  "unique_base_curves": 2433,
+  "baseline_unique_zeros": 497,
+  "candidate_unique_zeros": 459,
+  "repaired_unique_curves": 38,
+  "introduced_zero_cases": [],
+  "all_measured_nonzero": false,
+  "score": {
+    "unique_base_synthetic_score_delta": 69682,
+    "score_delta_on_previously_positive_cases": -13247,
+    "recovered_score_on_previously_zero_cases": 82929
+  },
+  "online_eligible": false,
+  "reason": "A promising zero-first research incumbent, but existing score-stability gate not passed. Keep main as the official best. Incompatible finite case pair rules out a blanket all-nonzero guarantee."
+}

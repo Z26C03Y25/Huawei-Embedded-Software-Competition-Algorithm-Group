@@ -1,0 +1,35 @@
+[
+  {
+    "name": "a10_uncertainty_radius",
+    "source": "data/experiments/2026-10-26/a10_uncertainty_radius.cpp",
+    "sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+    "parent_sha256": "3de066372798c9b70643a91dee27810026bed5674c9861af2528cdb9e1ec6f4b",
+    "parent_official_score": 202686,
+    "purpose": "Fix known model disagreement false finish: cover both predicted vertices with three-grid raw verification margin; keep real Q/O and parking checks",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 10.0,
+      "model_radius_mode": "both_vertices_plus3_min6"
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+      "official": false,
+      "cases": 56,
+      "total_score": 102480,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  }
+]

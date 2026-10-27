@@ -1,0 +1,57 @@
+{
+  "generator_version": 1,
+  "generator_sha256": "a64535e61bfe4eb95354d87f470a82a97efc09b1ae7ee23673973daa15f5bfb8",
+  "seeds": {
+    "development": 26102661,
+    "selection": 27102662,
+    "blind_shift": 28102663
+  },
+  "per_family": 18,
+  "families": [
+    "smooth_power",
+    "asymmetric_peak",
+    "cusp_peak",
+    "supergaussian",
+    "shoulder",
+    "close_competitors",
+    "far_competitors",
+    "bump_on_hump",
+    "ar1_noise",
+    "heteroskedastic_noise",
+    "periodic_ripple",
+    "chirp_ripple",
+    "quantized_top",
+    "saturated_top",
+    "plateau_edge_peak",
+    "trend_with_peak",
+    "delayed_peak",
+    "boundary_peak",
+    "staircase",
+    "flat_ties",
+    "random_unstructured",
+    "single_spike"
+  ],
+  "cases": 1415,
+  "dataset_sha256": "4f061d39a95bf5bebe6ebe83bac87a38b15ef90c90177641d16672ebf8988f66",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "drift_gate",
+      "source": "data/experiments/2026-10-26-B/post_probe_drift_only.cpp",
+      "sha256": "22cf41c5a9b91eba50fdbadbad73503417f3e92a0de35ed2911d67037fccc2f8"
+    },
+    {
+      "name": "valley_gate",
+      "source": "data/experiments/local_valley_20261026/probe_valley_gate.cpp",
+      "sha256": "6370609115ad056ec8a4a91e7fbdd71bc7995882330284639b91f92a76f650c3"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation.",
+  "case_offset": 18
+}

@@ -1,0 +1,24 @@
+{
+  "name": "a3_fit24",
+  "source": "data/experiments/2026-10-26/a3_fit24.cpp",
+  "sha256": "81c4b72b4d9fa76bc2ecff182018a997d3599f76c396959a75395ea3d6ea8179",
+  "parent_sha256": "17bf77cad8a4f6d497fc01cb1fc2901cf2b0d2a7c156f694bf3ee66e4957311f",
+  "parent_official_score": 202264,
+  "purpose": "Use24-grid neighborhood for multi-point fit on formal agreement3 parent",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 3.0,
+    "model_fit_window": 24
+  },
+  "official_score": null
+}

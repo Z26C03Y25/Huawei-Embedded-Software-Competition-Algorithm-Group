@@ -1,0 +1,24 @@
+{
+  "name": "a3_probe4",
+  "source": "data/experiments/2026-10-26/a3_probe4.cpp",
+  "sha256": "ab458bca3fd9bfe7fc573d22b29d8460b701f3bf16be809e9a8d30bb2fcf8c45",
+  "parent_sha256": "17bf77cad8a4f6d497fc01cb1fc2901cf2b0d2a7c156f694bf3ee66e4957311f",
+  "parent_official_score": 202264,
+  "purpose": "With formally improved model agreement3, verify radius4 and require interior raw winner; test interaction with earlier probe improvement",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 3.0,
+    "model_probe_radius": 4
+  },
+  "official_score": null
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-27T00:09:23.995678+08:00",
+  "job_id": "20261026T160209449105Z_2c007044e331",
+  "submission_id": "4718e523455340cebdd3891ca12cdf0f",
+  "submitted_at": "2026-10-27 00:02:11",
+  "source_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "state": "platform_internal_error",
+  "platform_score_sentinel": -1,
+  "official_algorithm_score": null,
+  "official_used": 1,
+  "official_remaining": 29,
+  "automatic_reuploads": 0,
+  "backup_B": "blocked_no_official_A_score",
+  "tooling_tests_passed": 137,
+  "next_action": "Preserve failed work and source. No automatic duplicate upload or B; platform error is not an algorithm score. Reassess service before any further upload."
+}

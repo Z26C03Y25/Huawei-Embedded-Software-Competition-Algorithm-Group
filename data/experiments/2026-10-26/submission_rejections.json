@@ -1,0 +1,7 @@
+{
+  "a6_agree10": "Submitted before rejection marker. Official202686 is the highest and remains protected despite the retained new synthetic zero (offline delta-2291). Do not repeat this hash; prioritize uncertainty-scaled verification before expanding agreement further.",
+  "model_noise0p1_from200780": "Not submitted: mathematically redundant on this parent. f.significant implies noise<contrast/24, so0.05 and0.1 model gates select exactly the same states.",
+  "a3_noise10": "Not submitted: mathematically redundant on this parent. f.significant implies noise<contrast/24, so0.05 and0.1 model gates select exactly the same states.",
+  "a6_noise10": "Not submitted: mathematically redundant on this parent. f.significant implies noise<contrast/24, so0.05 and0.1 model gates select exactly the same states.",
+  "next_fit16": "Not submitted. Fresh84-case holdout loses5195 and adds2 zeros; preserved under rejected_entries."
+}

@@ -26,6 +26,26 @@
 
 ## 工程资料
 
+- [10月27日粗扫结构突破205376与刷新修复](daily_research/2026-10-27-coarse-breakthrough.md)
+
+- [10月27日粗扫覆盖与竞争区漏点归因](daily_research/2026-10-27-coarse-gap.md)
+
+- [10月27日少量点拟合、模型去毛刺与线上校准](daily_research/2026-10-27-sparse-curve.md)
+
+- [10月27日原题协议核对、C++收尾加固与配对审计](daily_research/2026-10-27-protocol-audit.md)
+
+- [明日条件式线上计划与损失分解（10月26日准备）](daily_research/2026-10-27-online-plan.md)
+
+- [混合难例与多分支：四算子、八候选、双域确认](daily_research/2026-10-26-multi-branch.md)
+
+- [综合得分优先：五版本消融与独立确认](daily_research/2026-10-26-total-score.md)
+
+- [零分优先：38条不同曲线修复与不可兼得证据](daily_research/2026-10-26-zero-first.md)
+
+- [本地优先：22族样例、16980次交互与算子筛选](daily_research/2026-10-26-local-first.md)
+
+- [2026-10-26正式消融与离线泛化边界](daily_research/2026-10-26-analysis.md)
+
 - [2026-10-25离线研究与次日准备](daily_research/2026-10-25.md)
 
 - [目录职责与依赖](reference/repository-map.md)
@@ -40,4 +60,4 @@
 
 [archive/](archive/README.md) 保存旧版分析、旧测试结果和早期笔记。原文中的“当前版本”指写作当时的版本。旧文档路径保留跳转导航，不能据此判断今天的源码状态。
 
-最高正式源码以 [data/versions/](../data/versions/README.md) 的分数和哈希为准；现阶段入口与199291归档字节相同。
+最高正式源码以 [data/versions/](../data/versions/README.md) 的分数和哈希为准；现阶段入口与205415归档字节相同。

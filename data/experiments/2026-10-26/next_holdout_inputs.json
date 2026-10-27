@@ -1,0 +1,10 @@
+{
+  "seed": 20261027,
+  "count": 84,
+  "solvers": {
+    "next_tau6": "e4cc5005566cca88aade0e7977324f536496fb164b7537c65701ad9ec84f9a06",
+    "next_tau12": "1d1552c5132102a9a31a8c2bff95f0f94401698f21ea5eeea2b86aec52c1d070",
+    "next_fit16": "65986ce801d47ca5af6e245f350c336766bc291e15db40b22247d58103389fcb"
+  },
+  "baseline": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+}

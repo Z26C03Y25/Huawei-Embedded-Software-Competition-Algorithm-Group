@@ -1,0 +1,15 @@
+{
+  "name": "naive_flat199",
+  "source": "data/experiments/zero_first_20261026/naive_flat199.cpp",
+  "sha256": "f2c3699cc645f56d1417e03f5cbeafad50df38f2f52d2bd94c303f8864ccb3dc",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "derived_source": "data/versions/main_online_203239.cpp",
+  "parameters": {
+    "flat_horizon": 199,
+    "preserve_legacy_waypoint": false,
+    "combine_wide_valley": false
+  },
+  "official": false,
+  "online_eligible": false,
+  "purpose": "Repair late quantized-flat prefixes while preserving original mandatory waypoint; test every known positive sample for newly introduced zero."
+}

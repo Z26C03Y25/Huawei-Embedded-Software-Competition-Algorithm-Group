@@ -1,0 +1,26 @@
+{
+  "name": "m3_margin4",
+  "source": "data/experiments/2026-10-26/m3_margin4.cpp",
+  "sha256": "a39d3f13a644cb8e979ee18f2a0d47c5b5b87bb77469d703170f1e9d0f5d524b",
+  "parent_sha256": "eab48581d10632f81a9826ceb35e3001c7ce8ae7d6130b584a63a81b27e5b547",
+  "parent_official_score": 203110,
+  "purpose": "On formal203110 retain reduced minimum3 and test uncertainty margin4 for boundary-winner fallback",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "two_vertex_uncertainty",
+    "model_min_radius": 3,
+    "model_prediction_margin": 4
+  },
+  "official_score": null
+}

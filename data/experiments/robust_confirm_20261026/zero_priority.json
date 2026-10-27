@@ -1,0 +1,129 @@
+{
+  "objective": "zero_first",
+  "ranking": [
+    "champion",
+    "formal203239"
+  ],
+  "solvers": {
+    "formal203239": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1449,
+      "independent_mothers": 1245,
+      "unique_base_curves": 1245,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        }
+      ],
+      "structured_unique_zero_cases": 145,
+      "information_limited_unique_zero_cases": 101,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 246,
+      "independent_baseline_zero_cases": 246,
+      "independent_repairs": 0,
+      "repair_entries_including_siblings": 0,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1977,
+      "macro_mean_score": 1893.2376543209878,
+      "rank_key": [
+        0,
+        0,
+        246,
+        1.0,
+        -1977,
+        -1893.2376543209878
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 208,
+        "redundancy >= 200": 86,
+        "score floor or protocol failure": 2
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "champion": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1449,
+      "independent_mothers": 1245,
+      "unique_base_curves": 1245,
+      "exact_duplicate_base_entries": [
+        {
+          "name": "acceptance/constant/400/0",
+          "same_as": "all_zero_n400"
+        },
+        {
+          "name": "acceptance/constant/400/12345",
+          "same_as": "flat_n400"
+        },
+        {
+          "name": "acceptance/constant/1000/12345",
+          "same_as": "flat_n1000"
+        },
+        {
+          "name": "acceptance/clean/700/696",
+          "same_as": "boundary_n700_p696_w35"
+        },
+        {
+          "name": "acceptance/clean/1000/999",
+          "same_as": "boundary_n1000_p999_w130"
+        },
+        {
+          "name": "acceptance/clean/400/0",
+          "same_as": "boundary_n400_p0_w65"
+        }
+      ],
+      "structured_unique_zero_cases": 118,
+      "information_limited_unique_zero_cases": 101,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 219,
+      "independent_baseline_zero_cases": 246,
+      "independent_repairs": 27,
+      "repair_entries_including_siblings": 33,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1946,
+      "macro_mean_score": 1941.3847736625514,
+      "rank_key": [
+        0,
+        0,
+        219,
+        1.0,
+        -1946,
+        -1941.3847736625514
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 194,
+        "redundancy >= 200": 79,
+        "score floor or protocol failure": 2
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    }
+  }
+}

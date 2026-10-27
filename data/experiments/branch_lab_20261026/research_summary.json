@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-26",
+  "objective": "robust_total_score",
+  "official": false,
+  "operators": 4,
+  "candidate_variants": 8,
+  "benchmark_runs": {
+    "branch_dev_20261026": 3633,
+    "branch_dev_refine_20261026": 2076,
+    "branch_select_mixed_20261026": 6300,
+    "branch_select_classic_20261026": 4212,
+    "branch_confirm_mixed_20261026": 5481,
+    "branch_confirm_classic_20261026": 4347
+  },
+  "total_interactive_runs": 26049,
+  "mixed_families": 24,
+  "final_mixed_families": 28,
+  "heldout_families": [
+    "modal_bridge",
+    "background_change_points",
+    "occluded_peak",
+    "compound_ripples"
+  ],
+  "confirmation": {
+    "mixed": {
+      "formal203239": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1345.9305555555557,
+        "baseline_macro_mean": 1345.9305555555557,
+        "macro_delta": 0.0,
+        "mean": 1345.9305555555557,
+        "baseline_mean": 1345.9305555555557,
+        "zeros": 635,
+        "baseline_zeros": 635,
+        "zero_rate_delta": 0.0,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 0
+      },
+      "previous": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1391.540343915344,
+        "baseline_macro_mean": 1345.9305555555557,
+        "macro_delta": 45.60978835978836,
+        "mean": 1391.540343915344,
+        "baseline_mean": 1345.9305555555557,
+        "zeros": 601,
+        "baseline_zeros": 635,
+        "zero_rate_delta": -0.022486772486772486,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 34
+      },
+      "champion": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1413.1441798941796,
+        "baseline_macro_mean": 1345.9305555555557,
+        "macro_delta": 67.21362433862434,
+        "mean": 1413.1441798941798,
+        "baseline_mean": 1345.9305555555557,
+        "zeros": 588,
+        "baseline_zeros": 635,
+        "zero_rate_delta": -0.031084656084656083,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 1,
+        "resolved_zeros": 48
+      }
+    },
+    "classic": {
+      "formal203239": {
+        "cases": 1188,
+        "structured_family_count": 20,
+        "macro_mean": 1855.5976430976432,
+        "baseline_macro_mean": 1855.5976430976432,
+        "macro_delta": 0.0,
+        "mean": 1855.5976430976432,
+        "baseline_mean": 1855.5976430976432,
+        "zeros": 245,
+        "baseline_zeros": 245,
+        "zero_rate_delta": 0.0,
+        "cvar25": 279.4107744107744,
+        "baseline_cvar25": 279.4107744107744,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 0
+      },
+      "previous": {
+        "cases": 1188,
+        "structured_family_count": 20,
+        "macro_mean": 1911.6279461279462,
+        "baseline_macro_mean": 1855.5976430976432,
+        "macro_delta": 56.03030303030303,
+        "mean": 1911.6279461279462,
+        "baseline_mean": 1855.5976430976432,
+        "zeros": 213,
+        "baseline_zeros": 245,
+        "zero_rate_delta": -0.026936026936026935,
+        "cvar25": 480.25925925925924,
+        "baseline_cvar25": 279.4107744107744,
+        "cvar25_delta": 200.84848484848482,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 1,
+        "resolved_zeros": 33
+      },
+      "champion": {
+        "cases": 1188,
+        "structured_family_count": 20,
+        "macro_mean": 1917.624579124579,
+        "baseline_macro_mean": 1855.5976430976432,
+        "macro_delta": 62.026936026936006,
+        "mean": 1917.6245791245792,
+        "baseline_mean": 1855.5976430976432,
+        "zeros": 210,
+        "baseline_zeros": 245,
+        "zero_rate_delta": -0.029461279461279462,
+        "cvar25": 499.7676767676768,
+        "baseline_cvar25": 279.4107744107744,
+        "cvar25_delta": 220.35690235690237,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 1,
+        "resolved_zeros": 36
+      }
+    }
+  },
+  "balanced_domain_means": {
+    "formal203239": 1600.7640993265995,
+    "previous": 1651.584145021645,
+    "champion": 1665.3843795093794
+  },
+  "balanced_gain_vs_formal": 64.62028018277988,
+  "balanced_gain_percent_vs_formal": 4.036839669877902,
+  "balanced_gain_vs_previous": 13.800234487734315,
+  "novel_family_means": {
+    "formal203239": 1354.5277777777778,
+    "previous": 1397.1435185185187,
+    "champion": 1442.6342592592591
+  },
+  "severe_unresolved_family": {
+    "name": "modal_bridge",
+    "cases": 54,
+    "zero_cases": 54,
+    "affects_all_three_versions": true,
+    "retained": true
+  },
+  "online_candidate": {
+    "name": "noise_radius_mixed_validated",
+    "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "status": "qualified",
+    "official_score": null,
+    "research_objective": "robust_total_score",
+    "scope": "single_online_validation_after_fresh_quota_check",
+    "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+    "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+    "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+    "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+    "additional_confirmations": [
+      {
+        "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+        "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+        "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+      }
+    ],
+    "claims_all_measured_nonzero": false,
+    "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed."
+  },
+  "official_best": 203239,
+  "formal_main_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "formal_main_preserved": true,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "note": "Tier labels indicate preassigned nuisance strength, not measured hardness. Mixed CVaR25 is0 because zeros exceed25%; do not claim this provides extra tail evidence. Classic tail metrics are reported separately."
+}

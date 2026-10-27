@@ -1,0 +1,3364 @@
+[
+  {
+    "name": "20261026401/development/skew_correlated/004",
+    "split": "development",
+    "family": "skew_correlated",
+    "cluster": "20261026401/development/skew_correlated/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 58,
+    "oscillations": 2,
+    "redundancy": 129,
+    "distance": 5,
+    "final_position": 238,
+    "target": 243,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/000",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 42,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 623,
+    "final_position": 168,
+    "target": 791,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/000/offset",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 42,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 623,
+    "final_position": 168,
+    "target": 791,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/000/scale",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 42,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 623,
+    "final_position": 168,
+    "target": 791,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/001",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/001",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 43,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 381,
+    "final_position": 164,
+    "target": 545,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/003",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 567,
+    "final_position": 297,
+    "target": 864,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/004",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 56,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 25,
+    "final_position": 296,
+    "target": 321,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/006",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 22,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 319,
+    "final_position": 13,
+    "target": 332,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/007",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 87,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 255,
+    "final_position": 284,
+    "target": 539,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/011",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 94,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 33,
+    "final_position": 618,
+    "target": 651,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/012",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 33,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 333,
+    "final_position": 27,
+    "target": 360,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/013",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 245,
+    "final_position": 128,
+    "target": 373,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/014",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 40,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 236,
+    "final_position": 89,
+    "target": 325,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/three_competitors/015",
+    "split": "development",
+    "family": "three_competitors",
+    "cluster": "20261026401/development/three_competitors/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 59,
+    "final_position": 233,
+    "target": 292,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/000",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 547,
+    "final_position": 59,
+    "target": 606,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/000/offset",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 547,
+    "final_position": 59,
+    "target": 606,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/000/scale",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 547,
+    "final_position": 59,
+    "target": 606,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/003",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 311,
+    "final_position": 238,
+    "target": 549,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/006",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 197,
+    "final_position": 281,
+    "target": 478,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/near_equal_ripple/011",
+    "split": "development",
+    "family": "near_equal_ripple",
+    "cluster": "20261026401/development/near_equal_ripple/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 168,
+    "final_position": 210,
+    "target": 378,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/000",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 70,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 595,
+    "final_position": 2,
+    "target": 597,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/000/offset",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 70,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 595,
+    "final_position": 2,
+    "target": 597,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/000/scale",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 70,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 595,
+    "final_position": 2,
+    "target": 597,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/002",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/002",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 125,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 728,
+    "final_position": 28,
+    "target": 756,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/004",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 35,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 758,
+    "final_position": 1,
+    "target": 759,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/005",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 39,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 487,
+    "final_position": 0,
+    "target": 487,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/006",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 580,
+    "final_position": 7,
+    "target": 587,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/008",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 550,
+    "final_position": 0,
+    "target": 550,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/010",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 96,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 410,
+    "final_position": 7,
+    "target": 417,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/decline_then_peak/012",
+    "split": "development",
+    "family": "decline_then_peak",
+    "cluster": "20261026401/development/decline_then_peak/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 299,
+    "final_position": 0,
+    "target": 299,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/noisy_flat_prefix/013",
+    "split": "development",
+    "family": "noisy_flat_prefix",
+    "cluster": "20261026401/development/noisy_flat_prefix/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 106,
+    "oscillations": 2,
+    "redundancy": 30,
+    "distance": 11,
+    "final_position": 719,
+    "target": 730,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/000",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 243,
+    "final_position": 426,
+    "target": 669,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/000/offset",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 243,
+    "final_position": 426,
+    "target": 669,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/000/scale",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 243,
+    "final_position": 426,
+    "target": 669,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/001",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/001",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 360,
+    "final_position": 250,
+    "target": 610,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/002",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/002",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 57,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 221,
+    "final_position": 232,
+    "target": 453,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/004",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 327,
+    "final_position": 192,
+    "target": 519,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/005",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 48,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 177,
+    "final_position": 185,
+    "target": 362,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/006",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 333,
+    "final_position": 245,
+    "target": 578,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/007",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 421,
+    "final_position": 255,
+    "target": 676,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/008",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 371,
+    "final_position": 236,
+    "target": 607,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/009",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/009",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 303,
+    "final_position": 282,
+    "target": 585,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/010",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 39,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 322,
+    "final_position": 143,
+    "target": 465,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/012",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 41,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 204,
+    "final_position": 163,
+    "target": 367,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/late_peak_echo/013",
+    "split": "development",
+    "family": "late_peak_echo",
+    "cluster": "20261026401/development/late_peak_echo/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 256,
+    "final_position": 155,
+    "target": 411,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/000",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 748,
+    "final_position": 53,
+    "target": 801,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/000/mirror",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/000",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 126,
+    "distance": 7,
+    "final_position": 179,
+    "target": 186,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/000/offset",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 748,
+    "final_position": 53,
+    "target": 801,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/000/scale",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 748,
+    "final_position": 53,
+    "target": 801,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/001",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/001",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 31,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 328,
+    "final_position": 70,
+    "target": 398,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/002",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/002",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 38,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 200,
+    "final_position": 101,
+    "target": 301,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/003",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 677,
+    "final_position": 72,
+    "target": 749,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/004",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 35,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 466,
+    "final_position": 114,
+    "target": 580,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/005",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 35,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 326,
+    "final_position": 42,
+    "target": 368,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/006",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 34,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 224,
+    "final_position": 106,
+    "target": 330,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/007",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 28,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 603,
+    "final_position": 15,
+    "target": 618,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/008",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 347,
+    "final_position": 63,
+    "target": 410,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/009",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/009",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 43,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 521,
+    "final_position": 132,
+    "target": 653,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/010",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 55,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 488,
+    "final_position": 233,
+    "target": 721,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/011",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 301,
+    "final_position": 92,
+    "target": 393,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/012",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 358,
+    "final_position": 27,
+    "target": 385,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/013",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 38,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 543,
+    "final_position": 54,
+    "target": 597,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/014",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 36,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 429,
+    "final_position": 80,
+    "target": 509,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/early_echo_late_main/015",
+    "split": "development",
+    "family": "early_echo_late_main",
+    "cluster": "20261026401/development/early_echo_late_main/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 34,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 706,
+    "final_position": 46,
+    "target": 752,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/000",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 213,
+    "target": 648,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/000/offset",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 213,
+    "target": 648,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/000/scale",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 213,
+    "target": 648,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/004",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 93,
+    "oscillations": 2,
+    "redundancy": 86,
+    "distance": 7,
+    "final_position": 585,
+    "target": 578,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/005",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 46,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 412,
+    "final_position": 89,
+    "target": 501,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/006",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 73,
+    "oscillations": 2,
+    "redundancy": 227,
+    "distance": 0,
+    "final_position": 5,
+    "target": 5,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/007",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 155,
+    "oscillations": 2,
+    "redundancy": 318,
+    "distance": 0,
+    "final_position": 202,
+    "target": 202,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/008",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 489,
+    "final_position": 374,
+    "target": 863,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/010",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 44,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 765,
+    "final_position": 32,
+    "target": 797,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/011",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 156,
+    "oscillations": 3,
+    "redundancy": 465,
+    "distance": 0,
+    "final_position": 7,
+    "target": 7,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/014",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 46,
+    "oscillations": 2,
+    "redundancy": 106,
+    "distance": 17,
+    "final_position": 111,
+    "target": 94,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/ramp_micropeaks/015",
+    "split": "development",
+    "family": "ramp_micropeaks",
+    "cluster": "20261026401/development/ramp_micropeaks/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 761,
+    "distance": 0,
+    "final_position": 15,
+    "target": 15,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/staircase_with_background/008",
+    "split": "development",
+    "family": "staircase_with_background",
+    "cluster": "20261026401/development/staircase_with_background/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 92,
+    "oscillations": 3,
+    "redundancy": 315,
+    "distance": 0,
+    "final_position": 5,
+    "target": 5,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/000",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 167,
+    "final_position": 451,
+    "target": 618,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/000/offset",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 167,
+    "final_position": 451,
+    "target": 618,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/000/scale",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 167,
+    "final_position": 451,
+    "target": 618,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/001",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/001",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 89,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 307,
+    "final_position": 626,
+    "target": 933,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/002",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/002",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 51,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 245,
+    "final_position": 296,
+    "target": 541,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/003",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 58,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 345,
+    "final_position": 247,
+    "target": 592,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/004",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 46,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 149,
+    "final_position": 272,
+    "target": 421,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/008",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 89,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 291,
+    "final_position": 617,
+    "target": 908,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/009",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/009",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 303,
+    "final_position": 206,
+    "target": 509,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/010",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 81,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 369,
+    "final_position": 556,
+    "target": 925,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/011",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 108,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 253,
+    "final_position": 708,
+    "target": 961,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/013",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 88,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 228,
+    "final_position": 596,
+    "target": 824,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/014",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 436,
+    "final_position": 333,
+    "target": 769,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/boundary_competitor/015",
+    "split": "development",
+    "family": "boundary_competitor",
+    "cluster": "20261026401/development/boundary_competitor/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 51,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 486,
+    "final_position": 219,
+    "target": 705,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/000",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 39,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 283,
+    "final_position": 80,
+    "target": 363,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/000/offset",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 39,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 283,
+    "final_position": 80,
+    "target": 363,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/000/scale",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 39,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 283,
+    "final_position": 80,
+    "target": 363,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/004",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 151,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 602,
+    "final_position": 142,
+    "target": 744,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/008",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 157,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 364,
+    "final_position": 125,
+    "target": 489,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/variable_skew/012",
+    "split": "development",
+    "family": "variable_skew",
+    "cluster": "20261026401/development/variable_skew/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 415,
+    "final_position": 132,
+    "target": 547,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/nonstationary_chirp/003",
+    "split": "development",
+    "family": "nonstationary_chirp",
+    "cluster": "20261026401/development/nonstationary_chirp/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 168,
+    "oscillations": 2,
+    "redundancy": 816,
+    "distance": 0,
+    "final_position": 173,
+    "target": 173,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/nonstationary_chirp/005",
+    "split": "development",
+    "family": "nonstationary_chirp",
+    "cluster": "20261026401/development/nonstationary_chirp/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 100,
+    "oscillations": 2,
+    "redundancy": 318,
+    "distance": 0,
+    "final_position": 127,
+    "target": 127,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/nonstationary_chirp/009",
+    "split": "development",
+    "family": "nonstationary_chirp",
+    "cluster": "20261026401/development/nonstationary_chirp/009",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 172,
+    "oscillations": 3,
+    "redundancy": 230,
+    "distance": 0,
+    "final_position": 442,
+    "target": 442,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/nonstationary_chirp/010",
+    "split": "development",
+    "family": "nonstationary_chirp",
+    "cluster": "20261026401/development/nonstationary_chirp/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 427,
+    "distance": 0,
+    "final_position": 360,
+    "target": 360,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/nonstationary_chirp/013",
+    "split": "development",
+    "family": "nonstationary_chirp",
+    "cluster": "20261026401/development/nonstationary_chirp/013",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 95,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 694,
+    "final_position": 71,
+    "target": 765,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/000/mirror",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/000",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 121,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 267,
+    "final_position": 238,
+    "target": 505,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/002",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/002",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 400,
+    "final_position": 242,
+    "target": 642,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/005",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 103,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 526,
+    "final_position": 111,
+    "target": 637,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/010",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 61,
+    "oscillations": 2,
+    "redundancy": 107,
+    "distance": 8,
+    "final_position": 285,
+    "target": 277,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/012",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 87,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 189,
+    "final_position": 148,
+    "target": 337,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/014",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 296,
+    "final_position": 39,
+    "target": 335,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/clipped_double_top/015",
+    "split": "development",
+    "family": "clipped_double_top",
+    "cluster": "20261026401/development/clipped_double_top/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 74,
+    "oscillations": 2,
+    "redundancy": 14,
+    "distance": 6,
+    "final_position": 476,
+    "target": 482,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/000",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 180,
+    "final_position": 49,
+    "target": 229,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/000/offset",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/000",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 180,
+    "final_position": 49,
+    "target": 229,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/000/scale",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/000",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 180,
+    "final_position": 49,
+    "target": 229,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/001",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/001",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 82,
+    "final_position": 479,
+    "target": 561,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/003",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 95,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 220,
+    "final_position": 437,
+    "target": 657,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/004",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 50,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 194,
+    "final_position": 229,
+    "target": 423,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/006",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/006",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 217,
+    "final_position": 217,
+    "target": 434,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/007",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 106,
+    "final_position": 377,
+    "target": 483,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/008",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 78,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 123,
+    "final_position": 453,
+    "target": 576,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/010",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 61,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 184,
+    "final_position": 185,
+    "target": 369,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/011",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 55,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 109,
+    "final_position": 177,
+    "target": 286,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/012",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 112,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 194,
+    "final_position": 725,
+    "target": 919,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/plateau_edge_bumps/014",
+    "split": "development",
+    "family": "plateau_edge_bumps",
+    "cluster": "20261026401/development/plateau_edge_bumps/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 82,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 207,
+    "final_position": 505,
+    "target": 712,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/000/mirror",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/000",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 436,
+    "final_position": 0,
+    "target": 436,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/005",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 35,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 495,
+    "final_position": 39,
+    "target": 534,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/009",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/009",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 216,
+    "final_position": 373,
+    "target": 589,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/010",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 48,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 345,
+    "final_position": 156,
+    "target": 501,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/011",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/011",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 72,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 338,
+    "final_position": 415,
+    "target": 753,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/012",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 28,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 376,
+    "final_position": 9,
+    "target": 385,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/drifting_double/014",
+    "split": "development",
+    "family": "drifting_double",
+    "cluster": "20261026401/development/drifting_double/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 89,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 145,
+    "final_position": 613,
+    "target": 758,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/multiple_quantized_ties/000/mirror",
+    "split": "development",
+    "family": "multiple_quantized_ties",
+    "cluster": "20261026401/development/multiple_quantized_ties/000",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 418,
+    "final_position": 68,
+    "target": 486,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/multiple_quantized_ties/005",
+    "split": "development",
+    "family": "multiple_quantized_ties",
+    "cluster": "20261026401/development/multiple_quantized_ties/005",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 4,
+    "redundancy": 0,
+    "distance": 176,
+    "final_position": 151,
+    "target": 327,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/multiple_quantized_ties/007",
+    "split": "development",
+    "family": "multiple_quantized_ties",
+    "cluster": "20261026401/development/multiple_quantized_ties/007",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 51,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 397,
+    "final_position": 30,
+    "target": 427,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/multiple_quantized_ties/014",
+    "split": "development",
+    "family": "multiple_quantized_ties",
+    "cluster": "20261026401/development/multiple_quantized_ties/014",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 50,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 259,
+    "final_position": 301,
+    "target": 560,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/multiple_quantized_ties/015",
+    "split": "development",
+    "family": "multiple_quantized_ties",
+    "cluster": "20261026401/development/multiple_quantized_ties/015",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 121,
+    "oscillations": 3,
+    "redundancy": 292,
+    "distance": 0,
+    "final_position": 268,
+    "target": 268,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/wave_envelope/003",
+    "split": "development",
+    "family": "wave_envelope",
+    "cluster": "20261026401/development/wave_envelope/003",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 53,
+    "oscillations": 2,
+    "redundancy": 82,
+    "distance": 10,
+    "final_position": 188,
+    "target": 198,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/wave_envelope/004",
+    "split": "development",
+    "family": "wave_envelope",
+    "cluster": "20261026401/development/wave_envelope/004",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 162,
+    "oscillations": 2,
+    "redundancy": 534,
+    "distance": 0,
+    "final_position": 123,
+    "target": 123,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/wave_envelope/008",
+    "split": "development",
+    "family": "wave_envelope",
+    "cluster": "20261026401/development/wave_envelope/008",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 160,
+    "oscillations": 2,
+    "redundancy": 212,
+    "distance": 0,
+    "final_position": 659,
+    "target": 659,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/wave_envelope/010",
+    "split": "development",
+    "family": "wave_envelope",
+    "cluster": "20261026401/development/wave_envelope/010",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 139,
+    "oscillations": 2,
+    "redundancy": 252,
+    "distance": 0,
+    "final_position": 60,
+    "target": 60,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/wave_envelope/012",
+    "split": "development",
+    "family": "wave_envelope",
+    "cluster": "20261026401/development/wave_envelope/012",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 311,
+    "distance": 0,
+    "final_position": 169,
+    "target": 169,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/000",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/000",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 669,
+    "distance": 275,
+    "final_position": 470,
+    "target": 195,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/000/mirror",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/000",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 195,
+    "distance": 669,
+    "final_position": 0,
+    "target": 669,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/000/offset",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/000",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 669,
+    "distance": 275,
+    "final_position": 470,
+    "target": 195,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/000/scale",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/000",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 197,
+    "oscillations": 3,
+    "redundancy": 669,
+    "distance": 0,
+    "final_position": 195,
+    "target": 195,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/001",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/001",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 195,
+    "oscillations": 3,
+    "redundancy": 443,
+    "distance": 323,
+    "final_position": 384,
+    "target": 61,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/002",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/002",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 186,
+    "oscillations": 3,
+    "redundancy": 215,
+    "distance": 18,
+    "final_position": 260,
+    "target": 242,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/003",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/003",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 192,
+    "oscillations": 3,
+    "redundancy": 622,
+    "distance": 36,
+    "final_position": 56,
+    "target": 92,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/006",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/006",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 111,
+    "distance": 51,
+    "final_position": 440,
+    "target": 389,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/007",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/007",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 190,
+    "oscillations": 3,
+    "redundancy": 305,
+    "distance": 231,
+    "final_position": 498,
+    "target": 267,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/008",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/008",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 190,
+    "oscillations": 3,
+    "redundancy": 28,
+    "distance": 371,
+    "final_position": 143,
+    "target": 514,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/009",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/009",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 347,
+    "distance": 0,
+    "final_position": 264,
+    "target": 264,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/010",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/010",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 860,
+    "distance": 223,
+    "final_position": 264,
+    "target": 41,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/011",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/011",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 688,
+    "distance": 254,
+    "final_position": 437,
+    "target": 183,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/012",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/012",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 822,
+    "distance": 113,
+    "final_position": 227,
+    "target": 114,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/013",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/013",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 189,
+    "oscillations": 3,
+    "redundancy": 158,
+    "distance": 41,
+    "final_position": 632,
+    "target": 591,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/014",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/014",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 190,
+    "oscillations": 2,
+    "redundancy": 74,
+    "distance": 4,
+    "final_position": 520,
+    "target": 516,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/unstructured_background/015",
+    "split": "development",
+    "family": "unstructured_background",
+    "cluster": "20261026401/development/unstructured_background/015",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 188,
+    "oscillations": 3,
+    "redundancy": 106,
+    "distance": 119,
+    "final_position": 200,
+    "target": 319,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/000",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/000",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 417,
+    "distance": 242,
+    "final_position": 275,
+    "target": 33,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/000/mirror",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/000",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 243,
+    "final_position": 275,
+    "target": 518,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/000/offset",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/000",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 417,
+    "distance": 242,
+    "final_position": 275,
+    "target": 33,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/000/scale",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/000",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 417,
+    "distance": 242,
+    "final_position": 275,
+    "target": 33,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/001",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/001",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 70,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 348,
+    "final_position": 350,
+    "target": 698,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/002",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/002",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 63,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 205,
+    "final_position": 293,
+    "target": 498,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/003",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/003",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 56,
+    "oscillations": 2,
+    "redundancy": 381,
+    "distance": 206,
+    "final_position": 235,
+    "target": 29,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/006",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/006",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 408,
+    "distance": 233,
+    "final_position": 345,
+    "target": 112,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/007",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/007",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 67,
+    "oscillations": 2,
+    "redundancy": 337,
+    "distance": 162,
+    "final_position": 325,
+    "target": 163,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/008",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/008",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 227,
+    "distance": 52,
+    "final_position": 323,
+    "target": 271,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/009",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/009",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 72,
+    "oscillations": 2,
+    "redundancy": 521,
+    "distance": 346,
+    "final_position": 371,
+    "target": 25,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/010",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/010",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 350,
+    "final_position": 426,
+    "target": 776,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/011",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/011",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 208,
+    "distance": 33,
+    "final_position": 322,
+    "target": 289,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/012",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/012",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 51,
+    "oscillations": 2,
+    "redundancy": 136,
+    "distance": 39,
+    "final_position": 200,
+    "target": 239,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/013",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/013",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 73,
+    "oscillations": 2,
+    "redundancy": 73,
+    "distance": 102,
+    "final_position": 377,
+    "target": 479,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/014",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/014",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 57,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 238,
+    "final_position": 247,
+    "target": 485,
+    "baseline_score": 0
+  },
+  {
+    "name": "20261026401/development/adversarial_impulse/015",
+    "split": "development",
+    "family": "adversarial_impulse",
+    "cluster": "20261026401/development/adversarial_impulse/015",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 103,
+    "distance": 72,
+    "final_position": 338,
+    "target": 410,
+    "baseline_score": 0
+  },
+  {
+    "name": "double_later_higher",
+    "split": "regression",
+    "family": "double",
+    "cluster": "smoke/double_later_higher",
+    "transform": "base",
+    "difficulty": "challenging",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 40,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 315,
+    "final_position": 155,
+    "target": 470,
+    "baseline_score": 0
+  },
+  {
+    "name": "spike_n1000_p999",
+    "split": "regression",
+    "family": "spike",
+    "cluster": "smoke/spike_n1000_p999",
+    "transform": "base",
+    "difficulty": "challenging",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 88,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 500,
+    "final_position": 499,
+    "target": 999,
+    "baseline_score": 0
+  },
+  {
+    "name": "acceptance/late_triangle/900",
+    "split": "regression",
+    "family": "delayed_contract",
+    "cluster": "acceptance/late_triangle/900",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 88,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 401,
+    "final_position": 499,
+    "target": 900,
+    "baseline_score": 0
+  }
+]

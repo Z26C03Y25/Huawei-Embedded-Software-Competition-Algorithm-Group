@@ -1,0 +1,28 @@
+{
+  "name": "bops_first75_7517b317",
+  "source": "data/experiments/2026-10-26/bops_first75_7517b317.cpp",
+  "sha256": "a88d7fee3100d3e570e7810b9fa29c730c2a2ef0fadcc127d05cf79b9e4f387d",
+  "parent_sha256": "7517b317969c5bb2ae465fdeb49ed2eba6489ee4e18704e3a2d670b55b624694",
+  "parent_official_score": 203171,
+  "purpose": "On latest formally scored parent allocate75 percent to first fine batch instead of two thirds, retain shared hard query cap",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "two_vertex_uncertainty",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3,
+    "first_reserve_divisor": 4
+  },
+  "official_score": null
+}

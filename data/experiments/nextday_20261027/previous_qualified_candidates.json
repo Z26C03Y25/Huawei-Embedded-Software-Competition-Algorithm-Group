@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "policy": "automation/research_policy.json",
+  "candidates": [
+    {
+      "name": "noise_radius_mixed_validated",
+      "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+      "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "status": "qualified",
+      "official_score": null,
+      "research_objective": "robust_total_score",
+      "scope": "single_online_validation_after_fresh_quota_check",
+      "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+      "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+      "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+      "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+      "additional_confirmations": [
+        {
+          "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+          "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+          "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+        }
+      ],
+      "claims_all_measured_nonzero": false,
+      "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed."
+    }
+  ],
+  "note": "Only the fixed dual-domain confirmed winner is queued; do not upload all8 experimental variants. Local averages do not predict official score."
+}

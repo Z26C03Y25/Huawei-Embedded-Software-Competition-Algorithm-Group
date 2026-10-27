@@ -1,0 +1,40 @@
+{
+  "name": "flat160_desc",
+  "source": "data/experiments/robust_total_20261026/flat160_desc.cpp",
+  "sha256": "f56ad7cdda713831fc62dc0ed3cbbd30ec5daa73ec351c05e73800ad6830ce14",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "derived_local_parent": "data/experiments/zero_first_20261026/flat175_widevalley.cpp",
+  "derived_local_parent_sha256": "3143dc2771daf7546352f88af9e1343ba6b63e33bc342b29e9b9a7bb3221defd",
+  "official": false,
+  "parameters": {
+    "flat_horizon": 160,
+    "preserve_legacy_waypoint": true,
+    "wide_valley_gate": true,
+    "descending_guard": true,
+    "descending_guard_min_slopes": 7,
+    "descending_guard_min_drops": 3,
+    "descending_guard_margin": 175
+  },
+  "purpose": "2x2 ablation: flat extension cost and a model cap for globally observed nonincreasing staircase prefixes. Hard query/turn/parking guards unchanged; report any regression.",
+  "inherited_formal_config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3
+  },
+  "latest_screen_report": "data/experiments/robust_total_20261026/summary.json",
+  "formal_score": null,
+  "online_eligible": false
+}

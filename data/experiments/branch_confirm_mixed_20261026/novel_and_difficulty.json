@@ -1,0 +1,128 @@
+{
+  "formal203239": {
+    "novel": {
+      "modal_bridge": {
+        "mean": 0.0,
+        "cases": 54,
+        "zeros": 54
+      },
+      "background_change_points": {
+        "mean": 1733.5555555555557,
+        "cases": 54,
+        "zeros": 16
+      },
+      "occluded_peak": {
+        "mean": 2145.0185185185187,
+        "cases": 54,
+        "zeros": 5
+      },
+      "compound_ripples": {
+        "mean": 1539.537037037037,
+        "cases": 54,
+        "zeros": 16
+      }
+    },
+    "novel_macro": 1354.5277777777778,
+    "tiers": {
+      "medium": {
+        "cases": 420,
+        "mean": 1294.1119047619047,
+        "zeros": 188
+      },
+      "hard": {
+        "cases": 756,
+        "mean": 1355.2989417989418,
+        "zeros": 315
+      },
+      "extreme": {
+        "cases": 336,
+        "mean": 1389.625,
+        "zeros": 132
+      }
+    }
+  },
+  "previous": {
+    "novel": {
+      "modal_bridge": {
+        "mean": 0.0,
+        "cases": 54,
+        "zeros": 54
+      },
+      "background_change_points": {
+        "mean": 1805.0,
+        "cases": 54,
+        "zeros": 14
+      },
+      "occluded_peak": {
+        "mean": 2139.1111111111113,
+        "cases": 54,
+        "zeros": 5
+      },
+      "compound_ripples": {
+        "mean": 1644.462962962963,
+        "cases": 54,
+        "zeros": 13
+      }
+    },
+    "novel_macro": 1397.1435185185187,
+    "tiers": {
+      "medium": {
+        "cases": 420,
+        "mean": 1339.1380952380953,
+        "zeros": 179
+      },
+      "hard": {
+        "cases": 756,
+        "mean": 1402.4391534391534,
+        "zeros": 297
+      },
+      "extreme": {
+        "cases": 336,
+        "mean": 1432.5208333333333,
+        "zeros": 125
+      }
+    }
+  },
+  "champion": {
+    "novel": {
+      "modal_bridge": {
+        "mean": 0.0,
+        "cases": 54,
+        "zeros": 54
+      },
+      "background_change_points": {
+        "mean": 1909.2962962962963,
+        "cases": 54,
+        "zeros": 12
+      },
+      "occluded_peak": {
+        "mean": 2136.9074074074074,
+        "cases": 54,
+        "zeros": 5
+      },
+      "compound_ripples": {
+        "mean": 1724.3333333333333,
+        "cases": 54,
+        "zeros": 11
+      }
+    },
+    "novel_macro": 1442.6342592592591,
+    "tiers": {
+      "medium": {
+        "cases": 420,
+        "mean": 1352.502380952381,
+        "zeros": 177
+      },
+      "hard": {
+        "cases": 756,
+        "mean": 1420.6441798941798,
+        "zeros": 291
+      },
+      "extreme": {
+        "cases": 336,
+        "mean": 1472.0714285714287,
+        "zeros": 120
+      }
+    }
+  }
+}

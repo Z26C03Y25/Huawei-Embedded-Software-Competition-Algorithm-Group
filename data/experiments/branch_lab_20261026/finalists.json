@@ -1,0 +1,110 @@
+{
+  "frozen_before_selection": true,
+  "development_only": true,
+  "finalists": [
+    "noise_radius",
+    "noise_rival"
+  ],
+  "selection_rule": "Top2 development family-balanced means including zeros; classic and mixed selection domains receive equal weight before choosing one fixed confirmation source.",
+  "selection_mixed_seed": 20261026402,
+  "selection_mixed_block": [
+    16,
+    33
+  ],
+  "classic_selection_block": [
+    144,
+    155
+  ],
+  "classic_confirmation_block": [
+    156,
+    173
+  ],
+  "confirmation_mixed_seed": 20261026403,
+  "confirmation_novel_families": true,
+  "scores": {
+    "noise_radius": 1439.9791666666667,
+    "noise_rival": 1439.078125,
+    "noise_rival_tree": 1437.4036458333333,
+    "portfolio": 1433.3046875,
+    "rival_audit": 1426.9609375,
+    "plateau_guard": 1415.859375,
+    "plateau_route": 1415.6145833333333,
+    "stair_gate": 1409.3411458333333
+  },
+  "sources": {
+    "noise_radius": {
+      "name": "noise_radius",
+      "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+      "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "derived_local_parent_sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235",
+      "switches": {
+        "stair": false,
+        "rival": false,
+        "noise": true,
+        "edge": false,
+        "rival_clean_only": false,
+        "edge_model_guard": false
+      },
+      "official_score": null,
+      "parameters": {
+        "stair_equal_min": 3,
+        "stair_equal_fraction": 0.3333333333333333,
+        "stair_drop_ratio": 2.25,
+        "rival_distance": [
+          8,
+          32
+        ],
+        "rival_max_gap_contrast": 0.06,
+        "rival_radius": 3,
+        "rival_max_reads": 12,
+        "noise_radius": [
+          3,
+          8
+        ],
+        "noise_scale": 2,
+        "edge_equal_witnesses": 3,
+        "edge_span_min": 24,
+        "edge_reads": 3
+      },
+      "note": "Only observed replies/features, query and route ledger. No case names, generator IDs, seeds or hidden target access."
+    },
+    "noise_rival": {
+      "name": "noise_rival",
+      "source": "data/experiments/branch_lab_20261026/noise_rival.cpp",
+      "sha256": "c8dd4bd93adc78f626950474dcda922c9d3b877de855840632d2c03e67d8bbca",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "derived_local_parent_sha256": "37d00d6071bfbccc0d94e4719983407c54a98a0e6bb62ded498b86a8d770a235",
+      "switches": {
+        "stair": false,
+        "rival": true,
+        "noise": true,
+        "edge": false,
+        "rival_clean_only": false,
+        "edge_model_guard": false
+      },
+      "official_score": null,
+      "parameters": {
+        "stair_equal_min": 3,
+        "stair_equal_fraction": 0.3333333333333333,
+        "stair_drop_ratio": 2.25,
+        "rival_distance": [
+          8,
+          32
+        ],
+        "rival_max_gap_contrast": 0.06,
+        "rival_radius": 3,
+        "rival_max_reads": 12,
+        "noise_radius": [
+          3,
+          8
+        ],
+        "noise_scale": 2,
+        "edge_equal_witnesses": 3,
+        "edge_span_min": 24,
+        "edge_reads": 3
+      },
+      "note": "Only observed replies/features, query and route ledger. No case names, generator IDs, seeds or hidden target access."
+    }
+  }
+}

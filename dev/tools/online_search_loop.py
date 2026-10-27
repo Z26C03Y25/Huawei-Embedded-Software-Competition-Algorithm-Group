@@ -1,7 +1,7 @@
 """Sequential, resumable online policy optimization explicitly requested by user.
 
 Only judge.py uploads. Every score is bound to its immutable snapshot. Stops on
-200000, the displayed daily quota, or an unresolved delivery/authentication error.
+the displayed daily quota or an unresolved delivery/authentication error.
 The queue can be edited between trials; completed names are never repeated.
 """
 from pathlib import Path
@@ -12,6 +12,7 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "dev"))
@@ -19,7 +20,9 @@ sys.path.insert(0, str(ROOT / "automation"))
 from tools.policy_search import generate,record,OUT
 import tools.policy_search as policies
 from tools.local_judge import make_suite,run_case
+from tools.research_policy import ResearchPause, TZ, cached_day_stop, check_local_evidence, authorize_new_upload
 from online_judge.browser import connect,load_config
+from online_judge.jobs import SubmissionLock
 
 PY=ROOT/"automation/online_judge/.venv/Scripts/python.exe"
 JUDGE=ROOT/"automation/online_judge/judge.py"
@@ -38,14 +41,19 @@ def save(state):
 
 
 def quota():
+    if cached_day_stop(ROOT):
+        raise ResearchPause('Official quota already confirmed0 today; continue offline')
     cfg=load_config()
     with connect(cfg) as adapter:
+        rows=adapter.records(refresh=True)
+        if any(row.status=='pending' for row in rows):
+            raise RuntimeError('A platform work is pending; resume it before another pipeline')
         text=adapter.page.locator('body').inner_text()
         found=re.search(r'每日可上传\s*(\d+)\s*次.*?已经上传\s*(\d+)\s*次',text,re.S)
         if not found:
             raise RuntimeError('Cannot read a displayed upload quota; no upload attempted')
         limit,used=map(int,found.groups())
-        return {'limit':limit,'used':used,'remaining':max(0,limit-used)}
+        return {'date':datetime.now(TZ).date().isoformat(),'checked_at':datetime.now(TZ).isoformat(),'limit':limit,'used':used,'remaining':max(0,limit-used)}
 
 
 def jobs_for(digest):
@@ -69,6 +77,8 @@ def evaluate_online(info):
     completed=[j for j in jobs if j['state']=='completed']
     if completed: return completed[-1]
     if not jobs:
+        check_local_evidence(info,ROOT)
+        authorize_new_upload(info,quota(),ROOT)
         p=invoke(['submit','--file',info['path'],'--no-wait'])
         jobs=jobs_for(info['sha256'])
         if not jobs: raise RuntimeError('Upload not established: '+p.stdout[-1600:])
@@ -89,7 +99,7 @@ def evaluate_online(info):
 def validate(info):
     exe=ROOT/'dev/build'/('online_'+info['sha256'][:12]+'.exe')
     p=subprocess.run(['g++','-O3','-Wall','-Wextra','-Wpedantic','-std=c++17',info['path'],'-o',str(exe)],
-                     cwd=ROOT,capture_output=True,text=True,timeout=90)
+                     cwd=ROOT,capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=90)
     if p.returncode or p.stderr: raise RuntimeError('Compilation failed/warned: '+p.stderr)
     for case in make_suite('smoke'):
         r=run_case([str(exe)],case)
@@ -112,10 +122,22 @@ def main():
     OUT.mkdir(exist_ok=True)
     state=json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {'done':[]}
     while True:
+        active=state.get('active')
+        if active:
+            saved=jobs_for(active['sha256'])
+            if saved and saved[-1]['state']!='snapshot_ready':
+                job=evaluate_online(active)
+                if job['state']!='completed':raise RuntimeError('Judge needs attention: '+job['state'])
+                result=policies.record(job['job_id'],active['name'])
+                if active['name'] not in state['done']:state['done'].append(active['name'])
+                state['last']=result;state.pop('active',None);save(state);emit(recovered_result=result)
+                continue
         best,base=incumbent()
-        if best>=200000:
-            state['stop']='target_reached';save(state);emit(stop=state['stop'],best=best);return
+        if cached_day_stop(ROOT):
+            state['stop']='official_quota_exhausted_today';save(state);return
         q=quota();state['quota']=q;save(state);emit(quota=q,best=best)
+        if q['used']>=json.loads((ROOT/'automation/research_policy.json').read_text(encoding='utf-8'))['auto_daily_team_cap']:
+            state['stop']='local_auto_cap_reached';save(state);emit(stop=state['stop']);return
         if q['remaining']==0:
             state['stop']='daily_quota_exhausted';save(state);emit(stop=state['stop'],best=best);return
         queue=json.loads(QUEUE.read_text(encoding='utf-8'))
@@ -132,6 +154,7 @@ def main():
             state['done'].append(item['name']);save(state);continue
         state['active']=info;state.pop('stop',None);save(state)
         emit(candidate=info['name'],config=info['config'],sha256=info['sha256'])
+        check_local_evidence(info,ROOT)
         validate(info)
         job=evaluate_online(info)
         if job['state']!='completed': raise RuntimeError('Judge needs attention: '+job['state'])
@@ -143,6 +166,7 @@ def main():
 if __name__=='__main__':
     sys.stdout.reconfigure(encoding='utf-8')
     try:
-        main()
+        with SubmissionLock(ROOT/'automation/online_judge/runs/.optimization.lock'):
+            main()
     except Exception as e:
         emit(error=type(e).__name__+': '+str(e));sys.exit(1)

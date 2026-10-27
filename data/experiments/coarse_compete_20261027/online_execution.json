@@ -1,0 +1,24 @@
+{
+  "mode": "direct_user_requested_online_test",
+  "user_request": "本地数据可能不够好，你可以直接线上测",
+  "source": "data/experiments/coarse_compete_20261027/gap/competing_gap_midpoints.cpp",
+  "sha256": "ce8d3422a9c430a8dae7ddbbd6c69f2ea3ccfb377b00e3901bf5e5d7e83f7288",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "quota_before": {
+    "date": "2026-10-27",
+    "checked_at": "2026-10-27T08:41:55.277043+08:00",
+    "limit": 30,
+    "used": 7,
+    "remaining": 23
+  },
+  "started_at": "2026-10-27T08:41:55.311263+08:00",
+  "automatic_daily_cap_unchanged": 3,
+  "source_unchanged": true,
+  "independent_confirmation_not_prerequisite_by_latest_user_instruction": true,
+  "max_new_uploads_this_trial": 1,
+  "job_id": "20261027T004157161498Z_ea6ffd5d00a7",
+  "state": "completed",
+  "score": 203016,
+  "delta": -223,
+  "formal_recorded": true
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "name": "model_agree1p5",
+    "source": "data/experiments/2026-10-26/model_agree1p5.cpp",
+    "sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 relax two local vertex agreement to 1.5; retain13 raw-point verification and interior winner test",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 1.5
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+      "official": false,
+      "cases": 56,
+      "total_score": 102557,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_agree3p0",
+    "source": "data/experiments/2026-10-26/model_agree3p0.cpp",
+    "sha256": "17bf77cad8a4f6d497fc01cb1fc2901cf2b0d2a7c156f694bf3ee66e4957311f",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 relax two local vertex agreement to 3.0; retain13 raw-point verification and interior winner test",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 3.0
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "17bf77cad8a4f6d497fc01cb1fc2901cf2b0d2a7c156f694bf3ee66e4957311f",
+      "official": false,
+      "cases": 56,
+      "total_score": 102587,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_fit_window16",
+    "source": "data/experiments/2026-10-26/model_fit_window16.cpp",
+    "sha256": "e65a7a21a0cdc37f73c3ff336d89ce71913dcfa240aba428fb37dbde3f3488fe",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 fit model on nearer +/-16 samples, preserve independent three-point comparison",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_fit_window": 16
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "e65a7a21a0cdc37f73c3ff336d89ce71913dcfa240aba428fb37dbde3f3488fe",
+      "official": false,
+      "cases": 56,
+      "total_score": 102431,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_fit_window24",
+    "source": "data/experiments/2026-10-26/model_fit_window24.cpp",
+    "sha256": "90e33078a450179676d4aabe75d2b5b5aaad859561b6d7668e60e8ca7feafbed",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 fit model on nearer +/-24 samples, preserve independent three-point comparison",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_fit_window": 24
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "90e33078a450179676d4aabe75d2b5b5aaad859561b6d7668e60e8ca7feafbed",
+      "official": false,
+      "cases": 56,
+      "total_score": 102477,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "cluster_tight0p03",
+    "source": "data/experiments/2026-10-26/cluster_tight0p03.cpp",
+    "sha256": "71d9a5257e2957d50a4496c294dc84233a6a13252919d9a90291c28b49be8a3f",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 tighten weak cluster retention to 0.03; local candidate band unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.03,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "71d9a5257e2957d50a4496c294dc84233a6a13252919d9a90291c28b49be8a3f",
+      "official": false,
+      "cases": 56,
+      "total_score": 102423,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "cluster_tight0p05",
+    "source": "data/experiments/2026-10-26/cluster_tight0p05.cpp",
+    "sha256": "5a3bcbee819208514794605b043987443a447e821b72ec306a2d6e463e7187a6",
+    "parent_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_official_score": 201049,
+    "purpose": "On 201049 tighten weak cluster retention to 0.05; local candidate band unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.05,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "5a3bcbee819208514794605b043987443a447e821b72ec306a2d6e463e7187a6",
+      "official": false,
+      "cases": 56,
+      "total_score": 102423,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+]

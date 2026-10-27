@@ -1,0 +1,163 @@
+[
+  {
+    "name": "trend_w3_factor8",
+    "source": "data/experiments/2026-10-26/trend_w3_factor8.cpp",
+    "sha256": "65976dfbfbbebd7367447317a12ff35073b1363e254432c11a09e68bf7a3f2e8",
+    "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "parent_official_score": 200780,
+    "purpose": "Noisy broad trend evidence: median window3 span>8*MAD; retain raw champion and all execution limits",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.02,
+      "trend_window": 3,
+      "trend_prominence": 8
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "65976dfbfbbebd7367447317a12ff35073b1363e254432c11a09e68bf7a3f2e8",
+      "official": false,
+      "cases": 56,
+      "total_score": 102154,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "trend_w3_factor12",
+    "source": "data/experiments/2026-10-26/trend_w3_factor12.cpp",
+    "sha256": "9b3c0208a85dac8e3fa6ef71a076ee7e225c2dcb4812f265b02cae1bd8b206ea",
+    "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "parent_official_score": 200780,
+    "purpose": "Noisy broad trend evidence: median window3 span>12*MAD; retain raw champion and all execution limits",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.02,
+      "trend_window": 3,
+      "trend_prominence": 12
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "9b3c0208a85dac8e3fa6ef71a076ee7e225c2dcb4812f265b02cae1bd8b206ea",
+      "official": false,
+      "cases": 56,
+      "total_score": 104432,
+      "zeros": 12,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "trend_w5_factor8",
+    "source": "data/experiments/2026-10-26/trend_w5_factor8.cpp",
+    "sha256": "805720f1ccff9b7bf6ce8a40b87e1fa55810010b170d64be2ba3409acd78dd9a",
+    "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "parent_official_score": 200780,
+    "purpose": "Noisy broad trend evidence: median window5 span>8*MAD; retain raw champion and all execution limits",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.02,
+      "trend_window": 5,
+      "trend_prominence": 8
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "805720f1ccff9b7bf6ce8a40b87e1fa55810010b170d64be2ba3409acd78dd9a",
+      "official": false,
+      "cases": 56,
+      "total_score": 102154,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_noise0p05_from200780",
+    "source": "data/experiments/2026-10-26/model_noise0p05_from200780.cpp",
+    "sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "parent_official_score": 200780,
+    "purpose": "Extend locally consistent model verification eligibility to noise fraction 0.05; raw13-point verification unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+      "official": false,
+      "cases": 56,
+      "total_score": 102423,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "model_noise0p1_from200780",
+    "source": "data/experiments/2026-10-26/model_noise0p1_from200780.cpp",
+    "sha256": "73170f1c8a621eaf74b46ce7ccdc50db354b08c9c5457e38a966ba9bf8e74863",
+    "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "parent_official_score": 200780,
+    "purpose": "Extend locally consistent model verification eligibility to noise fraction 0.1; raw13-point verification unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.1
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "73170f1c8a621eaf74b46ce7ccdc50db354b08c9c5457e38a966ba9bf8e74863",
+      "official": false,
+      "cases": 56,
+      "total_score": 102423,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+]

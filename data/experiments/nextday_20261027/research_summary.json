@@ -1,0 +1,70 @@
+{
+  "official": false,
+  "prepared_on": "2026-10-26",
+  "planned_date": "2026-10-27",
+  "primary_source": {
+    "name": "noise_radius_mixed_validated",
+    "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "status": "qualified",
+    "official_score": null,
+    "research_objective": "robust_total_score",
+    "scope": "single_online_validation_after_fresh_quota_check",
+    "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+    "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+    "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+    "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+    "additional_confirmations": [
+      {
+        "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+        "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+        "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+      }
+    ],
+    "claims_all_measured_nonzero": false,
+    "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed.",
+    "trial_role": "primary_A",
+    "planned_online_date": "2026-10-27"
+  },
+  "conditional_backup": {
+    "name": "formal_noise_only_backup",
+    "source": "data/experiments/nextday_20261027/formal_noise_only.cpp",
+    "sha256": "b75dfd86829abc9b02fc486ed055a78eab76583005513e130ce8a0eb3d999e88",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "status": "qualified",
+    "official_score": null,
+    "trial_role": "conditional_backup_B",
+    "planned_online_date": "2026-10-27",
+    "research_objective": "robust_total_score",
+    "manifest": "data/experiments/nextday_backup_mixed_20261027/manifest.json",
+    "evidence": "data/experiments/nextday_backup_mixed_20261027/summary.json",
+    "evidence_sha256": "e803414c59e73ff43421ab6d663ce773c8350aa827e360a90f4e202cbee53e39",
+    "additional_confirmations": [
+      {
+        "manifest": "data/experiments/nextday_backup_classic_20261027/manifest.json",
+        "evidence": "data/experiments/nextday_backup_classic_20261027/summary.json",
+        "evidence_sha256": "34afa3023a6c29cbc4a773b8b1f0781275a0274aab2c5203498da2286455b61c"
+      }
+    ],
+    "execution_condition": {
+      "kind": "primary_not_improved",
+      "primary_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "baseline_score": 203239,
+      "not_before_date": "2026-10-27"
+    },
+    "claims_all_measured_nonzero": false,
+    "qualification_note": "Single-factor scope on formal203239. Lower expected local score thanA; execute only after recorded officialA fails to beat203239. Conservative describes scope, not a proved lower risk."
+  },
+  "benchmark_runs": {
+    "mixed": 5481,
+    "classic": 4347
+  },
+  "total_interactive_runs": 9828,
+  "primary_ready": true,
+  "backup_local_qualified": true,
+  "backup_execution_currently_blocked": true,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "formal_main_preserved": true
+}

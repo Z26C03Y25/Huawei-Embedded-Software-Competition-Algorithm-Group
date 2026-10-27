@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "mode": "offline_first",
+  "auto_daily_team_cap": 3,
+  "online_candidates": [],
+  "parent_official_score": 203239,
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "research_priorities": [
+    {
+      "priority": 1,
+      "hypothesis": "Bound the extra verification cost when fitted vertices drift; classify residual/ripple and competing-peak risk using observed values only.",
+      "avoid": "Do not globally disable model finish or sweep adjacent agreement values online."
+    },
+    {
+      "priority": 2,
+      "hypothesis": "Distinguish wide plateau edges and quantized stairs before irreversible rightward overshoot. Pair against monotone and saturated controls.",
+      "avoid": "Do not claim arbitrary hidden201-point maxima can be found by sparse queries."
+    },
+    {
+      "priority": 3,
+      "hypothesis": "Late isolated components need explicit coverage-versus-redundancy evidence; separate adversarial information limits from smooth delayed peaks.",
+      "avoid": "Do not extend the flat scan unconditionally: true redundancy can already be irreversible."
+    }
+  ],
+  "rejected_local": [
+    {
+      "name": "guarded16",
+      "report": "data/experiments/local_screen_20261026/summary.json",
+      "status": "rejected_not_uploaded"
+    },
+    {
+      "name": "drift_gate",
+      "report": "data/experiments/local_screen_20261026/summary.json",
+      "status": "rejected_not_uploaded"
+    },
+    {
+      "name": "inverse_audit",
+      "report": "data/experiments/local_screen_20261026/summary.json",
+      "status": "rejected_not_uploaded"
+    },
+    {
+      "name": "valley_gate",
+      "report": "data/experiments/local_valley_20261026/summary.json",
+      "status": "rejected_not_uploaded"
+    }
+  ],
+  "next_action": "Develop on observed development failures. Freeze new candidate hash and unseen seeds/case-index blocks before another selection. Do not reinterpret consumed holdouts as independent evidence."
+}

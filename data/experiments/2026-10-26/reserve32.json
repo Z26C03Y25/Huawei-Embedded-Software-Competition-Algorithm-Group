@@ -1,0 +1,21 @@
+{
+  "name": "reserve32",
+  "source": "data/experiments/2026-10-26/reserve32.cpp",
+  "sha256": "2f962e4f0292830920d1312a85b2fa5f0684521762dc76314b3331917d7f6efa",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Change first-round fine reserve to 32; unified total budget unchanged",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12,
+    "reserve": 32
+  },
+  "official_score": null
+}

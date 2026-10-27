@@ -1,0 +1,22 @@
+{
+  "name": "model_noise0p1_from200780",
+  "source": "data/experiments/2026-10-26/model_noise0p1_from200780.cpp",
+  "sha256": "73170f1c8a621eaf74b46ce7ccdc50db354b08c9c5457e38a966ba9bf8e74863",
+  "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+  "parent_official_score": 200780,
+  "purpose": "Extend locally consistent model verification eligibility to noise fraction 0.1; raw13-point verification unchanged",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.1
+  },
+  "official_score": null
+}

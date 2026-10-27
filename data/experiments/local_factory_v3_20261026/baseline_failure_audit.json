@@ -1,0 +1,89 @@
+{
+  "official": false,
+  "zero_reason_counts": {
+    "distance > 3": 120,
+    "redundancy >= 200": 34
+  },
+  "counts_overlap": true,
+  "families": {
+    "smooth_power": {
+      "cases": 54,
+      "zeros": 5
+    },
+    "asymmetric_peak": {
+      "cases": 54,
+      "zeros": 2
+    },
+    "cusp_peak": {
+      "cases": 54
+    },
+    "supergaussian": {
+      "cases": 54,
+      "zeros": 4
+    },
+    "shoulder": {
+      "cases": 54
+    },
+    "close_competitors": {
+      "cases": 54,
+      "zeros": 9
+    },
+    "far_competitors": {
+      "cases": 54
+    },
+    "bump_on_hump": {
+      "cases": 54,
+      "zeros": 11
+    },
+    "ar1_noise": {
+      "cases": 54,
+      "zeros": 4
+    },
+    "heteroskedastic_noise": {
+      "cases": 54,
+      "zeros": 1
+    },
+    "periodic_ripple": {
+      "cases": 54,
+      "zeros": 2
+    },
+    "chirp_ripple": {
+      "cases": 54,
+      "zeros": 6
+    },
+    "quantized_top": {
+      "cases": 54,
+      "zeros": 4
+    },
+    "saturated_top": {
+      "cases": 54,
+      "zeros": 7
+    },
+    "plateau_edge_peak": {
+      "cases": 54,
+      "zeros": 11
+    },
+    "trend_with_peak": {
+      "cases": 54,
+      "zeros": 11
+    },
+    "delayed_peak": {
+      "cases": 54,
+      "zeros": 22
+    },
+    "boundary_peak": {
+      "cases": 54,
+      "zeros": 12
+    },
+    "staircase": {
+      "cases": 54,
+      "zeros": 19
+    },
+    "flat_ties": {
+      "cases": 54,
+      "zeros": 19
+    }
+  },
+  "max_redundancy": 956,
+  "note": "Structured independent base cases only; no universal true redundancy guarantee."
+}

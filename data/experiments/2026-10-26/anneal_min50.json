@@ -1,0 +1,24 @@
+{
+  "name": "anneal_min50",
+  "source": "data/experiments/2026-10-26/anneal_min50.cpp",
+  "sha256": "a0f9bb8a8ac1f9103b739a1f5db5a5d37a4c46e3ff68a050a901d1be6e03b225",
+  "parent_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+  "parent_official_score": 201971,
+  "purpose": "Allow annealing to prune to half budget rather than retaining80 percent; finite scenario objective remains heuristic",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 1.5,
+    "anneal_minimum_fraction": 0.5
+  },
+  "official_score": null
+}

@@ -30,6 +30,12 @@ jobs:
       - run: python -m unittest discover -s automation/online_judge/tests
       - run: python -m unittest discover -s dev/tests -p test_local_judge.py
       - run: python -m unittest discover -s dev/tests -p test_compare_solvers.py
+      - run: python -m unittest discover -s dev/tests -p test_research_policy.py
+      - run: python -m unittest discover -s dev/tests -p test_zero_first.py
+      - run: python -m unittest discover -s dev/tests -p test_robust_score.py
+      - run: python -m unittest discover -s dev/tests -p test_mixed_scenarios.py
+      - run: python -m unittest discover -s dev/tests -p test_search_losses.py
+      - run: python -m unittest discover -s dev/tests -p test_coarse_gaps.py
 
   solver:
     name: C++ protocol and archive regressions
@@ -43,6 +49,9 @@ jobs:
       - run: python dev/run.py smoke
       - run: python dev/tools/setup_repository.py
       - run: python -m unittest discover -s dev/tests -p test_solver_regressions.py
+      - run: python -m unittest discover -s dev/tests -p test_protocol_transport.py
+      - run: python -m unittest discover -s dev/tests -p test_sparse_curve_solver.py
+      - run: python -m unittest discover -s dev/tests -p test_coarse_compete_solver.py
 
   strategy-diagnostics:
     name: Strategy diagnostics (known failures retained)

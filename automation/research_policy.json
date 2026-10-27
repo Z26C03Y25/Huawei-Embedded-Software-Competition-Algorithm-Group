@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "mode": "offline_first",
+  "auto_daily_team_cap": 3,
+  "min_independent_base_cases": 1000,
+  "min_structured_families": 12,
+  "max_family_mean_regression": 25,
+  "qualified_candidates": "data/experiments/qualified_candidates.json",
+  "quota_fresh_seconds": 120,
+  "notes": "Upper bound, not a daily target. Old use-all30 instruction superseded2026-10-26. Human manual judge CLI remains separate.",
+  "minimum_generator_version": 3,
+  "research_objective": "robust_total_score",
+  "objective_order": [
+    "no_protocol_query_turn_parking_failures",
+    "maximize_fresh_family_balanced_mean_including_zeros",
+    "validate_heldout_zero_rate_and_lower_quarter_score"
+  ],
+  "new_zero_scope": "report_all_measured; individual regressions do not veto aggregate score gains",
+  "guarantee_claim_requires_all_measured_nonzero": true,
+  "finite_pair_conflict": "data/experiments/zero_first_20261026/incompatibility_certificate.json",
+  "note_on_research_selection": "Latest user priority: maximize aggregate score with practical robustness. Supersedes lexicographic zero-first research ranking. Keep all historical counterexamples and zero ledgers; do not treat an individual new zero as an automatic veto.",
+  "minimum_zero_analysis_version": 2,
+  "minimum_robust_analysis_version": 1,
+  "online_score_checks": {
+    "selection_and_blind_mean_gain_positive": true,
+    "selection_and_blind_zero_rate_no_worse": true,
+    "selection_and_blind_cvar25_no_worse": true,
+    "pooled_heldout_paired_ci95_lower_positive": true
+  }
+}

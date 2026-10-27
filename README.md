@@ -4,7 +4,7 @@
 
 [学习导航](docs/README.md) · [English](docs/README.en.md) · [贡献说明](.github/CONTRIBUTING.md)
 
-已记录最高正式总分 **199291**（2026-10-25）。[最高分源码](data/versions/main_online_199291.cpp) · [实验记录](docs/持续线上优化记录.md)
+已记录最高正式总分 **207650**（2026-10-27，同分两次确认）。[最高分源码](data/versions/main_online_207650.cpp) · [实验记录](docs/持续线上优化记录.md)
 
 ## 按功能找文件
 
@@ -40,6 +40,12 @@
 ~~~
 
 .git是本机Git内部目录。Git规则安装到.git/info，各功能目录也有必要规则；不再在根目录放辅助说明或配置文件。
+
+当前按[综合得分与鲁棒性](docs/daily_research/2026-10-26-total-score.md)筛选：平均分包含零分，报告整体零分率和低尾表现；个别退化不再自动否决整体收益。
+
+当前采用[本地优先研究](docs/daily_research/2026-10-26-local-first.md)：22族样例分开发/选择/偏移留出筛算子；自动线上验证每天最多3次，可以为0。
+
+新一轮[混合难例与多分支实验](docs/daily_research/2026-10-26-multi-branch.md)保留困难整族失败，比较四种算子及八个候选，并在经典/混合两域独立确认。
 
 ## 离线运行
 

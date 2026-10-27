@@ -1,0 +1,22 @@
+{
+  "name": "r8_model_noise02",
+  "source": "data/experiments/2026-10-26/r8_model_noise02.cpp",
+  "sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+  "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+  "parent_official_score": 200494,
+  "purpose": "On formal 200494 test broader model finish eligibility; single noise gate change",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.02
+  },
+  "official_score": null
+}

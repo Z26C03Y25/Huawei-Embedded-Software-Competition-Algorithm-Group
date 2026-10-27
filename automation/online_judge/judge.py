@@ -74,24 +74,40 @@ def wait_for_job(page, store: JobStore, job: dict, timeout: float, interval: flo
         return exit_for(job)
     deadline = time.monotonic() + timeout
     started = time.monotonic()
-    observation_count = 0
     previous_state = None
     completion_signature = None
+    # A resumed/bound work can refresh immediately. Only a genuinely recent,
+    # unacknowledged upload gets the remaining20-second delivery grace.
+    delivery_grace = 0.0
+    if job.get("bound_identity") is None and job.get("bound_submission_id") is None:
+        attempted_at = job.get("submission_attempt_at")
+        if attempted_at:
+            try:
+                attempted = datetime.fromisoformat(attempted_at.replace("Z", "+00:00"))
+                if attempted.tzinfo is None:
+                    raise ValueError("submission attempt timestamp needs an offset")
+                age = max(0.0, (datetime.now().astimezone() - attempted).total_seconds())
+                delivery_grace = max(0.0, 20.0 - age)
+            except (TypeError, ValueError):
+                delivery_grace = 20.0
+        elif job.get("state") == "delivery_uncertain":
+            delivery_grace = 20.0
     while time.monotonic() < deadline:
         try:
             # Give an unacknowledged upload a short interval to finish without
             # reloading its page and possibly aborting an in-flight request.
-            refresh = observation_count > 0 and (
-                job.get("bound_identity") is not None or time.monotonic() - started >= 20)
+            refresh = (job.get("bound_identity") is not None or
+                       job.get("bound_submission_id") is not None or
+                       time.monotonic() - started >= delivery_grace)
             records = read_records(page, refresh=refresh)
             state = store.observe(job, records)
             if state == "completed":
-                signature = (tuple(job["bound_identity"]), job["score"])
-                if signature != completion_signature:
-                    # Success and score may be rendered in separate updates.
-                    # Confirm the same final value on a second observation;
-                    # this also preserves legitimate final scores of zero.
-                    completion_signature = signature
+                signature = (job.get("bound_submission_id"), tuple(job["bound_identity"]), job["score"])
+                if not refresh or signature != completion_signature:
+                    # A cached/pre-refresh DOM is not a fresh confirmation.
+                    # Require two refreshed observations of the same stable ID
+                    # and score, including a legitimate final score of zero.
+                    completion_signature = signature if refresh else None
                     job["state"] = state = "pending"
                     job["score"] = None
                     job.pop("finished_at", None)
@@ -99,7 +115,6 @@ def wait_for_job(page, store: JobStore, job: dict, timeout: float, interval: flo
             else:
                 completion_signature = None
             store.save(job)
-            observation_count += 1
             if state != previous_state:
                 print(f"{job['job_id']}: {state}", file=sys.stderr, flush=True)
                 previous_state = state
@@ -117,7 +132,7 @@ def wait_for_job(page, store: JobStore, job: dict, timeout: float, interval: flo
             job["last_error"] = f"{type(exc).__name__}: {exc}"
             store.save(job)
             print(job["last_error"], file=sys.stderr, flush=True)
-            observation_count += 1
+            completion_signature = None
         remaining = deadline - time.monotonic()
         if remaining > 0:
             time.sleep(min(interval, remaining))
@@ -125,6 +140,7 @@ def wait_for_job(page, store: JobStore, job: dict, timeout: float, interval: flo
     store.save(job)
     result = summary(job)
     result["resume"] = f"python automation/judge.py wait {job['job_id']}"
+    result["note"] = "The requested polling window ended, not the judge result; resume this work ID without uploading again."
     emit(result)
     return 2
 

@@ -1,0 +1,20 @@
+{
+  "name": "late_scout32",
+  "source": "data/experiments/2026-10-26/late_scout32.cpp",
+  "sha256": "bcb93822b2f30883db5005a24a9bd17dd2f571b9f14df0ce26048c2ba0dbcdf8",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Late-peak scouting 32; test overrun versus second-peak risk",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 32,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12
+  },
+  "official_score": null
+}

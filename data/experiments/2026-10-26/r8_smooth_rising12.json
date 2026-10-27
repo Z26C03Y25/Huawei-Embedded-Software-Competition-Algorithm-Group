@@ -1,0 +1,22 @@
+{
+  "name": "r8_smooth_rising12",
+  "source": "data/experiments/2026-10-26/r8_smooth_rising12.cpp",
+  "sha256": "fbe4ea3bc4afae8848c31860229e2f69be8b6fa839799e2d426fb946886adcb2",
+  "parent_sha256": "7500dffc130ef08a208f86661bfe5e3b42776ab606a19fb85c4a373cba0bcb72",
+  "parent_official_score": 200494,
+  "purpose": "Use stride 12 only on significant low-noise unbracketed rising branch; retain8 in rough/multipeak branches",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "smooth_rising_step": 12
+  },
+  "official_score": null
+}

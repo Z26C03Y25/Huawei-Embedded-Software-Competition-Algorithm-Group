@@ -1,0 +1,78 @@
+[
+  {
+    "name": "s27102603_0008_rippled_peak",
+    "models": [
+      {
+        "q": 42,
+        "observed_best": 232,
+        "noise": 1473030.0,
+        "contrast": 499190000.0,
+        "v1": 232.38733,
+        "v24": 237.839559,
+        "v16": 235.169541,
+        "v32": 240.428123
+      }
+    ],
+    "baseline_score": 0,
+    "candidate_score": 2338,
+    "baseline_distance": 5,
+    "candidate_distance": 0
+  },
+  {
+    "name": "s261026_0008_rippled_peak",
+    "models": [
+      {
+        "q": 69,
+        "observed_best": 520,
+        "noise": 2102930.0,
+        "contrast": 506325000.0,
+        "v1": 516.608643,
+        "v24": 523.366497,
+        "v16": 521.020837,
+        "v32": 523.353939
+      }
+    ],
+    "baseline_score": 2233,
+    "candidate_score": 2233,
+    "baseline_distance": 0,
+    "candidate_distance": 0
+  },
+  {
+    "name": "s20261027_0003_noisy_broad_top",
+    "models": [
+      {
+        "q": 33,
+        "observed_best": 240,
+        "noise": 28.4476,
+        "contrast": 1057,
+        "v1": 239.970803,
+        "v24": 227.030442,
+        "v16": 233.034934,
+        "v32": 222.469254
+      }
+    ],
+    "baseline_score": 2503,
+    "candidate_score": 2503,
+    "baseline_distance": 0,
+    "candidate_distance": 0
+  },
+  {
+    "name": "s20261027_0078_rippled_peak",
+    "models": [
+      {
+        "q": 31,
+        "observed_best": 136,
+        "noise": 15422300.0,
+        "contrast": 431540000.0,
+        "v1": 138.938739,
+        "v24": 148.604772,
+        "v16": 141.793418,
+        "v32": 152.972873
+      }
+    ],
+    "baseline_score": 2501,
+    "candidate_score": 2389,
+    "baseline_distance": 0,
+    "candidate_distance": 0
+  }
+]

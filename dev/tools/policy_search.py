@@ -191,7 +191,10 @@ def record(job_id, name=None):
         if key in j:
             row[key] = j[key]
     manifest=Path(j["source_path"]).with_suffix(".json")
-    row["config"]=json.loads(manifest.read_text(encoding="utf-8")).get("config",{}) if manifest.exists() else {}
+    metadata=json.loads(manifest.read_text(encoding="utf-8")) if manifest.exists() else {}
+    row["config"]=metadata.get("config",{})
+    for key in ("parent_sha256","derived_local_parent_sha256","purpose","parameters","switches"):
+        if key in metadata:row[key]=metadata[key]
     if not any(x["job_id"]==job_id for x in rows): rows.append(row)
     p.write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding="utf-8")
     best = max(rows,key=lambda x:x["score"])

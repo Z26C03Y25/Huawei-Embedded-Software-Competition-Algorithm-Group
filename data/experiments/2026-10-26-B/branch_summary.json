@@ -1,0 +1,170 @@
+{
+  "formal203239": {
+    "smoke": {
+      "cases": 26,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 2
+    },
+    "development": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    },
+    "fresh_holdout": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  "post_probe_scale32_gate": {
+    "smoke": {
+      "cases": 26,
+      "delta": -31,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 3
+    },
+    "development": {
+      "cases": 84,
+      "delta": -403,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "delta": 2143,
+      "new_zero": 0,
+      "resolved_zero": 1,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "delta": -112,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    },
+    "fresh_holdout": {
+      "cases": 84,
+      "delta": -35,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  "post_probe_drift_only": {
+    "smoke": {
+      "cases": 26,
+      "delta": -31,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 3
+    },
+    "development": {
+      "cases": 84,
+      "delta": -403,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "delta": 2143,
+      "new_zero": 0,
+      "resolved_zero": 1,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "delta": -112,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    },
+    "fresh_holdout": {
+      "cases": 84,
+      "delta": -35,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  "post_probe_wide_valid": {
+    "smoke": {
+      "cases": 26,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 168,
+      "max_turns": 2
+    },
+    "development": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 4
+    },
+    "holdout": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    },
+    "known_counterexample": {
+      "cases": 3,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 98,
+      "max_turns": 3
+    },
+    "fresh_holdout": {
+      "cases": 84,
+      "delta": 0,
+      "new_zero": 0,
+      "resolved_zero": 0,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+}

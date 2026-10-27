@@ -1,0 +1,13 @@
+{
+  "job_id": "20261027T011141179872Z_6fae9e1e4886",
+  "submission_id": "869ab468dec54a2f9b113f1978ae71c9",
+  "submitted_at": "2026-10-27 09:11:40",
+  "score": 205415,
+  "baseline": 205376,
+  "delta": 39,
+  "sha256": "827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37",
+  "parent_sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "best_score": 205415,
+  "best_sha256": "827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37",
+  "further_adjacent_uploads": false
+}

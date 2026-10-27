@@ -1,0 +1,35 @@
+{
+  "name": "wide_observed_valley_gate",
+  "source": "data/experiments/local_widevalley_20261026/wide_observed_valley_gate.cpp",
+  "sha256": "c1ff784a1cf639bd0ac7a006b62624f84ac0bedf0160c29730b15e4725b08cc7",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "official": false,
+  "parameters": {
+    "existing_value_audit_radius": 32,
+    "drift_threshold": 2,
+    "local_valley_depth": 2
+  },
+  "purpose": "Use existing raw observations outside the original dense interval to identify a descent-ascent; no extra queries for risk detection. Veto early finish only if finite scale32/24 predictions also disagree.",
+  "design_evidence": "Earlier observed development curves; newly frozen generatorV2 case block36-53 for selection and blind-shift.",
+  "inherited_formal_config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3
+  },
+  "status": "promising_local_operator_not_qualified",
+  "online_eligible": false,
+  "latest_report": "data/experiments/local_factory_v3_20261026/summary.json"
+}

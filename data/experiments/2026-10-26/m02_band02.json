@@ -1,0 +1,23 @@
+{
+  "name": "m02_band02",
+  "source": "data/experiments/2026-10-26/m02_band02.cpp",
+  "sha256": "03bc331f4d36fb0ed6f9067370ffefa469103226ab33fd900f3fec68a0cb8b02",
+  "parent_sha256": "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+  "parent_official_score": 200780,
+  "purpose": "On formal 200780 narrow candidate-band contrast term; retain noise term and complete budget checks",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.02,
+    "band_contrast": 0.02
+  },
+  "official_score": null
+}

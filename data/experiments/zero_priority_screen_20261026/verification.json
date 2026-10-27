@@ -1,0 +1,27 @@
+{
+  "core_checks": {
+    "python": "3.12",
+    "passed": 189,
+    "failed": 0
+  },
+  "new_zero_first_and_policy_checks_python310": {
+    "passed": 20,
+    "failed": 0
+  },
+  "markdown_links": 244,
+  "archive_manifests": 2,
+  "screen_cases": 2864,
+  "screen_interactive_runs": 8592,
+  "targeted_runs": 136,
+  "total_interactive_runs": 8728,
+  "measured_new_zero_cases": 0,
+  "distinct_repaired_base_curves": 38,
+  "all_measured_nonzero": false,
+  "finite_incompatible_pair_certificate_validated": true,
+  "formal_main_preserved": true,
+  "official_score": 203239,
+  "online_submissions": 0,
+  "ranking_requests": 0,
+  "full_strategy_diagnostics": "Not changed or rerun in this batch; previous retained report has15 methods and9 failed assertions.",
+  "previous_strategy_report": "data/experiments/local_factory_v3_20261026/verification.json"
+}

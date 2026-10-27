@@ -1,0 +1,27 @@
+{
+  "status": "offline_hypotheses_updated_after_coarse_diagnosis",
+  "parent_official_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "next_mixed_seed": 20261026409,
+  "next_classic_index": 246,
+  "priorities": [
+    {
+      "rank": 1,
+      "hypothesis": "Represent multiple plausible future peaks during coarse exploration; allocate coverage under the irreversible redundancy and route budget, instead of optimizing an already chosen local peak.",
+      "reason": "634/719 cached zeros were uncovered right targets or already irreversible coarse overshoot. This is local diagnosis, not official per-case evidence.",
+      "source": null
+    },
+    {
+      "rank": 2,
+      "hypothesis": "Audit competing ranked coarse gaps before model-based finishing; evaluate rank2/rank3 intervals and avoid spending all queries around rank1.",
+      "reason": "Only2/83 covered unread target gaps were rank1 by observable endpoint ranking;40/83 were within top3. True-gap selection itself is oracle-only diagnosis.",
+      "source": null
+    },
+    {
+      "rank": 3,
+      "hypothesis": "Separate robust model trend from raw positive-residual candidates; fit uncertain background and asymmetry without treating model consensus as a global certificate.",
+      "reason": "Original sparse models tied online; local covered failures often retained over100 unused queries, indicating stopping/selection rather than shortage.",
+      "source": null
+    }
+  ],
+  "evidence": "data/experiments/coarse_gap_20261027/summary.json"
+}

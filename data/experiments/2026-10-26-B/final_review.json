@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "official": false,
+  "summaries": [
+    "summary_clean.json",
+    "branch_summary.json",
+    "inverse_summary.json"
+  ],
+  "representative": "post_probe_drift_only",
+  "equivalence": "strict32 and finite-drift-only have identical paths on281 cases; absent-fit-only matches baseline on281. Empirical only.",
+  "decision": "All candidates remain offline. Wider1415-case screening rejects the previous promising early-exit audit.",
+  "successor": "data/experiments/local_screen_20261026/summary.json",
+  "online_submissions": 0
+}

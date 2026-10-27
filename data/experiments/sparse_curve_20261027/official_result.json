@@ -1,0 +1,14 @@
+{
+  "job_id": "20261027T000915713770Z_905abbff50e8",
+  "submission_id": "b2c83af50e014a1585074848774b6a69",
+  "submitted_at": "2026-10-27 08:09:15",
+  "source_sha256": "2bb0d307ad0869644b817363af8c39a1069faa0d6e2d32ac15080d14321c0de9",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "official_score": 203239,
+  "baseline": 203239,
+  "delta": 0,
+  "best_official_score": 203239,
+  "best_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "single_request_uploads": 1,
+  "further_uploads_today_this_direction": false
+}

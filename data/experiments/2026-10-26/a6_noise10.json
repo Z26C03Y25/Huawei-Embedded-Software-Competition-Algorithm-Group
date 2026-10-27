@@ -1,0 +1,23 @@
+{
+  "name": "a6_noise10",
+  "source": "data/experiments/2026-10-26/a6_noise10.cpp",
+  "sha256": "20f174caab938c2295a9541fddfd1f78167c39d9ea62f2f699fa81c3ed9af7fb",
+  "parent_sha256": "d731a62adbd60fba551258fd7a1e3e5d1349105497f01acfb7905a198ebc5046",
+  "parent_official_score": 202552,
+  "purpose": "On formal202552 extend model noise eligibility to0.1 while retaining full13 raw samples",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.1,
+    "model_agreement": 6.0
+  },
+  "official_score": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "formal200780",
+    "total": 132165,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "trend_w3_factor8",
+    "total": 132014,
+    "delta": -151,
+    "resolved_zero": 1,
+    "new_zero": 1
+  },
+  {
+    "name": "trend_w3_factor12",
+    "total": 134425,
+    "delta": 2260,
+    "resolved_zero": 1,
+    "new_zero": 0
+  },
+  {
+    "name": "trend_w5_factor8",
+    "total": 132014,
+    "delta": -151,
+    "resolved_zero": 1,
+    "new_zero": 1
+  },
+  {
+    "name": "model_noise0p05_from200780",
+    "total": 132165,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  },
+  {
+    "name": "model_noise0p1_from200780",
+    "total": 132165,
+    "delta": 0,
+    "resolved_zero": 0,
+    "new_zero": 0
+  }
+]

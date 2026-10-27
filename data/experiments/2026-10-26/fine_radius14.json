@@ -1,0 +1,20 @@
+{
+  "name": "fine_radius14",
+  "source": "data/experiments/2026-10-26/fine_radius14.cpp",
+  "sha256": "721ac8ba11a80b3f2e285b4e6a4e8526494c345f1a95a25e4dff9d59f178936e",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Clean fine radius 14; model validation and all other controls fixed",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 14
+  },
+  "official_score": null
+}

@@ -4,7 +4,7 @@ An interactive peak-search study based on the 2026 Huawei Embedded Software Comp
 
 [中文](../README.md) · [Documentation](README.md) · [Quick start](guides/quickstart.md) · [Contributing](../.github/CONTRIBUTING.md)
 
-This repository contains a single-file C++17 solver, a Python interactive checker, reproducible synthetic benchmarks, scored source archives, and optional browser-assisted submission tools. The recorded best official total is **199291 as of 2026-10-25**. The official hidden test set is not included.
+This repository contains a single-file C++17 solver, a Python interactive checker, reproducible synthetic benchmarks, scored source archives, and optional browser-assisted submission tools. The recorded best official total is **203239 as of 2026-10-26**. The official hidden test set is not included.
 
 ## Run locally
 

@@ -1,0 +1,80 @@
+{
+  "objective": "robust_total_score",
+  "generator_version": 4,
+  "generator_sha256": "8fa7ad36281433071a22ef29102fefd562b2785a006ad832c4eb2c7fbc3ae81d",
+  "training_seed": 20261026401,
+  "selection_seed": 20261026402,
+  "confirmation_seed": 20261026403,
+  "development": {
+    "per_family": 16,
+    "splits": [
+      "development"
+    ],
+    "novel_families": false
+  },
+  "selection": {
+    "case_offset": 16,
+    "per_family": 18,
+    "splits": [
+      "development",
+      "selection",
+      "blind_shift"
+    ],
+    "novel_families": false
+  },
+  "confirmation": {
+    "per_family": 18,
+    "splits": [
+      "development",
+      "selection",
+      "blind_shift"
+    ],
+    "novel_families": true
+  },
+  "classic_control": {
+    "case_offset": 144,
+    "per_family": 18
+  },
+  "families": [
+    "skew_correlated",
+    "shoulder_colored",
+    "three_competitors",
+    "near_equal_ripple",
+    "decline_then_peak",
+    "quantized_noisy_top",
+    "noisy_flat_prefix",
+    "late_peak_echo",
+    "early_echo_late_main",
+    "ramp_micropeaks",
+    "staircase_with_background",
+    "boundary_competitor",
+    "variable_skew",
+    "heavy_tail_nuisance",
+    "nonstationary_chirp",
+    "heteroskedastic_peak",
+    "clipped_double_top",
+    "plateau_edge_bumps",
+    "drifting_double",
+    "nonlinear_sensor",
+    "multiple_quantized_ties",
+    "wave_envelope",
+    "unstructured_background",
+    "adversarial_impulse"
+  ],
+  "heldout_families": [
+    "modal_bridge",
+    "background_change_points",
+    "occluded_peak",
+    "compound_ripples"
+  ],
+  "anti_overfit": [
+    "No generator rejection sampling by solver score",
+    "No seed/case-ID branches in solver",
+    "Only development decides candidate modifications",
+    "At most2 challengers enter selection",
+    "Freeze one selected source before confirmation",
+    "Novel family interactions only read after selection",
+    "Retain the prior confirmed source and formally scored source in all comparisons",
+    "Compare mixed and classic distributions separately; never add synthetic deltas to official totals"
+  ]
+}

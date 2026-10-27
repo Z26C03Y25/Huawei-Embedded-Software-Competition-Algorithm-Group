@@ -57,6 +57,18 @@ class StrategyTests(unittest.TestCase):
         self.assertGreater(result["score"], 0, result)
         return result, trace
 
+    def test_disagreeing_vertices_keep_the_rippled_raw_maximum(self):
+        path = ROOT / "data/experiments/2026-10-26/counterexamples/model_disagreement_ripple.json"
+        payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        result, _ = self.exact(payload["name"], payload["values"])
+        self.assertEqual(result["final_position"], 513)
+
+    def test_multiscale_ripple_does_not_finish_five_grids_early(self):
+        path = ROOT / "data/experiments/2026-10-26-B/counterexamples/rippled_early_finish.json"
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        result, _ = self.exact(payload["name"], payload["values"])
+        self.assertEqual(result["final_position"], 228)
+
     def test_constants_stop_at_the_central_tie_without_redundancy_zero(self):
         for n in (400, 401, 700, 999, 1000):
             for v in (0, 12345):

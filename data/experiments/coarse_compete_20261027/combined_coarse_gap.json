@@ -1,0 +1,147 @@
+{
+  "name": "combined_coarse_gap",
+  "source": "data/experiments/coarse_compete_20261027/combined_coarse_gap.cpp",
+  "sha256": "8ca632d14f3fcd745ad800ff74ef7cc2443aab84490a7bc7c6a7b4f9df77133d",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "operator_sources": [
+    {
+      "source": "data/experiments/coarse_compete_20261027/coarse/coarse_rival_release.cpp",
+      "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2"
+    },
+    {
+      "source": "data/experiments/coarse_compete_20261027/gap/competing_gap_midpoints.cpp",
+      "sha256": "ce8d3422a9c430a8dae7ddbbd6c69f2ea3ccfb377b00e3901bf5e5d7e83f7288"
+    }
+  ],
+  "purpose": "Disjoint composition of frozen coarse rival/sentinel and competing-gap midpoint operators; isolate interaction versus each operator.",
+  "parameters": {
+    "coarse": {
+      "median_blocks": 3,
+      "points_per_block": 3,
+      "min_distance_after_raw_best": 48,
+      "min_first_witness_after_best": 16,
+      "min_each_median_rise_noise_multiple": 2,
+      "min_each_median_rise_contrast_fraction": 0.005,
+      "competitive_height_within_contrast_fraction": 0.15,
+      "revalidated_lease": 48,
+      "max_frontier_distance_after_current_raw_best": 191,
+      "coarse_query_cap_unchanged": 128,
+      "sentinel": {
+        "eligible_at": "original scout-stop only",
+        "best_must_be_before_center": true,
+        "max_queries_at_probe": 111,
+        "min_distance_after_best": 80,
+        "max_distance_after_best": 128,
+        "tail_height_contrast_range": [
+          0.12,
+          0.6
+        ],
+        "max_last_to_previous_drop_ratio": 0.4,
+        "min_previous_drop_noise_multiple": 3,
+        "min_previous_drop_contrast_fraction": 0.01,
+        "target_offset_from_best": 176,
+        "target_cap_from_high_band_left": 191,
+        "min_probe_advance": 17,
+        "max_one_per_current_best": true
+      }
+    },
+    "gap": {
+      "max_extra_midpoint_reads": 2,
+      "top_ranked_gaps": 3,
+      "min_gap": 6,
+      "max_gap": 24,
+      "max_midpoint_distance": 48,
+      "rival_distance": 48,
+      "rival_max_drop_noise_multiplier": 4,
+      "rival_max_drop_contrast": 0.02,
+      "endpoint_max_drop_noise_multiplier": 4,
+      "endpoint_max_drop_contrast": 0.025,
+      "mean_endpoint_max_drop_noise_multiplier": 6,
+      "mean_endpoint_max_drop_contrast": 0.04,
+      "positive_surprise_min_abs": 1,
+      "positive_surprise_noise_multiplier": 1,
+      "challenge_max_drop_noise_multiplier": 2,
+      "challenge_max_drop_contrast": 0.01
+    }
+  },
+  "config": {
+    "coarse": 128,
+    "flat_step": 8,
+    "group": 0.1,
+    "late_scout": 16,
+    "model_agreement": 10.0,
+    "model_finish": true,
+    "model_fit_window": 24,
+    "model_min_radius": 3,
+    "model_noise_fraction": 0.05,
+    "model_prediction_margin": 3,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "noise_abs": 0,
+    "noise_step": 8,
+    "prom": 24,
+    "radius": 8,
+    "up": 8,
+    "protocol_hardened": true,
+    "coarse_rival_release": {
+      "median_blocks": 3,
+      "points_per_block": 3,
+      "min_distance_after_raw_best": 48,
+      "min_first_witness_after_best": 16,
+      "min_each_median_rise_noise_multiple": 2,
+      "min_each_median_rise_contrast_fraction": 0.005,
+      "competitive_height_within_contrast_fraction": 0.15,
+      "revalidated_lease": 48,
+      "max_frontier_distance_after_current_raw_best": 191,
+      "coarse_query_cap_unchanged": 128,
+      "sentinel": {
+        "eligible_at": "original scout-stop only",
+        "best_must_be_before_center": true,
+        "max_queries_at_probe": 111,
+        "min_distance_after_best": 80,
+        "max_distance_after_best": 128,
+        "tail_height_contrast_range": [
+          0.12,
+          0.6
+        ],
+        "max_last_to_previous_drop_ratio": 0.4,
+        "min_previous_drop_noise_multiple": 3,
+        "min_previous_drop_contrast_fraction": 0.01,
+        "target_offset_from_best": 176,
+        "target_cap_from_high_band_left": 191,
+        "min_probe_advance": 17,
+        "max_one_per_current_best": true
+      }
+    },
+    "competing_gap_audit": {
+      "max_extra_midpoint_reads": 2,
+      "top_ranked_gaps": 3,
+      "min_gap": 6,
+      "max_gap": 24,
+      "max_midpoint_distance": 48,
+      "rival_distance": 48,
+      "rival_max_drop_noise_multiplier": 4,
+      "rival_max_drop_contrast": 0.02,
+      "endpoint_max_drop_noise_multiplier": 4,
+      "endpoint_max_drop_contrast": 0.025,
+      "mean_endpoint_max_drop_noise_multiplier": 6,
+      "mean_endpoint_max_drop_contrast": 0.04,
+      "positive_surprise_min_abs": 1,
+      "positive_surprise_noise_multiplier": 1,
+      "challenge_max_drop_noise_multiplier": 2,
+      "challenge_max_drop_contrast": 0.01
+    }
+  },
+  "status": "frozen_screening_candidate",
+  "official_score": null,
+  "risks": [
+    "Sentinel may consume extra travel/queries on a correct early peak; moving relative to an observed high-band is not a true-global redundancy certificate.",
+    "An unread true maximum earlier than the observed high-band can make even the bounded probe irreversibly unsafe.",
+    "Far peaks with a fully flat low gap or no qualifying shoulder remain undiscoverable by this operator.",
+    "The modeled decelerating shoulder can also be an ordinary long-tailed single peak.",
+    "Queries and additional travel may reduce scores on already-positive cases.",
+    "Extra observed replies alter RNG and later refinement decisions.",
+    "This in-range audit cannot repair an uncovered right mode or an already irreversible coarse overshoot.",
+    "Endpoint-ranked intervals need not represent separate physical peaks.",
+    "Observed-noise estimates and midpoint choice remain heuristic; no universal nonzero guarantee."
+  ]
+}

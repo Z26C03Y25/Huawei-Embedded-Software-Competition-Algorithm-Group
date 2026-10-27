@@ -1,0 +1,61 @@
+{
+  "generator_version": 1,
+  "generator_sha256": "a64535e61bfe4eb95354d87f470a82a97efc09b1ae7ee23673973daa15f5bfb8",
+  "seeds": {
+    "development": 26102661,
+    "selection": 27102662,
+    "blind_shift": 28102663
+  },
+  "per_family": 18,
+  "families": [
+    "smooth_power",
+    "asymmetric_peak",
+    "cusp_peak",
+    "supergaussian",
+    "shoulder",
+    "close_competitors",
+    "far_competitors",
+    "bump_on_hump",
+    "ar1_noise",
+    "heteroskedastic_noise",
+    "periodic_ripple",
+    "chirp_ripple",
+    "quantized_top",
+    "saturated_top",
+    "plateau_edge_peak",
+    "trend_with_peak",
+    "delayed_peak",
+    "boundary_peak",
+    "staircase",
+    "flat_ties",
+    "random_unstructured",
+    "single_spike"
+  ],
+  "cases": 1415,
+  "dataset_sha256": "7d8a082985e635b2d0f3e423c8fab98f7f667d0ccd05a3de4e50cb817c046825",
+  "solvers": [
+    {
+      "name": "formal203239",
+      "source": "main.cpp",
+      "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc"
+    },
+    {
+      "name": "guarded16",
+      "source": "data/experiments/2026-10-26-B/guarded_fit16_v2.cpp",
+      "sha256": "951b7cd31496b42e2d69d55dc18741c2e0c8301c623173721713c694bd4626db"
+    },
+    {
+      "name": "drift_gate",
+      "source": "data/experiments/2026-10-26-B/post_probe_drift_only.cpp",
+      "sha256": "22cf41c5a9b91eba50fdbadbad73503417f3e92a0de35ed2911d67037fccc2f8"
+    },
+    {
+      "name": "inverse_audit",
+      "source": "data/experiments/2026-10-26-B/low_noise_inverse_scale_drift.cpp",
+      "sha256": "5c85359052098970042d58817c3885475c49ef2c1b61d8b44ed3a2945c81d177"
+    }
+  ],
+  "fixed_before_scoring": true,
+  "official": false,
+  "method": "Independent stratified base cases; siblings share cluster; held-out parameter shifts. Candidates fixed before evaluation."
+}

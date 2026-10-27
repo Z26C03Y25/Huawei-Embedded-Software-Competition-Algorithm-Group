@@ -1,0 +1,5907 @@
+[
+  {
+    "name": "development/smooth_power/262",
+    "split": "development",
+    "family": "smooth_power",
+    "cluster": "development/smooth_power/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 254,
+    "final_position": 446,
+    "target": 700,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/asymmetric_peak/262",
+    "split": "development",
+    "family": "asymmetric_peak",
+    "cluster": "development/asymmetric_peak/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 322,
+    "final_position": 351,
+    "target": 673,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/asymmetric_peak/263",
+    "split": "development",
+    "family": "asymmetric_peak",
+    "cluster": "development/asymmetric_peak/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 75,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 350,
+    "final_position": 427,
+    "target": 777,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/close_competitors/248",
+    "split": "development",
+    "family": "close_competitors",
+    "cluster": "development/close_competitors/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 50,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 26,
+    "final_position": 346,
+    "target": 372,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/bump_on_hump/248",
+    "split": "development",
+    "family": "bump_on_hump",
+    "cluster": "development/bump_on_hump/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 81,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 47,
+    "final_position": 409,
+    "target": 456,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/bump_on_hump/255",
+    "split": "development",
+    "family": "bump_on_hump",
+    "cluster": "development/bump_on_hump/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 62,
+    "final_position": 472,
+    "target": 534,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/bump_on_hump/262",
+    "split": "development",
+    "family": "bump_on_hump",
+    "cluster": "development/bump_on_hump/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 164,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 174,
+    "final_position": 282,
+    "target": 456,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/heteroskedastic_noise/256",
+    "split": "development",
+    "family": "heteroskedastic_noise",
+    "cluster": "development/heteroskedastic_noise/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 107,
+    "oscillations": 2,
+    "redundancy": 37,
+    "distance": 11,
+    "final_position": 704,
+    "target": 715,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/periodic_ripple/252",
+    "split": "development",
+    "family": "periodic_ripple",
+    "cluster": "development/periodic_ripple/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 45,
+    "oscillations": 2,
+    "redundancy": 81,
+    "distance": 16,
+    "final_position": 151,
+    "target": 167,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/periodic_ripple/263",
+    "split": "development",
+    "family": "periodic_ripple",
+    "cluster": "development/periodic_ripple/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 59,
+    "oscillations": 2,
+    "redundancy": 295,
+    "distance": 0,
+    "final_position": 81,
+    "target": 81,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/chirp_ripple/250",
+    "split": "development",
+    "family": "chirp_ripple",
+    "cluster": "development/chirp_ripple/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 122,
+    "oscillations": 2,
+    "redundancy": 271,
+    "distance": 0,
+    "final_position": 41,
+    "target": 41,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/chirp_ripple/253",
+    "split": "development",
+    "family": "chirp_ripple",
+    "cluster": "development/chirp_ripple/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 94,
+    "oscillations": 2,
+    "redundancy": 62,
+    "distance": 9,
+    "final_position": 601,
+    "target": 610,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/chirp_ripple/255",
+    "split": "development",
+    "family": "chirp_ripple",
+    "cluster": "development/chirp_ripple/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 143,
+    "oscillations": 2,
+    "redundancy": 375,
+    "distance": 0,
+    "final_position": 522,
+    "target": 522,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/quantized_top/261",
+    "split": "development",
+    "family": "quantized_top",
+    "cluster": "development/quantized_top/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 73,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 295,
+    "final_position": 410,
+    "target": 705,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/saturated_top/247",
+    "split": "development",
+    "family": "saturated_top",
+    "cluster": "development/saturated_top/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 74,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 387,
+    "final_position": 414,
+    "target": 801,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/saturated_top/254",
+    "split": "development",
+    "family": "saturated_top",
+    "cluster": "development/saturated_top/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 190,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 10,
+    "final_position": 228,
+    "target": 238,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/246",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 437,
+    "target": 872,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/247",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 336,
+    "final_position": 336,
+    "target": 672,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/249",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 297,
+    "final_position": 302,
+    "target": 599,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/254",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 322,
+    "final_position": 323,
+    "target": 645,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/261",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 187,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 15,
+    "final_position": 228,
+    "target": 243,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/263",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 151,
+    "final_position": 355,
+    "target": 506,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/trend_with_peak/249",
+    "split": "development",
+    "family": "trend_with_peak",
+    "cluster": "development/trend_with_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 668,
+    "final_position": 0,
+    "target": 668,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/trend_with_peak/254",
+    "split": "development",
+    "family": "trend_with_peak",
+    "cluster": "development/trend_with_peak/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 227,
+    "final_position": 0,
+    "target": 227,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/trend_with_peak/256",
+    "split": "development",
+    "family": "trend_with_peak",
+    "cluster": "development/trend_with_peak/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 133,
+    "final_position": 0,
+    "target": 133,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/trend_with_peak/260",
+    "split": "development",
+    "family": "trend_with_peak",
+    "cluster": "development/trend_with_peak/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 574,
+    "final_position": 0,
+    "target": 574,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/246",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 361,
+    "final_position": 395,
+    "target": 756,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/247",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 242,
+    "final_position": 256,
+    "target": 498,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/249",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 82,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 388,
+    "final_position": 479,
+    "target": 867,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/250",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 53,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 230,
+    "final_position": 248,
+    "target": 478,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/251",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 79,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 255,
+    "final_position": 458,
+    "target": 713,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/252",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 281,
+    "final_position": 374,
+    "target": 655,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/253",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 365,
+    "final_position": 373,
+    "target": 738,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/255",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 75,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 164,
+    "final_position": 426,
+    "target": 590,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/257",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 58,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 227,
+    "final_position": 284,
+    "target": 511,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/261",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 436,
+    "final_position": 446,
+    "target": 882,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/262",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 329,
+    "final_position": 391,
+    "target": 720,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/263",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 55,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 190,
+    "final_position": 262,
+    "target": 452,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/248",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 433,
+    "final_position": 439,
+    "target": 872,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/251",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 301,
+    "final_position": 300,
+    "target": 601,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/252",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 342,
+    "final_position": 343,
+    "target": 685,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/253",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 341,
+    "final_position": 342,
+    "target": 683,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/255",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 61,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 309,
+    "final_position": 315,
+    "target": 624,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/259",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 302,
+    "final_position": 305,
+    "target": 607,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/260",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 319,
+    "final_position": 318,
+    "target": 637,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/boundary_peak/262",
+    "split": "development",
+    "family": "boundary_peak",
+    "cluster": "development/boundary_peak/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 72,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 400,
+    "final_position": 400,
+    "target": 800,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/staircase/247",
+    "split": "development",
+    "family": "staircase",
+    "cluster": "development/staircase/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 103,
+    "oscillations": 2,
+    "redundancy": 354,
+    "distance": 0,
+    "final_position": 6,
+    "target": 6,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/staircase/248",
+    "split": "development",
+    "family": "staircase",
+    "cluster": "development/staircase/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 130,
+    "oscillations": 3,
+    "redundancy": 394,
+    "distance": 0,
+    "final_position": 6,
+    "target": 6,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/staircase/259",
+    "split": "development",
+    "family": "staircase",
+    "cluster": "development/staircase/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 99,
+    "oscillations": 3,
+    "redundancy": 285,
+    "distance": 0,
+    "final_position": 19,
+    "target": 19,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/250",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 287,
+    "final_position": 101,
+    "target": 388,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/253",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 185,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 102,
+    "final_position": 183,
+    "target": 285,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/256",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 92,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 277,
+    "final_position": 101,
+    "target": 378,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/257",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 193,
+    "oscillations": 3,
+    "redundancy": 352,
+    "distance": 0,
+    "final_position": 352,
+    "target": 352,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/259",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 98,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 334,
+    "final_position": 128,
+    "target": 462,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/flat_ties/262",
+    "split": "development",
+    "family": "flat_ties",
+    "cluster": "development/flat_ties/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 110,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 254,
+    "final_position": 157,
+    "target": 411,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/246",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 197,
+    "oscillations": 3,
+    "redundancy": 527,
+    "distance": 0,
+    "final_position": 177,
+    "target": 177,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/247",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 192,
+    "oscillations": 3,
+    "redundancy": 201,
+    "distance": 126,
+    "final_position": 500,
+    "target": 626,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/248",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 334,
+    "distance": 53,
+    "final_position": 57,
+    "target": 110,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/249",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/249",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 392,
+    "distance": 92,
+    "final_position": 536,
+    "target": 444,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/250",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 196,
+    "oscillations": 3,
+    "redundancy": 553,
+    "distance": 12,
+    "final_position": 94,
+    "target": 106,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/252",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 197,
+    "oscillations": 3,
+    "redundancy": 279,
+    "distance": 76,
+    "final_position": 297,
+    "target": 373,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/253",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 193,
+    "oscillations": 3,
+    "redundancy": 236,
+    "distance": 0,
+    "final_position": 520,
+    "target": 520,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/255",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/255",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 135,
+    "distance": 207,
+    "final_position": 344,
+    "target": 551,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/256",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/256",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 375,
+    "distance": 167,
+    "final_position": 335,
+    "target": 502,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/257",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/257",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 337,
+    "distance": 135,
+    "final_position": 576,
+    "target": 441,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/258",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 297,
+    "distance": 247,
+    "final_position": 368,
+    "target": 121,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/259",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 198,
+    "oscillations": 3,
+    "redundancy": 415,
+    "distance": 54,
+    "final_position": 411,
+    "target": 357,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/260",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 818,
+    "distance": 668,
+    "final_position": 749,
+    "target": 81,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/261",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 78,
+    "distance": 361,
+    "final_position": 176,
+    "target": 537,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/263",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/263",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 226,
+    "distance": 0,
+    "final_position": 619,
+    "target": 619,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/246",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 113,
+    "distance": 31,
+    "final_position": 211,
+    "target": 242,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/247",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 217,
+    "final_position": 323,
+    "target": 540,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/248",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 295,
+    "distance": 151,
+    "final_position": 498,
+    "target": 347,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/249",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/249",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 55,
+    "oscillations": 2,
+    "redundancy": 12,
+    "distance": 132,
+    "final_position": 265,
+    "target": 397,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/250",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 355,
+    "distance": 211,
+    "final_position": 380,
+    "target": 169,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/251",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/251",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 240,
+    "final_position": 442,
+    "target": 682,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/252",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 72,
+    "oscillations": 2,
+    "redundancy": 84,
+    "distance": 60,
+    "final_position": 403,
+    "target": 463,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/253",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 206,
+    "final_position": 253,
+    "target": 459,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/254",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/254",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 66,
+    "distance": 78,
+    "final_position": 214,
+    "target": 292,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/255",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/255",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 31,
+    "distance": 113,
+    "final_position": 199,
+    "target": 312,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/256",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/256",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 348,
+    "final_position": 390,
+    "target": 738,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/257",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/257",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 82,
+    "oscillations": 2,
+    "redundancy": 424,
+    "distance": 280,
+    "final_position": 485,
+    "target": 205,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/258",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 51,
+    "oscillations": 2,
+    "redundancy": 364,
+    "distance": 220,
+    "final_position": 234,
+    "target": 14,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/259",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 70,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 219,
+    "final_position": 386,
+    "target": 605,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/260",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 464,
+    "distance": 320,
+    "final_position": 348,
+    "target": 28,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/261",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 416,
+    "distance": 272,
+    "final_position": 321,
+    "target": 49,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/262",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/262",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 56,
+    "oscillations": 2,
+    "redundancy": 105,
+    "distance": 39,
+    "final_position": 269,
+    "target": 308,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/263",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/263",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 231,
+    "distance": 87,
+    "final_position": 376,
+    "target": 289,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/smooth_power/257",
+    "split": "selection",
+    "family": "smooth_power",
+    "cluster": "selection/smooth_power/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 80,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 411,
+    "final_position": 465,
+    "target": 876,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/smooth_power/262",
+    "split": "selection",
+    "family": "smooth_power",
+    "cluster": "selection/smooth_power/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 78,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 369,
+    "final_position": 448,
+    "target": 817,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/close_competitors/253",
+    "split": "selection",
+    "family": "close_competitors",
+    "cluster": "selection/close_competitors/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 83,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 308,
+    "final_position": 490,
+    "target": 798,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/close_competitors/254",
+    "split": "selection",
+    "family": "close_competitors",
+    "cluster": "selection/close_competitors/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 81,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 406,
+    "final_position": 478,
+    "target": 884,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/close_competitors/261",
+    "split": "selection",
+    "family": "close_competitors",
+    "cluster": "selection/close_competitors/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 46,
+    "oscillations": 2,
+    "redundancy": 82,
+    "distance": 13,
+    "final_position": 177,
+    "target": 190,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/247",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 172,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 174,
+    "final_position": 304,
+    "target": 478,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/250",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 86,
+    "oscillations": 4,
+    "redundancy": 51,
+    "distance": 61,
+    "final_position": 200,
+    "target": 261,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/251",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 138,
+    "final_position": 248,
+    "target": 386,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/252",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 101,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 122,
+    "final_position": 659,
+    "target": 781,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/253",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 30,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 86,
+    "final_position": 7,
+    "target": 93,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/259",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 127,
+    "final_position": 288,
+    "target": 415,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/261",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 108,
+    "oscillations": 2,
+    "redundancy": 67,
+    "distance": 63,
+    "final_position": 274,
+    "target": 337,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/heteroskedastic_noise/249",
+    "split": "selection",
+    "family": "heteroskedastic_noise",
+    "cluster": "selection/heteroskedastic_noise/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 82,
+    "oscillations": 2,
+    "redundancy": 77,
+    "distance": 4,
+    "final_position": 487,
+    "target": 483,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/heteroskedastic_noise/263",
+    "split": "selection",
+    "family": "heteroskedastic_noise",
+    "cluster": "selection/heteroskedastic_noise/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 57,
+    "oscillations": 2,
+    "redundancy": 35,
+    "distance": 4,
+    "final_position": 321,
+    "target": 317,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/periodic_ripple/248",
+    "split": "selection",
+    "family": "periodic_ripple",
+    "cluster": "selection/periodic_ripple/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 337,
+    "distance": 0,
+    "final_position": 183,
+    "target": 183,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/chirp_ripple/246",
+    "split": "selection",
+    "family": "chirp_ripple",
+    "cluster": "selection/chirp_ripple/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 190,
+    "oscillations": 2,
+    "redundancy": 453,
+    "distance": 0,
+    "final_position": 211,
+    "target": 211,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/chirp_ripple/248",
+    "split": "selection",
+    "family": "chirp_ripple",
+    "cluster": "selection/chirp_ripple/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 123,
+    "distance": 10,
+    "final_position": 199,
+    "target": 189,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/chirp_ripple/262",
+    "split": "selection",
+    "family": "chirp_ripple",
+    "cluster": "selection/chirp_ripple/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 85,
+    "oscillations": 2,
+    "redundancy": 43,
+    "distance": 8,
+    "final_position": 565,
+    "target": 557,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/quantized_top/259",
+    "split": "selection",
+    "family": "quantized_top",
+    "cluster": "selection/quantized_top/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 73,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 322,
+    "final_position": 409,
+    "target": 731,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/saturated_top/256",
+    "split": "selection",
+    "family": "saturated_top",
+    "cluster": "selection/saturated_top/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 83,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 433,
+    "final_position": 488,
+    "target": 921,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/saturated_top/261",
+    "split": "selection",
+    "family": "saturated_top",
+    "cluster": "selection/saturated_top/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 67,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 253,
+    "final_position": 360,
+    "target": 613,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/249",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 187,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 32,
+    "final_position": 216,
+    "target": 248,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/251",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 297,
+    "final_position": 380,
+    "target": 677,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/252",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 185,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 84,
+    "final_position": 328,
+    "target": 412,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/255",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 187,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 235,
+    "final_position": 500,
+    "target": 735,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/257",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 194,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 69,
+    "final_position": 305,
+    "target": 374,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/258",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/258",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 161,
+    "final_position": 238,
+    "target": 399,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/261",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 191,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 23,
+    "final_position": 228,
+    "target": 251,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/plateau_edge_peak/263",
+    "split": "selection",
+    "family": "plateau_edge_peak",
+    "cluster": "selection/plateau_edge_peak/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 178,
+    "final_position": 390,
+    "target": 568,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/253",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 60,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 715,
+    "final_position": 8,
+    "target": 723,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/254",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 21,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 569,
+    "final_position": 0,
+    "target": 569,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/255",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 467,
+    "final_position": 0,
+    "target": 467,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/256",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 542,
+    "final_position": 0,
+    "target": 542,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/261",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 276,
+    "final_position": 0,
+    "target": 276,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/trend_with_peak/262",
+    "split": "selection",
+    "family": "trend_with_peak",
+    "cluster": "selection/trend_with_peak/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 538,
+    "final_position": 0,
+    "target": 538,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/247",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 72,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 277,
+    "final_position": 399,
+    "target": 676,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/249",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 421,
+    "final_position": 433,
+    "target": 854,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/250",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 77,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 357,
+    "final_position": 439,
+    "target": 796,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/251",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 275,
+    "final_position": 377,
+    "target": 652,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/253",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 240,
+    "final_position": 240,
+    "target": 480,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/255",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 342,
+    "final_position": 365,
+    "target": 707,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/256",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 74,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 203,
+    "final_position": 417,
+    "target": 620,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/259",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 250,
+    "final_position": 337,
+    "target": 587,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/delayed_peak/260",
+    "split": "selection",
+    "family": "delayed_peak",
+    "cluster": "selection/delayed_peak/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 81,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 200,
+    "final_position": 473,
+    "target": 673,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/boundary_peak/252",
+    "split": "selection",
+    "family": "boundary_peak",
+    "cluster": "selection/boundary_peak/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 50,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 224,
+    "final_position": 225,
+    "target": 449,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/boundary_peak/254",
+    "split": "selection",
+    "family": "boundary_peak",
+    "cluster": "selection/boundary_peak/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 434,
+    "final_position": 435,
+    "target": 869,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/boundary_peak/255",
+    "split": "selection",
+    "family": "boundary_peak",
+    "cluster": "selection/boundary_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 68,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 371,
+    "final_position": 371,
+    "target": 742,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/boundary_peak/261",
+    "split": "selection",
+    "family": "boundary_peak",
+    "cluster": "selection/boundary_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 63,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 320,
+    "final_position": 325,
+    "target": 645,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/246",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 53,
+    "oscillations": 3,
+    "redundancy": 215,
+    "distance": 0,
+    "final_position": 1,
+    "target": 1,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/249",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 136,
+    "oscillations": 3,
+    "redundancy": 395,
+    "distance": 0,
+    "final_position": 13,
+    "target": 13,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/252",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 94,
+    "oscillations": 2,
+    "redundancy": 270,
+    "distance": 0,
+    "final_position": 18,
+    "target": 18,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/257",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 76,
+    "oscillations": 3,
+    "redundancy": 223,
+    "distance": 0,
+    "final_position": 9,
+    "target": 9,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/258",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/258",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 127,
+    "oscillations": 3,
+    "redundancy": 397,
+    "distance": 0,
+    "final_position": 19,
+    "target": 19,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/259",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 134,
+    "oscillations": 3,
+    "redundancy": 407,
+    "distance": 0,
+    "final_position": 9,
+    "target": 9,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/262",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 111,
+    "oscillations": 3,
+    "redundancy": 310,
+    "distance": 0,
+    "final_position": 10,
+    "target": 10,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/flat_ties/247",
+    "split": "selection",
+    "family": "flat_ties",
+    "cluster": "selection/flat_ties/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 419,
+    "distance": 13,
+    "final_position": 405,
+    "target": 418,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/flat_ties/250",
+    "split": "selection",
+    "family": "flat_ties",
+    "cluster": "selection/flat_ties/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 186,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 55,
+    "final_position": 254,
+    "target": 309,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/flat_ties/254",
+    "split": "selection",
+    "family": "flat_ties",
+    "cluster": "selection/flat_ties/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 291,
+    "distance": 0,
+    "final_position": 288,
+    "target": 288,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/flat_ties/256",
+    "split": "selection",
+    "family": "flat_ties",
+    "cluster": "selection/flat_ties/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 312,
+    "distance": 0,
+    "final_position": 313,
+    "target": 313,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/flat_ties/259",
+    "split": "selection",
+    "family": "flat_ties",
+    "cluster": "selection/flat_ties/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 437,
+    "distance": 0,
+    "final_position": 436,
+    "target": 436,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/246",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 186,
+    "distance": 630,
+    "final_position": 182,
+    "target": 812,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/247",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 2,
+    "redundancy": 771,
+    "distance": 634,
+    "final_position": 768,
+    "target": 134,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/248",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 445,
+    "distance": 135,
+    "final_position": 504,
+    "target": 369,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/249",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/249",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 336,
+    "distance": 0,
+    "final_position": 268,
+    "target": 268,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/250",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 631,
+    "distance": 0,
+    "final_position": 77,
+    "target": 77,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/251",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/251",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 522,
+    "distance": 370,
+    "final_position": 800,
+    "target": 430,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/252",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 79,
+    "distance": 386,
+    "final_position": 247,
+    "target": 633,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/253",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 189,
+    "oscillations": 3,
+    "redundancy": 354,
+    "distance": 0,
+    "final_position": 71,
+    "target": 71,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/254",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/254",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 186,
+    "oscillations": 3,
+    "redundancy": 316,
+    "distance": 12,
+    "final_position": 229,
+    "target": 217,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/255",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/255",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 428,
+    "distance": 61,
+    "final_position": 576,
+    "target": 515,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/256",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/256",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 408,
+    "distance": 510,
+    "final_position": 48,
+    "target": 558,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/257",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/257",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 193,
+    "oscillations": 3,
+    "redundancy": 210,
+    "distance": 0,
+    "final_position": 320,
+    "target": 320,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/258",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 4,
+    "redundancy": 22,
+    "distance": 241,
+    "final_position": 342,
+    "target": 583,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/259",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 311,
+    "distance": 157,
+    "final_position": 182,
+    "target": 339,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/260",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 187,
+    "oscillations": 3,
+    "redundancy": 28,
+    "distance": 54,
+    "final_position": 356,
+    "target": 410,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/261",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 198,
+    "oscillations": 3,
+    "redundancy": 671,
+    "distance": 446,
+    "final_position": 465,
+    "target": 19,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/263",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/263",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 188,
+    "oscillations": 3,
+    "redundancy": 321,
+    "distance": 207,
+    "final_position": 315,
+    "target": 108,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/246",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 190,
+    "distance": 46,
+    "final_position": 237,
+    "target": 191,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/247",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 404,
+    "distance": 260,
+    "final_position": 334,
+    "target": 74,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/248",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 82,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 310,
+    "final_position": 479,
+    "target": 789,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/249",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/249",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 289,
+    "distance": 145,
+    "final_position": 241,
+    "target": 96,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/250",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 248,
+    "final_position": 396,
+    "target": 644,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/251",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/251",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 266,
+    "final_position": 392,
+    "target": 658,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/252",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 88,
+    "distance": 56,
+    "final_position": 213,
+    "target": 269,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/253",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 82,
+    "oscillations": 2,
+    "redundancy": 245,
+    "distance": 101,
+    "final_position": 485,
+    "target": 384,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/254",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/254",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 64,
+    "oscillations": 2,
+    "redundancy": 17,
+    "distance": 127,
+    "final_position": 340,
+    "target": 467,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/255",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/255",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 473,
+    "distance": 329,
+    "final_position": 345,
+    "target": 16,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/256",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/256",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 83,
+    "oscillations": 2,
+    "redundancy": 571,
+    "distance": 427,
+    "final_position": 491,
+    "target": 64,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/257",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/257",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 65,
+    "oscillations": 2,
+    "redundancy": 261,
+    "distance": 117,
+    "final_position": 344,
+    "target": 227,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/258",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 62,
+    "oscillations": 2,
+    "redundancy": 187,
+    "distance": 43,
+    "final_position": 318,
+    "target": 275,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/259",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 357,
+    "distance": 213,
+    "final_position": 235,
+    "target": 22,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/260",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 159,
+    "final_position": 237,
+    "target": 396,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/261",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 59,
+    "oscillations": 2,
+    "redundancy": 4,
+    "distance": 140,
+    "final_position": 293,
+    "target": 433,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/262",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/262",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 180,
+    "final_position": 212,
+    "target": 392,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/263",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/263",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 78,
+    "oscillations": 2,
+    "redundancy": 106,
+    "distance": 38,
+    "final_position": 451,
+    "target": 489,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/supergaussian/247",
+    "split": "blind_shift",
+    "family": "supergaussian",
+    "cluster": "blind_shift/supergaussian/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 248,
+    "final_position": 255,
+    "target": 503,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/supergaussian/249",
+    "split": "blind_shift",
+    "family": "supergaussian",
+    "cluster": "blind_shift/supergaussian/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 228,
+    "final_position": 255,
+    "target": 483,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/supergaussian/262",
+    "split": "blind_shift",
+    "family": "supergaussian",
+    "cluster": "blind_shift/supergaussian/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 337,
+    "final_position": 499,
+    "target": 836,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/close_competitors/247",
+    "split": "blind_shift",
+    "family": "close_competitors",
+    "cluster": "blind_shift/close_competitors/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 48,
+    "oscillations": 2,
+    "redundancy": 10,
+    "distance": 15,
+    "final_position": 279,
+    "target": 294,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/close_competitors/248",
+    "split": "blind_shift",
+    "family": "close_competitors",
+    "cluster": "blind_shift/close_competitors/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 57,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 21,
+    "final_position": 337,
+    "target": 358,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/close_competitors/249",
+    "split": "blind_shift",
+    "family": "close_competitors",
+    "cluster": "blind_shift/close_competitors/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 46,
+    "oscillations": 2,
+    "redundancy": 69,
+    "distance": 28,
+    "final_position": 143,
+    "target": 171,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/close_competitors/260",
+    "split": "blind_shift",
+    "family": "close_competitors",
+    "cluster": "blind_shift/close_competitors/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 29,
+    "oscillations": 2,
+    "redundancy": 84,
+    "distance": 10,
+    "final_position": 58,
+    "target": 68,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/close_competitors/261",
+    "split": "blind_shift",
+    "family": "close_competitors",
+    "cluster": "blind_shift/close_competitors/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 33,
+    "oscillations": 2,
+    "redundancy": 67,
+    "distance": 32,
+    "final_position": 61,
+    "target": 93,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/246",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 19,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 129,
+    "final_position": 3,
+    "target": 132,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/247",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 124,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 41,
+    "final_position": 903,
+    "target": 944,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/258",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/258",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 37,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 133,
+    "final_position": 127,
+    "target": 260,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/260",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 108,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 111,
+    "final_position": 739,
+    "target": 850,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/ar1_noise/249",
+    "split": "blind_shift",
+    "family": "ar1_noise",
+    "cluster": "blind_shift/ar1_noise/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 25,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 330,
+    "final_position": 4,
+    "target": 334,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/chirp_ripple/248",
+    "split": "blind_shift",
+    "family": "chirp_ripple",
+    "cluster": "blind_shift/chirp_ripple/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 100,
+    "oscillations": 2,
+    "redundancy": 214,
+    "distance": 0,
+    "final_position": 490,
+    "target": 490,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/chirp_ripple/250",
+    "split": "blind_shift",
+    "family": "chirp_ripple",
+    "cluster": "blind_shift/chirp_ripple/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 180,
+    "oscillations": 2,
+    "redundancy": 688,
+    "distance": 0,
+    "final_position": 176,
+    "target": 176,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/chirp_ripple/254",
+    "split": "blind_shift",
+    "family": "chirp_ripple",
+    "cluster": "blind_shift/chirp_ripple/254",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 42,
+    "oscillations": 2,
+    "redundancy": 94,
+    "distance": 4,
+    "final_position": 142,
+    "target": 146,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/chirp_ripple/257",
+    "split": "blind_shift",
+    "family": "chirp_ripple",
+    "cluster": "blind_shift/chirp_ripple/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 56,
+    "oscillations": 2,
+    "redundancy": 315,
+    "distance": 0,
+    "final_position": 37,
+    "target": 37,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/quantized_top/247",
+    "split": "blind_shift",
+    "family": "quantized_top",
+    "cluster": "blind_shift/quantized_top/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 416,
+    "final_position": 499,
+    "target": 915,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/quantized_top/250",
+    "split": "blind_shift",
+    "family": "quantized_top",
+    "cluster": "blind_shift/quantized_top/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 472,
+    "final_position": 499,
+    "target": 971,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/quantized_top/258",
+    "split": "blind_shift",
+    "family": "quantized_top",
+    "cluster": "blind_shift/quantized_top/258",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 173,
+    "final_position": 200,
+    "target": 373,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/246",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/246",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 246,
+    "final_position": 499,
+    "target": 745,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/257",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 376,
+    "final_position": 499,
+    "target": 875,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/258",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/258",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 310,
+    "final_position": 499,
+    "target": 809,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/260",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/260",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 193,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 114,
+    "final_position": 200,
+    "target": 314,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/261",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/261",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 297,
+    "final_position": 499,
+    "target": 796,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/trend_with_peak/249",
+    "split": "blind_shift",
+    "family": "trend_with_peak",
+    "cluster": "blind_shift/trend_with_peak/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 344,
+    "final_position": 0,
+    "target": 344,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/trend_with_peak/256",
+    "split": "blind_shift",
+    "family": "trend_with_peak",
+    "cluster": "blind_shift/trend_with_peak/256",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 21,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 392,
+    "final_position": 0,
+    "target": 392,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/trend_with_peak/259",
+    "split": "blind_shift",
+    "family": "trend_with_peak",
+    "cluster": "blind_shift/trend_with_peak/259",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 319,
+    "final_position": 0,
+    "target": 319,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/trend_with_peak/262",
+    "split": "blind_shift",
+    "family": "trend_with_peak",
+    "cluster": "blind_shift/trend_with_peak/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 929,
+    "final_position": 0,
+    "target": 929,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/delayed_peak/250",
+    "split": "blind_shift",
+    "family": "delayed_peak",
+    "cluster": "blind_shift/delayed_peak/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 370,
+    "final_position": 499,
+    "target": 869,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/delayed_peak/252",
+    "split": "blind_shift",
+    "family": "delayed_peak",
+    "cluster": "blind_shift/delayed_peak/252",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 322,
+    "final_position": 499,
+    "target": 821,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/delayed_peak/255",
+    "split": "blind_shift",
+    "family": "delayed_peak",
+    "cluster": "blind_shift/delayed_peak/255",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 389,
+    "final_position": 499,
+    "target": 888,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/delayed_peak/263",
+    "split": "blind_shift",
+    "family": "delayed_peak",
+    "cluster": "blind_shift/delayed_peak/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 253,
+    "final_position": 255,
+    "target": 508,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/boundary_peak/257",
+    "split": "blind_shift",
+    "family": "boundary_peak",
+    "cluster": "blind_shift/boundary_peak/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 253,
+    "final_position": 255,
+    "target": 508,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/staircase/247",
+    "split": "blind_shift",
+    "family": "staircase",
+    "cluster": "blind_shift/staircase/247",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 92,
+    "oscillations": 3,
+    "redundancy": 355,
+    "distance": 0,
+    "final_position": 13,
+    "target": 13,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/staircase/249",
+    "split": "blind_shift",
+    "family": "staircase",
+    "cluster": "blind_shift/staircase/249",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 122,
+    "oscillations": 3,
+    "redundancy": 390,
+    "distance": 0,
+    "final_position": 9,
+    "target": 9,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/staircase/250",
+    "split": "blind_shift",
+    "family": "staircase",
+    "cluster": "blind_shift/staircase/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 98,
+    "oscillations": 3,
+    "redundancy": 286,
+    "distance": 0,
+    "final_position": 18,
+    "target": 18,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/staircase/251",
+    "split": "blind_shift",
+    "family": "staircase",
+    "cluster": "blind_shift/staircase/251",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 147,
+    "oscillations": 3,
+    "redundancy": 378,
+    "distance": 0,
+    "final_position": 22,
+    "target": 22,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/staircase/257",
+    "split": "blind_shift",
+    "family": "staircase",
+    "cluster": "blind_shift/staircase/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 64,
+    "oscillations": 3,
+    "redundancy": 203,
+    "distance": 0,
+    "final_position": 5,
+    "target": 5,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/248",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/248",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 187,
+    "oscillations": 3,
+    "redundancy": 251,
+    "distance": 11,
+    "final_position": 248,
+    "target": 259,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/250",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/250",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 178,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 25,
+    "final_position": 174,
+    "target": 199,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/253",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/253",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 178,
+    "oscillations": 3,
+    "redundancy": 0,
+    "distance": 84,
+    "final_position": 171,
+    "target": 255,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/257",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/257",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 182,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 332,
+    "final_position": 176,
+    "target": 508,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/262",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/262",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 502,
+    "distance": 7,
+    "final_position": 504,
+    "target": 497,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/flat_ties/263",
+    "split": "blind_shift",
+    "family": "flat_ties",
+    "cluster": "blind_shift/flat_ties/263",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 198,
+    "oscillations": 3,
+    "redundancy": 502,
+    "distance": 0,
+    "final_position": 496,
+    "target": 496,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/246",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 187,
+    "oscillations": 2,
+    "redundancy": 67,
+    "distance": 57,
+    "final_position": 389,
+    "target": 332,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/247",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 185,
+    "oscillations": 3,
+    "redundancy": 132,
+    "distance": 67,
+    "final_position": 200,
+    "target": 267,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/248",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 186,
+    "oscillations": 3,
+    "redundancy": 357,
+    "distance": 246,
+    "final_position": 288,
+    "target": 42,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/250",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 186,
+    "oscillations": 3,
+    "redundancy": 349,
+    "distance": 271,
+    "final_position": 432,
+    "target": 161,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/251",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/251",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 332,
+    "distance": 0,
+    "final_position": 666,
+    "target": 666,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/252",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 990,
+    "distance": 876,
+    "final_position": 885,
+    "target": 9,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/253",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 228,
+    "distance": 15,
+    "final_position": 756,
+    "target": 771,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/254",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/254",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 186,
+    "oscillations": 3,
+    "redundancy": 87,
+    "distance": 69,
+    "final_position": 244,
+    "target": 313,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/256",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/256",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 2,
+    "redundancy": 316,
+    "distance": 304,
+    "final_position": 986,
+    "target": 682,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/258",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 133,
+    "distance": 185,
+    "final_position": 192,
+    "target": 377,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/259",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 569,
+    "distance": 42,
+    "final_position": 472,
+    "target": 430,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/260",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 137,
+    "distance": 336,
+    "final_position": 525,
+    "target": 861,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/261",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 190,
+    "oscillations": 3,
+    "redundancy": 210,
+    "distance": 0,
+    "final_position": 300,
+    "target": 300,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/262",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/262",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 243,
+    "distance": 169,
+    "final_position": 98,
+    "target": 267,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/263",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/263",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 185,
+    "oscillations": 4,
+    "redundancy": 388,
+    "distance": 0,
+    "final_position": 12,
+    "target": 12,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/246",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/246",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 101,
+    "distance": 43,
+    "final_position": 200,
+    "target": 243,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/247",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/247",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 80,
+    "distance": 64,
+    "final_position": 199,
+    "target": 263,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/248",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/248",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 291,
+    "distance": 147,
+    "final_position": 199,
+    "target": 52,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/249",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/249",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 279,
+    "distance": 135,
+    "final_position": 200,
+    "target": 65,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/250",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/250",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 26,
+    "distance": 118,
+    "final_position": 200,
+    "target": 318,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/251",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/251",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 85,
+    "distance": 59,
+    "final_position": 499,
+    "target": 558,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/252",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/252",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 492,
+    "distance": 348,
+    "final_position": 499,
+    "target": 151,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/253",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/253",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 172,
+    "final_position": 200,
+    "target": 372,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/254",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/254",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 422,
+    "distance": 278,
+    "final_position": 499,
+    "target": 221,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/255",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/255",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 494,
+    "distance": 350,
+    "final_position": 499,
+    "target": 149,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/257",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/257",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 330,
+    "final_position": 499,
+    "target": 829,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/258",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/258",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 174,
+    "distance": 30,
+    "final_position": 200,
+    "target": 170,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/259",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/259",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 255,
+    "distance": 111,
+    "final_position": 255,
+    "target": 144,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/260",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/260",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 346,
+    "final_position": 499,
+    "target": 845,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/261",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/261",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 150,
+    "final_position": 255,
+    "target": 405,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/262",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/262",
+    "transform": "base",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 395,
+    "final_position": 499,
+    "target": 894,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/far_competitors/246/mirror",
+    "split": "development",
+    "family": "far_competitors",
+    "cluster": "development/far_competitors/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 35,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 550,
+    "final_position": 101,
+    "target": 651,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/bump_on_hump/246/mirror",
+    "split": "development",
+    "family": "bump_on_hump",
+    "cluster": "development/bump_on_hump/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 69,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 106,
+    "final_position": 473,
+    "target": 579,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/periodic_ripple/246/mirror",
+    "split": "development",
+    "family": "periodic_ripple",
+    "cluster": "development/periodic_ripple/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 123,
+    "oscillations": 2,
+    "redundancy": 328,
+    "distance": 0,
+    "final_position": 246,
+    "target": 246,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/246/offset",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 437,
+    "target": 872,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/plateau_edge_peak/246/scale",
+    "split": "development",
+    "family": "plateau_edge_peak",
+    "cluster": "development/plateau_edge_peak/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 76,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 435,
+    "final_position": 437,
+    "target": 872,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/246/offset",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 361,
+    "final_position": 395,
+    "target": 756,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/delayed_peak/246/scale",
+    "split": "development",
+    "family": "delayed_peak",
+    "cluster": "development/delayed_peak/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 71,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 361,
+    "final_position": 395,
+    "target": 756,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/246/mirror",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 177,
+    "distance": 88,
+    "final_position": 439,
+    "target": 527,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/246/offset",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 527,
+    "distance": 37,
+    "final_position": 214,
+    "target": 177,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/random_unstructured/246/scale",
+    "split": "development",
+    "family": "random_unstructured",
+    "cluster": "development/random_unstructured/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 527,
+    "distance": 88,
+    "final_position": 265,
+    "target": 177,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/246/mirror",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 175,
+    "distance": 31,
+    "final_position": 211,
+    "target": 180,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/246/offset",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 113,
+    "distance": 31,
+    "final_position": 211,
+    "target": 242,
+    "baseline_score": 0
+  },
+  {
+    "name": "development/single_spike/246/scale",
+    "split": "development",
+    "family": "single_spike",
+    "cluster": "development/single_spike/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 113,
+    "distance": 31,
+    "final_position": 211,
+    "target": 242,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/far_competitors/246/mirror",
+    "split": "selection",
+    "family": "far_competitors",
+    "cluster": "selection/far_competitors/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 30,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 722,
+    "final_position": 4,
+    "target": 726,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/bump_on_hump/246/mirror",
+    "split": "selection",
+    "family": "bump_on_hump",
+    "cluster": "selection/bump_on_hump/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 49,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 146,
+    "final_position": 289,
+    "target": 435,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/chirp_ripple/246/offset",
+    "split": "selection",
+    "family": "chirp_ripple",
+    "cluster": "selection/chirp_ripple/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 190,
+    "oscillations": 2,
+    "redundancy": 453,
+    "distance": 0,
+    "final_position": 211,
+    "target": 211,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/chirp_ripple/246/scale",
+    "split": "selection",
+    "family": "chirp_ripple",
+    "cluster": "selection/chirp_ripple/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 190,
+    "oscillations": 2,
+    "redundancy": 453,
+    "distance": 0,
+    "final_position": 211,
+    "target": 211,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/boundary_peak/246/mirror",
+    "split": "selection",
+    "family": "boundary_peak",
+    "cluster": "selection/boundary_peak/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 83,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 482,
+    "final_position": 490,
+    "target": 972,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/246/offset",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 53,
+    "oscillations": 3,
+    "redundancy": 215,
+    "distance": 0,
+    "final_position": 1,
+    "target": 1,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/staircase/246/scale",
+    "split": "selection",
+    "family": "staircase",
+    "cluster": "selection/staircase/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "redundancy >= 200"
+    ],
+    "queries": 53,
+    "oscillations": 3,
+    "redundancy": 215,
+    "distance": 0,
+    "final_position": 1,
+    "target": 1,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/246/mirror",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 812,
+    "distance": 630,
+    "final_position": 816,
+    "target": 186,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/246/offset",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 186,
+    "distance": 630,
+    "final_position": 182,
+    "target": 812,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/random_unstructured/246/scale",
+    "split": "selection",
+    "family": "random_unstructured",
+    "cluster": "selection/random_unstructured/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 199,
+    "oscillations": 3,
+    "redundancy": 186,
+    "distance": 630,
+    "final_position": 182,
+    "target": 812,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/246/mirror",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 98,
+    "distance": 46,
+    "final_position": 237,
+    "target": 283,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/246/offset",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 190,
+    "distance": 46,
+    "final_position": 237,
+    "target": 191,
+    "baseline_score": 0
+  },
+  {
+    "name": "selection/single_spike/246/scale",
+    "split": "selection",
+    "family": "single_spike",
+    "cluster": "selection/single_spike/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 52,
+    "oscillations": 2,
+    "redundancy": 190,
+    "distance": 46,
+    "final_position": 237,
+    "target": 191,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/far_competitors/246/mirror",
+    "split": "blind_shift",
+    "family": "far_competitors",
+    "cluster": "blind_shift/far_competitors/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 36,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 369,
+    "final_position": 118,
+    "target": 487,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/246/offset",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 19,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 129,
+    "final_position": 3,
+    "target": 132,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/bump_on_hump/246/scale",
+    "split": "blind_shift",
+    "family": "bump_on_hump",
+    "cluster": "blind_shift/bump_on_hump/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 19,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 129,
+    "final_position": 3,
+    "target": 132,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/246/mirror",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 194,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 26,
+    "final_position": 228,
+    "target": 254,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/246/offset",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/246",
+    "transform": "offset",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 246,
+    "final_position": 499,
+    "target": 745,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/plateau_edge_peak/246/scale",
+    "split": "blind_shift",
+    "family": "plateau_edge_peak",
+    "cluster": "blind_shift/plateau_edge_peak/246",
+    "transform": "scale",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 246,
+    "final_position": 499,
+    "target": 745,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/trend_with_peak/246/mirror",
+    "split": "blind_shift",
+    "family": "trend_with_peak",
+    "cluster": "blind_shift/trend_with_peak/246",
+    "transform": "mirror",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 15,
+    "oscillations": 1,
+    "redundancy": 0,
+    "distance": 641,
+    "final_position": 0,
+    "target": 641,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/246/mirror",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3",
+      "redundancy >= 200"
+    ],
+    "queries": 191,
+    "oscillations": 3,
+    "redundancy": 332,
+    "distance": 9,
+    "final_position": 76,
+    "target": 67,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/246/offset",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 191,
+    "oscillations": 2,
+    "redundancy": 67,
+    "distance": 57,
+    "final_position": 389,
+    "target": 332,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/random_unstructured/246/scale",
+    "split": "blind_shift",
+    "family": "random_unstructured",
+    "cluster": "blind_shift/random_unstructured/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 194,
+    "oscillations": 2,
+    "redundancy": 67,
+    "distance": 57,
+    "final_position": 389,
+    "target": 332,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/246/mirror",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/246",
+    "transform": "mirror",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 187,
+    "distance": 43,
+    "final_position": 200,
+    "target": 157,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/246/offset",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/246",
+    "transform": "offset",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 101,
+    "distance": 43,
+    "final_position": 200,
+    "target": 243,
+    "baseline_score": 0
+  },
+  {
+    "name": "blind_shift/single_spike/246/scale",
+    "split": "blind_shift",
+    "family": "single_spike",
+    "cluster": "blind_shift/single_spike/246",
+    "transform": "scale",
+    "difficulty": "information_limited",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 47,
+    "oscillations": 2,
+    "redundancy": 101,
+    "distance": 43,
+    "final_position": 200,
+    "target": 243,
+    "baseline_score": 0
+  },
+  {
+    "name": "boundary_n700_p696_w35",
+    "split": "regression",
+    "family": "boundary",
+    "cluster": "smoke/boundary_n700_p696_w35",
+    "transform": "base",
+    "difficulty": "standard",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 66,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 347,
+    "final_position": 349,
+    "target": 696,
+    "baseline_score": 0
+  },
+  {
+    "name": "double_later_higher",
+    "split": "regression",
+    "family": "double",
+    "cluster": "smoke/double_later_higher",
+    "transform": "base",
+    "difficulty": "challenging",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 40,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 315,
+    "final_position": 155,
+    "target": 470,
+    "baseline_score": 0
+  },
+  {
+    "name": "spike_n1000_p999",
+    "split": "regression",
+    "family": "spike",
+    "cluster": "smoke/spike_n1000_p999",
+    "transform": "base",
+    "difficulty": "challenging",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 500,
+    "final_position": 499,
+    "target": 999,
+    "baseline_score": 0
+  },
+  {
+    "name": "frozen/s27102603_0008_rippled_peak",
+    "split": "regression",
+    "family": "retained_failure",
+    "cluster": "frozen/s27102603_0008_rippled_peak",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 100,
+    "distance": 5,
+    "final_position": 233,
+    "target": 228,
+    "baseline_score": 0
+  },
+  {
+    "name": "coarse_pair_sep150_late1",
+    "split": "regression",
+    "family": "early_late_tradeoff",
+    "cluster": "coarse_pair_sep150_late1",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 33,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 150,
+    "final_position": 120,
+    "target": 270,
+    "baseline_score": 0
+  },
+  {
+    "name": "coarse_pair_sep180_late1",
+    "split": "regression",
+    "family": "early_late_tradeoff",
+    "cluster": "coarse_pair_sep180_late1",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 33,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 180,
+    "final_position": 120,
+    "target": 300,
+    "baseline_score": 0
+  },
+  {
+    "name": "coarse_pair_sep450_late1",
+    "split": "regression",
+    "family": "early_late_tradeoff",
+    "cluster": "coarse_pair_sep450_late1",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 33,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 450,
+    "final_position": 120,
+    "target": 570,
+    "baseline_score": 0
+  },
+  {
+    "name": "right_boundary_late_1000",
+    "split": "regression",
+    "family": "boundary_control",
+    "cluster": "right_boundary_late_1000",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 84,
+    "oscillations": 2,
+    "redundancy": 0,
+    "distance": 500,
+    "final_position": 499,
+    "target": 999,
+    "baseline_score": 0
+  },
+  {
+    "name": "raw_impulse_264",
+    "split": "regression",
+    "family": "raw_spike_control",
+    "cluster": "raw_impulse_264",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 110,
+    "distance": 16,
+    "final_position": 280,
+    "target": 264,
+    "baseline_score": 0
+  },
+  {
+    "name": "raw_impulse_268",
+    "split": "regression",
+    "family": "raw_spike_control",
+    "cluster": "raw_impulse_268",
+    "transform": "base",
+    "difficulty": "structured",
+    "introduced": false,
+    "reasons": [
+      "distance > 3"
+    ],
+    "queries": 54,
+    "oscillations": 2,
+    "redundancy": 106,
+    "distance": 12,
+    "final_position": 280,
+    "target": 268,
+    "baseline_score": 0
+  }
+]

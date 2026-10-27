@@ -1,0 +1,20 @@
+{
+  "seed": 9361026,
+  "count": 84,
+  "names": [
+    "formal200780",
+    "trend_w3_factor8",
+    "trend_w3_factor12",
+    "trend_w5_factor8",
+    "model_noise0p05_from200780",
+    "model_noise0p1_from200780"
+  ],
+  "hashes": [
+    "68c7103da31c92ea2913110609129dd7d396654ca08150e4fd86b37f79511fe7",
+    "65976dfbfbbebd7367447317a12ff35073b1363e254432c11a09e68bf7a3f2e8",
+    "9b3c0208a85dac8e3fa6ef71a076ee7e225c2dcb4812f265b02cae1bd8b206ea",
+    "805720f1ccff9b7bf6ce8a40b87e1fa55810010b170d64be2ba3409acd78dd9a",
+    "ab47f62f3fee0a3157728498ac9c6698ffc7b553a8eb4a5fd1b5b7ae0aed9676",
+    "73170f1c8a621eaf74b46ce7ccdc50db354b08c9c5457e38a966ba9bf8e74863"
+  ]
+}

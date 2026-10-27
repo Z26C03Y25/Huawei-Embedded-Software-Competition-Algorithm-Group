@@ -1,0 +1,243 @@
+{
+  "branch_dev_20261026/formal203239": {
+    "branch_cases": {},
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1266.4270833333333,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1421.2708333333333,
+        "zeros": 73
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1489.5416666666667,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_20261026/noise_radius": {
+    "branch_cases": {
+      "noise": 124
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1290.3229166666667,
+        "zeros": 43
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1478.5833333333333,
+        "zeros": 68
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1512.4270833333333,
+        "zeros": 34
+      }
+    }
+  },
+  "branch_dev_20261026/plateau_route": {
+    "branch_cases": {
+      "edge": 4
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1263.7083333333333,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1455.1354166666667,
+        "zeros": 70
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1488.4791666666667,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_20261026/portfolio": {
+    "branch_cases": {
+      "noise": 107,
+      "rival": 88,
+      "stair": 2,
+      "edge": 1
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1286.8229166666667,
+        "zeros": 43
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1471.9375,
+        "zeros": 68
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1502.5208333333333,
+        "zeros": 34
+      }
+    }
+  },
+  "branch_dev_20261026/previous": {
+    "branch_cases": {},
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1263.7916666666667,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1455.1614583333333,
+        "zeros": 70
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1488.4791666666667,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_20261026/rival_audit": {
+    "branch_cases": {
+      "rival": 88
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1260.09375,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1484.21875,
+        "zeros": 67
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1479.3125,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_20261026/stair_gate": {
+    "branch_cases": {
+      "stair": 2
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1263.7916666666667,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1442.546875,
+        "zeros": 71
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1488.4791666666667,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_refine_20261026/formal203239": {
+    "branch_cases": {},
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1266.4270833333333,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1421.2708333333333,
+        "zeros": 73
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1489.5416666666667,
+        "zeros": 35
+      }
+    }
+  },
+  "branch_dev_refine_20261026/noise_rival": {
+    "branch_cases": {
+      "noise": 107,
+      "rival": 88
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1286.8229166666667,
+        "zeros": 43
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1483.484375,
+        "zeros": 67
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1502.5208333333333,
+        "zeros": 34
+      }
+    }
+  },
+  "branch_dev_refine_20261026/noise_rival_tree": {
+    "branch_cases": {
+      "noise": 124,
+      "rival": 27
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1289.1875,
+        "zeros": 43
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1474.40625,
+        "zeros": 68
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1511.6145833333333,
+        "zeros": 34
+      }
+    }
+  },
+  "branch_dev_refine_20261026/plateau_guard": {
+    "branch_cases": {
+      "edge": 4
+    },
+    "difficulty": {
+      "medium": {
+        "cases": 96,
+        "mean": 1263.7083333333333,
+        "zeros": 44
+      },
+      "hard": {
+        "cases": 192,
+        "mean": 1455.625,
+        "zeros": 70
+      },
+      "extreme": {
+        "cases": 96,
+        "mean": 1488.4791666666667,
+        "zeros": 35
+      }
+    }
+  }
+}

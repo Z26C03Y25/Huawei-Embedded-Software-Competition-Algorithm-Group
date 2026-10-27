@@ -1,0 +1,14 @@
+{
+  "job_id": "20261027T004404672217Z_0f4ac811b94e",
+  "submission_id": "0aeed21212f74e47b969b10cbf7e9389",
+  "submitted_at": "2026-10-27 08:44:03",
+  "score": 205376,
+  "baseline": 203239,
+  "delta": 2137,
+  "sha256": "bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2",
+  "source": "D:\\work\\2026华为嵌入式软件大赛-算法组\\data\\experiments\\coarse_compete_20261027\\coarse\\coarse_rival_release.cpp",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "verification": "Normal auto wait after refresh fix: two fresh same-ID final observations.",
+  "score_source": "api",
+  "archive": "data/versions/main_online_205376.cpp"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "post_probe_wide_valid",
+  "source": "data/experiments/2026-10-26-B/post_probe_wide_valid.cpp",
+  "sha256": "df39cf447ce47bd2d03fe7a2c9118dea38ab9aa6203360d746efc0c85be28a1a",
+  "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "parent_official_score": 203239,
+  "changes": {
+    "audit_window": 32,
+    "require_valid_wide_fit": true,
+    "retains_original_queries": true
+  },
+  "purpose": "After original raw verification veto only failure to fit32-radius data, separating missing wider concavity from finite prediction drift",
+  "official_score": null,
+  "status": "offline_only_not_submitted",
+  "inherited_formal_config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3
+  },
+  "online_eligible": false
+}

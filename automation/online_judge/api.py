@@ -54,7 +54,7 @@ def _local_submitted_at(value: object) -> str:
 def _status(status: object, message: object) -> str:
     status = status.strip().lower() if isinstance(status, str) else ""
     message = message.strip().lower() if isinstance(message, str) else ""
-    if message == "failed" or status in ("failed", "failure", "error", "rejected"):
+    if message in ("failed", "internal_error") or status in ("failed", "failure", "error", "rejected", "internal_error"):
         return "failed"
     if status == "completed" and message == "success":
         return "success"
@@ -101,8 +101,11 @@ def parse_api_response(payload: object, http_status: int = 200) -> list[Submissi
         status = _status(row.get("status"), row.get("message"))
         # Do not retain arbitrary raw status/message/score strings: errors can
         # contain sensitive text. Preserve only enums and parsed numeric scores.
+        # Retain only this recognized platform error enum, never arbitrary text.
+        internal_error = any(isinstance(value, str) and value.strip().lower() == "internal_error"
+                             for value in (row.get("status"), row.get("message")))
         records.append(SubmissionRecord(filename.strip(), stage_name.strip(), submitted_at,
-                                        score, status, status_text=status,
+                                        score, status, status_text="internal_error" if internal_error else status,
                                         score_text=str(score) if score is not None else "",
                                         submission_id=submission_id, source="api"))
     return records

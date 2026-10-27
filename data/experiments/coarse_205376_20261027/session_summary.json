@@ -1,0 +1,26 @@
+{
+  "previous_best": 205376,
+  "best": 205415,
+  "gain_this_version": 39,
+  "gain_vs203239": 2176,
+  "best_sha256": "827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37",
+  "restored_refresh_tool_tests": 150,
+  "tested_python_versions": [
+    "3.10",
+    "3.12"
+  ],
+  "core_checks_before_followup": 242,
+  "refresh_recovery_confirmed_same_work": true,
+  "release_only_score": 203239,
+  "midpoint_score": 205415,
+  "direct_followup_uploads": 2,
+  "extra_small_smoke_runs": 12,
+  "ranking_requests_this_followup": 0,
+  "all_formal_archives_preserved": true,
+  "no_unresolved_jobs": true,
+  "midpoint_official_result": "data/experiments/coarse_205376_20261027/midpoint_official_result.json",
+  "automatic_daily_cap_unchanged": 3,
+  "post_promotion_205415_solver_regressions_passed": 11,
+  "post_promotion_solver_regressions_failed": 0,
+  "final_main_sha256_verified": true
+}

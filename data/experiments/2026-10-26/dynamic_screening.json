@@ -1,0 +1,137 @@
+[
+  {
+    "name": "dyn_min3",
+    "source": "data/experiments/2026-10-26/dyn_min3.cpp",
+    "sha256": "eab48581d10632f81a9826ceb35e3001c7ce8ae7d6130b584a63a81b27e5b547",
+    "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+    "parent_official_score": 202666,
+    "purpose": "Retain both-vertex plus3 raw margin, reduce unconditional minimum radius6 to3 only for agreeing predictions; retain fixed known ripple counterexample",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 10.0,
+      "model_radius_mode": "both_vertices_plus3_min6",
+      "model_min_radius": 3
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "eab48581d10632f81a9826ceb35e3001c7ce8ae7d6130b584a63a81b27e5b547",
+      "official": false,
+      "cases": 56,
+      "total_score": 102595,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  },
+  {
+    "name": "dyn_margin4",
+    "source": "data/experiments/2026-10-26/dyn_margin4.cpp",
+    "sha256": "85a6d23739e2c7bd9222de6e1892c69b9d07475ba5b7cae042f7a2c16fd5fe1c",
+    "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+    "parent_official_score": 202666,
+    "purpose": "Increase uncertainty interval margin3 to4, test boundary-winner fallback cost and hidden-neighbor coverage",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 10.0,
+      "model_radius_mode": "both_vertices_plus3_min6",
+      "model_prediction_margin": 4
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "85a6d23739e2c7bd9222de6e1892c69b9d07475ba5b7cae042f7a2c16fd5fe1c",
+      "official": false,
+      "cases": 56,
+      "total_score": 102574,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  },
+  {
+    "name": "dyn_margin5",
+    "source": "data/experiments/2026-10-26/dyn_margin5.cpp",
+    "sha256": "e26ad345019fdb75984cabfae37808347d512c23740dd89cad24eeb6bcc5211b",
+    "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+    "parent_official_score": 202666,
+    "purpose": "Increase uncertainty interval margin3 to5 as conservative verification control",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 10.0,
+      "model_radius_mode": "both_vertices_plus3_min6",
+      "model_prediction_margin": 5
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "e26ad345019fdb75984cabfae37808347d512c23740dd89cad24eeb6bcc5211b",
+      "official": false,
+      "cases": 56,
+      "total_score": 102661,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 4
+    }
+  },
+  {
+    "name": "dyn_noise04",
+    "source": "data/experiments/2026-10-26/dyn_noise04.cpp",
+    "sha256": "f1c934c74e26121d487d5f89d91e80454cd1540af24e170f6c08160939420151",
+    "parent_sha256": "a67f57661fe4a2ca4198428414ddd2ff0468586554b1d6868003bf6867974510",
+    "parent_official_score": 202666,
+    "purpose": "Trim marginal model eligibility to0.04 below the significance-implied ceiling1/24; unlike0.1 this can change behavior",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.04,
+      "model_agreement": 10.0,
+      "model_radius_mode": "both_vertices_plus3_min6"
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "f1c934c74e26121d487d5f89d91e80454cd1540af24e170f6c08160939420151",
+      "official": false,
+      "cases": 56,
+      "total_score": 102480,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  }
+]

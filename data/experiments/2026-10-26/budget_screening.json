@@ -1,0 +1,133 @@
+[
+  {
+    "name": "model_agree6",
+    "source": "data/experiments/2026-10-26/model_agree6.cpp",
+    "sha256": "d731a62adbd60fba551258fd7a1e3e5d1349105497f01acfb7905a198ebc5046",
+    "parent_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+    "parent_official_score": 201971,
+    "purpose": "Test larger vertex disagreement while retaining13 raw observations and interior-winner gate",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 6.0
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "d731a62adbd60fba551258fd7a1e3e5d1349105497f01acfb7905a198ebc5046",
+      "official": false,
+      "cases": 56,
+      "total_score": 102541,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 5
+    }
+  },
+  {
+    "name": "first_budget75",
+    "source": "data/experiments/2026-10-26/first_budget75.cpp",
+    "sha256": "5ec2e43b3b6eda91413c345d5c808a286b66346b9f89262ee808eb34a9378756",
+    "parent_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+    "parent_official_score": 201971,
+    "purpose": "First fine batch uses 75 percent of remaining queries instead of two thirds; total Q and parking unchanged",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 1.5,
+      "first_reserve_divisor": 4
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "5ec2e43b3b6eda91413c345d5c808a286b66346b9f89262ee808eb34a9378756",
+      "official": false,
+      "cases": 56,
+      "total_score": 102564,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "first_budget50",
+    "source": "data/experiments/2026-10-26/first_budget50.cpp",
+    "sha256": "34b54aa8047880494fbfac605fb75cb106a10e6b1559017f35f58a1e89995b71",
+    "parent_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+    "parent_official_score": 201971,
+    "purpose": "First fine batch uses half of remaining query budget to retain adaptive second-round capacity",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 1.5,
+      "first_reserve_divisor": 2
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "34b54aa8047880494fbfac605fb75cb106a10e6b1559017f35f58a1e89995b71",
+      "official": false,
+      "cases": 56,
+      "total_score": 102557,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  },
+  {
+    "name": "anneal_min50",
+    "source": "data/experiments/2026-10-26/anneal_min50.cpp",
+    "sha256": "a0f9bb8a8ac1f9103b739a1f5db5a5d37a4c46e3ff68a050a901d1be6e03b225",
+    "parent_sha256": "eec4016faa9c83d414f29edf943c130095ac3c06c1ea71f8f775300ac222193e",
+    "parent_official_score": 201971,
+    "purpose": "Allow annealing to prune to half budget rather than retaining80 percent; finite scenario objective remains heuristic",
+    "config": {
+      "prom": 24,
+      "noise_abs": 0,
+      "late_scout": 16,
+      "up": 8,
+      "noise_step": 8,
+      "flat_step": 8,
+      "coarse": 128,
+      "group": 0.1,
+      "model_finish": true,
+      "radius": 8,
+      "model_noise_fraction": 0.05,
+      "model_agreement": 1.5,
+      "anneal_minimum_fraction": 0.5
+    },
+    "official_score": null,
+    "offline": {
+      "source_sha256": "a0f9bb8a8ac1f9103b739a1f5db5a5d37a4c46e3ff68a050a901d1be6e03b225",
+      "official": false,
+      "cases": 56,
+      "total_score": 102533,
+      "zeros": 13,
+      "max_queries": 199,
+      "max_turns": 3
+    }
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "objective": "zero_first",
+  "ranking": [
+    "formal203239",
+    "sparse_curve"
+  ],
+  "solvers": {
+    "formal203239": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1457,
+      "independent_mothers": 1205,
+      "unique_base_curves": 1205,
+      "exact_duplicate_base_entries": [],
+      "structured_unique_zero_cases": 417,
+      "information_limited_unique_zero_cases": 69,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [],
+      "independent_zero_cases": 486,
+      "independent_baseline_zero_cases": 486,
+      "independent_repairs": 0,
+      "repair_entries_including_siblings": 0,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1931,
+      "macro_mean_score": 1459.302455357143,
+      "rank_key": [
+        0,
+        0,
+        486,
+        1.0,
+        -1931,
+        -1459.302455357143
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 449,
+        "redundancy >= 200": 77
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    },
+    "sparse_curve": {
+      "version": 2,
+      "objective": "zero_first",
+      "observed_cases": 1457,
+      "independent_mothers": 1205,
+      "unique_base_curves": 1205,
+      "exact_duplicate_base_entries": [],
+      "structured_unique_zero_cases": 422,
+      "information_limited_unique_zero_cases": 69,
+      "hard_failures": [],
+      "introduced_zeros_all_cases": [
+        "20261026406/development/quantized_noisy_top/001",
+        "20261026406/development/quantized_noisy_top/008",
+        "20261026406/development/background_change_points/012",
+        "20261026406/selection/decline_then_peak/007",
+        "20261026406/selection/nonstationary_chirp/003",
+        "20261026406/selection/nonlinear_sensor/012",
+        "20261026406/selection/background_change_points/003",
+        "20261026406/blind_shift/shoulder_colored/003",
+        "20261026406/blind_shift/nonlinear_sensor/003"
+      ],
+      "independent_zero_cases": 491,
+      "independent_baseline_zero_cases": 486,
+      "independent_repairs": 4,
+      "repair_entries_including_siblings": 7,
+      "worst_structured_group_zero_rate": 1.0,
+      "positive_p10_score": 1929,
+      "macro_mean_score": 1451.211681547619,
+      "rank_key": [
+        0,
+        9,
+        491,
+        1.0,
+        -1929,
+        -1451.211681547619
+      ],
+      "all_observed_cases_nonzero": false,
+      "zero_reason_counts": {
+        "distance > 3": 454,
+        "redundancy >= 200": 77
+      },
+      "zero_reasons_may_overlap": true,
+      "note": "Lower rank_key is better. New zeros are vetoes in research promotion; existing zeros remain unresolved until actually measured positive. Exact repeated base arrays are deduplicated when curve fingerprints are supplied. No universal claim."
+    }
+  }
+}

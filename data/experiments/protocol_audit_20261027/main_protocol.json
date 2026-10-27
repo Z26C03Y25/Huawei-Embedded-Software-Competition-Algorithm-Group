@@ -1,0 +1,52 @@
+{
+  "source": "data/experiments/protocol_audit_20261027/main_protocol.cpp",
+  "sha256": "775192f6e56a0b9e50d7a2b0136ab56dac19cff4d7d9012f1e66f8638baa4251",
+  "parent_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+  "official_parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+  "purpose": "Central bounded integer-only transport, emitted-message ledger, idempotent DONE and exception fallback; original internal_error cause not established.",
+  "status": "protocol_audit_passed_not_online_qualified",
+  "official_score": null,
+  "audit": "data/experiments/protocol_audit_20261027/audit_summary.json",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 8,
+    "model_noise_fraction": 0.05,
+    "model_agreement": 10.0,
+    "model_radius_mode": "asymmetric_vertex_interval",
+    "model_min_radius": 3,
+    "model_fit_window": 24,
+    "model_prediction_margin": 3,
+    "flat_horizon": 175,
+    "old_flat_waypoint": 144,
+    "descending_guard": {
+      "min_slopes": 7,
+      "min_drops": 3,
+      "margin": 175
+    },
+    "wide_valley_guard": {
+      "window": 32,
+      "drift": 2,
+      "depth": 2
+    },
+    "adaptive_noise": {
+      "radius_min": 3,
+      "radius_max": 8,
+      "noise_factor": 2,
+      "route_failure_falls_back": true
+    }
+  },
+  "protocol_changes": [
+    "sent-message ledger",
+    "bounded integer-only stdout",
+    "idempotent DONE",
+    "catchable exception fallback"
+  ]
+}

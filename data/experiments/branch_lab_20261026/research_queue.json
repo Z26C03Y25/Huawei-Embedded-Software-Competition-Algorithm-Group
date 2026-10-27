@@ -1,0 +1,72 @@
+{
+  "objective": "robust_total_score",
+  "online_candidates": [
+    {
+      "name": "noise_radius_mixed_validated",
+      "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+      "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+      "status": "qualified",
+      "official_score": null,
+      "research_objective": "robust_total_score",
+      "scope": "single_online_validation_after_fresh_quota_check",
+      "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+      "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+      "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+      "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+      "additional_confirmations": [
+        {
+          "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+          "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+          "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+        }
+      ],
+      "claims_all_measured_nonzero": false,
+      "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed."
+    }
+  ],
+  "auto_daily_team_cap": 3,
+  "next_classic_case_offset": 174,
+  "mixed_history": [
+    {
+      "seed": 20261026401,
+      "split": "development",
+      "block": [
+        0,
+        15
+      ]
+    },
+    {
+      "seed": 20261026402,
+      "block": [
+        16,
+        33
+      ]
+    },
+    {
+      "seed": 20261026403,
+      "block": [
+        0,
+        17
+      ],
+      "novel_families_consumed": true
+    }
+  ],
+  "next_mixed_seed": 20261026404,
+  "research_priorities": [
+    {
+      "priority": 1,
+      "hypothesis": "Study separated bimodal tails and slow bridge background using development data. Quantify missed secondary component versus irreversible redundancy cost; retain isolated-early-peak controls.",
+      "avoid": "Do not blindly jump beyond a suspected old peak just to fit the54 failed bridge cases. These held-out families are now observed and cannot be reused as novel structural proof."
+    },
+    {
+      "priority": 2,
+      "hypothesis": "Build better competition/noise branch exclusivity. Keep noise-radius score gain; rival audit costs outweighed added repairs in selection. Require a new independently frozen family/seed confirmation."
+    },
+    {
+      "priority": 3,
+      "hypothesis": "Plateau-entry request rarely triggers or may be bypassed by model finish; keep guarded route variant for targeted research without forcing it into the current winner."
+    }
+  ],
+  "next_action": "Only the confirmed noise-radius source is eligible for a future limited online test. Keep formal main unchanged, today official0, automationPAUSED. Resume original work IDs first. Future changes need unseen classic>=174 and fresh mixed seed; never claim the consumed4 families are still novel."
+}

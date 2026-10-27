@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 from contextlib import contextmanager
+from collections import Counter
+from dataclasses import replace
 import importlib.util
 import json
 from pathlib import Path
@@ -167,6 +169,42 @@ class SubmissionPage:
             self.page.remove_listener("response", self._on_api_response)
             self._listening = False
 
+    def _with_rendered_terminals(self, api_records):
+        """Join only one-to-one current API/DOM identities, preserving server IDs.
+
+        This is invoked after a refresh, not on the pre-refresh DOM left behind
+        by an upload. Never append DOM-only rows or guess between same-second
+        submissions; JobStore continues to bind the unchanged API server ID.
+        """
+        rendered = parse_submission_html(self.table_html(refresh=False))
+        api_counts = Counter(row.identity for row in api_records)
+        api_id_counts = Counter(row.submission_id for row in api_records if row.submission_id is not None)
+        dom_groups = {}
+        for row in rendered:
+            dom_groups.setdefault(row.identity, []).append(row)
+        result = []
+        for row in api_records:
+            peers = dom_groups.get(row.identity, [])
+            unresolved = row.status in {"unknown", "pending"} or (row.status == "success" and row.score is None)
+            if (not unresolved or row.submission_id is None or api_counts[row.identity] != 1 or
+                    api_id_counts[row.submission_id] != 1 or len(peers) != 1):
+                result.append(row)
+                continue
+            peer = peers[0]
+            if (peer.submission_id is not None and peer.submission_id != row.submission_id) or not peer.is_terminal:
+                result.append(row)
+                continue
+            if peer.status == "success" and peer.score is None:
+                result.append(row)
+                continue
+            # Keep only a recognized enum, never arbitrary DOM diagnostic text.
+            status_text = "internal_error" if peer.status_text.strip().lower() == "internal_error" else peer.status
+            result.append(replace(row, score=peer.score if peer.status == "success" else None,
+                                  status=peer.status, status_text=status_text,
+                                  score_text=str(peer.score) if peer.status == "success" else "",
+                                  source="api_dom"))
+        return result
+
     def records(self, *, refresh: bool = False):
         """Read the site's own score response, with a bounded DOM fallback.
 
@@ -205,7 +243,12 @@ class SubmissionPage:
                     # Do not expose an HTML login page, raw body, or tokens in
                     # a JSON parsing exception or fallback log.
                     raise ApiResponseError("查分接口未返回有效 JSON") from None
-                return parse_api_response(payload, http_status=response.status)
+                records = parse_api_response(payload, http_status=response.status)
+                if mode == "auto" and refresh and any(
+                        row.status in {"unknown", "pending"} or (row.status == "success" and row.score is None)
+                        for row in records):
+                    return self._with_rendered_terminals(records)
+                return records
             except ApiAuthenticationError:
                 raise BrowserError("查分接口登录失效，请在专用 Chrome 中手动重新登录") from None
             except ApiResponseError as exc:
@@ -216,8 +259,9 @@ class SubmissionPage:
                 # score as a second independent confirmation or reload here.
                 return []
             raise BrowserError(str(failure or "没有新的查分接口响应")) from None
-        # A valid API [] is returned above. Only an unavailable/unknown API
-        # response falls back; this does not perform a second refresh.
+        # A valid API [] is returned above. Schema/unavailability fallback
+        # performs no second refresh; valid unresolved rows use a same-refresh
+        # one-to-one reconciliation above and retain their API server IDs.
         return parse_submission_html(self.table_html(refresh=False))
 
     def ensure_ready(self) -> None:

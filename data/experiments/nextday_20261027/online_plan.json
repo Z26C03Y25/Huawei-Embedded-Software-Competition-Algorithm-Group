@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "prepared_on": "2026-10-26",
+  "planned_online_date": "2026-10-27",
+  "timezone": "Asia/Shanghai",
+  "baseline": {
+    "score": 203239,
+    "sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "source": "data/versions/main_online_203239.cpp"
+  },
+  "primary": {
+    "name": "noise_radius_mixed_validated",
+    "source": "data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "status": "qualified",
+    "official_score": null,
+    "research_objective": "robust_total_score",
+    "scope": "single_online_validation_after_fresh_quota_check",
+    "manifest": "data/experiments/branch_confirm_mixed_20261026/manifest.json",
+    "evidence": "data/experiments/branch_confirm_mixed_20261026/summary.json",
+    "evidence_sha256": "bfbe406d92a72b083056b617c7b560a18698542136cd9b73c0ba8e7574d2c9b6",
+    "selection_decision": "data/experiments/branch_lab_20261026/selection_decision.json",
+    "additional_confirmations": [
+      {
+        "manifest": "data/experiments/branch_confirm_classic_20261026/manifest.json",
+        "evidence": "data/experiments/branch_confirm_classic_20261026/summary.json",
+        "evidence_sha256": "f7554a354997310841bc653080093318c2247f56107d5d897e9b27b38871db15"
+      }
+    ],
+    "claims_all_measured_nonzero": false,
+    "qualification_note": "Four isolated operators and4 combinations developed; top2 frozen for50/50 mixed/classic selection; one source independently confirmed across both domains and4 held-out families. Modal-bridge family remains54/54 zero and is retained, not concealed.",
+    "trial_role": "primary_A",
+    "planned_online_date": "2026-10-27"
+  },
+  "conditional_backup": {
+    "name": "formal_noise_only_backup",
+    "source": "data/experiments/nextday_20261027/formal_noise_only.cpp",
+    "sha256": "b75dfd86829abc9b02fc486ed055a78eab76583005513e130ce8a0eb3d999e88",
+    "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+    "status": "qualified",
+    "official_score": null,
+    "trial_role": "conditional_backup_B",
+    "planned_online_date": "2026-10-27",
+    "research_objective": "robust_total_score",
+    "manifest": "data/experiments/nextday_backup_mixed_20261027/manifest.json",
+    "evidence": "data/experiments/nextday_backup_mixed_20261027/summary.json",
+    "evidence_sha256": "e803414c59e73ff43421ab6d663ce773c8350aa827e360a90f4e202cbee53e39",
+    "additional_confirmations": [
+      {
+        "manifest": "data/experiments/nextday_backup_classic_20261027/manifest.json",
+        "evidence": "data/experiments/nextday_backup_classic_20261027/summary.json",
+        "evidence_sha256": "34afa3023a6c29cbc4a773b8b1f0781275a0274aab2c5203498da2286455b61c"
+      }
+    ],
+    "execution_condition": {
+      "kind": "primary_not_improved",
+      "primary_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+      "baseline_score": 203239,
+      "not_before_date": "2026-10-27"
+    },
+    "claims_all_measured_nonzero": false,
+    "qualification_note": "Single-factor scope on formal203239. Lower expected local score thanA; execute only after recorded officialA fails to beat203239. Conservative describes scope, not a proved lower risk."
+  },
+  "auto_daily_team_cap": 3,
+  "expected_submissions": "1, or2 only ifA fails to improve andB remains eligible",
+  "third_slot": "reserved; no prearranged third submission",
+  "steps": [
+    "Before upload, resume any delivered or uncertain work ID; do not start a duplicate pipeline.",
+    "On/after Beijing2026-10-27, read fresh official team quota; never reuse2026-10-26 remaining0. Check account windows separately.",
+    "Verify current highest formal source matches the plan parent. If it changed unexpectedly, rebase/reassess rather than silently submitting stale experiments.",
+    "Run evidence guard forA, compile/protocol smoke if needed, refresh quota immediately before one upload through existing judge.py.",
+    "Wait for the same work ID final score confirmed twice, then run policy_search.py record to archive actual score/config/parent and restore main to formal best.",
+    "IfA>203239, keepA and skipB; ifA<=203239, reassessB using its formal-result condition and fresh quota. Unknown A result blocks B.",
+    "After at most this conditional second experiment, decide using actual evidence; leave third slot unused unless a new distinct qualified hypothesis exists.",
+    "Never reupload the old203239 baseline or every offline variant merely to use quota. Preserve two-hour first-page leaderboard cache and all checkpoints."
+  ],
+  "commands": {
+    "primary_submit": "python automation/judge.py submit --file data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "backup_submit": "python automation/judge.py submit --file data/experiments/nextday_20261027/formal_noise_only.cpp",
+    "record": "python dev/tools/policy_search.py record WORK_JOB_ID --name TRIAL_NAME",
+    "evidence_A": "python dev/tools/research_policy.py data/experiments/branch_lab_20261026/noise_radius.cpp",
+    "evidence_B": "python dev/tools/research_policy.py data/experiments/nextday_20261027/formal_noise_only.cpp"
+  },
+  "current_backup_admission": "blocked_until_recorded_primary_result",
+  "current_block_reason": "Primary trial needs a recorded official result before this backup",
+  "benchmarks": {
+    "mixed": {
+      "formal203239": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1392.140873015873,
+        "baseline_macro_mean": 1392.140873015873,
+        "macro_delta": 0.0,
+        "mean": 1392.140873015873,
+        "baseline_mean": 1392.140873015873,
+        "zeros": 606,
+        "baseline_zeros": 606,
+        "zero_rate_delta": 0.0,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 0
+      },
+      "primary_A": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1473.3022486772486,
+        "baseline_macro_mean": 1392.140873015873,
+        "macro_delta": 81.16137566137564,
+        "mean": 1473.3022486772486,
+        "baseline_mean": 1392.140873015873,
+        "zeros": 551,
+        "baseline_zeros": 606,
+        "zero_rate_delta": -0.036375661375661374,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 1,
+        "resolved_zeros": 56
+      },
+      "backup_B": {
+        "cases": 1512,
+        "structured_family_count": 26,
+        "macro_mean": 1439.6488095238094,
+        "baseline_macro_mean": 1392.140873015873,
+        "macro_delta": 47.507936507936506,
+        "mean": 1439.6488095238096,
+        "baseline_mean": 1392.140873015873,
+        "zeros": 577,
+        "baseline_zeros": 606,
+        "zero_rate_delta": -0.01917989417989418,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 29
+      }
+    },
+    "classic": {
+      "formal203239": {
+        "cases": 1187,
+        "structured_family_count": 20,
+        "macro_mean": 1871.1435432758963,
+        "baseline_macro_mean": 1871.1435432758963,
+        "macro_delta": 0.0,
+        "mean": 1871.340353833193,
+        "baseline_mean": 1871.340353833193,
+        "zeros": 237,
+        "baseline_zeros": 237,
+        "zero_rate_delta": 0.0,
+        "cvar25": 320.3437236731255,
+        "baseline_cvar25": 320.3437236731255,
+        "cvar25_delta": 0.0,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 0
+      },
+      "primary_A": {
+        "cases": 1187,
+        "structured_family_count": 20,
+        "macro_mean": 1933.907456922163,
+        "baseline_macro_mean": 1871.1435432758963,
+        "macro_delta": 62.76391364626659,
+        "mean": 1934.2148272957033,
+        "baseline_mean": 1871.340353833193,
+        "zeros": 202,
+        "baseline_zeros": 237,
+        "zero_rate_delta": -0.02948609941027801,
+        "cvar25": 539.7573715248526,
+        "baseline_cvar25": 320.3437236731255,
+        "cvar25_delta": 219.4136478517271,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 0,
+        "resolved_zeros": 35
+      },
+      "backup_B": {
+        "cases": 1187,
+        "structured_family_count": 20,
+        "macro_mean": 1875.545900178253,
+        "baseline_macro_mean": 1871.1435432758963,
+        "macro_delta": 4.40235690235689,
+        "mean": 1875.7464195450716,
+        "baseline_mean": 1871.340353833193,
+        "zeros": 235,
+        "baseline_zeros": 237,
+        "zero_rate_delta": -0.0016849199663016006,
+        "cvar25": 332.9705139005897,
+        "baseline_cvar25": 320.3437236731255,
+        "cvar25_delta": 12.626790227464198,
+        "p10": 0,
+        "baseline_p10": 0,
+        "new_zeros": 1,
+        "resolved_zeros": 3
+      }
+    }
+  },
+  "note": "Submit commands require the preceding conditions and fresh quota; they are not an unconditional batch script.",
+  "automation": {
+    "status": "ACTIVE",
+    "schedule": "existing hourly wakeup preserved",
+    "not_before_beijing_date": "2026-10-27",
+    "availability": "computer,network,login,client and account allowance required"
+  },
+  "execution": {
+    "date": "2026-10-27",
+    "status": "historical_batch_completed_superseded",
+    "attempts": [
+      {
+        "checked_at": "2026-10-27T00:09:23.995678+08:00",
+        "job_id": "20261026T160209449105Z_2c007044e331",
+        "submission_id": "4718e523455340cebdd3891ca12cdf0f",
+        "submitted_at": "2026-10-27 00:02:11",
+        "source_sha256": "94343cd949f009436aa3b94485a9da5040d75237f6ebbc20190e7f44791e7dd7",
+        "parent_sha256": "b9f585fcbc25c3428ce7d9dd92f22e6e1d0cf88534c3244e0017b2eb222311cc",
+        "state": "platform_internal_error",
+        "platform_score_sentinel": -1,
+        "official_algorithm_score": null,
+        "official_used": 1,
+        "official_remaining": 29,
+        "automatic_reuploads": 0,
+        "backup_B": "blocked_no_official_A_score",
+        "tooling_tests_passed": 137,
+        "next_action": "Preserve failed work and source. No automatic duplicate upload or B; platform error is not an algorithm score. Reassess service before any further upload."
+      }
+    ],
+    "backup_decision": "blocked: primary has no confirmed official algorithm score",
+    "automatic_retry": false,
+    "corrected_candidate": "data/experiments/protocol_audit_20261027/main_protocol.cpp",
+    "next_action": "Original A is withheld. B remains blocked: no valid formal A score. Review protocol-audit candidate and establish independent online qualification before any further upload.",
+    "superseded_by": "data/experiments/sparse_curve_20261027/session_summary.json",
+    "do_not_repeat": true
+  }
+}

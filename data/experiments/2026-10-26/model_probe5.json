@@ -1,0 +1,21 @@
+{
+  "name": "model_probe5",
+  "source": "data/experiments/2026-10-26/model_probe5.cpp",
+  "sha256": "92a3e9476511545a73c462972fb065d48a96e236201dc4353f03643aab27712b",
+  "parent_sha256": "fcd7096e113824a46532ead285299368507cc8ca3594dc9d9457e83ca9c31f82",
+  "purpose": "Model validation radius 5; preserve interior-best stopping and true parking",
+  "config": {
+    "prom": 24,
+    "noise_abs": 0,
+    "late_scout": 16,
+    "up": 8,
+    "noise_step": 8,
+    "flat_step": 8,
+    "coarse": 128,
+    "group": 0.1,
+    "model_finish": true,
+    "radius": 12,
+    "model_probe_radius": 5
+  },
+  "official_score": null
+}

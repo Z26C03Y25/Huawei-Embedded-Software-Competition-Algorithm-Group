@@ -1,0 +1,23 @@
+{
+  "python310": "3.10.11",
+  "python_current": "3.12.14",
+  "core_tests_each_environment": 169,
+  "core_passed": true,
+  "markdown_links_checked": 204,
+  "archive_manifests_checked": 2,
+  "diagnostic_exit": 1,
+  "diagnostic_failed_subcases": 8,
+  "diagnostic_failed_methods": [
+    "test_boundary_peaks_and_clean_peaks_do_not_oscillate_per_refinement",
+    "test_early_raw_peak_inside_wide_top_retains_redundancy_margin",
+    "test_flat_horizon_uses_199_without_crossing_the_zero_threshold",
+    "test_supported_noisy_peak_does_not_require_raw_twelve_sigma_contrast"
+  ],
+  "new_ripple_regression_failed": false,
+  "controller_recovery_cases_per_environment": 2,
+  "controller_recovery_python_versions": [
+    "3.10.11",
+    "3.12.14"
+  ],
+  "controller_recovery_passed": true
+}
