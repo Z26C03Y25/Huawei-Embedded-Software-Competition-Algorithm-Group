@@ -1,0 +1,33 @@
+{
+  "mode": "after_sharp",
+  "sha256": "c35b348f4cb0950c810350ddce00070b17a09ea85bbc6fcb937e6acd548dd132",
+  "construction_parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+  "construction_parent_score": 218796,
+  "rationale": "Add a verified dominant-spike confirmation path to the frozen best smooth-peak mechanism.",
+  "source_guard_certificate": {
+    "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+    "protected_sections": {
+      "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+      "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+      "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+      "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+      "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+      "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+      "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+    },
+    "query_bound": 199,
+    "turn_bound": 6,
+    "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+    "assumptions": [
+      "Normal execution and valid judge replies within the problem domain",
+      "Catalog-only changes to exploration, fitting and query planning"
+    ],
+    "not_certified": [
+      "Global peak identity",
+      "Redundancy<=199 on arbitrary arrays",
+      "Native runtime behavior or score"
+    ],
+    "native_execution": "not claimed",
+    "verification": "source_kernel_equivalence"
+  }
+}

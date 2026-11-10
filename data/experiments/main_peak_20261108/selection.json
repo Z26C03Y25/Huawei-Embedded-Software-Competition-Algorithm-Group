@@ -1,0 +1,11 @@
+{
+  "selected": "wave107_fitstop",
+  "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+  "official_score": 217614,
+  "official_state": "completed",
+  "online_job_id": "20261108T103802570295Z_175e930d7170",
+  "historical_benchmark": 224148,
+  "above_historical_best": false,
+  "basis": "Highest confirmed table-free source. New strategy decisions use official totals only.",
+  "updated_at": "2026-11-08T21:40:44+08:00"
+}

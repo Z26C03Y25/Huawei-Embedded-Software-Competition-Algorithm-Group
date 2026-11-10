@@ -1,0 +1,8 @@
+{
+  "name": "skeleton_expert_long",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\skeleton_expert_long_93616283c893.cpp",
+  "sha256": "52b5e8d25842e4fcb01a313ce6292adedc3752bb861cdf7aacb8b682a4d47012",
+  "description": "Gated complete scored212243 anchored-random+provenance-noise expert to n>650; preserve original212686 sampling, coarse quota and residual estimator outside gate."
+}

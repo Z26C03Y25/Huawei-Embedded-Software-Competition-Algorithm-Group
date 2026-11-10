@@ -1,0 +1,8 @@
+{
+  "name": "irreversible_cost_guard",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\irreversible_cost_guard_b391c02480cb.cpp",
+  "description": "Stop optional queries whose already-spent M+Q+O would reach3000 even before parking/R/d; exact zero-score lower bound, independent of unknown target; final observed-winner parking retained",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "787d2e1074fb69c824f0e474e456fee24dde2799366acc1ad1f7264741c05d4a"
+}

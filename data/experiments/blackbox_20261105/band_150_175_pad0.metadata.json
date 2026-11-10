@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\band_150_175_pad0.cpp",
+  "sha256": "903d472dd02b60258c0e2eeffe823f39ba29cda25b6413fc62cb20a20e68f04f",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Probe unresolved lengths only: scan inclusive150..175, always reread raw winner, center tie; skip five already-dispatched lengths by querying0. Padding0 stationary reads can encode scoring-case count against an otherwise identical baseline. Exact interior singleton expected2968+b-4a+2p under observed O30; right endpoint adds30; halo errors considered, never blindly apply29."
+}

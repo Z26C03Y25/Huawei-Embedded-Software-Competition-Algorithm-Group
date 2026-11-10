@@ -1,0 +1,119 @@
+{
+  "official_only": true,
+  "baseline_score": 210599,
+  "best_score": 212686,
+  "models": {
+    "continue": {
+      "measured_deltas": {
+        "all": -5514,
+        "short": -320,
+        "mid": -4914
+      },
+      "inferred_deltas": {
+        "long": -280
+      },
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption.",
+      "two_group_fit": {
+        "N<=500": -320,
+        "N>500": -5194
+      },
+      "two_group_predicted_score": 210599,
+      "fitted_group_coefficients": {
+        "short": -320,
+        "mid": -4914,
+        "long": -280
+      },
+      "predicted_positive_groups": [],
+      "predicted_score": 210599,
+      "prediction_is_official_result": false
+    },
+    "gap_audit_16": {
+      "measured_deltas": {},
+      "inferred_deltas": {},
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption."
+    },
+    "neighbor_confirm_3": {
+      "measured_deltas": {
+        "all": -28080
+      },
+      "inferred_deltas": {},
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption."
+    },
+    "neighbor_clean_3": {
+      "measured_deltas": {},
+      "inferred_deltas": {},
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption."
+    },
+    "inline_triplets_raw": {
+      "measured_deltas": {
+        "all": 1459,
+        "short": -8,
+        "mid": 1721,
+        "midlong": 1467
+      },
+      "inferred_deltas": {
+        "long": -254
+      },
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption.",
+      "two_group_fit": {
+        "N<=500": -8,
+        "N>500": 1467
+      },
+      "two_group_predicted_score": 212066,
+      "two_group_validation_residual": 0,
+      "fitted_group_coefficients": {
+        "short": -8,
+        "mid": 1721,
+        "long": -254
+      },
+      "predicted_positive_groups": [
+        "mid"
+      ],
+      "predicted_score": 212320,
+      "prediction_is_official_result": false
+    },
+    "inline_triplets_clean": {
+      "measured_deltas": {
+        "all": 1459
+      },
+      "inferred_deltas": {},
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption."
+    },
+    "interval_sweep_retry_v2": {
+      "measured_deltas": {
+        "all": -5550,
+        "mid": -503
+      },
+      "inferred_deltas": {},
+      "assumption": "Same frozen parent, fixed hidden cases and stable execution. Inferred cells require direct validation before adoption."
+    }
+  },
+  "band_fit": {
+    "501..575": -348,
+    "576..650": 2069,
+    "501..538": -366,
+    "539..575": 18,
+    "576..613": 2069,
+    "614..650": 0
+  },
+  "completed": 29,
+  "pending": [],
+  "workspace_main_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "attempted_jobs": 30,
+  "failed_jobs": 1,
+  "best_source_confirmations": [
+    {
+      "job_id": "20261031T122331491832Z_e84bc1d9c229",
+      "submission_id": "12021d82e2bf459cb5b8cc1441232bff",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c"
+    },
+    {
+      "job_id": "20261031T123338049575Z_6721da6c1d0a",
+      "submission_id": "21fc77095cfa4b9c938e6ad99cbfa6a0",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c"
+    }
+  ],
+  "independent_best_repeat_confirmed": true
+}

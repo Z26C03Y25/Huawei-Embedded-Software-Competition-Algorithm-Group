@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223678.cpp",
+  "parent_sha256": "fdef3e9934d868d47970296b9ef25af05ee6086a45805f701ce8ddf006358c22",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\turn_cost_signature30.cpp",
+  "sha256": "8a06c3357b57cd879d7d4067da286cb653f65ac2ef8ea18de73548a1d1a737f2",
+  "description": "Stationary singleton30 baseline2969. Only measured N479/reply%127=7 performs30->31->30 if30 remains observed winner; otherwise park31. Expected target score2963 under published O cost1 or2934 if O cost30. Unexpected totals inconclusive; local admission still requires parking observed winner. No judge formula or historical record altered."
+}

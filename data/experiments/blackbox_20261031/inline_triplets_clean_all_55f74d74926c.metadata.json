@@ -1,0 +1,8 @@
+{
+  "name": "inline_triplets_clean_all",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\inline_triplets_clean_all_55f74d74926c.cpp",
+  "description": "Forward-only contiguous triplets at improving concave shoulders; max 12 additional reads; clean trend; raw targets retained; gate true",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_210599.cpp",
+  "parent_sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+  "sha256": "0586b64dafd62d216d7bac9a80bfb80afce96dfdc7c8d1661b6a347570d56a7f"
+}

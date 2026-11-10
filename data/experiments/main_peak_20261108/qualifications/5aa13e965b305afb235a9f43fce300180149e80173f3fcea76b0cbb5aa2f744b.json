@@ -1,0 +1,13 @@
+{
+  "candidate": "wave83_intervalfine",
+  "sha256": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Replace fitted-vertex stopping and randomized refinement with measured interval uncertainty and exact promising-cell completion.",
+  "flags": [
+    "core",
+    "frontier",
+    "intervalfine"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

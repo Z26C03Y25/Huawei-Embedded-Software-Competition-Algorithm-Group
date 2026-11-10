@@ -1,0 +1,16 @@
+{
+  "candidate": "wave99_basinunion",
+  "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Rank every measured gap by a local-curvature interpolation envelope, then exhaust competitive integer cells before the prior refiner.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent216531. Official score alone decides adoption."
+}

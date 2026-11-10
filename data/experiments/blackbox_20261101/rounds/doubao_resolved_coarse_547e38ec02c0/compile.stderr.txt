@@ -1,0 +1,4 @@
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261101\rounds\doubao_resolved_coarse_547e38ec02c0\main.cpp: In member function 'void af_super::Solver::explore()':
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261101\rounds\doubao_resolved_coarse_547e38ec02c0\main.cpp:408:35: error: 'wire' was not declared in this scope
+  408 |                             max(q,wire.queries())+4<=QMAX && seconds()<7.0 &&
+      |                                   ^~~~

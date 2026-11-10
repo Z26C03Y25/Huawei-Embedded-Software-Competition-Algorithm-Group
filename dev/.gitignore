@@ -1,5 +1,6 @@
 /build/
 /tmp/
 /editor/
+/toolchains/
 __pycache__/
 *.pyc

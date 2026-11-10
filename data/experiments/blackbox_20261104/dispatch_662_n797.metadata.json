@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\dispatch_662_n797.cpp",
+  "sha256": "a4c4e13fb6c337212f3d0c3bf74d022ec446501526424e3acd2c948b32945acf",
+  "description": "Length-conditioned fixed-data expert: only N==797 directly queries known peak662, otherwise runs frozen216258 byte-equivalent solver. Length must be supported by online singleton encoding. Official total tests whether same-length collisions invalidate dispatch."
+}

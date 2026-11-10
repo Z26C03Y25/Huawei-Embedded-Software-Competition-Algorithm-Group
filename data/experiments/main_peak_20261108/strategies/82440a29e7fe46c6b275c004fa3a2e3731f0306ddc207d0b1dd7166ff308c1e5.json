@@ -1,0 +1,22 @@
+{
+  "name": "wave103_staggered",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "staggered"
+  ],
+  "operators": [
+    "staggered"
+  ],
+  "sha256": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+  "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+  "parent_score": 216532,
+  "rationale": "Dither ordinary coarse gaps using a deterministic low-discrepancy phase so periodic narrow peaks cannot repeatedly align between a fixed lattice; retain unit apex reads.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave103_staggered.cpp",
+  "created_at": "2026-11-08T18:29:04+08:00",
+  "same_diagnostic_trajectories_as": null
+}

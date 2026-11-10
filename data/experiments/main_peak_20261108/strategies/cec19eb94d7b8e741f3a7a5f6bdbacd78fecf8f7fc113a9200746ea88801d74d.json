@@ -1,0 +1,20 @@
+{
+  "name": "wave63_evidencescout_contour",
+  "flags": [
+    "contour",
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective"
+  ],
+  "operators": [
+    "evidencescout",
+    "contour"
+  ],
+  "sha256": "cec19eb94d7b8e741f3a7a5f6bdbacd78fecf8f7fc113a9200746ea88801d74d",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Confirm additional competitive cells before accepting the sampled winner.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave63_evidencescout_contour.cpp",
+  "created_at": "2026-11-08T17:18:07+08:00"
+}

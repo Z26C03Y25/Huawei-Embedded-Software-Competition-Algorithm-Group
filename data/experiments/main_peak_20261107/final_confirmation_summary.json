@@ -1,0 +1,772 @@
+[
+  {
+    "name": "peak_core",
+    "sha256": "7bb54fad507f3cd38ec96d252865891ecadf94ba17d35522a338373f118e4901",
+    "official": false,
+    "classic": {
+      "cases": 88,
+      "mean": 2015.193,
+      "zeros": 13,
+      "cvar25": 657.227,
+      "wrong_peak": 11,
+      "redundancy_fail": 5,
+      "errors": 0
+    },
+    "mixed": {
+      "cases": 1008,
+      "mean": 1346.134,
+      "zeros": 438,
+      "cvar25": 0,
+      "wrong_peak": 398,
+      "redundancy_fail": 70,
+      "errors": 0
+    },
+    "families": {
+      "pdf_sample": {
+        "cases": 1,
+        "mean": 2932,
+        "zeros": 0,
+        "cvar25": 2932,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "smooth": {
+        "cases": 40,
+        "mean": 2359.625,
+        "zeros": 2,
+        "cvar25": 1678.7,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "boundary": {
+        "cases": 4,
+        "mean": 1814.25,
+        "zeros": 1,
+        "cvar25": 0,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "noise": {
+        "cases": 20,
+        "mean": 2119.75,
+        "zeros": 1,
+        "cvar25": 1485,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "plateau": {
+        "cases": 1,
+        "mean": 2100,
+        "zeros": 0,
+        "cvar25": 2100,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "tie": {
+        "cases": 2,
+        "mean": 2686,
+        "zeros": 0,
+        "cvar25": 2658,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "double": {
+        "cases": 3,
+        "mean": 911.333,
+        "zeros": 2,
+        "cvar25": 0,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "flat": {
+        "cases": 3,
+        "mean": 2143.667,
+        "zeros": 0,
+        "cvar25": 1919,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "integer_range": {
+        "cases": 1,
+        "mean": 2362,
+        "zeros": 0,
+        "cvar25": 2362,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "monotone": {
+        "cases": 2,
+        "mean": 2283.5,
+        "zeros": 0,
+        "cvar25": 1681,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "spike": {
+        "cases": 3,
+        "mean": 1637.333,
+        "zeros": 1,
+        "cvar25": 0,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "unstructured": {
+        "cases": 8,
+        "mean": 236.25,
+        "zeros": 6,
+        "cvar25": 0,
+        "wrong_peak": 4,
+        "redundancy_fail": 5,
+        "errors": 0
+      },
+      "skew_correlated": {
+        "cases": 36,
+        "mean": 2102.333,
+        "zeros": 4,
+        "cvar25": 1023.333,
+        "wrong_peak": 3,
+        "redundancy_fail": 1,
+        "errors": 0
+      },
+      "shoulder_colored": {
+        "cases": 36,
+        "mean": 2268.167,
+        "zeros": 3,
+        "cvar25": 1383.778,
+        "wrong_peak": 3,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "three_competitors": {
+        "cases": 36,
+        "mean": 1204.139,
+        "zeros": 19,
+        "cvar25": 0,
+        "wrong_peak": 19,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "near_equal_ripple": {
+        "cases": 36,
+        "mean": 1493.389,
+        "zeros": 14,
+        "cvar25": 0,
+        "wrong_peak": 14,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "decline_then_peak": {
+        "cases": 36,
+        "mean": 910.917,
+        "zeros": 22,
+        "cvar25": 0,
+        "wrong_peak": 22,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "quantized_noisy_top": {
+        "cases": 36,
+        "mean": 1563.194,
+        "zeros": 11,
+        "cvar25": 0,
+        "wrong_peak": 11,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "noisy_flat_prefix": {
+        "cases": 36,
+        "mean": 2164.75,
+        "zeros": 2,
+        "cvar25": 1466.111,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "late_peak_echo": {
+        "cases": 36,
+        "mean": 127.111,
+        "zeros": 34,
+        "cvar25": 0,
+        "wrong_peak": 34,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "early_echo_late_main": {
+        "cases": 36,
+        "mean": 55.028,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "ramp_micropeaks": {
+        "cases": 36,
+        "mean": 1395.639,
+        "zeros": 16,
+        "cvar25": 0,
+        "wrong_peak": 12,
+        "redundancy_fail": 4,
+        "errors": 0
+      },
+      "staircase_with_background": {
+        "cases": 36,
+        "mean": 1489.139,
+        "zeros": 11,
+        "cvar25": 0,
+        "wrong_peak": 1,
+        "redundancy_fail": 10,
+        "errors": 0
+      },
+      "boundary_competitor": {
+        "cases": 36,
+        "mean": 1307.694,
+        "zeros": 19,
+        "cvar25": 0,
+        "wrong_peak": 19,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "variable_skew": {
+        "cases": 36,
+        "mean": 1996.25,
+        "zeros": 6,
+        "cvar25": 623.111,
+        "wrong_peak": 6,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "heavy_tail_nuisance": {
+        "cases": 36,
+        "mean": 2017.167,
+        "zeros": 6,
+        "cvar25": 603.222,
+        "wrong_peak": 6,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "nonstationary_chirp": {
+        "cases": 36,
+        "mean": 1492.556,
+        "zeros": 13,
+        "cvar25": 0,
+        "wrong_peak": 9,
+        "redundancy_fail": 5,
+        "errors": 0
+      },
+      "heteroskedastic_peak": {
+        "cases": 36,
+        "mean": 2379.472,
+        "zeros": 1,
+        "cvar25": 1783.444,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "clipped_double_top": {
+        "cases": 36,
+        "mean": 1099.056,
+        "zeros": 19,
+        "cvar25": 0,
+        "wrong_peak": 19,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "plateau_edge_bumps": {
+        "cases": 36,
+        "mean": 60.139,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "drifting_double": {
+        "cases": 36,
+        "mean": 1006.139,
+        "zeros": 21,
+        "cvar25": 0,
+        "wrong_peak": 21,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "nonlinear_sensor": {
+        "cases": 36,
+        "mean": 2328.917,
+        "zeros": 2,
+        "cvar25": 1607.556,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "multiple_quantized_ties": {
+        "cases": 36,
+        "mean": 1487.25,
+        "zeros": 14,
+        "cvar25": 0,
+        "wrong_peak": 13,
+        "redundancy_fail": 1,
+        "errors": 0
+      },
+      "wave_envelope": {
+        "cases": 36,
+        "mean": 1506.806,
+        "zeros": 12,
+        "cvar25": 0,
+        "wrong_peak": 4,
+        "redundancy_fail": 9,
+        "errors": 0
+      },
+      "unstructured_background": {
+        "cases": 36,
+        "mean": 132.472,
+        "zeros": 31,
+        "cvar25": 0,
+        "wrong_peak": 22,
+        "redundancy_fail": 26,
+        "errors": 0
+      },
+      "adversarial_impulse": {
+        "cases": 36,
+        "mean": 272.806,
+        "zeros": 32,
+        "cvar25": 0,
+        "wrong_peak": 32,
+        "redundancy_fail": 11,
+        "errors": 0
+      },
+      "modal_bridge": {
+        "cases": 36,
+        "mean": 63.444,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "background_change_points": {
+        "cases": 36,
+        "mean": 2308.389,
+        "zeros": 2,
+        "cvar25": 1523.222,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "occluded_peak": {
+        "cases": 36,
+        "mean": 1657.778,
+        "zeros": 11,
+        "cvar25": 0,
+        "wrong_peak": 11,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "compound_ripples": {
+        "cases": 36,
+        "mean": 1801.611,
+        "zeros": 8,
+        "cvar25": 195.333,
+        "wrong_peak": 5,
+        "redundancy_fail": 3,
+        "errors": 0
+      }
+    }
+  },
+  {
+    "name": "peak_core_frontier_efficient_selective_contour",
+    "sha256": "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+    "official": false,
+    "classic": {
+      "cases": 88,
+      "mean": 2010.534,
+      "zeros": 12,
+      "cvar25": 704.818,
+      "wrong_peak": 11,
+      "redundancy_fail": 5,
+      "errors": 0
+    },
+    "mixed": {
+      "cases": 1008,
+      "mean": 1364.361,
+      "zeros": 423,
+      "cvar25": 0,
+      "wrong_peak": 383,
+      "redundancy_fail": 74,
+      "errors": 0
+    },
+    "families": {
+      "pdf_sample": {
+        "cases": 1,
+        "mean": 2932,
+        "zeros": 0,
+        "cvar25": 2932,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "smooth": {
+        "cases": 40,
+        "mean": 2464.8,
+        "zeros": 0,
+        "cvar25": 2100,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "boundary": {
+        "cases": 4,
+        "mean": 2358.5,
+        "zeros": 0,
+        "cvar25": 1655,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "noise": {
+        "cases": 20,
+        "mean": 1904.2,
+        "zeros": 2,
+        "cvar25": 974.6,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "plateau": {
+        "cases": 1,
+        "mean": 1982,
+        "zeros": 0,
+        "cvar25": 1982,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "tie": {
+        "cases": 2,
+        "mean": 2686,
+        "zeros": 0,
+        "cvar25": 2658,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "double": {
+        "cases": 3,
+        "mean": 911.333,
+        "zeros": 2,
+        "cvar25": 0,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "flat": {
+        "cases": 3,
+        "mean": 1964,
+        "zeros": 0,
+        "cvar25": 1738,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "integer_range": {
+        "cases": 1,
+        "mean": 2362,
+        "zeros": 0,
+        "cvar25": 2362,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "monotone": {
+        "cases": 2,
+        "mean": 2283.5,
+        "zeros": 0,
+        "cvar25": 1681,
+        "wrong_peak": 0,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "spike": {
+        "cases": 3,
+        "mean": 1637.333,
+        "zeros": 1,
+        "cvar25": 0,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "unstructured": {
+        "cases": 8,
+        "mean": 8,
+        "zeros": 7,
+        "cvar25": 0,
+        "wrong_peak": 6,
+        "redundancy_fail": 5,
+        "errors": 0
+      },
+      "skew_correlated": {
+        "cases": 36,
+        "mean": 2117.917,
+        "zeros": 3,
+        "cvar25": 1178.222,
+        "wrong_peak": 2,
+        "redundancy_fail": 1,
+        "errors": 0
+      },
+      "shoulder_colored": {
+        "cases": 36,
+        "mean": 2323.639,
+        "zeros": 2,
+        "cvar25": 1654.556,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "three_competitors": {
+        "cases": 36,
+        "mean": 1280.056,
+        "zeros": 18,
+        "cvar25": 0,
+        "wrong_peak": 18,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "near_equal_ripple": {
+        "cases": 36,
+        "mean": 1550.667,
+        "zeros": 13,
+        "cvar25": 0,
+        "wrong_peak": 13,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "decline_then_peak": {
+        "cases": 36,
+        "mean": 900.528,
+        "zeros": 22,
+        "cvar25": 0,
+        "wrong_peak": 22,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "quantized_noisy_top": {
+        "cases": 36,
+        "mean": 1660.083,
+        "zeros": 9,
+        "cvar25": 0,
+        "wrong_peak": 9,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "noisy_flat_prefix": {
+        "cases": 36,
+        "mean": 2152.194,
+        "zeros": 2,
+        "cvar25": 1458.556,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "late_peak_echo": {
+        "cases": 36,
+        "mean": 128.167,
+        "zeros": 34,
+        "cvar25": 0,
+        "wrong_peak": 34,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "early_echo_late_main": {
+        "cases": 36,
+        "mean": 48.361,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "ramp_micropeaks": {
+        "cases": 36,
+        "mean": 1390.778,
+        "zeros": 16,
+        "cvar25": 0,
+        "wrong_peak": 12,
+        "redundancy_fail": 4,
+        "errors": 0
+      },
+      "staircase_with_background": {
+        "cases": 36,
+        "mean": 1465.806,
+        "zeros": 11,
+        "cvar25": 0,
+        "wrong_peak": 1,
+        "redundancy_fail": 10,
+        "errors": 0
+      },
+      "boundary_competitor": {
+        "cases": 36,
+        "mean": 1308.278,
+        "zeros": 19,
+        "cvar25": 0,
+        "wrong_peak": 19,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "variable_skew": {
+        "cases": 36,
+        "mean": 1970.556,
+        "zeros": 6,
+        "cvar25": 578.333,
+        "wrong_peak": 6,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "heavy_tail_nuisance": {
+        "cases": 36,
+        "mean": 2002.917,
+        "zeros": 6,
+        "cvar25": 575.333,
+        "wrong_peak": 6,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "nonstationary_chirp": {
+        "cases": 36,
+        "mean": 1579.028,
+        "zeros": 10,
+        "cvar25": 0,
+        "wrong_peak": 5,
+        "redundancy_fail": 5,
+        "errors": 0
+      },
+      "heteroskedastic_peak": {
+        "cases": 36,
+        "mean": 2357.528,
+        "zeros": 1,
+        "cvar25": 1740.778,
+        "wrong_peak": 1,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "clipped_double_top": {
+        "cases": 36,
+        "mean": 1264.972,
+        "zeros": 16,
+        "cvar25": 0,
+        "wrong_peak": 16,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "plateau_edge_bumps": {
+        "cases": 36,
+        "mean": 59.139,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "drifting_double": {
+        "cases": 36,
+        "mean": 1007.472,
+        "zeros": 21,
+        "cvar25": 0,
+        "wrong_peak": 21,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "nonlinear_sensor": {
+        "cases": 36,
+        "mean": 2299.306,
+        "zeros": 2,
+        "cvar25": 1533.889,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "multiple_quantized_ties": {
+        "cases": 36,
+        "mean": 1457,
+        "zeros": 14,
+        "cvar25": 0,
+        "wrong_peak": 13,
+        "redundancy_fail": 1,
+        "errors": 0
+      },
+      "wave_envelope": {
+        "cases": 36,
+        "mean": 1555.306,
+        "zeros": 10,
+        "cvar25": 0,
+        "wrong_peak": 2,
+        "redundancy_fail": 9,
+        "errors": 0
+      },
+      "unstructured_background": {
+        "cases": 36,
+        "mean": 20.528,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 27,
+        "redundancy_fail": 26,
+        "errors": 0
+      },
+      "adversarial_impulse": {
+        "cases": 36,
+        "mean": 331.889,
+        "zeros": 31,
+        "cvar25": 0,
+        "wrong_peak": 31,
+        "redundancy_fail": 15,
+        "errors": 0
+      },
+      "modal_bridge": {
+        "cases": 36,
+        "mean": 62.528,
+        "zeros": 35,
+        "cvar25": 0,
+        "wrong_peak": 35,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "background_change_points": {
+        "cases": 36,
+        "mean": 2269.361,
+        "zeros": 2,
+        "cvar25": 1474.444,
+        "wrong_peak": 2,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "occluded_peak": {
+        "cases": 36,
+        "mean": 1700.583,
+        "zeros": 10,
+        "cvar25": 0,
+        "wrong_peak": 10,
+        "redundancy_fail": 0,
+        "errors": 0
+      },
+      "compound_ripples": {
+        "cases": 36,
+        "mean": 1937.528,
+        "zeros": 5,
+        "cvar25": 745.444,
+        "wrong_peak": 2,
+        "redundancy_fail": 3,
+        "errors": 0
+      }
+    }
+  }
+]

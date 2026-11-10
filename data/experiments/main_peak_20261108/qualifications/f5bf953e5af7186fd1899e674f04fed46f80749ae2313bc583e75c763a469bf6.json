@@ -1,0 +1,14 @@
+{
+  "candidate": "wave01_evidencescout",
+  "sha256": "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

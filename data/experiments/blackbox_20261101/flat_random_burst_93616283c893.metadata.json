@@ -1,0 +1,8 @@
+{
+  "name": "flat_random_burst",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\flat_random_burst_93616283c893.cpp",
+  "sha256": "9cb081aea2fbe5a0f671aa5f80bd5cceb490b731807a9cc5611381ca1e3932c8",
+  "description": "Silent-region discovery: only while observed data are flat, insert a fixed-seed forward burst of up to3 adjacent raw points per32-cell block. Keep the original anchor phase by excluding burst counts from flat-grid jitter, and estimate noise on tagged anchor skeleton."
+}

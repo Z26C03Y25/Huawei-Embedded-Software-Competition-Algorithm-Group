@@ -1,0 +1,20 @@
+{
+  "name": "wave48_evidencescout_quant",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "quant",
+    "selective"
+  ],
+  "operators": [
+    "evidencescout",
+    "quant"
+  ],
+  "sha256": "b44474033164a7f4e74a4be2ef93c97b610430b87bf9ff75c961380d3f50cc45",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Small quantized variation should not establish peak identity prematurely.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave48_evidencescout_quant.cpp",
+  "created_at": "2026-11-08T17:17:07+08:00"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "asymmetric_width_stop",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216233.cpp",
+  "parent_sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\asymmetric_width_stop_4d04a02fdbcb.cpp",
+  "sha256": "a8d3a2f48329654e4b91980d38f4cfdae51364ea74ff4016dcb3f8cc9cbc1e2f",
+  "description": "Replace left-width/N-driven excess tail budget by the measured right half-height width after the established resolved descent. Cap by the proven parent half-scout, preserve16 minimum and all rival/rebound/significance checks. Only asymmetric narrow-right tails use the new cap; all others retain216233."
+}

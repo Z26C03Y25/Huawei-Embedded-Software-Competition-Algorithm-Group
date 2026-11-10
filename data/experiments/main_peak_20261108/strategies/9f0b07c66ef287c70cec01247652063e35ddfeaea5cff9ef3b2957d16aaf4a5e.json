@@ -1,0 +1,20 @@
+{
+  "name": "wave44_evidencescout_wideaudit",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective",
+    "wideaudit"
+  ],
+  "operators": [
+    "evidencescout",
+    "wideaudit"
+  ],
+  "sha256": "9f0b07c66ef287c70cec01247652063e35ddfeaea5cff9ef3b2957d16aaf4a5e",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Confirm more competing basins using current noise and contrast.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave44_evidencescout_wideaudit.cpp",
+  "created_at": "2026-11-08T17:16:52+08:00"
+}

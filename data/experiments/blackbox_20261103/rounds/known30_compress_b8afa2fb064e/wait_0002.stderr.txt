@@ -1,0 +1,5 @@
+TimeoutError: Locator.wait_for: Timeout 40000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="上传作品", exact=True) to be visible
+    2 × waiting for "https://developer.huaweicloud.com/competition/information/1300000312/submission" navigation to finish...
+

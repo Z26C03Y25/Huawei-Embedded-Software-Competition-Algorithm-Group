@@ -18,10 +18,18 @@ def run(arguments: list[str]) -> int:
     return subprocess.run(arguments, cwd=ROOT).returncode
 
 
-def build() -> int:
-    compiler = shutil.which("g++")
+def find_compiler(explicit: str | None = None) -> str | None:
+    if explicit:
+        path = Path(explicit).resolve()
+        return str(path) if path.is_file() else None
+    local = ROOT / "dev/toolchains/w64devkit/bin/g++.exe"
+    return str(local) if local.is_file() else shutil.which("g++")
+
+
+def build(compiler: str | None = None) -> int:
+    compiler = find_compiler(compiler)
     if not compiler:
-        print("GCC g++ was not found on PATH. Install a C++17-capable GCC toolchain.", file=sys.stderr)
+        print("GCC g++ was not found. Use --compiler PATH or dev/toolchains/w64devkit/bin/g++.exe.", file=sys.stderr)
         return 2
     EXE.parent.mkdir(exist_ok=True)
     return run([compiler, "-O3", "-Wall", "-Wextra", "-Wpedantic", "-std=c++17",
@@ -34,10 +42,11 @@ def main(argv=None) -> int:
         sys.stderr.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("command", choices=("build", "smoke", "check", "diagnostics", "docs"))
+    parser.add_argument("--compiler", help="C++ compiler path for build/smoke; no PATH changes")
     args = parser.parse_args(argv)
     py = sys.executable
     if args.command in {"build", "smoke"}:
-        result = build()
+        result = build(args.compiler)
         if result or args.command == "build":
             return result
         return run([py, "dev/tools/local_judge.py", "--program", str(EXE), "--suite", "smoke",

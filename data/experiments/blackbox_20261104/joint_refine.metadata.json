@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223836.cpp",
+  "parent_sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\joint_refine.cpp",
+  "sha256": "1e39c11303d63841c0681a1d87d61bbb09c75bdffc9150f2feaa3d326f4c800d",
+  "description": "Structural ablation: remove early model-agreement probe/exit; always refine through joint candidate pool with scenario route planner. Keeps original coarse scout and prior experts. Tests whether apparently smooth single-peak shortcut hides competing narrow maxima, trading extra reads against zero rescues."
+}

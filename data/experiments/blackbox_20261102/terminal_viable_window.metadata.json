@@ -1,0 +1,8 @@
+{
+  "name": "terminal_viable_window",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\terminal_viable_window.cpp",
+  "sha256": "39b4340fc5517aab3fef16e91376aac7df592bd315c250af873e27e71a0c15e7",
+  "description": "Keep216258 search prefix. Only when original final parking is legal and provably zero for every true target, use spare reads inside the existing viable window and park at a legal observed candidate. Never extend rightmost; Q/O/time/parking guards retained."
+}

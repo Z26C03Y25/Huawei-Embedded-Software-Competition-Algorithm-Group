@@ -1,0 +1,8 @@
+{
+  "name": "priority_only_planner",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\priority_only_planner_b391c02480cb.cpp",
+  "description": "Deterministic evidence-priority refinement planning instead of finite-scenario scoring and annealing; same candidate pool, budgets, monotone route and parking admission",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "14691bd6b94f02e6ccb7c51112cd80d767581715309725bd4e8dce681a28cfce"
+}

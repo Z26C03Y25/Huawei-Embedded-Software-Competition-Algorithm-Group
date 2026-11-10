@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "9750d268b23b9ee6e8b2cded5585137c1ac6162caebe85ac5895f22073650587",
+  "description": "Replace model-finish and point-plan annealing by interval pilot tournament: <=24 midpoint pilots, rerank raw evidence, exhaust complete competitive cells in two monotone passes. Coarse216258 unchanged; reserve final parking and rerank between passes. Heuristic interval scores, not hidden-peak guarantees."
+}

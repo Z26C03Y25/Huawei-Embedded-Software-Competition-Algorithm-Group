@@ -1,0 +1,280 @@
+{
+  "official": false,
+  "purpose": "Feature identifiability and units, not candidate scoring or hidden-data inference.",
+  "noiseless_quadratic": [
+    {
+      "layout": "uniform8",
+      "samples": [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96
+      ],
+      "true_observation_noise": 0,
+      "legacy_noise": 0.0,
+      "curvature_corrected_noise": 0.0,
+      "residuals": [
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        }
+      ]
+    },
+    {
+      "layout": "mixed",
+      "samples": [
+        0,
+        4,
+        12,
+        24,
+        32,
+        40,
+        48,
+        52,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96
+      ],
+      "true_observation_noise": 0,
+      "legacy_noise": 19.36860529400213,
+      "curvature_corrected_noise": 0.0,
+      "residuals": [
+        {
+          "r": 32.0,
+          "product": 32,
+          "t": 0.3333333333333333
+        },
+        {
+          "r": 96.0,
+          "product": 96,
+          "t": 0.4
+        },
+        {
+          "r": 96.0,
+          "product": 96,
+          "t": 0.6
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 32.0,
+          "product": 32,
+          "t": 0.6666666666666666
+        },
+        {
+          "r": 16.0,
+          "product": 16,
+          "t": 0.5
+        },
+        {
+          "r": 32.0,
+          "product": 32,
+          "t": 0.3333333333333333
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        },
+        {
+          "r": 64.0,
+          "product": 64,
+          "t": 0.5
+        }
+      ]
+    }
+  ],
+  "indistinguishable_histories": {
+    "N": 400,
+    "observed_positions": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96,
+      104,
+      112,
+      120,
+      128,
+      136,
+      144,
+      152,
+      160,
+      168,
+      176,
+      184
+    ],
+    "observed_values": [
+      40,
+      120,
+      200,
+      280,
+      360,
+      440,
+      520,
+      600,
+      680,
+      760,
+      840,
+      920,
+      1000,
+      920,
+      840,
+      760,
+      680,
+      600,
+      520,
+      440,
+      360,
+      280,
+      200,
+      120
+    ],
+    "target_a": 96,
+    "target_b": 143,
+    "hidden_spike": 143,
+    "same_observation_history": true,
+    "target_distance": 47,
+    "consequence": "No feature computed only from this history can distinguish these two arrays."
+  },
+  "assumed_correlated_noise": [
+    {
+      "spacing": 1,
+      "assumed_unit_correlation": 0.95,
+      "residual_std_per_true_sigma": 0.22638462845343557,
+      "iid_normalized_scale_per_true_sigma": 0.18484227510682374
+    },
+    {
+      "spacing": 4,
+      "assumed_unit_correlation": 0.95,
+      "residual_std_per_true_sigma": 0.4502196304522176,
+      "iid_normalized_scale_per_true_sigma": 0.36760278893077997
+    },
+    {
+      "spacing": 8,
+      "assumed_unit_correlation": 0.95,
+      "residual_std_per_true_sigma": 0.6270745344436801,
+      "iid_normalized_scale_per_true_sigma": 0.5120042133601104
+    },
+    {
+      "spacing": 16,
+      "assumed_unit_correlation": 0.95,
+      "residual_std_per_true_sigma": 0.8465237178754768,
+      "iid_normalized_scale_per_true_sigma": 0.6911837213195536
+    }
+  ],
+  "N_resource_geometry": [
+    {
+      "N": 400,
+      "maximum_query_density": 0.4975,
+      "normalized_parking_tolerance": 0.007518796992481203,
+      "normalized_redundancy_limit": 0.49874686716791977
+    },
+    {
+      "N": 650,
+      "maximum_query_density": 0.30615384615384617,
+      "normalized_parking_tolerance": 0.004622496147919877,
+      "normalized_redundancy_limit": 0.3066255778120185
+    },
+    {
+      "N": 1000,
+      "maximum_query_density": 0.199,
+      "normalized_parking_tolerance": 0.003003003003003003,
+      "normalized_redundancy_limit": 0.1991991991991992
+    }
+  ],
+  "cautions": [
+    "Curvature correction passing this check is not evidence of official improvement; trial17 scored -100.",
+    "The AR(1) example assumes a correlation model; it does not estimate the contest's noise.",
+    "Oracle target is used only to construct the ambiguity example, never as an online feature."
+  ]
+}

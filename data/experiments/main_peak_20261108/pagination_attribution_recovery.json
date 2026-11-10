@@ -1,0 +1,203 @@
+{
+  "job_id": "20261108T101747417662Z_fc18bc4fd651",
+  "observed_rows": [
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:17:49",
+      "score": 213406,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "213406",
+      "row_id": null,
+      "submission_id": "32fc3766c163483ab6f68b0a91a7b49a",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:17:49"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:17:49\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:15:11",
+      "score": 212923,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "212923",
+      "row_id": null,
+      "submission_id": "56681e1076154d9892d470aadcff8a39",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:15:11"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:15:11\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:13:15",
+      "score": 214783,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "214783",
+      "row_id": null,
+      "submission_id": "cffdf0ace2db40b5b75b55a50586e299",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:13:15"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:13:15\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:10:20",
+      "score": 197498,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "197498",
+      "row_id": null,
+      "submission_id": "504c2054c7334eb8a108b6b9500e8d2b",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:10:20"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:10:20\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:08:19",
+      "score": 216531,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "216531",
+      "row_id": null,
+      "submission_id": "00e7091ad3b34f9ca70dbeacbdfac3cf",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:08:19"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:08:19\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:06:22",
+      "score": 177260,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "177260",
+      "row_id": null,
+      "submission_id": "240e72d025da4472bf5cfc2d79f38777",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:06:22"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:06:22\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 18:04:45",
+      "score": 212450,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "212450",
+      "row_id": null,
+      "submission_id": "f8a8d25ece1046308e4d59f000b5561d",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 18:04:45"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 18:04:45\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 17:39:14",
+      "score": 214210,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "214210",
+      "row_id": null,
+      "submission_id": "609c79d06b764a2c8b56197ccef95cc7",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 17:39:14"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 17:39:14\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 17:37:36",
+      "score": null,
+      "status": "pending",
+      "status_text": "pending",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "5817250cfe234a8aae2c870d1204d927",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 17:37:36"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 17:37:36\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-08 17:37:10",
+      "score": 191694,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "191694",
+      "row_id": null,
+      "submission_id": "a50117c22a1f4f898b27643349b50993",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-08 17:37:10"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-08 17:37:10\"]"
+    }
+  ],
+  "unique_new_row": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-08 18:17:49",
+    "score": 213406,
+    "status": "success",
+    "status_text": "success",
+    "score_text": "213406",
+    "row_id": null,
+    "submission_id": "32fc3766c163483ab6f68b0a91a7b49a",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-08 18:17:49"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-08 18:17:49\"]"
+  },
+  "baseline_latest_time": "2026-11-08 18:15:11",
+  "quota": {
+    "used": 19,
+    "maximum": 30,
+    "remaining": 11,
+    "quote": "团队已经上传 19 次(19/30)",
+    "captured_at": "2026-11-08T18:20:13+08:00",
+    "beijing_date": "2026-11-08",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "reason": "Page size changed from10to50 to keep original paired job visible. Older newly visible IDs are historical, not competing uploads. Resume original job only."
+}

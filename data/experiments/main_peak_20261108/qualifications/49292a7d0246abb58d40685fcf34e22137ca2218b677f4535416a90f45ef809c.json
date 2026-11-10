@@ -1,0 +1,16 @@
+{
+  "candidate": "wave98_maincoherent",
+  "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Peak confirmation requires both background dominance and coherent local curvature; an isolated raw high cannot bypass unresolved-gap coverage.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "maincoherent",
+    "quantilefloor",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent216531. Official score alone decides adoption."
+}

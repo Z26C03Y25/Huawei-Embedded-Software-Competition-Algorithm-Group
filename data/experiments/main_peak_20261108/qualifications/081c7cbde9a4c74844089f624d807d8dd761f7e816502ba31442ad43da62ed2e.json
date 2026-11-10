@@ -1,0 +1,15 @@
+{
+  "candidate": "wave97_mainverify",
+  "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Replace model agreement as peak confirmation with observed background dominance or coherent peak support; audit unresolved gaps and verify the full winning cell before permitting the old refiner to finish.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "mainverify",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent216531. Official score alone decides adoption."
+}

@@ -1,0 +1,3959 @@
+{
+  "date": "2026-11-08",
+  "plan_index": 31,
+  "preparations": 109,
+  "experiments": [
+    {
+      "operators": [
+        "evidencescout"
+      ],
+      "preparation": 1,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T07:00:57+08:00",
+      "sha256": "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+      "name": "wave01_evidencescout",
+      "job_id": "20261107T230104078964Z_2a7d80cabbd5"
+    },
+    {
+      "operators": [
+        "cellbudget"
+      ],
+      "preparation": 2,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:13:01+08:00"
+    },
+    {
+      "operators": [
+        "flatreach"
+      ],
+      "preparation": 3,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:08+08:00"
+    },
+    {
+      "operators": [
+        "tailprobe"
+      ],
+      "preparation": 4,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:14+08:00"
+    },
+    {
+      "operators": [
+        "intervalfine"
+      ],
+      "preparation": 5,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:19+08:00"
+    },
+    {
+      "operators": [
+        "shapescout"
+      ],
+      "preparation": 6,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:25+08:00"
+    },
+    {
+      "operators": [
+        "modeltight"
+      ],
+      "preparation": 7,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:32+08:00"
+    },
+    {
+      "operators": [
+        "modelguard"
+      ],
+      "preparation": 8,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:38+08:00"
+    },
+    {
+      "operators": [
+        "startdense"
+      ],
+      "preparation": 9,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:44+08:00"
+    },
+    {
+      "operators": [
+        "paired"
+      ],
+      "preparation": 10,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:51+08:00"
+    },
+    {
+      "operators": [
+        "wideaudit"
+      ],
+      "preparation": 11,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:13:56+08:00"
+    },
+    {
+      "operators": [
+        "nocreststop"
+      ],
+      "preparation": 12,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:02+08:00"
+    },
+    {
+      "operators": [
+        "midscout"
+      ],
+      "preparation": 13,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:09+08:00"
+    },
+    {
+      "operators": [
+        "ladder"
+      ],
+      "preparation": 14,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:15+08:00"
+    },
+    {
+      "operators": [
+        "quant"
+      ],
+      "preparation": 15,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:22+08:00"
+    },
+    {
+      "operators": [
+        "noisehalf"
+      ],
+      "preparation": 16,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:29+08:00"
+    },
+    {
+      "operators": [
+        "noiselocal"
+      ],
+      "preparation": 17,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:36+08:00"
+    },
+    {
+      "operators": [
+        "nomodel"
+      ],
+      "preparation": 18,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:43+08:00"
+    },
+    {
+      "operators": [
+        "priced"
+      ],
+      "preparation": 19,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:50+08:00"
+    },
+    {
+      "operators": [
+        "scalestep"
+      ],
+      "preparation": 20,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:14:56+08:00"
+    },
+    {
+      "operators": [
+        "gapfill"
+      ],
+      "preparation": 21,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:03+08:00"
+    },
+    {
+      "operators": [
+        "widescout"
+      ],
+      "preparation": 22,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:09+08:00"
+    },
+    {
+      "operators": [
+        "phase"
+      ],
+      "preparation": 23,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:15+08:00"
+    },
+    {
+      "operators": [
+        "asymmetry"
+      ],
+      "preparation": 24,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:21+08:00"
+    },
+    {
+      "operators": [
+        "adaptive"
+      ],
+      "preparation": 25,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:27+08:00"
+    },
+    {
+      "operators": [
+        "blank"
+      ],
+      "preparation": 26,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:34+08:00"
+    },
+    {
+      "operators": [
+        "interior"
+      ],
+      "preparation": 27,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:42+08:00"
+    },
+    {
+      "operators": [
+        "five"
+      ],
+      "preparation": 28,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:49+08:00"
+    },
+    {
+      "operators": [
+        "six"
+      ],
+      "preparation": 29,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:15:55+08:00"
+    },
+    {
+      "operators": [
+        "contour"
+      ],
+      "preparation": 30,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:15:58+08:00"
+    },
+    {
+      "operators": [
+        "narrow"
+      ],
+      "preparation": 31,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:15:59+08:00"
+    },
+    {
+      "operators": [
+        "relativetolerance"
+      ],
+      "preparation": 32,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:06+08:00"
+    },
+    {
+      "operators": [
+        "statisticalsignal"
+      ],
+      "preparation": 33,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:12+08:00"
+    },
+    {
+      "operators": [
+        "quantilefloor"
+      ],
+      "preparation": 34,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:19+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "cellbudget"
+      ],
+      "preparation": 35,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:21+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "flatreach"
+      ],
+      "preparation": 36,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:22+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "tailprobe"
+      ],
+      "preparation": 37,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:28+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "intervalfine"
+      ],
+      "preparation": 38,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:34+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "shapescout"
+      ],
+      "preparation": 39,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:35+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "modeltight"
+      ],
+      "preparation": 40,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:41+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "modelguard"
+      ],
+      "preparation": 41,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:47+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "startdense"
+      ],
+      "preparation": 42,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:48+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "paired"
+      ],
+      "preparation": 43,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:50+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "wideaudit"
+      ],
+      "preparation": 44,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:16:57+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "nocreststop"
+      ],
+      "preparation": 45,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:16:58+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "midscout"
+      ],
+      "preparation": 46,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:00+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "ladder"
+      ],
+      "preparation": 47,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:06+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "quant"
+      ],
+      "preparation": 48,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:12+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "noisehalf"
+      ],
+      "preparation": 49,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:20+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "noiselocal"
+      ],
+      "preparation": 50,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:26+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "nomodel"
+      ],
+      "preparation": 51,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:32+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "priced"
+      ],
+      "preparation": 52,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:38+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "scalestep"
+      ],
+      "preparation": 53,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:40+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "gapfill"
+      ],
+      "preparation": 54,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:45+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "widescout"
+      ],
+      "preparation": 55,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:47+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "phase"
+      ],
+      "preparation": 56,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:48+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "asymmetry"
+      ],
+      "preparation": 57,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:50+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "adaptive"
+      ],
+      "preparation": 58,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:17:51+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "blank"
+      ],
+      "preparation": 59,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:17:57+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "interior"
+      ],
+      "preparation": 60,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:03+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "five"
+      ],
+      "preparation": 61,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:04+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "six"
+      ],
+      "preparation": 62,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:06+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "contour"
+      ],
+      "preparation": 63,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:12+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "narrow"
+      ],
+      "preparation": 64,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:13+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "relativetolerance"
+      ],
+      "preparation": 65,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:19+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "statisticalsignal"
+      ],
+      "preparation": 66,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:25+08:00"
+    },
+    {
+      "operators": [
+        "evidencescout",
+        "quantilefloor"
+      ],
+      "preparation": 67,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:31+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "flatreach"
+      ],
+      "preparation": 68,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:33+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "tailprobe"
+      ],
+      "preparation": 69,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:39+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "intervalfine"
+      ],
+      "preparation": 70,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:43+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "shapescout"
+      ],
+      "preparation": 71,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:44+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "modeltight"
+      ],
+      "preparation": 72,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:51+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "modelguard"
+      ],
+      "preparation": 73,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:18:57+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "startdense"
+      ],
+      "preparation": 74,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:18:58+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "paired"
+      ],
+      "preparation": 75,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:19:00+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "wideaudit"
+      ],
+      "preparation": 76,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:19:07+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "nocreststop"
+      ],
+      "preparation": 77,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:19:08+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "midscout"
+      ],
+      "preparation": 78,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:19:10+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget",
+        "ladder"
+      ],
+      "preparation": 79,
+      "official_reference": 214783,
+      "rejection": "host_execution_unavailable: OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "time": "2026-11-08T17:19:16+08:00"
+    },
+    {
+      "operators": [
+        "cellbudget"
+      ],
+      "preparation": 80,
+      "official_reference": 214783,
+      "rejection": "already_attempted_source",
+      "time": "2026-11-08T17:30:41+08:00"
+    },
+    {
+      "operators": [
+        "flatreach"
+      ],
+      "preparation": 81,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:30:48+08:00",
+      "sha256": "c3f673b839d7c60057bb5d56d866c077a8a5058806dde1103dc5b0a3fec07e5d",
+      "name": "wave81_flatreach",
+      "job_id": "20261108T093100801254Z_c041cdd5624d"
+    },
+    {
+      "operators": [
+        "tailprobe"
+      ],
+      "preparation": 82,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:31:18+08:00",
+      "sha256": "af7ea1e358ee0771592ed649a9a203f32edd36979a225d75317c9b4c418c000f",
+      "name": "wave82_tailprobe",
+      "job_id": "20261108T093131271224Z_5214e9640911"
+    },
+    {
+      "operators": [
+        "intervalfine"
+      ],
+      "preparation": 83,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:32:57+08:00",
+      "sha256": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+      "name": "wave83_intervalfine",
+      "job_id": "20261108T093302673550Z_b93314bf7fd0"
+    },
+    {
+      "operators": [
+        "shapescout"
+      ],
+      "preparation": 84,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:33:20+08:00",
+      "sha256": "22bdf260ae37722a9b1eedb04cb263eb7610da8dc92911a17521526cfe4027f3",
+      "name": "wave84_shapescout",
+      "job_id": "20261108T093327546944Z_66de5fb78244"
+    },
+    {
+      "operators": [
+        "modeltight"
+      ],
+      "preparation": 85,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:34:54+08:00",
+      "sha256": "8e7144bae95aa56bdea9a937f92c4f512b33d44e0fc6c68ef82588c704d89ef3",
+      "name": "wave85_modeltight",
+      "job_id": "20261108T093506307767Z_c94cc44dd4f4"
+    },
+    {
+      "operators": [
+        "modelguard"
+      ],
+      "preparation": 86,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:35:23+08:00",
+      "sha256": "d9b25f8e3c6c1be15005256930c77d0f86753a925aaf58cee467d3dac6338fe8",
+      "name": "wave86_modelguard",
+      "job_id": "20261108T093535075715Z_11c5af3154da"
+    },
+    {
+      "operators": [
+        "startdense"
+      ],
+      "preparation": 87,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:37:01+08:00",
+      "sha256": "629021ca9364d25452a296ebfdfb0683491a5648add382532bd8203c068e47dd",
+      "name": "wave87_startdense",
+      "job_id": "20261108T093709492701Z_7028de989af1"
+    },
+    {
+      "operators": [
+        "paired"
+      ],
+      "preparation": 88,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:37:28+08:00",
+      "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+      "name": "wave88_paired",
+      "job_id": "20261108T093735322945Z_ed3c79bf9b3d"
+    },
+    {
+      "operators": [
+        "wideaudit"
+      ],
+      "preparation": 89,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T17:39:04+08:00",
+      "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+      "name": "wave89_wideaudit",
+      "job_id": "20261108T093912980173Z_aca4fe13f9d0"
+    },
+    {
+      "operators": [
+        "maincover"
+      ],
+      "preparation": 90,
+      "official_reference": 214783,
+      "rejection": "local_preflight: 26-case preflight protocol/query/turn/parking check failed",
+      "time": "2026-11-08T18:04:11+08:00",
+      "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+      "name": "wave90_maincover"
+    },
+    {
+      "operators": [
+        "mainverify"
+      ],
+      "preparation": 91,
+      "official_reference": 214783,
+      "rejection": "local_preflight: 26-case preflight protocol/query/turn/parking check failed",
+      "time": "2026-11-08T18:04:24+08:00",
+      "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+      "name": "wave91_mainverify"
+    },
+    {
+      "operators": [
+        "relativetolerance"
+      ],
+      "preparation": 92,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T18:04:37+08:00",
+      "sha256": "657255ecd05ce54e2f113ee17dc4c3c70302f19aad1c74c6266160d75e02a371",
+      "name": "wave92_relativetolerance",
+      "job_id": "20261108T100444457493Z_f146e6566617"
+    },
+    {
+      "operators": [
+        "statisticalsignal"
+      ],
+      "preparation": 93,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T18:06:14+08:00",
+      "sha256": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+      "name": "wave93_statisticalsignal",
+      "job_id": "20261108T100621323451Z_c2e88d6812f2"
+    },
+    {
+      "operators": [
+        "quantilefloor"
+      ],
+      "preparation": 94,
+      "official_reference": 214783,
+      "rejection": null,
+      "time": "2026-11-08T18:08:11+08:00",
+      "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "name": "wave94_quantilefloor",
+      "job_id": "20261108T100817757883Z_3b9375718bce"
+    },
+    {
+      "operators": [
+        "noiselocal"
+      ],
+      "preparation": 95,
+      "official_reference": 216531,
+      "rejection": null,
+      "time": "2026-11-08T18:10:07+08:00",
+      "sha256": "f92b15ee5e5c4309f7e5ef42dc9351b4b82c41b1293be3d9c2551fe88bcc98eb",
+      "name": "wave95_noiselocal",
+      "job_id": "20261108T101018758928Z_1d8272692a06"
+    },
+    {
+      "operators": [
+        "maincover"
+      ],
+      "preparation": 96,
+      "official_reference": 216531,
+      "rejection": null,
+      "time": "2026-11-08T18:13:07+08:00",
+      "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+      "name": "wave96_maincover",
+      "job_id": "20261108T101314199679Z_60e57d6e67d7"
+    },
+    {
+      "operators": [
+        "mainverify"
+      ],
+      "preparation": 97,
+      "official_reference": 216531,
+      "rejection": null,
+      "time": "2026-11-08T18:15:04+08:00",
+      "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+      "name": "wave97_mainverify",
+      "job_id": "20261108T101510706013Z_7bac42f5767b"
+    },
+    {
+      "operators": [
+        "maincoherent"
+      ],
+      "preparation": 98,
+      "official_reference": 216531,
+      "rejection": null,
+      "time": "2026-11-08T18:17:39+08:00",
+      "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+      "name": "wave98_maincoherent"
+    },
+    {
+      "operators": [
+        "basinunion"
+      ],
+      "preparation": 99,
+      "official_reference": 216531,
+      "rejection": null,
+      "time": "2026-11-08T18:20:31+08:00",
+      "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "name": "wave99_basinunion",
+      "job_id": "20261108T102040854871Z_d2f603045348"
+    },
+    {
+      "operators": [
+        "winnerfrontier"
+      ],
+      "preparation": 100,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:22:13+08:00",
+      "sha256": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+      "name": "wave100_winnerfrontier",
+      "job_id": "20261108T102221446305Z_e57403ffd407"
+    },
+    {
+      "operators": [
+        "mainall"
+      ],
+      "preparation": 101,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:24:16+08:00",
+      "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+      "name": "wave101_mainall",
+      "job_id": "20261108T102423512575Z_6bc2cbce62fd"
+    },
+    {
+      "operators": [
+        "sweepcover"
+      ],
+      "preparation": 102,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:27:10+08:00",
+      "sha256": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+      "name": "wave102_sweepcover",
+      "job_id": "20261108T102718077837Z_131360dfe0af"
+    },
+    {
+      "operators": [
+        "staggered"
+      ],
+      "preparation": 103,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:29:10+08:00",
+      "sha256": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+      "name": "wave103_staggered",
+      "job_id": "20261108T102918057465Z_c2f032a61188"
+    },
+    {
+      "operators": [
+        "tailvalley"
+      ],
+      "preparation": 104,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:31:10+08:00",
+      "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+      "name": "wave104_tailvalley",
+      "job_id": "20261108T103118023302Z_61e3872cbe71"
+    },
+    {
+      "operators": [
+        "multiguard"
+      ],
+      "preparation": 105,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:33:12+08:00",
+      "sha256": "4f9a6622768c8e91157c1fc45b7e0bd54fdc76f6dcfc6cf5066723dfee5e96fc",
+      "name": "wave105_multiguard",
+      "job_id": "20261108T103319432410Z_9d8a5ea739f0"
+    },
+    {
+      "operators": [
+        "nocentercap"
+      ],
+      "preparation": 106,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:35:49+08:00",
+      "sha256": "e9d82acc3c28a6c7ca9641ad0a196af2fab826370eb92bfc59ac59deec140164",
+      "name": "wave106_nocentercap",
+      "job_id": "20261108T103602257806Z_0779be823bf6"
+    },
+    {
+      "operators": [
+        "fitstop"
+      ],
+      "preparation": 107,
+      "official_reference": 216532,
+      "rejection": null,
+      "time": "2026-11-08T18:37:55+08:00",
+      "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "name": "wave107_fitstop",
+      "job_id": "20261108T103802570295Z_175e930d7170"
+    },
+    {
+      "operators": [
+        "burstsupport"
+      ],
+      "preparation": 108,
+      "official_reference": 217614,
+      "rejection": null,
+      "time": "2026-11-08T18:39:56+08:00",
+      "sha256": "9da978d174f3f520813d586ba51db5c1e67f8dd48bee0bff63c340b725db049a",
+      "name": "wave108_burstsupport",
+      "job_id": "20261108T104004004639Z_8b1063affabd"
+    },
+    {
+      "operators": [
+        "zerosalvage"
+      ],
+      "preparation": 109,
+      "official_reference": 217614,
+      "rejection": null,
+      "time": "2026-11-08T18:45:52+08:00",
+      "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+      "name": "wave109_zerosalvage",
+      "job_id": "20261108T104600217568Z_6698a96198cd"
+    }
+  ],
+  "behaviors": {
+    "ff83e943e75733c17474ce27066dce4101060fe6e05789c0f3c3d5ca610e287b": "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+    "97f232312459390994fa4ba799cf3485395eb244bcc20c6683ab14b81a61568d": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+    "6dc7682f7080840a00f2828cc9d13bcf439880d65d5698546ab7826676578f36": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+    "8c7a8d3e5e6d3a8c92f4a1863023c114614804215b283a8766af68cc8f965baa": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+    "e6ec60d039656784d3abbaf0cf62ee3b63f1c307f0de7d265c5df3989adff034": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+    "a83d1389b33134e00b3c6eefbfadf0e6063ec39eae3b786b8525ca811af55e03": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+    "9a024602a9630f0b70fd063d8e8cfef46feaabc5f4d9b45ce8a3eec64ec65c29": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+    "6708582a1b793868fb336decf6e1c140e84ccb2b5750ff63c964dd2d0f0070da": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+    "8815ecace8afd88519708bbc8864a5e35f60eead7beb59b14a1f579ccd11e0e5": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+    "6b589c320263208e09af873b6fe90df0d6750ad8330fe35345e192ad187f8de1": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+    "1f66c0e52200189358fd542a0842e9c2935e4016dfd10de00f6afe733aba0bc1": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+    "3a9ce2facecc2347b58b1526657eaced69a17113fe53dba3eca0a04a29d875dd": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+    "2d8df6fba6b5c424c3c2181ad856af9df654bb8bf50414497d0e14434129d6b9": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "c982157fddee092ddfd2f4cf575882db219983bb4c5894a3992ca602f08f1186": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585"
+  },
+  "status": "running",
+  "created_at": "2026-11-08T07:00:49+08:00",
+  "maximum_acknowledged_outstanding": 2,
+  "failed_jobs": [
+    "20261107T222837916574Z_45692b7a82f7"
+  ],
+  "reviewed_service_failures": {
+    "20261107T222837916574Z_45692b7a82f7": {
+      "recovered_by": "20261108T091055331632Z_5b9ddf86888d",
+      "official_score": 138801,
+      "confirmed_at": "2026-11-08T09:12:56+00:00",
+      "reason": "Numeric official terminal result confirmed after this exact prior failure; no failed source is retried."
+    },
+    "20261107T230104078964Z_2a7d80cabbd5": {
+      "recovered_by": "20261108T091055331632Z_5b9ddf86888d",
+      "official_score": 138801,
+      "confirmed_at": "2026-11-08T09:12:56+00:00",
+      "reason": "Numeric official terminal result confirmed after this exact prior failure; no failed source is retried."
+    }
+  },
+  "last_recovery_job": "20261108T091055331632Z_5b9ddf86888d",
+  "plan_rewinds": [
+    {
+      "at": "2026-11-08T17:30:39",
+      "old_index": 79,
+      "new_index": 1,
+      "reason": "Revisit never-uploaded single operators after independent guarded-source admission for host-only4551 failures. All old rejection records retained."
+    }
+  ],
+  "test_plan": [
+    [
+      "evidencescout"
+    ],
+    [
+      "cellbudget"
+    ],
+    [
+      "flatreach"
+    ],
+    [
+      "tailprobe"
+    ],
+    [
+      "intervalfine"
+    ],
+    [
+      "shapescout"
+    ],
+    [
+      "modeltight"
+    ],
+    [
+      "modelguard"
+    ],
+    [
+      "startdense"
+    ],
+    [
+      "paired"
+    ],
+    [
+      "wideaudit"
+    ],
+    [
+      "maincover"
+    ],
+    [
+      "mainverify"
+    ],
+    [
+      "relativetolerance"
+    ],
+    [
+      "statisticalsignal"
+    ],
+    [
+      "quantilefloor"
+    ],
+    [
+      "noiselocal"
+    ],
+    [
+      "maincover"
+    ],
+    [
+      "mainverify"
+    ],
+    [
+      "maincoherent"
+    ],
+    [
+      "basinunion"
+    ],
+    [
+      "winnerfrontier"
+    ],
+    [
+      "mainall"
+    ],
+    [
+      "sweepcover"
+    ],
+    [
+      "staggered"
+    ],
+    [
+      "tailvalley"
+    ],
+    [
+      "multiguard"
+    ],
+    [
+      "nocentercap"
+    ],
+    [
+      "fitstop"
+    ],
+    [
+      "burstsupport"
+    ],
+    [
+      "zerosalvage"
+    ],
+    [
+      "quant"
+    ],
+    [
+      "noisehalf"
+    ],
+    [
+      "nocreststop"
+    ],
+    [
+      "midscout"
+    ],
+    [
+      "ladder"
+    ],
+    [
+      "nomodel"
+    ],
+    [
+      "priced"
+    ],
+    [
+      "scalestep"
+    ],
+    [
+      "gapfill"
+    ],
+    [
+      "widescout"
+    ],
+    [
+      "phase"
+    ],
+    [
+      "asymmetry"
+    ],
+    [
+      "adaptive"
+    ],
+    [
+      "blank"
+    ],
+    [
+      "interior"
+    ],
+    [
+      "five"
+    ],
+    [
+      "six"
+    ],
+    [
+      "contour"
+    ],
+    [
+      "narrow"
+    ],
+    [
+      "evidencescout",
+      "cellbudget"
+    ],
+    [
+      "evidencescout",
+      "flatreach"
+    ],
+    [
+      "evidencescout",
+      "tailprobe"
+    ],
+    [
+      "evidencescout",
+      "intervalfine"
+    ],
+    [
+      "evidencescout",
+      "shapescout"
+    ],
+    [
+      "evidencescout",
+      "modeltight"
+    ],
+    [
+      "evidencescout",
+      "modelguard"
+    ],
+    [
+      "evidencescout",
+      "startdense"
+    ],
+    [
+      "evidencescout",
+      "paired"
+    ],
+    [
+      "evidencescout",
+      "wideaudit"
+    ],
+    [
+      "evidencescout",
+      "nocreststop"
+    ],
+    [
+      "evidencescout",
+      "midscout"
+    ],
+    [
+      "evidencescout",
+      "ladder"
+    ],
+    [
+      "evidencescout",
+      "quant"
+    ],
+    [
+      "evidencescout",
+      "noisehalf"
+    ],
+    [
+      "evidencescout",
+      "noiselocal"
+    ],
+    [
+      "evidencescout",
+      "nomodel"
+    ],
+    [
+      "evidencescout",
+      "priced"
+    ],
+    [
+      "evidencescout",
+      "scalestep"
+    ],
+    [
+      "evidencescout",
+      "gapfill"
+    ],
+    [
+      "evidencescout",
+      "widescout"
+    ],
+    [
+      "evidencescout",
+      "phase"
+    ],
+    [
+      "evidencescout",
+      "asymmetry"
+    ],
+    [
+      "evidencescout",
+      "adaptive"
+    ],
+    [
+      "evidencescout",
+      "blank"
+    ],
+    [
+      "evidencescout",
+      "interior"
+    ],
+    [
+      "evidencescout",
+      "five"
+    ],
+    [
+      "evidencescout",
+      "six"
+    ],
+    [
+      "evidencescout",
+      "contour"
+    ],
+    [
+      "evidencescout",
+      "narrow"
+    ],
+    [
+      "evidencescout",
+      "relativetolerance"
+    ],
+    [
+      "evidencescout",
+      "statisticalsignal"
+    ],
+    [
+      "evidencescout",
+      "quantilefloor"
+    ],
+    [
+      "evidencescout",
+      "maincover"
+    ],
+    [
+      "evidencescout",
+      "mainverify"
+    ],
+    [
+      "cellbudget",
+      "flatreach"
+    ],
+    [
+      "cellbudget",
+      "tailprobe"
+    ],
+    [
+      "cellbudget",
+      "intervalfine"
+    ],
+    [
+      "cellbudget",
+      "shapescout"
+    ],
+    [
+      "cellbudget",
+      "modeltight"
+    ],
+    [
+      "cellbudget",
+      "modelguard"
+    ],
+    [
+      "cellbudget",
+      "startdense"
+    ],
+    [
+      "cellbudget",
+      "paired"
+    ],
+    [
+      "cellbudget",
+      "wideaudit"
+    ],
+    [
+      "cellbudget",
+      "nocreststop"
+    ],
+    [
+      "cellbudget",
+      "midscout"
+    ],
+    [
+      "cellbudget",
+      "ladder"
+    ],
+    [
+      "cellbudget",
+      "quant"
+    ],
+    [
+      "cellbudget",
+      "noisehalf"
+    ],
+    [
+      "cellbudget",
+      "noiselocal"
+    ],
+    [
+      "cellbudget",
+      "nomodel"
+    ],
+    [
+      "cellbudget",
+      "priced"
+    ],
+    [
+      "cellbudget",
+      "scalestep"
+    ],
+    [
+      "cellbudget",
+      "gapfill"
+    ],
+    [
+      "cellbudget",
+      "widescout"
+    ],
+    [
+      "cellbudget",
+      "phase"
+    ],
+    [
+      "cellbudget",
+      "asymmetry"
+    ],
+    [
+      "cellbudget",
+      "adaptive"
+    ],
+    [
+      "cellbudget",
+      "blank"
+    ],
+    [
+      "cellbudget",
+      "interior"
+    ],
+    [
+      "cellbudget",
+      "five"
+    ],
+    [
+      "cellbudget",
+      "six"
+    ],
+    [
+      "cellbudget",
+      "contour"
+    ],
+    [
+      "cellbudget",
+      "narrow"
+    ],
+    [
+      "cellbudget",
+      "relativetolerance"
+    ],
+    [
+      "cellbudget",
+      "statisticalsignal"
+    ],
+    [
+      "cellbudget",
+      "quantilefloor"
+    ],
+    [
+      "cellbudget",
+      "maincover"
+    ],
+    [
+      "cellbudget",
+      "mainverify"
+    ],
+    [
+      "flatreach",
+      "tailprobe"
+    ],
+    [
+      "flatreach",
+      "intervalfine"
+    ],
+    [
+      "flatreach",
+      "shapescout"
+    ],
+    [
+      "flatreach",
+      "modeltight"
+    ],
+    [
+      "flatreach",
+      "modelguard"
+    ],
+    [
+      "flatreach",
+      "startdense"
+    ],
+    [
+      "flatreach",
+      "paired"
+    ],
+    [
+      "flatreach",
+      "wideaudit"
+    ],
+    [
+      "flatreach",
+      "nocreststop"
+    ],
+    [
+      "flatreach",
+      "midscout"
+    ],
+    [
+      "flatreach",
+      "ladder"
+    ],
+    [
+      "flatreach",
+      "quant"
+    ],
+    [
+      "flatreach",
+      "noisehalf"
+    ],
+    [
+      "flatreach",
+      "noiselocal"
+    ],
+    [
+      "flatreach",
+      "nomodel"
+    ],
+    [
+      "flatreach",
+      "priced"
+    ],
+    [
+      "flatreach",
+      "scalestep"
+    ],
+    [
+      "flatreach",
+      "gapfill"
+    ],
+    [
+      "flatreach",
+      "widescout"
+    ],
+    [
+      "flatreach",
+      "phase"
+    ],
+    [
+      "flatreach",
+      "asymmetry"
+    ],
+    [
+      "flatreach",
+      "adaptive"
+    ],
+    [
+      "flatreach",
+      "blank"
+    ],
+    [
+      "flatreach",
+      "interior"
+    ],
+    [
+      "flatreach",
+      "five"
+    ],
+    [
+      "flatreach",
+      "six"
+    ],
+    [
+      "flatreach",
+      "contour"
+    ],
+    [
+      "flatreach",
+      "narrow"
+    ],
+    [
+      "flatreach",
+      "relativetolerance"
+    ],
+    [
+      "flatreach",
+      "statisticalsignal"
+    ],
+    [
+      "flatreach",
+      "quantilefloor"
+    ],
+    [
+      "flatreach",
+      "maincover"
+    ],
+    [
+      "flatreach",
+      "mainverify"
+    ],
+    [
+      "tailprobe",
+      "intervalfine"
+    ],
+    [
+      "tailprobe",
+      "shapescout"
+    ],
+    [
+      "tailprobe",
+      "modeltight"
+    ],
+    [
+      "tailprobe",
+      "modelguard"
+    ],
+    [
+      "tailprobe",
+      "startdense"
+    ],
+    [
+      "tailprobe",
+      "paired"
+    ],
+    [
+      "tailprobe",
+      "wideaudit"
+    ],
+    [
+      "tailprobe",
+      "nocreststop"
+    ],
+    [
+      "tailprobe",
+      "midscout"
+    ],
+    [
+      "tailprobe",
+      "ladder"
+    ],
+    [
+      "tailprobe",
+      "quant"
+    ],
+    [
+      "tailprobe",
+      "noisehalf"
+    ],
+    [
+      "tailprobe",
+      "noiselocal"
+    ],
+    [
+      "tailprobe",
+      "nomodel"
+    ],
+    [
+      "tailprobe",
+      "priced"
+    ],
+    [
+      "tailprobe",
+      "scalestep"
+    ],
+    [
+      "tailprobe",
+      "gapfill"
+    ],
+    [
+      "tailprobe",
+      "widescout"
+    ],
+    [
+      "tailprobe",
+      "phase"
+    ],
+    [
+      "tailprobe",
+      "asymmetry"
+    ],
+    [
+      "tailprobe",
+      "adaptive"
+    ],
+    [
+      "tailprobe",
+      "blank"
+    ],
+    [
+      "tailprobe",
+      "interior"
+    ],
+    [
+      "tailprobe",
+      "five"
+    ],
+    [
+      "tailprobe",
+      "six"
+    ],
+    [
+      "tailprobe",
+      "contour"
+    ],
+    [
+      "tailprobe",
+      "narrow"
+    ],
+    [
+      "tailprobe",
+      "relativetolerance"
+    ],
+    [
+      "tailprobe",
+      "statisticalsignal"
+    ],
+    [
+      "tailprobe",
+      "quantilefloor"
+    ],
+    [
+      "tailprobe",
+      "maincover"
+    ],
+    [
+      "tailprobe",
+      "mainverify"
+    ],
+    [
+      "intervalfine",
+      "shapescout"
+    ],
+    [
+      "intervalfine",
+      "modeltight"
+    ],
+    [
+      "intervalfine",
+      "modelguard"
+    ],
+    [
+      "intervalfine",
+      "startdense"
+    ],
+    [
+      "intervalfine",
+      "paired"
+    ],
+    [
+      "intervalfine",
+      "wideaudit"
+    ],
+    [
+      "intervalfine",
+      "nocreststop"
+    ],
+    [
+      "intervalfine",
+      "midscout"
+    ],
+    [
+      "intervalfine",
+      "ladder"
+    ],
+    [
+      "intervalfine",
+      "quant"
+    ],
+    [
+      "intervalfine",
+      "noisehalf"
+    ],
+    [
+      "intervalfine",
+      "noiselocal"
+    ],
+    [
+      "intervalfine",
+      "nomodel"
+    ],
+    [
+      "intervalfine",
+      "priced"
+    ],
+    [
+      "intervalfine",
+      "scalestep"
+    ],
+    [
+      "intervalfine",
+      "gapfill"
+    ],
+    [
+      "intervalfine",
+      "widescout"
+    ],
+    [
+      "intervalfine",
+      "phase"
+    ],
+    [
+      "intervalfine",
+      "asymmetry"
+    ],
+    [
+      "intervalfine",
+      "adaptive"
+    ],
+    [
+      "intervalfine",
+      "blank"
+    ],
+    [
+      "intervalfine",
+      "interior"
+    ],
+    [
+      "intervalfine",
+      "five"
+    ],
+    [
+      "intervalfine",
+      "six"
+    ],
+    [
+      "intervalfine",
+      "contour"
+    ],
+    [
+      "intervalfine",
+      "narrow"
+    ],
+    [
+      "intervalfine",
+      "relativetolerance"
+    ],
+    [
+      "intervalfine",
+      "statisticalsignal"
+    ],
+    [
+      "intervalfine",
+      "quantilefloor"
+    ],
+    [
+      "intervalfine",
+      "maincover"
+    ],
+    [
+      "intervalfine",
+      "mainverify"
+    ],
+    [
+      "shapescout",
+      "modeltight"
+    ],
+    [
+      "shapescout",
+      "modelguard"
+    ],
+    [
+      "shapescout",
+      "startdense"
+    ],
+    [
+      "shapescout",
+      "paired"
+    ],
+    [
+      "shapescout",
+      "wideaudit"
+    ],
+    [
+      "shapescout",
+      "nocreststop"
+    ],
+    [
+      "shapescout",
+      "midscout"
+    ],
+    [
+      "shapescout",
+      "ladder"
+    ],
+    [
+      "shapescout",
+      "quant"
+    ],
+    [
+      "shapescout",
+      "noisehalf"
+    ],
+    [
+      "shapescout",
+      "noiselocal"
+    ],
+    [
+      "shapescout",
+      "nomodel"
+    ],
+    [
+      "shapescout",
+      "priced"
+    ],
+    [
+      "shapescout",
+      "scalestep"
+    ],
+    [
+      "shapescout",
+      "gapfill"
+    ],
+    [
+      "shapescout",
+      "widescout"
+    ],
+    [
+      "shapescout",
+      "phase"
+    ],
+    [
+      "shapescout",
+      "asymmetry"
+    ],
+    [
+      "shapescout",
+      "adaptive"
+    ],
+    [
+      "shapescout",
+      "blank"
+    ],
+    [
+      "shapescout",
+      "interior"
+    ],
+    [
+      "shapescout",
+      "five"
+    ],
+    [
+      "shapescout",
+      "six"
+    ],
+    [
+      "shapescout",
+      "contour"
+    ],
+    [
+      "shapescout",
+      "narrow"
+    ],
+    [
+      "shapescout",
+      "relativetolerance"
+    ],
+    [
+      "shapescout",
+      "statisticalsignal"
+    ],
+    [
+      "shapescout",
+      "quantilefloor"
+    ],
+    [
+      "shapescout",
+      "maincover"
+    ],
+    [
+      "shapescout",
+      "mainverify"
+    ],
+    [
+      "modeltight",
+      "modelguard"
+    ],
+    [
+      "modeltight",
+      "startdense"
+    ],
+    [
+      "modeltight",
+      "paired"
+    ],
+    [
+      "modeltight",
+      "wideaudit"
+    ],
+    [
+      "modeltight",
+      "nocreststop"
+    ],
+    [
+      "modeltight",
+      "midscout"
+    ],
+    [
+      "modeltight",
+      "ladder"
+    ],
+    [
+      "modeltight",
+      "quant"
+    ],
+    [
+      "modeltight",
+      "noisehalf"
+    ],
+    [
+      "modeltight",
+      "noiselocal"
+    ],
+    [
+      "modeltight",
+      "nomodel"
+    ],
+    [
+      "modeltight",
+      "priced"
+    ],
+    [
+      "modeltight",
+      "scalestep"
+    ],
+    [
+      "modeltight",
+      "gapfill"
+    ],
+    [
+      "modeltight",
+      "widescout"
+    ],
+    [
+      "modeltight",
+      "phase"
+    ],
+    [
+      "modeltight",
+      "asymmetry"
+    ],
+    [
+      "modeltight",
+      "adaptive"
+    ],
+    [
+      "modeltight",
+      "blank"
+    ],
+    [
+      "modeltight",
+      "interior"
+    ],
+    [
+      "modeltight",
+      "five"
+    ],
+    [
+      "modeltight",
+      "six"
+    ],
+    [
+      "modeltight",
+      "contour"
+    ],
+    [
+      "modeltight",
+      "narrow"
+    ],
+    [
+      "modeltight",
+      "relativetolerance"
+    ],
+    [
+      "modeltight",
+      "statisticalsignal"
+    ],
+    [
+      "modeltight",
+      "quantilefloor"
+    ],
+    [
+      "modeltight",
+      "maincover"
+    ],
+    [
+      "modeltight",
+      "mainverify"
+    ],
+    [
+      "modelguard",
+      "startdense"
+    ],
+    [
+      "modelguard",
+      "paired"
+    ],
+    [
+      "modelguard",
+      "wideaudit"
+    ],
+    [
+      "modelguard",
+      "nocreststop"
+    ],
+    [
+      "modelguard",
+      "midscout"
+    ],
+    [
+      "modelguard",
+      "ladder"
+    ],
+    [
+      "modelguard",
+      "quant"
+    ],
+    [
+      "modelguard",
+      "noisehalf"
+    ],
+    [
+      "modelguard",
+      "noiselocal"
+    ],
+    [
+      "modelguard",
+      "nomodel"
+    ],
+    [
+      "modelguard",
+      "priced"
+    ],
+    [
+      "modelguard",
+      "scalestep"
+    ],
+    [
+      "modelguard",
+      "gapfill"
+    ],
+    [
+      "modelguard",
+      "widescout"
+    ],
+    [
+      "modelguard",
+      "phase"
+    ],
+    [
+      "modelguard",
+      "asymmetry"
+    ],
+    [
+      "modelguard",
+      "adaptive"
+    ],
+    [
+      "modelguard",
+      "blank"
+    ],
+    [
+      "modelguard",
+      "interior"
+    ],
+    [
+      "modelguard",
+      "five"
+    ],
+    [
+      "modelguard",
+      "six"
+    ],
+    [
+      "modelguard",
+      "contour"
+    ],
+    [
+      "modelguard",
+      "narrow"
+    ],
+    [
+      "modelguard",
+      "relativetolerance"
+    ],
+    [
+      "modelguard",
+      "statisticalsignal"
+    ],
+    [
+      "modelguard",
+      "quantilefloor"
+    ],
+    [
+      "modelguard",
+      "maincover"
+    ],
+    [
+      "modelguard",
+      "mainverify"
+    ],
+    [
+      "startdense",
+      "paired"
+    ],
+    [
+      "startdense",
+      "wideaudit"
+    ],
+    [
+      "startdense",
+      "nocreststop"
+    ],
+    [
+      "startdense",
+      "midscout"
+    ],
+    [
+      "startdense",
+      "ladder"
+    ],
+    [
+      "startdense",
+      "quant"
+    ],
+    [
+      "startdense",
+      "noisehalf"
+    ],
+    [
+      "startdense",
+      "noiselocal"
+    ],
+    [
+      "startdense",
+      "nomodel"
+    ],
+    [
+      "startdense",
+      "priced"
+    ],
+    [
+      "startdense",
+      "scalestep"
+    ],
+    [
+      "startdense",
+      "gapfill"
+    ],
+    [
+      "startdense",
+      "widescout"
+    ],
+    [
+      "startdense",
+      "phase"
+    ],
+    [
+      "startdense",
+      "asymmetry"
+    ],
+    [
+      "startdense",
+      "adaptive"
+    ],
+    [
+      "startdense",
+      "blank"
+    ],
+    [
+      "startdense",
+      "interior"
+    ],
+    [
+      "startdense",
+      "five"
+    ],
+    [
+      "startdense",
+      "six"
+    ],
+    [
+      "startdense",
+      "contour"
+    ],
+    [
+      "startdense",
+      "narrow"
+    ],
+    [
+      "startdense",
+      "relativetolerance"
+    ],
+    [
+      "startdense",
+      "statisticalsignal"
+    ],
+    [
+      "startdense",
+      "quantilefloor"
+    ],
+    [
+      "startdense",
+      "maincover"
+    ],
+    [
+      "startdense",
+      "mainverify"
+    ],
+    [
+      "paired",
+      "wideaudit"
+    ],
+    [
+      "paired",
+      "nocreststop"
+    ],
+    [
+      "paired",
+      "midscout"
+    ],
+    [
+      "paired",
+      "ladder"
+    ],
+    [
+      "paired",
+      "quant"
+    ],
+    [
+      "paired",
+      "noisehalf"
+    ],
+    [
+      "paired",
+      "noiselocal"
+    ],
+    [
+      "paired",
+      "nomodel"
+    ],
+    [
+      "paired",
+      "priced"
+    ],
+    [
+      "paired",
+      "scalestep"
+    ],
+    [
+      "paired",
+      "gapfill"
+    ],
+    [
+      "paired",
+      "widescout"
+    ],
+    [
+      "paired",
+      "phase"
+    ],
+    [
+      "paired",
+      "asymmetry"
+    ],
+    [
+      "paired",
+      "adaptive"
+    ],
+    [
+      "paired",
+      "blank"
+    ],
+    [
+      "paired",
+      "interior"
+    ],
+    [
+      "paired",
+      "five"
+    ],
+    [
+      "paired",
+      "six"
+    ],
+    [
+      "paired",
+      "contour"
+    ],
+    [
+      "paired",
+      "narrow"
+    ],
+    [
+      "paired",
+      "relativetolerance"
+    ],
+    [
+      "paired",
+      "statisticalsignal"
+    ],
+    [
+      "paired",
+      "quantilefloor"
+    ],
+    [
+      "paired",
+      "maincover"
+    ],
+    [
+      "paired",
+      "mainverify"
+    ],
+    [
+      "wideaudit",
+      "nocreststop"
+    ],
+    [
+      "wideaudit",
+      "midscout"
+    ],
+    [
+      "wideaudit",
+      "ladder"
+    ],
+    [
+      "wideaudit",
+      "quant"
+    ],
+    [
+      "wideaudit",
+      "noisehalf"
+    ],
+    [
+      "wideaudit",
+      "noiselocal"
+    ],
+    [
+      "wideaudit",
+      "nomodel"
+    ],
+    [
+      "wideaudit",
+      "priced"
+    ],
+    [
+      "wideaudit",
+      "scalestep"
+    ],
+    [
+      "wideaudit",
+      "gapfill"
+    ],
+    [
+      "wideaudit",
+      "widescout"
+    ],
+    [
+      "wideaudit",
+      "phase"
+    ],
+    [
+      "wideaudit",
+      "asymmetry"
+    ],
+    [
+      "wideaudit",
+      "adaptive"
+    ],
+    [
+      "wideaudit",
+      "blank"
+    ],
+    [
+      "wideaudit",
+      "interior"
+    ],
+    [
+      "wideaudit",
+      "five"
+    ],
+    [
+      "wideaudit",
+      "six"
+    ],
+    [
+      "wideaudit",
+      "contour"
+    ],
+    [
+      "wideaudit",
+      "narrow"
+    ],
+    [
+      "wideaudit",
+      "relativetolerance"
+    ],
+    [
+      "wideaudit",
+      "statisticalsignal"
+    ],
+    [
+      "wideaudit",
+      "quantilefloor"
+    ],
+    [
+      "wideaudit",
+      "maincover"
+    ],
+    [
+      "wideaudit",
+      "mainverify"
+    ],
+    [
+      "nocreststop",
+      "midscout"
+    ],
+    [
+      "nocreststop",
+      "ladder"
+    ],
+    [
+      "nocreststop",
+      "quant"
+    ],
+    [
+      "nocreststop",
+      "noisehalf"
+    ],
+    [
+      "nocreststop",
+      "noiselocal"
+    ],
+    [
+      "nocreststop",
+      "nomodel"
+    ],
+    [
+      "nocreststop",
+      "priced"
+    ],
+    [
+      "nocreststop",
+      "scalestep"
+    ],
+    [
+      "nocreststop",
+      "gapfill"
+    ],
+    [
+      "nocreststop",
+      "widescout"
+    ],
+    [
+      "nocreststop",
+      "phase"
+    ],
+    [
+      "nocreststop",
+      "asymmetry"
+    ],
+    [
+      "nocreststop",
+      "adaptive"
+    ],
+    [
+      "nocreststop",
+      "blank"
+    ],
+    [
+      "nocreststop",
+      "interior"
+    ],
+    [
+      "nocreststop",
+      "five"
+    ],
+    [
+      "nocreststop",
+      "six"
+    ],
+    [
+      "nocreststop",
+      "contour"
+    ],
+    [
+      "nocreststop",
+      "narrow"
+    ],
+    [
+      "nocreststop",
+      "relativetolerance"
+    ],
+    [
+      "nocreststop",
+      "statisticalsignal"
+    ],
+    [
+      "nocreststop",
+      "quantilefloor"
+    ],
+    [
+      "nocreststop",
+      "maincover"
+    ],
+    [
+      "nocreststop",
+      "mainverify"
+    ],
+    [
+      "midscout",
+      "ladder"
+    ],
+    [
+      "midscout",
+      "quant"
+    ],
+    [
+      "midscout",
+      "noisehalf"
+    ],
+    [
+      "midscout",
+      "noiselocal"
+    ],
+    [
+      "midscout",
+      "nomodel"
+    ],
+    [
+      "midscout",
+      "priced"
+    ],
+    [
+      "midscout",
+      "scalestep"
+    ],
+    [
+      "midscout",
+      "gapfill"
+    ],
+    [
+      "midscout",
+      "widescout"
+    ],
+    [
+      "midscout",
+      "phase"
+    ],
+    [
+      "midscout",
+      "asymmetry"
+    ],
+    [
+      "midscout",
+      "adaptive"
+    ],
+    [
+      "midscout",
+      "blank"
+    ],
+    [
+      "midscout",
+      "interior"
+    ],
+    [
+      "midscout",
+      "five"
+    ],
+    [
+      "midscout",
+      "six"
+    ],
+    [
+      "midscout",
+      "contour"
+    ],
+    [
+      "midscout",
+      "narrow"
+    ],
+    [
+      "midscout",
+      "relativetolerance"
+    ],
+    [
+      "midscout",
+      "statisticalsignal"
+    ],
+    [
+      "midscout",
+      "quantilefloor"
+    ],
+    [
+      "midscout",
+      "maincover"
+    ],
+    [
+      "midscout",
+      "mainverify"
+    ],
+    [
+      "ladder",
+      "quant"
+    ],
+    [
+      "ladder",
+      "noisehalf"
+    ],
+    [
+      "ladder",
+      "noiselocal"
+    ],
+    [
+      "ladder",
+      "nomodel"
+    ],
+    [
+      "ladder",
+      "priced"
+    ],
+    [
+      "ladder",
+      "scalestep"
+    ],
+    [
+      "ladder",
+      "gapfill"
+    ],
+    [
+      "ladder",
+      "widescout"
+    ],
+    [
+      "ladder",
+      "phase"
+    ],
+    [
+      "ladder",
+      "asymmetry"
+    ],
+    [
+      "ladder",
+      "adaptive"
+    ],
+    [
+      "ladder",
+      "blank"
+    ],
+    [
+      "ladder",
+      "interior"
+    ],
+    [
+      "ladder",
+      "five"
+    ],
+    [
+      "ladder",
+      "six"
+    ],
+    [
+      "ladder",
+      "contour"
+    ],
+    [
+      "ladder",
+      "narrow"
+    ],
+    [
+      "ladder",
+      "relativetolerance"
+    ],
+    [
+      "ladder",
+      "statisticalsignal"
+    ],
+    [
+      "ladder",
+      "quantilefloor"
+    ],
+    [
+      "ladder",
+      "maincover"
+    ],
+    [
+      "ladder",
+      "mainverify"
+    ],
+    [
+      "quant",
+      "noisehalf"
+    ],
+    [
+      "quant",
+      "noiselocal"
+    ],
+    [
+      "quant",
+      "nomodel"
+    ],
+    [
+      "quant",
+      "priced"
+    ],
+    [
+      "quant",
+      "scalestep"
+    ],
+    [
+      "quant",
+      "gapfill"
+    ],
+    [
+      "quant",
+      "widescout"
+    ],
+    [
+      "quant",
+      "phase"
+    ],
+    [
+      "quant",
+      "asymmetry"
+    ],
+    [
+      "quant",
+      "adaptive"
+    ],
+    [
+      "quant",
+      "blank"
+    ],
+    [
+      "quant",
+      "interior"
+    ],
+    [
+      "quant",
+      "five"
+    ],
+    [
+      "quant",
+      "six"
+    ],
+    [
+      "quant",
+      "contour"
+    ],
+    [
+      "quant",
+      "narrow"
+    ],
+    [
+      "quant",
+      "relativetolerance"
+    ],
+    [
+      "quant",
+      "statisticalsignal"
+    ],
+    [
+      "quant",
+      "quantilefloor"
+    ],
+    [
+      "quant",
+      "maincover"
+    ],
+    [
+      "quant",
+      "mainverify"
+    ],
+    [
+      "noisehalf",
+      "noiselocal"
+    ],
+    [
+      "noisehalf",
+      "nomodel"
+    ],
+    [
+      "noisehalf",
+      "priced"
+    ],
+    [
+      "noisehalf",
+      "scalestep"
+    ],
+    [
+      "noisehalf",
+      "gapfill"
+    ],
+    [
+      "noisehalf",
+      "widescout"
+    ],
+    [
+      "noisehalf",
+      "phase"
+    ],
+    [
+      "noisehalf",
+      "asymmetry"
+    ],
+    [
+      "noisehalf",
+      "adaptive"
+    ],
+    [
+      "noisehalf",
+      "blank"
+    ],
+    [
+      "noisehalf",
+      "interior"
+    ],
+    [
+      "noisehalf",
+      "five"
+    ],
+    [
+      "noisehalf",
+      "six"
+    ],
+    [
+      "noisehalf",
+      "contour"
+    ],
+    [
+      "noisehalf",
+      "narrow"
+    ],
+    [
+      "noisehalf",
+      "relativetolerance"
+    ],
+    [
+      "noisehalf",
+      "statisticalsignal"
+    ],
+    [
+      "noisehalf",
+      "quantilefloor"
+    ],
+    [
+      "noisehalf",
+      "maincover"
+    ],
+    [
+      "noisehalf",
+      "mainverify"
+    ],
+    [
+      "noiselocal",
+      "nomodel"
+    ],
+    [
+      "noiselocal",
+      "priced"
+    ],
+    [
+      "noiselocal",
+      "scalestep"
+    ],
+    [
+      "noiselocal",
+      "gapfill"
+    ],
+    [
+      "noiselocal",
+      "widescout"
+    ],
+    [
+      "noiselocal",
+      "phase"
+    ],
+    [
+      "noiselocal",
+      "asymmetry"
+    ],
+    [
+      "noiselocal",
+      "adaptive"
+    ],
+    [
+      "noiselocal",
+      "blank"
+    ],
+    [
+      "noiselocal",
+      "interior"
+    ],
+    [
+      "noiselocal",
+      "five"
+    ],
+    [
+      "noiselocal",
+      "six"
+    ],
+    [
+      "noiselocal",
+      "contour"
+    ],
+    [
+      "noiselocal",
+      "narrow"
+    ],
+    [
+      "noiselocal",
+      "relativetolerance"
+    ],
+    [
+      "noiselocal",
+      "statisticalsignal"
+    ],
+    [
+      "noiselocal",
+      "quantilefloor"
+    ],
+    [
+      "noiselocal",
+      "maincover"
+    ],
+    [
+      "noiselocal",
+      "mainverify"
+    ],
+    [
+      "nomodel",
+      "priced"
+    ],
+    [
+      "nomodel",
+      "scalestep"
+    ],
+    [
+      "nomodel",
+      "gapfill"
+    ],
+    [
+      "nomodel",
+      "widescout"
+    ],
+    [
+      "nomodel",
+      "phase"
+    ],
+    [
+      "nomodel",
+      "asymmetry"
+    ],
+    [
+      "nomodel",
+      "adaptive"
+    ],
+    [
+      "nomodel",
+      "blank"
+    ],
+    [
+      "nomodel",
+      "interior"
+    ],
+    [
+      "nomodel",
+      "five"
+    ],
+    [
+      "nomodel",
+      "six"
+    ],
+    [
+      "nomodel",
+      "contour"
+    ],
+    [
+      "nomodel",
+      "narrow"
+    ],
+    [
+      "nomodel",
+      "relativetolerance"
+    ],
+    [
+      "nomodel",
+      "statisticalsignal"
+    ],
+    [
+      "nomodel",
+      "quantilefloor"
+    ],
+    [
+      "nomodel",
+      "maincover"
+    ],
+    [
+      "nomodel",
+      "mainverify"
+    ],
+    [
+      "priced",
+      "scalestep"
+    ],
+    [
+      "priced",
+      "gapfill"
+    ],
+    [
+      "priced",
+      "widescout"
+    ],
+    [
+      "priced",
+      "phase"
+    ],
+    [
+      "priced",
+      "asymmetry"
+    ],
+    [
+      "priced",
+      "adaptive"
+    ],
+    [
+      "priced",
+      "blank"
+    ],
+    [
+      "priced",
+      "interior"
+    ],
+    [
+      "priced",
+      "five"
+    ],
+    [
+      "priced",
+      "six"
+    ],
+    [
+      "priced",
+      "contour"
+    ],
+    [
+      "priced",
+      "narrow"
+    ],
+    [
+      "priced",
+      "relativetolerance"
+    ],
+    [
+      "priced",
+      "statisticalsignal"
+    ],
+    [
+      "priced",
+      "quantilefloor"
+    ],
+    [
+      "priced",
+      "maincover"
+    ],
+    [
+      "priced",
+      "mainverify"
+    ],
+    [
+      "scalestep",
+      "gapfill"
+    ],
+    [
+      "scalestep",
+      "widescout"
+    ],
+    [
+      "scalestep",
+      "phase"
+    ],
+    [
+      "scalestep",
+      "asymmetry"
+    ],
+    [
+      "scalestep",
+      "adaptive"
+    ],
+    [
+      "scalestep",
+      "blank"
+    ],
+    [
+      "scalestep",
+      "interior"
+    ],
+    [
+      "scalestep",
+      "five"
+    ],
+    [
+      "scalestep",
+      "six"
+    ],
+    [
+      "scalestep",
+      "contour"
+    ],
+    [
+      "scalestep",
+      "narrow"
+    ],
+    [
+      "scalestep",
+      "relativetolerance"
+    ],
+    [
+      "scalestep",
+      "statisticalsignal"
+    ],
+    [
+      "scalestep",
+      "quantilefloor"
+    ],
+    [
+      "scalestep",
+      "maincover"
+    ],
+    [
+      "scalestep",
+      "mainverify"
+    ],
+    [
+      "gapfill",
+      "widescout"
+    ],
+    [
+      "gapfill",
+      "phase"
+    ],
+    [
+      "gapfill",
+      "asymmetry"
+    ],
+    [
+      "gapfill",
+      "adaptive"
+    ],
+    [
+      "gapfill",
+      "blank"
+    ],
+    [
+      "gapfill",
+      "interior"
+    ],
+    [
+      "gapfill",
+      "five"
+    ],
+    [
+      "gapfill",
+      "six"
+    ],
+    [
+      "gapfill",
+      "contour"
+    ],
+    [
+      "gapfill",
+      "narrow"
+    ],
+    [
+      "gapfill",
+      "relativetolerance"
+    ],
+    [
+      "gapfill",
+      "statisticalsignal"
+    ],
+    [
+      "gapfill",
+      "quantilefloor"
+    ],
+    [
+      "gapfill",
+      "maincover"
+    ],
+    [
+      "gapfill",
+      "mainverify"
+    ],
+    [
+      "widescout",
+      "phase"
+    ],
+    [
+      "widescout",
+      "asymmetry"
+    ],
+    [
+      "widescout",
+      "adaptive"
+    ],
+    [
+      "widescout",
+      "blank"
+    ],
+    [
+      "widescout",
+      "interior"
+    ],
+    [
+      "widescout",
+      "five"
+    ],
+    [
+      "widescout",
+      "six"
+    ],
+    [
+      "widescout",
+      "contour"
+    ],
+    [
+      "widescout",
+      "narrow"
+    ],
+    [
+      "widescout",
+      "relativetolerance"
+    ],
+    [
+      "widescout",
+      "statisticalsignal"
+    ],
+    [
+      "widescout",
+      "quantilefloor"
+    ],
+    [
+      "widescout",
+      "maincover"
+    ],
+    [
+      "widescout",
+      "mainverify"
+    ],
+    [
+      "phase",
+      "asymmetry"
+    ],
+    [
+      "phase",
+      "adaptive"
+    ],
+    [
+      "phase",
+      "blank"
+    ],
+    [
+      "phase",
+      "interior"
+    ],
+    [
+      "phase",
+      "five"
+    ],
+    [
+      "phase",
+      "six"
+    ],
+    [
+      "phase",
+      "contour"
+    ],
+    [
+      "phase",
+      "narrow"
+    ],
+    [
+      "phase",
+      "relativetolerance"
+    ],
+    [
+      "phase",
+      "statisticalsignal"
+    ],
+    [
+      "phase",
+      "quantilefloor"
+    ],
+    [
+      "phase",
+      "maincover"
+    ],
+    [
+      "phase",
+      "mainverify"
+    ],
+    [
+      "asymmetry",
+      "adaptive"
+    ],
+    [
+      "asymmetry",
+      "blank"
+    ],
+    [
+      "asymmetry",
+      "interior"
+    ],
+    [
+      "asymmetry",
+      "five"
+    ],
+    [
+      "asymmetry",
+      "six"
+    ],
+    [
+      "asymmetry",
+      "contour"
+    ],
+    [
+      "asymmetry",
+      "narrow"
+    ],
+    [
+      "asymmetry",
+      "relativetolerance"
+    ],
+    [
+      "asymmetry",
+      "statisticalsignal"
+    ],
+    [
+      "asymmetry",
+      "quantilefloor"
+    ],
+    [
+      "asymmetry",
+      "maincover"
+    ],
+    [
+      "asymmetry",
+      "mainverify"
+    ],
+    [
+      "adaptive",
+      "blank"
+    ],
+    [
+      "adaptive",
+      "interior"
+    ],
+    [
+      "adaptive",
+      "five"
+    ],
+    [
+      "adaptive",
+      "six"
+    ],
+    [
+      "adaptive",
+      "contour"
+    ],
+    [
+      "adaptive",
+      "narrow"
+    ],
+    [
+      "adaptive",
+      "relativetolerance"
+    ],
+    [
+      "adaptive",
+      "statisticalsignal"
+    ],
+    [
+      "adaptive",
+      "quantilefloor"
+    ],
+    [
+      "adaptive",
+      "maincover"
+    ],
+    [
+      "adaptive",
+      "mainverify"
+    ],
+    [
+      "blank",
+      "interior"
+    ],
+    [
+      "blank",
+      "five"
+    ],
+    [
+      "blank",
+      "six"
+    ],
+    [
+      "blank",
+      "contour"
+    ],
+    [
+      "blank",
+      "narrow"
+    ],
+    [
+      "blank",
+      "relativetolerance"
+    ],
+    [
+      "blank",
+      "statisticalsignal"
+    ],
+    [
+      "blank",
+      "quantilefloor"
+    ],
+    [
+      "blank",
+      "maincover"
+    ],
+    [
+      "blank",
+      "mainverify"
+    ],
+    [
+      "interior",
+      "five"
+    ],
+    [
+      "interior",
+      "six"
+    ],
+    [
+      "interior",
+      "contour"
+    ],
+    [
+      "interior",
+      "narrow"
+    ],
+    [
+      "interior",
+      "relativetolerance"
+    ],
+    [
+      "interior",
+      "statisticalsignal"
+    ],
+    [
+      "interior",
+      "quantilefloor"
+    ],
+    [
+      "interior",
+      "maincover"
+    ],
+    [
+      "interior",
+      "mainverify"
+    ],
+    [
+      "five",
+      "six"
+    ],
+    [
+      "five",
+      "contour"
+    ],
+    [
+      "five",
+      "narrow"
+    ],
+    [
+      "five",
+      "relativetolerance"
+    ],
+    [
+      "five",
+      "statisticalsignal"
+    ],
+    [
+      "five",
+      "quantilefloor"
+    ],
+    [
+      "five",
+      "maincover"
+    ],
+    [
+      "five",
+      "mainverify"
+    ],
+    [
+      "six",
+      "contour"
+    ],
+    [
+      "six",
+      "narrow"
+    ],
+    [
+      "six",
+      "relativetolerance"
+    ],
+    [
+      "six",
+      "statisticalsignal"
+    ],
+    [
+      "six",
+      "quantilefloor"
+    ],
+    [
+      "six",
+      "maincover"
+    ],
+    [
+      "six",
+      "mainverify"
+    ],
+    [
+      "contour",
+      "narrow"
+    ],
+    [
+      "contour",
+      "relativetolerance"
+    ],
+    [
+      "contour",
+      "statisticalsignal"
+    ],
+    [
+      "contour",
+      "quantilefloor"
+    ],
+    [
+      "contour",
+      "maincover"
+    ],
+    [
+      "contour",
+      "mainverify"
+    ],
+    [
+      "narrow",
+      "relativetolerance"
+    ],
+    [
+      "narrow",
+      "statisticalsignal"
+    ],
+    [
+      "narrow",
+      "quantilefloor"
+    ],
+    [
+      "narrow",
+      "maincover"
+    ],
+    [
+      "narrow",
+      "mainverify"
+    ],
+    [
+      "relativetolerance",
+      "statisticalsignal"
+    ],
+    [
+      "relativetolerance",
+      "quantilefloor"
+    ],
+    [
+      "relativetolerance",
+      "maincover"
+    ],
+    [
+      "relativetolerance",
+      "mainverify"
+    ],
+    [
+      "statisticalsignal",
+      "quantilefloor"
+    ],
+    [
+      "statisticalsignal",
+      "maincover"
+    ],
+    [
+      "statisticalsignal",
+      "mainverify"
+    ],
+    [
+      "quantilefloor",
+      "maincover"
+    ],
+    [
+      "quantilefloor",
+      "mainverify"
+    ],
+    [
+      "maincover",
+      "mainverify"
+    ]
+  ],
+  "online_priority_updates": [
+    {
+      "at": "2026-11-08T18:04:02",
+      "frozen_prefix": 11,
+      "next": [
+        [
+          "maincover"
+        ],
+        [
+          "mainverify"
+        ],
+        [
+          "relativetolerance"
+        ],
+        [
+          "statisticalsignal"
+        ],
+        [
+          "quantilefloor"
+        ],
+        [
+          "noiselocal"
+        ],
+        [
+          "quant"
+        ],
+        [
+          "noisehalf"
+        ]
+      ],
+      "reason": "User emphasized zero cases and main-peak identification. Test background/shape evidence, unbiased gap discovery and exact cell confirmation before stop; online-only performance selection."
+    }
+  ],
+  "fixed_construction": {
+    "maincover": {
+      "flags": [
+        "core",
+        "frontier",
+        "efficient",
+        "selective"
+      ],
+      "sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "score": 214783
+    },
+    "mainverify": {
+      "flags": [
+        "core",
+        "frontier",
+        "efficient",
+        "selective"
+      ],
+      "sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "score": 214783
+    }
+  },
+  "plan_amendments": [
+    {
+      "reason": "User explicitly requests official main peak recognition validation;25/26 original cases pass and one is pre-query host4551. Preserve preflight failures and admit only independently audited missing launch cases.",
+      "at": "2026-11-08T18:14:00+08:00",
+      "priority": [
+        "maincover",
+        "mainverify"
+      ]
+    },
+    {
+      "reason": "Official maincover214783 matched baseline; test coherence gate, curvature-ranked gaps and raw-winner frontier from confirmed table-free216531.",
+      "priority": [
+        [
+          "maincoherent"
+        ],
+        [
+          "basinunion"
+        ],
+        [
+          "winnerfrontier"
+        ],
+        [
+          "mainall"
+        ]
+      ]
+    },
+    {
+      "reason": "Mainall184026 rejects indiscriminate post-coarse gap coverage; winnerfrontier216532 unchanged. Test discovery coverage, lattice aliasing and tail geometry before parking.",
+      "priority": [
+        [
+          "sweepcover"
+        ],
+        [
+          "staggered"
+        ],
+        [
+          "tailvalley"
+        ],
+        [
+          "multiguard"
+        ]
+      ]
+    },
+    {
+      "reason": "Actual26/30; multiguard215888 rejected. Prioritize center-shortcut ablation, coherent-fit scouting, and local rise triplets for remaining official main-peak tests.",
+      "priority": [
+        [
+          "nocentercap"
+        ],
+        [
+          "fitstop"
+        ],
+        [
+          "burstsupport"
+        ]
+      ]
+    },
+    {
+      "reason": "Fitstop217614 improved1082; burstsupport201690 rejected. Final slot tests zero-return necessity bound: any legal parking must be >=rightmost-202, direct remaining refinement toward that feasible region.",
+      "priority": [
+        [
+          "zerosalvage"
+        ]
+      ]
+    }
+  ],
+  "pause_after_plan_index": 31
+}

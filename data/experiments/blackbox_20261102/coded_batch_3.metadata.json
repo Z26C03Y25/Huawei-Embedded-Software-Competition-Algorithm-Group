@@ -1,0 +1,17 @@
+{
+  "name": "coded_batch_3",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "577d596406f58502f7203b4d694d6b339ea2667ec4ba377d1f8b4e2bd8618b67",
+  "component": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\batched_validated_cells.cpp",
+  "component_sha256": "bf6d40bfc44d648a38763d23f7dd54bde76403faa63f7eaaa271113d55fa201d",
+  "component_score": 216234,
+  "mask": 3,
+  "groups": [
+    "N<=500",
+    "501..650",
+    "651..800",
+    "801..1000"
+  ],
+  "description": "New deterministic mixed policy: only mask-selected N groups run frozen component B; others run frozen216258 A. Single N read and direct solver dispatch preserve each expert trajectory/RNG. Masks5,3,9 plus existing all-B total identify4 group contributions by Hadamard inversion."
+}

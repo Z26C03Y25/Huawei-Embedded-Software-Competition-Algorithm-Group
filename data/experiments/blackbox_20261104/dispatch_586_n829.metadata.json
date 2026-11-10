@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_220820.cpp",
+  "parent_sha256": "6fc0f0ae54e00c05fb596689277d27eaf87625ba1a6f531481e700e924b0c0a0",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\dispatch_586_n829.cpp",
+  "sha256": "46713cec9d2e9429af6aa6b975b5c7c71758531da7194d6f94a2c7d319a2b40f",
+  "description": "Length-conditioned fixed-data expert: only N==829 directly queries known peak586, otherwise runs the verified frozen parent solver. Length must be supported by online singleton encoding. Official total tests whether same-length collisions invalidate dispatch."
+}

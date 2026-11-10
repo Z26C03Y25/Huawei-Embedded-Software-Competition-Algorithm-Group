@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-08T11:20:05",
+  "quota": {
+    "used": 2,
+    "maximum": 30,
+    "remaining": 28,
+    "quote": "团队已经上传 2 次(2/30)",
+    "captured_at": "2026-11-08T11:20:05+08:00",
+    "beijing_date": "2026-11-08",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "best_score": 214783,
+  "jobs": [
+    {
+      "name": "trial01_competitor_contour",
+      "job_id": "20261107T222837916574Z_45692b7a82f7",
+      "state": "failed",
+      "score": null,
+      "official_error": "internal_error"
+    },
+    {
+      "name": "wave01_evidencescout",
+      "job_id": "20261107T230104078964Z_2a7d80cabbd5",
+      "state": "pending",
+      "score": null,
+      "official_error": "pending"
+    }
+  ]
+}

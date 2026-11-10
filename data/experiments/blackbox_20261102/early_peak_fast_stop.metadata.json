@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\early_peak_fast_stop.cpp",
+  "sha256": "ad92bb38057ae80e7a162a8ca7fc74c608e12e490fdbcef922f5b9fd3e53788d",
+  "description": "More decisive parking only for resolved early peaks: when best is left of center, both half-height sides are observed, at least3 recent falls and no rise/rebound, reduce postpeak scout to one-third with12 minimum and1.1x observed right-half-width cap. All unresolved, competing, middle/right peaks retain frozen216258 policy."
+}

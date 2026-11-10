@@ -1,0 +1,8 @@
+{
+  "name": "neighbor_confirm_3_all",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\neighbor_confirm_3_all_55f74d74926c.cpp",
+  "description": "Confirm x-1 and x+1 around top 3 unmerged raw local maxima in one descending pass before refinement; raw winners retained; gate true",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_210599.cpp",
+  "parent_sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+  "sha256": "e55988c07569a91592c38ef139d80dda39cd8bec77981aa384dda66cf92f9a68"
+}

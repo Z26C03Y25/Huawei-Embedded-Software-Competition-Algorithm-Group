@@ -1,0 +1,8 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\peak_prior_20261103\\corridor500_phase_plus4.cpp",
+  "sha256": "f79c725fe0ca2958074de752baefebb423f9725bb75d575658f9fb22804edc71",
+  "delta": 4,
+  "description": "Cost-neutral target-prior placement: shift the original8-grid by+4 only while traversing500..550, then restore phase with one short gap. Preserve query count, travel budget, stops and refinement; tests modulo aliasing for32/102 targets."
+}

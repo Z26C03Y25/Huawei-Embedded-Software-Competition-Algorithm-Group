@@ -2,9 +2,11 @@
 
 交互式自动聚焦：在有限查询、移动和振荡预算下寻找原始清晰度最大点。
 
-[学习导航](docs/README.md) · [English](docs/README.en.md) · [贡献说明](.github/CONTRIBUTING.md)
+[下载与运行说明](docs/guides/share-and-download.md) · [学习导航](docs/README.md) · [English](docs/README.en.md) · [贡献说明](.github/CONTRIBUTING.md)
 
-已记录最高正式总分 **207650**（2026-10-27，同分两次确认）。[最高分源码](data/versions/main_online_207650.cpp) · [实验记录](docs/持续线上优化记录.md)
+已记录最高正式总分 **224148**（2026-11-04，正式评测确认）。[最高分源码](data/versions/main_online_224148.cpp) · [本轮线上黑盒实验](data/experiments/blackbox_20261104/README.md)
+
+当前 main.cpp 采用[纯波形主峰确认版](data/experiments/main_peak_20261110/README.md)，当前正式分 **218796**。历史最高分与当前源码分开记录。
 
 ## 按功能找文件
 
@@ -49,6 +51,14 @@
 
 ## 离线运行
 
+本机已部署项目内 Python 与便携 C++ 编译器，不需要修改环境变量。在 PowerShell 的仓库根目录执行：
+
+```powershell
+& ./python/runtime/python.exe dev/run.py smoke
+```
+
+位置与环境说明见 [项目内 Python](python/README.md)。[10月29日按 N 止损实验](data/experiments/stoploss_20261029/README.md)使用独立候选与冻结配对测试，正式最高分入口仍以已确认成绩为准。
+
 需要Python 3.10+和支持C++17的GCC g++，以下命令不访问平台：
 
 ~~~bash
@@ -77,7 +87,7 @@ python automation/judge.py latest
 python automation/judge.py submit
 ~~~
 
-统一入口会优先使用automation/online_judge/.venv。第一次拉取仓库请按[新用户启动指南](automation/GETTING_STARTED.md)安装依赖，并登录自己的比赛账号。
+统一入口优先使用项目内python/runtime，其次automation/online_judge/.venv。第一次拉取仓库请按[新用户启动指南](automation/GETTING_STARTED.md)安装依赖，并登录自己的比赛账号。
 
 提交结果按作品ID绑定，连续两次相同终分后确认；结果不确定时恢复原任务，不重复上传。榜单只读第一页，重点参考榜首，共用至少两小时缓存。[自动化与额度规则](automation/README.md)
 

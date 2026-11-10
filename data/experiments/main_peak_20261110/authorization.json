@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-10",
+  "user_request": [
+    "持续优化",
+    "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数",
+    "继续优化，目前看着还有零分，试着改珠峰确认方案"
+  ],
+  "maximum_platform_daily_attempts": 30,
+  "plan": [
+    "valley_separated_rivals",
+    "basin_rearm",
+    "tail_order_veto",
+    "fractional_cells",
+    "envelope_finish",
+    "fresh_fit_support"
+  ],
+  "selection": "Online formal scores only; local checks for protocol/budget/parking",
+  "no_case_lookup": true,
+  "scope": "Original Huawei contest only, new uploads stop at date change or zero actual remaining quota",
+  "runs": [
+    {
+      "started_at": "2026-11-10T00:42:35+08:00",
+      "modes": [
+        "valley_separated_rivals",
+        "basin_rearm",
+        "tail_order_veto",
+        "fractional_cells",
+        "envelope_finish",
+        "fresh_fit_support"
+      ]
+    }
+  ]
+}

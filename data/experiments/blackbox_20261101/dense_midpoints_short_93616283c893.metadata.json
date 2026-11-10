@@ -1,0 +1,8 @@
+{
+  "name": "dense_midpoints_short",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\dense_midpoints_short_93616283c893.cpp",
+  "sha256": "304f1a2440e7ff0f93ba4a123e2de196e4d198a2a3618de9225ff9f9de2d033f",
+  "description": "Short-array narrow-peak coverage: retain8-cell anchor endpoints and insert every interval midpoint while nonflat on N<=500; estimate roughness on anchor skeleton and reserve fine/parking by coarse cap160. Other N retain the incumbent sampling/noise/budget. No random placement or extra travel per interval."
+}

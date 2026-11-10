@@ -1,0 +1,17 @@
+{
+  "candidate": "wave101_mainall",
+  "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Diagnostic structural probe: audit unresolved midpoint gaps regardless of apparent peak confidence, retaining exact cell verification and physical parking.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "mainall",
+    "quantilefloor",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent216532. Official score alone decides adoption."
+}

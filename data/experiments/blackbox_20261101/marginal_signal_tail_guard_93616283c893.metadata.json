@@ -1,0 +1,8 @@
+{
+  "name": "marginal_signal_tail_guard",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\marginal_signal_tail_guard_93616283c893.cpp",
+  "sha256": "f5ee5a998102bd8e70591cf510fad2bd1242f50a65fa36e52f0b67227dc83635",
+  "description": "Coarse-only protection for marginal-SNR long curves: three post-winner median blocks must decline strongly with contrast>8 noise before limiting to observed high-band left+192. Fine model confidence remains unchanged; true target/R still unknown."
+}

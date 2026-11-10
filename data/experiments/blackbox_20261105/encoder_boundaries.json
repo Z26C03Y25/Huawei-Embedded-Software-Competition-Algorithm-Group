@@ -1,0 +1,48 @@
+{
+  "official": false,
+  "purpose": "protocol and encoder arithmetic only",
+  "rows": [
+    {
+      "n": 400,
+      "queries": 1,
+      "turns": 0,
+      "decoded": 400
+    },
+    {
+      "n": 592,
+      "queries": 193,
+      "turns": 0,
+      "decoded": 592
+    },
+    {
+      "n": 593,
+      "queries": 3,
+      "turns": 2,
+      "decoded": 593
+    },
+    {
+      "n": 785,
+      "queries": 195,
+      "turns": 2,
+      "decoded": 785
+    },
+    {
+      "n": 786,
+      "queries": 5,
+      "turns": 4,
+      "decoded": 786
+    },
+    {
+      "n": 979,
+      "queries": 7,
+      "turns": 6,
+      "decoded": 979
+    },
+    {
+      "n": 1000,
+      "queries": 28,
+      "turns": 6,
+      "decoded": 1000
+    }
+  ]
+}

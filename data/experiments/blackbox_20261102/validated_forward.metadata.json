@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\forward_peak_window.cpp",
+  "parent_sha256": "5e74c8463844bb8d0cea19b69d9151da83ca785c83886171071b96ffd4328974",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\validated_forward.cpp",
+  "sha256": "1c030f2f518c13ed0e250770e8cc87dee9dd79cf29ecdded16242f289fa80448",
+  "description": "Validate before dense commitment: an older3-knot quadratic must predict the already observed4th raw point and agree with the refreshed peak forecast. Dense step1 window/budgets/extension unchanged from scored213755. Tests online self-validation rather than unconditional curvature triggering."
+}

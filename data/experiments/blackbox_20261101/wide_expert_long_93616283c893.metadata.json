@@ -1,0 +1,8 @@
+{
+  "name": "wide_expert_long",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\wide_expert_long_93616283c893.cpp",
+  "sha256": "1c7d7b5c271eec1cda266c443badbb149d062f781c2217526bd375959eee26b9",
+  "description": "Use the scored wide-cruise expert only for n>650; all other inputs keep the incumbent8-cell grid. This measures a disjoint N contribution to the global-332 result, without changing peak stopping/refinement."
+}

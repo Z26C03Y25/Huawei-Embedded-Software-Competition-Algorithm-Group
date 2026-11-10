@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "user_reply": "继续修复，保留未确认记录",
+  "quarantined_job": "20261105T061334716758Z_98f6d7520020",
+  "quarantined_sha256": "0353853d56521fde82d6fb1c5ca8c287e070cdb5e41ef86fd93c42d68e4fcfd1",
+  "last_live_quota": {
+    "used": 23,
+    "maximum": 30,
+    "remaining": 7,
+    "captured_at": "2026-11-05T14:29:38+08:00"
+  },
+  "scope": "Proceed with different frozen repair sources; do not retry quarantined source or fabricate its terminal state. Keep per-job timing filter before row binding and live quota checks."
+}

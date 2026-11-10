@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\batched_peak_cells.cpp",
+  "sha256": "44c72366faccc1471c4986aa1c8855ee7138101e84c3262e3f56f87b46a60873",
+  "description": "Batch full-cell forward fine scan: predict nearby peak, fill every internal point before the original next anchor, then update features once per anchor. Keep coarse grid cadence and legacy bursts; anchor sketch separates trend/noise from all raw maxima. Extend one full cell when still rising, total24 extra reads, reserve fine/parking."
+}

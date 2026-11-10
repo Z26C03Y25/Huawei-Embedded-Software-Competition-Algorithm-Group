@@ -1,0 +1,8 @@
+{
+  "name": "dense_basin_long",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\dense_basin_long_b391c02480cb.cpp",
+  "description": "For N>600, exhaust raw best+-10 then its observed right shoulder before model stopping; complete route checks and raw target ordering retained",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "a2778d1c6c29e288283d75c19c97d5c26e8e261e560caa37b0e7ae74bcee6b13"
+}

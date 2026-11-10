@@ -1,0 +1,8 @@
+{
+  "name": "resolved_descent_mid",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\resolved_descent_mid_93616283c893.cpp",
+  "sha256": "9139a78ab6d058136742713d85c369185eacf0a2296fc891bc46f63a887dafc4",
+  "description": "Measure disjoint N contribution of the officially improved216233 resolved-descent stopping rule only for n>500 && n<=650; other N retain original212686 scout. This is a causal group test, not a repeat of the global source."
+}

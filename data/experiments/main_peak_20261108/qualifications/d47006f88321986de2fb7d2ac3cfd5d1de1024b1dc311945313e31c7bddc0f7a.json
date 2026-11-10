@@ -1,0 +1,15 @@
+{
+  "candidate": "wave93_statisticalsignal",
+  "sha256": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Scale signal confidence with the number of measurements and measured noise rather than a fixed noise multiplier.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "selective",
+    "statisticalsignal"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

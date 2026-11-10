@@ -1,0 +1,20 @@
+{
+  "parent": {
+    "mode": "spatial_persistent",
+    "sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "score": 218796,
+    "source_archive": "data/versions/online_search/scored_218796_5dcce0efd1f9.cpp",
+    "confirmed_job_id": "20261109T020714418579Z_e2bf5b5ca9e0",
+    "frozen_at": "2026-11-09T10:21:00+08:00"
+  },
+  "plan": [
+    "after_challenge",
+    "after_rebound",
+    "after_edge",
+    "after_width",
+    "after_plateau",
+    "after_robust",
+    "after_sharp"
+  ],
+  "actual_used_before": 23
+}

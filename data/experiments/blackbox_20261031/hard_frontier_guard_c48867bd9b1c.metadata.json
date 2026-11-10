@@ -1,0 +1,8 @@
+{
+  "name": "hard_frontier_guard",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\hard_frontier_guard_c48867bd9b1c.cpp",
+  "description": "Before any new rightward frontier query, enforce x<=observed-best+196; allow all backward/local checks and parking; heuristic protection for unknown true-R",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212066.cpp",
+  "parent_sha256": "c48867bd9b1c1572bcbf25a2c4b1c076cb171180b556e74a465cdc0cbcab00a6",
+  "sha256": "bd96b7fa908a523375a2c67a71496b0fa59724b864312e82028ba63408325c35"
+}

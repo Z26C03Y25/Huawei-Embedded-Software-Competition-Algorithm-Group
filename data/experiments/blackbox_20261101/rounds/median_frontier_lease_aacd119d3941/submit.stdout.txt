@@ -1,0 +1,10 @@
+{
+  "job_id": "20261101T000913593784Z_22eb4d23bbc0",
+  "state": "delivery_uncertain",
+  "sha256": "aacd119d39414e3c8d123cb50dfb85ea38dc320062a1652f22b1d81d3a3fcfe7",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\rounds\\median_frontier_lease_aacd119d3941\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261101T000913593784Z_22eb4d23bbc0\\main.cpp",
+  "score": null,
+  "record": null,
+  "last_error": null
+}

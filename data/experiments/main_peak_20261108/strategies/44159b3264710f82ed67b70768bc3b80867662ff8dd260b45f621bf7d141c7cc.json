@@ -1,0 +1,21 @@
+{
+  "name": "wave72_cellbudget_modeltight",
+  "flags": [
+    "cellbudget",
+    "core",
+    "efficient",
+    "evidencescout",
+    "modeltight",
+    "selective"
+  ],
+  "operators": [
+    "cellbudget",
+    "modeltight"
+  ],
+  "sha256": "44159b3264710f82ed67b70768bc3b80867662ff8dd260b45f621bf7d141c7cc",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Allocate refinement reserve from currently unresolved high-value sample cells; use the remaining budget for coarse coverage instead of a fixed reserve.; Require closer agreement of independent fitted vertices before stopping.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave72_cellbudget_modeltight.cpp",
+  "created_at": "2026-11-08T17:18:46+08:00"
+}

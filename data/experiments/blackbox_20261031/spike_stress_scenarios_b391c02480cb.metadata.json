@@ -1,0 +1,8 @@
+{
+  "name": "spike_stress_scenarios",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\spike_stress_scenarios_b391c02480cb.cpp",
+  "description": "Add unread-cell midpoint actions and four sharp hidden-peak stress scenarios preserving all replies; model weights heuristic, no confidence claim; no new external I/O",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "a1b0bd5dceda93dcdd6a3d3f0c0ad743fb95ee09badb0f6b414ee2a5daaeaceb"
+}

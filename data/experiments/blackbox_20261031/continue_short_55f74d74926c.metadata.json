@@ -1,0 +1,8 @@
+{
+  "name": "continue_short",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\continue_short_55f74d74926c.cpp",
+  "description": "Keep model verification reads, but continue candidate search instead of model early exit when n<=500",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_210599.cpp",
+  "parent_sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+  "sha256": "30f2fca7477b115880b8cbca6fc6dc1c269a8bdc8573db9b0227858eb9350c92"
+}

@@ -96,6 +96,14 @@ class ApiParsingTests(unittest.TestCase):
                 self.assertIsNone(record.score)
                 self.assertEqual(record.status, "pending")
 
+    def test_observed_tobe_processing_queue_state_is_nonterminal(self):
+        for score in (None, "0", "145904"):
+            with self.subTest(score=score):
+                record = parse_api_response({"results": [api_row(
+                    status="tobe_processing", message=None, score=score)]})[0]
+                self.assertEqual(record.status, "pending")
+                self.assertFalse(record.is_terminal)
+
     def test_message_failed_is_failure_and_is_invalid_does_not_override_success(self):
         success = parse_api_response({"results": [api_row(is_invalid=True)]})[0]
         self.assertEqual(success.status, "success")

@@ -1,0 +1,1936 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "maximum_unique_delivered_sources": 30,
+  "authorization_verbatim": [
+    "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+  ],
+  "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+  "approval_note": "Concrete-source upload approval is still required by the calling tool; this helper cannot bypass it.",
+  "initial_best_score": 224148,
+  "initial_best_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+  "best_score": 224148,
+  "best_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+  "rounds": [
+    {
+      "name": "wave_baseline",
+      "description": "Pure waveform baseline; uses measured half widths and no table.",
+      "sha256": "0681c8fc69beec025597ce9fe3327211cead28d519ebe16f7dc1fc355f879a2c",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_baseline.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_baseline_0681c8fc69be\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:17:02+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "563646ac7eeb37fb5b7e9cb3aa07706840204ac5992ef093ba2d7f47a86e2090",
+        "static_review": {
+          "passed": true,
+          "sha256": "0681c8fc69beec025597ce9fe3327211cead28d519ebe16f7dc1fc355f879a2c",
+          "checked_at": "2026-11-06T22:17:02+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:17:11+08:00"
+      },
+      "quota_before": {
+        "used": 0,
+        "maximum": 30,
+        "remaining": 30,
+        "quote": "团队已经上传 0 次(0/30)",
+        "captured_at": "2026-11-06T22:17:14+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field.",
+        "local_unique_delivered_sources": 0,
+        "local_attempt_jobs": 0
+      },
+      "submit_started_at": "2026-11-06T22:17:14+08:00",
+      "job_id": "20261106T141716541757Z_5aba9a17b147",
+      "wait_windows": 3,
+      "smoke_path_sha256": "4d9653d634a5bf1b0c6b39b54d8a30ec27085c9ec44cbb5fabcd82e5255ec42f",
+      "submission_id": "6f5203e4a85c4c41b9e0c750c1491f67",
+      "submitted_at": "2026-11-06 22:17:18",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_adaptive",
+      "description": "Waveform policy adaptive",
+      "sha256": "1988a1a8f311ce3449670ed30891d8f8b84f01fcff41e7528c54d66b7273f120",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_adaptive.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_adaptive_1988a1a8f311\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:22:05+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "572b21fd7a99606f97fae623e09277f903da413ae5803ecb0502feed0cea364b",
+        "static_review": {
+          "passed": true,
+          "sha256": "1988a1a8f311ce3449670ed30891d8f8b84f01fcff41e7528c54d66b7273f120",
+          "checked_at": "2026-11-06T22:22:05+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:22:11+08:00"
+      },
+      "smoke_path_sha256": "e7ab32ba15a339881b5d1e2b840ca0d5ca86abc3e2de43a55da185976b04dfca",
+      "submit_started_at": "2026-11-06T22:22:14+08:00",
+      "quota_before": {
+        "used": 1,
+        "maximum": 30,
+        "remaining": 29,
+        "quote": "团队已经上传 1 次(1/30)",
+        "captured_at": "2026-11-06T22:22:14+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142214128031Z_94e65dc8aa76",
+      "submission_id": "565d6436d5cb4d81bca0d65a018b2160",
+      "submitted_at": "2026-11-06 22:22:15",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_exact",
+      "description": "Waveform policy exact",
+      "sha256": "0d11c750775e008bd39c2ff88053749ed2ed7d66b9bf79248380164b4b12b55b",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_exact.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_exact_0d11c750775e\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:22:27+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "57459deebefe8a63615fee04a032cbbacbbbb8b52c1c393cfabad0e444f6e674",
+        "static_review": {
+          "passed": true,
+          "sha256": "0d11c750775e008bd39c2ff88053749ed2ed7d66b9bf79248380164b4b12b55b",
+          "checked_at": "2026-11-06T22:22:27+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:22:32+08:00"
+      },
+      "smoke_path_sha256": "80dacad12862a182c35a665f0be877fff28fc52aee870ab53734b0471641d3b0",
+      "submit_started_at": "2026-11-06T22:22:35+08:00",
+      "quota_before": {
+        "used": 2,
+        "maximum": 30,
+        "remaining": 28,
+        "quote": "团队已经上传 2 次(2/30)",
+        "captured_at": "2026-11-06T22:22:35+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142235427397Z_7ae2877b2401",
+      "submission_id": "2dc5da8e0a0d410193390a52816ad2dd",
+      "submitted_at": "2026-11-06 22:22:36",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_sentinel",
+      "description": "Waveform policy sentinel",
+      "sha256": "3e58aa4555c389e3c818c8f8c6475653009610c714c30c6e4003fa14fd0ddfbe",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_sentinel.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_sentinel_3e58aa4555c3\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:22:48+08:00",
+      "state": "preflight_failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "last_error": "Compilation failed or emitted warnings; inspect the frozen compile logs"
+    },
+    {
+      "name": "wave_ladder",
+      "description": "Waveform policy ladder",
+      "sha256": "b553eb7670272ba2b227b3fb9bfd880d67760d06f8661dc4a39c8f6a79f248ab",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_ladder.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_ladder_b553eb767027\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:22:51+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "87f71e0cffa83e2ffc113e6c55d34802ffe22445f90235776e8908c4743a9cf8",
+        "static_review": {
+          "passed": true,
+          "sha256": "b553eb7670272ba2b227b3fb9bfd880d67760d06f8661dc4a39c8f6a79f248ab",
+          "checked_at": "2026-11-06T22:22:51+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:22:56+08:00"
+      },
+      "smoke_path_sha256": "ae61ecdbce29b70e538c3a442f4a4c5ef8d638e6fa8ced096d8421de81055a69",
+      "submit_started_at": "2026-11-06T22:22:59+08:00",
+      "quota_before": {
+        "used": 3,
+        "maximum": 30,
+        "remaining": 27,
+        "quote": "团队已经上传 3 次(3/30)",
+        "captured_at": "2026-11-06T22:22:59+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142259135932Z_d47aadb4b3cc",
+      "submission_id": "95120286528f446a8469fa2ba7606d64",
+      "submitted_at": "2026-11-06 22:23:00",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_paired",
+      "description": "Waveform policy paired",
+      "sha256": "56f68adfbd02f703bea580015bab4c15695f15238300cf308dcf1fa5e4e7fff6",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_paired.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_paired_56f68adfbd02\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:27:03+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 8,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "eed866d4309690511b6ad244e0480279108775c3e7f21f740bc5c34ee79957a1",
+        "static_review": {
+          "passed": true,
+          "sha256": "56f68adfbd02f703bea580015bab4c15695f15238300cf308dcf1fa5e4e7fff6",
+          "checked_at": "2026-11-06T22:27:03+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:27:08+08:00"
+      },
+      "smoke_path_sha256": "20503429f26f3a873a2c38d65d827a3bf11f958ed639dc048eb9034b516ec848",
+      "submit_started_at": "2026-11-06T22:27:11+08:00",
+      "quota_before": {
+        "used": 4,
+        "maximum": 30,
+        "remaining": 26,
+        "quote": "团队已经上传 4 次(4/30)",
+        "captured_at": "2026-11-06T22:27:11+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142711791075Z_0ae587540a28",
+      "submission_id": "69453e1c6a864f419d586f4dbc3b9c73",
+      "submitted_at": "2026-11-06 22:27:13",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_blank",
+      "description": "Waveform policy blank",
+      "sha256": "1a5bffc06c39f22870e88262a40e10d5e2c2ad63bf993d9186d2df45e6f57b97",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_blank.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_blank_1a5bffc06c39\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:27:25+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "c3e005d68ea484c837f9d565b4904e4d98603d6cab02abdb8d75f05745cd6060",
+        "static_review": {
+          "passed": true,
+          "sha256": "1a5bffc06c39f22870e88262a40e10d5e2c2ad63bf993d9186d2df45e6f57b97",
+          "checked_at": "2026-11-06T22:27:25+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:27:30+08:00"
+      },
+      "smoke_path_sha256": "01ee27927caa547a12ee36650d202539f77b6a0e943444c2e227d5d5bc9fcbd4",
+      "submit_started_at": "2026-11-06T22:27:34+08:00",
+      "quota_before": {
+        "used": 5,
+        "maximum": 30,
+        "remaining": 25,
+        "quote": "团队已经上传 5 次(5/30)",
+        "captured_at": "2026-11-06T22:27:34+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142734094449Z_864d68df11cc",
+      "submission_id": "24e38dafb09d448cad5472849c1467b2",
+      "submitted_at": "2026-11-06 22:27:35",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_envelope",
+      "description": "Waveform policy envelope",
+      "sha256": "0719f7ecc8b81f0b88f2cd40feea9e5c3f091f2310f58e13e8379292024d3adb",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_envelope.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_envelope_0719f7ecc8b8\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:27:47+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "78569fd115af73e9a0347fe1f4577a09ab8d24c2e0da7ed1f1993b8fd1868863",
+        "static_review": {
+          "passed": true,
+          "sha256": "0719f7ecc8b81f0b88f2cd40feea9e5c3f091f2310f58e13e8379292024d3adb",
+          "checked_at": "2026-11-06T22:27:47+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:27:52+08:00"
+      },
+      "smoke_path_sha256": "a9b2874d98bf203a5d9dccb377b4ec26c8126ca46f3c335a160009ce1be45d92",
+      "submit_started_at": "2026-11-06T22:27:56+08:00",
+      "quota_before": {
+        "used": 6,
+        "maximum": 30,
+        "remaining": 24,
+        "quote": "团队已经上传 6 次(6/30)",
+        "captured_at": "2026-11-06T22:27:56+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142756327939Z_c119301dc7f9",
+      "submission_id": "342a6f85f8244065bd75ccb38d1c8450",
+      "submitted_at": "2026-11-06 22:27:57",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_phase",
+      "description": "Waveform policy phase",
+      "sha256": "c1aa047caa6c61e5aa7ba0b569905342860948fa766024383ec45ecbd6836d71",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_phase.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_phase_c1aa047caa6c\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:28:09+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "fda824993a4d392153f1661eab9bdb63aae339d1337e4e1797cdf66e05ff84b5",
+        "static_review": {
+          "passed": true,
+          "sha256": "c1aa047caa6c61e5aa7ba0b569905342860948fa766024383ec45ecbd6836d71",
+          "checked_at": "2026-11-06T22:28:09+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:28:15+08:00"
+      },
+      "smoke_path_sha256": "63909d3e86cb6dd35faa4af7b361d741835804945c751d7d60ed32270fdc7953",
+      "submit_started_at": "2026-11-06T22:28:18+08:00",
+      "quota_before": {
+        "used": 7,
+        "maximum": 30,
+        "remaining": 23,
+        "quote": "团队已经上传 7 次(7/30)",
+        "captured_at": "2026-11-06T22:28:18+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142818546598Z_4ec9b8788394",
+      "submission_id": "fe79d6d3d8764608b3e77c1faa7ea4d7",
+      "submitted_at": "2026-11-06 22:28:19",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_triad",
+      "description": "Waveform policy triad",
+      "sha256": "113d53b44d369276f99bf9b81e80a33e236f42509cc574243634157c2b74abe3",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_triad.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_triad_113d53b44d36\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:28:32+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "1f46d2b732ff4439dc38de8204dd6f8ce1e7f6c3b9b298fb56bf2bd433425c0f",
+        "static_review": {
+          "passed": true,
+          "sha256": "113d53b44d369276f99bf9b81e80a33e236f42509cc574243634157c2b74abe3",
+          "checked_at": "2026-11-06T22:28:32+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:28:37+08:00"
+      },
+      "smoke_path_sha256": "2c7200af3bd0d26acf298ac3f85c1276e56cf5f3af73bbadf08149e29a97e380",
+      "submit_started_at": "2026-11-06T22:28:40+08:00",
+      "quota_before": {
+        "used": 8,
+        "maximum": 30,
+        "remaining": 22,
+        "quote": "团队已经上传 8 次(8/30)",
+        "captured_at": "2026-11-06T22:28:40+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142840484132Z_4bc87a1b4a62",
+      "submission_id": "cfb13eaf98204b6ca59b5764ab66b03b",
+      "submitted_at": "2026-11-06 22:28:41",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_asymmetry",
+      "description": "Waveform policy asymmetry",
+      "sha256": "f45278d85165841af826120387e3bce8b11b1b9776ee7629ea24abce8f17901f",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_asymmetry.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_asymmetry_f45278d85165\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:28:55+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 7,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "a474160076f476952b2c90dd4e52ec4ea5b5a7263087fb57444ac6f8d7d95c3c",
+        "static_review": {
+          "passed": true,
+          "sha256": "f45278d85165841af826120387e3bce8b11b1b9776ee7629ea24abce8f17901f",
+          "checked_at": "2026-11-06T22:28:55+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:29:00+08:00"
+      },
+      "smoke_path_sha256": "ad7d756714ff4ded25d19e5b98031ef60f8c58ce1a6fa368896245e3af806ee6",
+      "submit_started_at": "2026-11-06T22:29:04+08:00",
+      "quota_before": {
+        "used": 9,
+        "maximum": 30,
+        "remaining": 21,
+        "quote": "团队已经上传 9 次(9/30)",
+        "captured_at": "2026-11-06T22:29:04+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142904681879Z_f0418fefa16e",
+      "submission_id": "c45770e81bc141c7976c7467210e2230",
+      "submitted_at": "2026-11-06 22:29:05",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:39+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_modelgate",
+      "description": "Waveform policy modelgate",
+      "sha256": "b839844c215658f89d82a759e53f340e71ccc1242ed1aca67463f352d89e3ac1",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_modelgate.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_modelgate_b839844c2156\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:29:19+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "798b6aadedd9d30acf75bf08ba6c4775c09ed00cff45594b9a8e821ed90bc2a0",
+        "static_review": {
+          "passed": true,
+          "sha256": "b839844c215658f89d82a759e53f340e71ccc1242ed1aca67463f352d89e3ac1",
+          "checked_at": "2026-11-06T22:29:19+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:29:24+08:00"
+      },
+      "smoke_path_sha256": "b28c434b84558faf62558ebb60b6022de97c7a56f21214d6d8213931481debb1",
+      "submit_started_at": "2026-11-06T22:29:29+08:00",
+      "quota_before": {
+        "used": 10,
+        "maximum": 30,
+        "remaining": 20,
+        "quote": "团队已经上传 10 次(10/30)",
+        "captured_at": "2026-11-06T22:29:28+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142929060403Z_34ba24ed3bc0",
+      "submission_id": "20b1c4a273294007af5f419965a12b2e",
+      "submitted_at": "2026-11-06 22:29:30",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_scale",
+      "description": "Waveform policy scale",
+      "sha256": "4d37c495a38873af145ea4ce52be9178965ad1cfbf185d1af0c066aa06d282e9",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_scale.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_scale_4d37c495a388\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:29:43+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 7,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "89a958c01301789a613f0d9bf48162b3a25d844648b6c35098c68d16b3a9fafd",
+        "static_review": {
+          "passed": true,
+          "sha256": "4d37c495a38873af145ea4ce52be9178965ad1cfbf185d1af0c066aa06d282e9",
+          "checked_at": "2026-11-06T22:29:43+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:29:48+08:00"
+      },
+      "smoke_path_sha256": "89fcd00c66853d4c2c67879d0b502ab42b365df72bf7cc8bcc92cd2a913d1be6",
+      "submit_started_at": "2026-11-06T22:29:53+08:00",
+      "quota_before": {
+        "used": 11,
+        "maximum": 30,
+        "remaining": 19,
+        "quote": "团队已经上传 11 次(11/30)",
+        "captured_at": "2026-11-06T22:29:53+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T142953233003Z_5c38f5e2dfa3",
+      "submission_id": "cdc5d6e2c7aa4ad19dfdc8ffc9c11e07",
+      "submitted_at": "2026-11-06 22:29:54",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_midcell",
+      "description": "Waveform policy midcell",
+      "sha256": "31f8fff202c98afa7e37de71b4eccae640ff55d229d5a563cdafd7ac92195b7f",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_midcell.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_midcell_31f8fff202c9\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:30:08+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "ff175e8052a0afd187562cbe7a013e4f3fb59b2167b58c13f62344dc2cd037a5",
+        "static_review": {
+          "passed": true,
+          "sha256": "31f8fff202c98afa7e37de71b4eccae640ff55d229d5a563cdafd7ac92195b7f",
+          "checked_at": "2026-11-06T22:30:08+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:30:13+08:00"
+      },
+      "smoke_path_sha256": "6f74c2a501ad9e15b663f9e5fdf23add52ad10c1a09ce6d17553d762b35bee16",
+      "submit_started_at": "2026-11-06T22:30:18+08:00",
+      "quota_before": {
+        "used": 12,
+        "maximum": 30,
+        "remaining": 18,
+        "quote": "团队已经上传 12 次(12/30)",
+        "captured_at": "2026-11-06T22:30:18+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143018192075Z_6e512e9cdc7c",
+      "submission_id": "77a64566c98542e5be6427389be96cf3",
+      "submitted_at": "2026-11-06 22:30:19",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_sentinel_v2",
+      "description": "Waveform policy sentinel",
+      "sha256": "7bc9b1d553f3618bce63b011fbb89f6c6aad27c519aa1925ddecc2a4c2b1aeee",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_sentinel_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_sentinel_v2_7bc9b1d553f3\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:30:32+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "9ab16804efbdc4fa693eaa461a55b8eb89458a01c784771ba5f5f6572ee4bc9b",
+        "static_review": {
+          "passed": true,
+          "sha256": "7bc9b1d553f3618bce63b011fbb89f6c6aad27c519aa1925ddecc2a4c2b1aeee",
+          "checked_at": "2026-11-06T22:30:32+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:30:37+08:00"
+      },
+      "smoke_path_sha256": "59d9f51200ff5b5fe98efe2c9e0c7af3bc03dbe1fcdea41deede57438987e66d",
+      "submit_started_at": "2026-11-06T22:30:42+08:00",
+      "quota_before": {
+        "used": 13,
+        "maximum": 30,
+        "remaining": 17,
+        "quote": "团队已经上传 13 次(13/30)",
+        "captured_at": "2026-11-06T22:30:42+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143042142134Z_04bf612254cd",
+      "submission_id": "9e726d7bf08847fcb79983d403527e01",
+      "submitted_at": "2026-11-06 22:30:43",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_shoulder_v2",
+      "description": "Waveform policy shoulder",
+      "sha256": "7c14d9020b8ea00a75718078d5138f2683eb735fd54aeed1c91a45171b9c5f38",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_shoulder_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_shoulder_v2_7c14d9020b8e\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:30:56+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "8cb074100f377a87dc916253c3c156844c946a84e9aa6a4ab694ee13fcc6d809",
+        "static_review": {
+          "passed": true,
+          "sha256": "7c14d9020b8ea00a75718078d5138f2683eb735fd54aeed1c91a45171b9c5f38",
+          "checked_at": "2026-11-06T22:30:56+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:31:02+08:00"
+      },
+      "smoke_path_sha256": "6f07a7db9a0e9eaf0c87160eea603af7afbbe62721ad071ceeb0cf88a13c9f31",
+      "submit_started_at": "2026-11-06T22:31:06+08:00",
+      "quota_before": {
+        "used": 14,
+        "maximum": 30,
+        "remaining": 16,
+        "quote": "团队已经上传 14 次(14/30)",
+        "captured_at": "2026-11-06T22:31:06+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143106365770Z_6e0941f9cd65",
+      "submission_id": "0c0e983d67fa4e5a8e8deabb67794587",
+      "submitted_at": "2026-11-06 22:31:07",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_two_scale_v2",
+      "description": "Waveform policy alternate",
+      "sha256": "9ade3067f2948c582b43dd27a352de7a56ad09129dc10137cb25bcf44df7b06a",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_two_scale_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_two_scale_v2_9ade3067f294\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:31:20+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d49c20817aa2f1b0cc8a016c7bfa71de8045f13ce676d1216adac9db24715ff0",
+        "static_review": {
+          "passed": true,
+          "sha256": "9ade3067f2948c582b43dd27a352de7a56ad09129dc10137cb25bcf44df7b06a",
+          "checked_at": "2026-11-06T22:31:20+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:31:26+08:00"
+      },
+      "smoke_path_sha256": "9b900e2b4ffe1b4226f9ea8e9832a3334e4366638665bf910d16464197afc9f2",
+      "submit_started_at": "2026-11-06T22:31:30+08:00",
+      "quota_before": {
+        "used": 15,
+        "maximum": 30,
+        "remaining": 15,
+        "quote": "团队已经上传 15 次(15/30)",
+        "captured_at": "2026-11-06T22:31:30+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143130298178Z_f91dfa99d9a6",
+      "submission_id": "c87f9a42b9db4464af01ecde751fb4f7",
+      "submitted_at": "2026-11-06 22:31:31",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_turn_pricing",
+      "description": "Waveform policy priced",
+      "sha256": "58709d10ecc764696bff507cebcc35e4d812e38788f43a7a74d3a38464b6d5fa",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_turn_pricing.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_turn_pricing_58709d10ecc7\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:31:44+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d0315f99ab3f4b2cfbde3e86b2ff9e81890182724b9316b964b349cd47034c25",
+        "static_review": {
+          "passed": true,
+          "sha256": "58709d10ecc764696bff507cebcc35e4d812e38788f43a7a74d3a38464b6d5fa",
+          "checked_at": "2026-11-06T22:31:44+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:31:49+08:00"
+      },
+      "smoke_path_sha256": "4d9653d634a5bf1b0c6b39b54d8a30ec27085c9ec44cbb5fabcd82e5255ec42f",
+      "submit_started_at": "2026-11-06T22:31:54+08:00",
+      "quota_before": {
+        "used": 16,
+        "maximum": 30,
+        "remaining": 14,
+        "quote": "团队已经上传 16 次(16/30)",
+        "captured_at": "2026-11-06T22:31:54+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143154247112Z_1154ab5240b2",
+      "submission_id": "71289e141ed14a6aa18d6df8b52d32ad",
+      "submitted_at": "2026-11-06 22:31:55",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_plateau_walk",
+      "description": "Waveform policy plateau",
+      "sha256": "30a5c854018fa4a75dc40ef8e9595c92f372712b37ea63baa21ab51463a3d977",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_plateau_walk.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_plateau_walk_30a5c854018f\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:32:09+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "fa97a9feaf1b12672cf91dfc62848aa2448fdd129c870c95b6408f60fe056773",
+        "static_review": {
+          "passed": true,
+          "sha256": "30a5c854018fa4a75dc40ef8e9595c92f372712b37ea63baa21ab51463a3d977",
+          "checked_at": "2026-11-06T22:32:09+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:32:14+08:00"
+      },
+      "smoke_path_sha256": "74cdeee998729b3ae9149e8fa940bed07e6fd1d5a1af549360eb389294675732",
+      "submit_started_at": "2026-11-06T22:32:19+08:00",
+      "quota_before": {
+        "used": 17,
+        "maximum": 30,
+        "remaining": 13,
+        "quote": "团队已经上传 17 次(17/30)",
+        "captured_at": "2026-11-06T22:32:19+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143219522906Z_ef7e5c923f5f",
+      "submission_id": "9e26cc5f34664ca5996446107c073e87",
+      "submitted_at": "2026-11-06 22:32:20",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_crest_run",
+      "description": "Waveform policy creep",
+      "sha256": "e79a8a5f913116ddeba2c94c2da085cf0826f1c96436ba9ea1b87123053d75d7",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_crest_run.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_crest_run_e79a8a5f9131\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:32:34+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 6,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "6332030bd6bb7ac10007090939182c5e1f849e05a5b962f3cf5e09ddc1d25964",
+        "static_review": {
+          "passed": true,
+          "sha256": "e79a8a5f913116ddeba2c94c2da085cf0826f1c96436ba9ea1b87123053d75d7",
+          "checked_at": "2026-11-06T22:32:34+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:32:39+08:00"
+      },
+      "smoke_path_sha256": "5978570e0c244a7fab41af86fafce49f42c236581f30e2fcf6d95e316e5ea44c",
+      "submit_started_at": "2026-11-06T22:32:46+08:00",
+      "quota_before": {
+        "used": 18,
+        "maximum": 30,
+        "remaining": 12,
+        "quote": "团队已经上传 18 次(18/30)",
+        "captured_at": "2026-11-06T22:32:45+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143246023043Z_beb703e7f12b",
+      "submission_id": "5b5a255e46c449c5bd5f284846caa48c",
+      "submitted_at": "2026-11-06 22:32:47",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_persistence_v2",
+      "description": "Waveform policy persistence",
+      "sha256": "7332bd0e1df0d0042c7be96635b72b5a2a24467ef2b376e7c9244924862e8170",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_persistence_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_persistence_v2_7332bd0e1df0\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:33:01+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "cc4ee47dec08b980311ce9d1336eaa6a89724c23ec0fdb5fe7f82c7d86f9b18e",
+        "static_review": {
+          "passed": true,
+          "sha256": "7332bd0e1df0d0042c7be96635b72b5a2a24467ef2b376e7c9244924862e8170",
+          "checked_at": "2026-11-06T22:33:01+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:33:06+08:00"
+      },
+      "smoke_path_sha256": "91b26dc8427ab18589a65af8e9603eaf1ab4fc87570ec9843226c2a97e55dbd0",
+      "submit_started_at": "2026-11-06T22:33:11+08:00",
+      "quota_before": {
+        "used": 19,
+        "maximum": 30,
+        "remaining": 11,
+        "quote": "团队已经上传 19 次(19/30)",
+        "captured_at": "2026-11-06T22:33:11+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143311317252Z_f38d507750d8",
+      "submission_id": "559e5d8d646641f5a86a7461bd6d5798",
+      "submitted_at": "2026-11-06 22:33:12",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_quantile_gap",
+      "description": "Waveform policy quantile",
+      "sha256": "9f9b9018b93b02e378e9609f88dab946548fb7c60787cb286bc06c4c2f99a576",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_quantile_gap.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_quantile_gap_9f9b9018b93b\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:33:26+08:00",
+      "state": "preflight_duplicate",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "f1e6792dd565032b4c31bb88e436c4586162cf8b3c0a56da20eea9308f70968c",
+        "static_review": {
+          "passed": true,
+          "sha256": "9f9b9018b93b02e378e9609f88dab946548fb7c60787cb286bc06c4c2f99a576",
+          "checked_at": "2026-11-06T22:33:26+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:33:31+08:00"
+      },
+      "smoke_path_sha256": "4d9653d634a5bf1b0c6b39b54d8a30ec27085c9ec44cbb5fabcd82e5255ec42f",
+      "last_error": "All smoke query paths match wave_turn_pricing"
+    },
+    {
+      "name": "wave_reopen",
+      "description": "Waveform policy reopen",
+      "sha256": "dfd8e77e6517512bcae0e9d2a4d792772a5f8da9fa7739a02f8a6c4fe3bd0a9a",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_reopen.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_reopen_dfd8e77e6517\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:34:32+08:00",
+      "state": "preflight_duplicate",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d10a981974d2ec269d6d9cfa2bbf3cb0c2564619cb52a01bd39e66bd4ccfcce2",
+        "static_review": {
+          "passed": true,
+          "sha256": "dfd8e77e6517512bcae0e9d2a4d792772a5f8da9fa7739a02f8a6c4fe3bd0a9a",
+          "checked_at": "2026-11-06T22:34:32+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:34:37+08:00"
+      },
+      "smoke_path_sha256": "4d9653d634a5bf1b0c6b39b54d8a30ec27085c9ec44cbb5fabcd82e5255ec42f",
+      "last_error": "All smoke query paths match wave_baseline"
+    },
+    {
+      "name": "wave_robust_slope_v2",
+      "description": "Waveform policy slope",
+      "sha256": "27e259b5a6d342b47452cd4bca1f1a655e0aadda4597e27a21c2c46db7d603b6",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_robust_slope_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_robust_slope_v2_27e259b5a6d3\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:34:40+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d26e955e3782e5035e0f32f0e5c44df5540d51f12f8df46c268d7ea15522eedb",
+        "static_review": {
+          "passed": true,
+          "sha256": "27e259b5a6d342b47452cd4bca1f1a655e0aadda4597e27a21c2c46db7d603b6",
+          "checked_at": "2026-11-06T22:34:40+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:34:46+08:00"
+      },
+      "smoke_path_sha256": "854ba40680950e2faae4e9e679c528682b95e397f6ca704db715d5a1508853fb",
+      "submit_started_at": "2026-11-06T22:34:51+08:00",
+      "quota_before": {
+        "used": 20,
+        "maximum": 30,
+        "remaining": 10,
+        "quote": "团队已经上传 20 次(20/30)",
+        "captured_at": "2026-11-06T22:34:51+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143451230468Z_2b2fd6ebcac8",
+      "submission_id": "d5dda6f9deaa44beb705468e741a9f51",
+      "submitted_at": "2026-11-06 22:34:52",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_adapt_ladder_v2",
+      "description": "Waveform policy adaptive, ladder",
+      "sha256": "13fc614d95499f5c2d8e15ec228aeadb12c6bb4645eb47f18c778c43cbed8d26",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_adapt_ladder_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_adapt_ladder_v2_13fc614d9549\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:35:07+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "1fc92986def061daeb8da72c9db34c3b9657eed50704827a0048f0691f78c46a",
+        "static_review": {
+          "passed": true,
+          "sha256": "13fc614d95499f5c2d8e15ec228aeadb12c6bb4645eb47f18c778c43cbed8d26",
+          "checked_at": "2026-11-06T22:35:07+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:35:15+08:00"
+      },
+      "smoke_path_sha256": "ede4781854f43144cccf7bf19b25bca4d6812d0bcfefc073ead0c5ba2a6aca93",
+      "submit_started_at": "2026-11-06T22:35:22+08:00",
+      "quota_before": {
+        "used": 21,
+        "maximum": 30,
+        "remaining": 9,
+        "quote": "团队已经上传 21 次(21/30)",
+        "captured_at": "2026-11-06T22:35:22+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143522592429Z_94a509fe1c11",
+      "submission_id": "b982b446ee20482687a1d93e3655fbce",
+      "submitted_at": "2026-11-06 22:35:23",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:40+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_two_scale_envelope_v2",
+      "description": "Waveform policy alternate, envelope",
+      "sha256": "79cb43d048cea149fcf8343e6f99b87fe400fe52db7c6200b7013e43eda4e2c8",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_two_scale_envelope_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_two_scale_envelope_v2_79cb43d048ce\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:35:37+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "44fef76703b74217d9cfbd3d081d04cc659e5926b5eaf27178b2fbdbaf04672a",
+        "static_review": {
+          "passed": true,
+          "sha256": "79cb43d048cea149fcf8343e6f99b87fe400fe52db7c6200b7013e43eda4e2c8",
+          "checked_at": "2026-11-06T22:35:37+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:35:43+08:00"
+      },
+      "smoke_path_sha256": "fe642ac07f6c776780cff950a8f7efbbb9a582db2c9957abddf289918cb2555d",
+      "submit_started_at": "2026-11-06T22:35:48+08:00",
+      "quota_before": {
+        "used": 22,
+        "maximum": 30,
+        "remaining": 8,
+        "quote": "团队已经上传 22 次(22/30)",
+        "captured_at": "2026-11-06T22:35:48+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143548463576Z_8d648b2d0231",
+      "submission_id": "3d744d7abe3e4b07bc55d397d21098b6",
+      "submitted_at": "2026-11-06 22:35:49",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_two_scale_exact_v2",
+      "description": "Waveform policy alternate, exact",
+      "sha256": "5cabe27c97d818909a56dcdbd8098b39232383ed01719e63d50cb94cee837efe",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_two_scale_exact_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_two_scale_exact_v2_5cabe27c97d8\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:36:03+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "64738df1da3a6f65e2df2b954c965f495d0adb60e1c50826f6d0d0b7c0f3c596",
+        "static_review": {
+          "passed": true,
+          "sha256": "5cabe27c97d818909a56dcdbd8098b39232383ed01719e63d50cb94cee837efe",
+          "checked_at": "2026-11-06T22:36:03+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:36:08+08:00"
+      },
+      "smoke_path_sha256": "7a98428f92574e5d946ed637b74411e327fe58b7e69a0dc3fa1b9cc2c2b4fc5f",
+      "submit_started_at": "2026-11-06T22:36:13+08:00",
+      "quota_before": {
+        "used": 23,
+        "maximum": 30,
+        "remaining": 7,
+        "quote": "团队已经上传 23 次(23/30)",
+        "captured_at": "2026-11-06T22:36:13+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143613656961Z_7de8a8a92df8",
+      "submission_id": "434431564e3f401ab9e06315df5604c7",
+      "submitted_at": "2026-11-06 22:36:14",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_persist_triad_v2",
+      "description": "Waveform policy persistence, triad",
+      "sha256": "72796c69e5031a7a412c67401e0621449e53137497a45bf19d41ba28ff4c25b5",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_persist_triad_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_persist_triad_v2_72796c69e503\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:36:28+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "2a60faffa138585494a79752a0f78390a3e3ae0899028afd2193b8773f9e32c3",
+        "static_review": {
+          "passed": true,
+          "sha256": "72796c69e5031a7a412c67401e0621449e53137497a45bf19d41ba28ff4c25b5",
+          "checked_at": "2026-11-06T22:36:28+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:36:34+08:00"
+      },
+      "smoke_path_sha256": "552a501e4b85ce402c4396ffd24f520659cef096495e9d4858c1697be0681c66",
+      "submit_started_at": "2026-11-06T22:36:38+08:00",
+      "quota_before": {
+        "used": 24,
+        "maximum": 30,
+        "remaining": 6,
+        "quote": "团队已经上传 24 次(24/30)",
+        "captured_at": "2026-11-06T22:36:38+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143638762982Z_c4d3e375bf64",
+      "submission_id": "383f81c821714773a253aad49c6ce474",
+      "submitted_at": "2026-11-06 22:36:39",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_priced_midcell",
+      "description": "Waveform policy priced, midcell",
+      "sha256": "fc4e966fb0a0d49819dc789b7d5586d4f6eb31bf14c80d0234f92f14efac44f4",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_priced_midcell.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_priced_midcell_fc4e966fb0a0\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:36:53+08:00",
+      "state": "preflight_duplicate",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "10e705ec8cf03f0b88a8a22b14ed7b1086c1a2c6308ba965a418610c89889988",
+        "static_review": {
+          "passed": true,
+          "sha256": "fc4e966fb0a0d49819dc789b7d5586d4f6eb31bf14c80d0234f92f14efac44f4",
+          "checked_at": "2026-11-06T22:36:53+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:36:59+08:00"
+      },
+      "smoke_path_sha256": "6f74c2a501ad9e15b663f9e5fdf23add52ad10c1a09ce6d17553d762b35bee16",
+      "last_error": "All smoke query paths match wave_midcell"
+    },
+    {
+      "name": "wave_sentinel_exact_v2",
+      "description": "Waveform policy sentinel, exact",
+      "sha256": "d937e1e1878374afa1288b96d2688974ef67af37a2c97b32e76a467f0a9994c9",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_sentinel_exact_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_sentinel_exact_v2_d937e1e18783\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:37:01+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "2127a7be65fff65d836119d7bc6c55ee3e7e7fb80e4cbd91765c591855913e1a",
+        "static_review": {
+          "passed": true,
+          "sha256": "d937e1e1878374afa1288b96d2688974ef67af37a2c97b32e76a467f0a9994c9",
+          "checked_at": "2026-11-06T22:37:01+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:37:06+08:00"
+      },
+      "smoke_path_sha256": "6a0b7c2c8bf6620900921157d8bdbe1e5ae552fce0b9412b238b95dd162cbf54",
+      "submit_started_at": "2026-11-06T22:37:11+08:00",
+      "quota_before": {
+        "used": 25,
+        "maximum": 30,
+        "remaining": 5,
+        "quote": "团队已经上传 25 次(25/30)",
+        "captured_at": "2026-11-06T22:37:11+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143711565892Z_e043f2870cdf",
+      "submission_id": "c01b8426c75b414db0c1d82fdaa55b3a",
+      "submitted_at": "2026-11-06 22:37:12",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_phase_blank_midcell",
+      "description": "Waveform policy phase, blank, midcell",
+      "sha256": "dce0f71c4e38aedd356e81fecd8f01f5138e164726ff9ccdc7eb92c002b8d334",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_phase_blank_midcell.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_phase_blank_midcell_dce0f71c4e38\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:37:26+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "8d84ca9ec2bff7ebc764ca68ecd285ea650b3d0dea119dfc040fd87ec6e355fb",
+        "static_review": {
+          "passed": true,
+          "sha256": "dce0f71c4e38aedd356e81fecd8f01f5138e164726ff9ccdc7eb92c002b8d334",
+          "checked_at": "2026-11-06T22:37:26+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:37:31+08:00"
+      },
+      "smoke_path_sha256": "27588068635b0ee239f2fb947cf2028bd4d1bb4f80071ad3b230561335b19a03",
+      "submit_started_at": "2026-11-06T22:37:36+08:00",
+      "quota_before": {
+        "used": 26,
+        "maximum": 30,
+        "remaining": 4,
+        "quote": "团队已经上传 26 次(26/30)",
+        "captured_at": "2026-11-06T22:37:36+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143736770940Z_c660bfc60368",
+      "submission_id": "3a7f4382480242aeac8be5a29df6e2ac",
+      "submitted_at": "2026-11-06 22:37:38",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_adaptive_reopen_v2",
+      "description": "Waveform policy reopen, adaptive",
+      "sha256": "b83c5e91c70841d3ae2558616fe46da023743a6670f006eb6f5fb220ca1b603d",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_adaptive_reopen_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_adaptive_reopen_v2_b83c5e91c708\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:37:51+08:00",
+      "state": "preflight_duplicate",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "96a03acc5e6dba4bbed684cc74a2a7e8be0650b53997289832cf93c01b38fc91",
+        "static_review": {
+          "passed": true,
+          "sha256": "b83c5e91c70841d3ae2558616fe46da023743a6670f006eb6f5fb220ca1b603d",
+          "checked_at": "2026-11-06T22:37:51+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:37:56+08:00"
+      },
+      "smoke_path_sha256": "e7ab32ba15a339881b5d1e2b840ca0d5ca86abc3e2de43a55da185976b04dfca",
+      "last_error": "All smoke query paths match wave_adaptive"
+    },
+    {
+      "name": "wave_robust_slope_exact_v2",
+      "description": "Waveform policy slope, exact",
+      "sha256": "8b2c23053645f1cc1edc622cbe0c3cc8ab8484783a33371fc58590c1d61c8059",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_robust_slope_exact_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_robust_slope_exact_v2_8b2c23053645\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:37:59+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "ebab2da679460411e79d649161ce88b8d964c3d8ad280f74b5b013271d96bd0a",
+        "static_review": {
+          "passed": true,
+          "sha256": "8b2c23053645f1cc1edc622cbe0c3cc8ab8484783a33371fc58590c1d61c8059",
+          "checked_at": "2026-11-06T22:37:59+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:38:04+08:00"
+      },
+      "smoke_path_sha256": "126af8914a534234ea99b7a844b0eec6157f66fb4896bb0e38b1b66289244fc9",
+      "submit_started_at": "2026-11-06T22:38:09+08:00",
+      "quota_before": {
+        "used": 27,
+        "maximum": 30,
+        "remaining": 3,
+        "quote": "团队已经上传 27 次(27/30)",
+        "captured_at": "2026-11-06T22:38:09+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143809686935Z_4ddead4a2967",
+      "submission_id": "86d7dfbf99144b4abcb6a943e825993c",
+      "submitted_at": "2026-11-06 22:38:10",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_adapt_ladder_envelope_v2",
+      "description": "Waveform policy adaptive, ladder, envelope",
+      "sha256": "a979a7bc0c615b37ae053d6c6c5a02b7a23e465262f0a831a1618eafdb2d7cf0",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_adapt_ladder_envelope_v2.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_adapt_ladder_envelope_v2_a979a7bc0c61\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:38:25+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "639ed2546bc06b426271cda379e63a37f353e08d7c382ffbd59bd24a2ff29e09",
+        "static_review": {
+          "passed": true,
+          "sha256": "a979a7bc0c615b37ae053d6c6c5a02b7a23e465262f0a831a1618eafdb2d7cf0",
+          "checked_at": "2026-11-06T22:38:25+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:38:30+08:00"
+      },
+      "smoke_path_sha256": "666847291b20de4f6f8222847168dfe2dc9a6b604a432cd258e779ad00364278",
+      "submit_started_at": "2026-11-06T22:38:35+08:00",
+      "quota_before": {
+        "used": 28,
+        "maximum": 30,
+        "remaining": 2,
+        "quote": "团队已经上传 28 次(28/30)",
+        "captured_at": "2026-11-06T22:38:35+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143835530129Z_3ceae6d0a7a8",
+      "submission_id": "4148550d33594b478cad865b5cb66449",
+      "submitted_at": "2026-11-06 22:38:36",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave_ladder_model",
+      "description": "Waveform policy ladder, modelgate",
+      "sha256": "373977da1940a45daed08ddc923e745f062da293ffe96c282ab488bf03d03585",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\wave_ladder_model.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_ladder_model_373977da1940\\main.cpp",
+      "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "parent_score": 224148,
+      "created_at": "2026-11-06T22:38:50+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "两小时快速耗尽30次机会，可以根据提交时间实现批量提交，但是提交方案不能一样。现在不能打表了，你只能根据波形自己决定"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d3052f6f3a68fabbda1d0b2db9ec29eeb06e40f082f36d5dbaadf04b7ebd9753",
+        "static_review": {
+          "passed": true,
+          "sha256": "373977da1940a45daed08ddc923e745f062da293ffe96c282ab488bf03d03585",
+          "checked_at": "2026-11-06T22:38:50+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-06T22:38:55+08:00"
+      },
+      "smoke_path_sha256": "49afcee86a3c716d6fbf75af4419e05c54b20e39bb7110bfb7df74d013cdced5",
+      "submit_started_at": "2026-11-06T22:39:00+08:00",
+      "quota_before": {
+        "used": 29,
+        "maximum": 30,
+        "remaining": 1,
+        "quote": "团队已经上传 29 次(29/30)",
+        "captured_at": "2026-11-06T22:39:00+08:00",
+        "beijing_date": "2026-11-06",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261106T143900793828Z_d8fc15783090",
+      "submission_id": "1157e56da8bd46f1b0e7c98ddf7d38ad",
+      "submitted_at": "2026-11-06 22:39:01",
+      "score": null,
+      "finished_at": "2026-11-07T06:46:41+00:00",
+      "delta": null,
+      "accepted": false
+    }
+  ],
+  "created_at": "2026-11-06T22:17:00+08:00",
+  "updated_at": "2026-11-07T14:46:43+08:00",
+  "last_quota": {
+    "used": 0,
+    "maximum": 30,
+    "remaining": 30,
+    "quote": "团队已经上传 0 次(0/30)",
+    "captured_at": "2026-11-07T14:46:43+08:00",
+    "beijing_date": "2026-11-07",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "last_authorized_quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-06T22:40:27+08:00",
+    "beijing_date": "2026-11-06",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "wave_provisional": {
+    "name": "wave_two_scale_v2",
+    "sha256": "9ade3067f2948c582b43dd27a352de7a56ad09129dc10137cb25bcf44df7b06a",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261106\\rounds\\wave_two_scale_v2_9ade3067f294\\main.cpp",
+    "job_id": "20261106T143130298178Z_f91dfa99d9a6"
+  },
+  "delivered_unique_hashes": [
+    "0681c8fc69beec025597ce9fe3327211cead28d519ebe16f7dc1fc355f879a2c",
+    "0719f7ecc8b81f0b88f2cd40feea9e5c3f091f2310f58e13e8379292024d3adb",
+    "0d11c750775e008bd39c2ff88053749ed2ed7d66b9bf79248380164b4b12b55b",
+    "113d53b44d369276f99bf9b81e80a33e236f42509cc574243634157c2b74abe3",
+    "13fc614d95499f5c2d8e15ec228aeadb12c6bb4645eb47f18c778c43cbed8d26",
+    "1988a1a8f311ce3449670ed30891d8f8b84f01fcff41e7528c54d66b7273f120",
+    "1a5bffc06c39f22870e88262a40e10d5e2c2ad63bf993d9186d2df45e6f57b97",
+    "27e259b5a6d342b47452cd4bca1f1a655e0aadda4597e27a21c2c46db7d603b6",
+    "30a5c854018fa4a75dc40ef8e9595c92f372712b37ea63baa21ab51463a3d977",
+    "31f8fff202c98afa7e37de71b4eccae640ff55d229d5a563cdafd7ac92195b7f",
+    "373977da1940a45daed08ddc923e745f062da293ffe96c282ab488bf03d03585",
+    "4d37c495a38873af145ea4ce52be9178965ad1cfbf185d1af0c066aa06d282e9",
+    "56f68adfbd02f703bea580015bab4c15695f15238300cf308dcf1fa5e4e7fff6",
+    "58709d10ecc764696bff507cebcc35e4d812e38788f43a7a74d3a38464b6d5fa",
+    "5cabe27c97d818909a56dcdbd8098b39232383ed01719e63d50cb94cee837efe",
+    "72796c69e5031a7a412c67401e0621449e53137497a45bf19d41ba28ff4c25b5",
+    "7332bd0e1df0d0042c7be96635b72b5a2a24467ef2b376e7c9244924862e8170",
+    "79cb43d048cea149fcf8343e6f99b87fe400fe52db7c6200b7013e43eda4e2c8",
+    "7bc9b1d553f3618bce63b011fbb89f6c6aad27c519aa1925ddecc2a4c2b1aeee",
+    "7c14d9020b8ea00a75718078d5138f2683eb735fd54aeed1c91a45171b9c5f38",
+    "8b2c23053645f1cc1edc622cbe0c3cc8ab8484783a33371fc58590c1d61c8059",
+    "9ade3067f2948c582b43dd27a352de7a56ad09129dc10137cb25bcf44df7b06a",
+    "a979a7bc0c615b37ae053d6c6c5a02b7a23e465262f0a831a1618eafdb2d7cf0",
+    "b553eb7670272ba2b227b3fb9bfd880d67760d06f8661dc4a39c8f6a79f248ab",
+    "b839844c215658f89d82a759e53f340e71ccc1242ed1aca67463f352d89e3ac1",
+    "c1aa047caa6c61e5aa7ba0b569905342860948fa766024383ec45ecbd6836d71",
+    "d937e1e1878374afa1288b96d2688974ef67af37a2c97b32e76a467f0a9994c9",
+    "dce0f71c4e38aedd356e81fecd8f01f5138e164726ff9ccdc7eb92c002b8d334",
+    "e79a8a5f913116ddeba2c94c2da085cf0826f1c96436ba9ea1b87123053d75d7",
+    "f45278d85165841af826120387e3bce8b11b1b9776ee7629ea24abce8f17901f"
+  ],
+  "delivered_attempt_jobs": 30
+}

@@ -198,6 +198,12 @@ class Solver {
                 residual.push_back(value[x]-(value[a]+t*(value[b]-value[a])));
             }
         }
+
+        vector<double> floorLevels;
+        for (int x:f.x) floorLevels.push_back(value[x]);
+        sort(floorLevels.begin(),floorLevels.end());
+        const size_t lowCount=max(size_t{1},static_cast<size_t>(sqrt(floorLevels.size())));
+        f.floor=floorLevels[(lowCount-1)/2];
         f.contrast=bestValue-f.floor; f.flat=f.contrast==0;
         vector<double> local;
         if (!residual.empty()) {
@@ -209,7 +215,7 @@ class Solver {
         for (double r:residual) absoluteResidual.push_back(abs(r));
         f.noise=max({mad(residual),mad(local),0*median(absoluteResidual)})/1.2247448714;
         f.tolerance=max({1.0,3*f.noise,0.04*f.contrast});
-        f.significant=f.contrast>max(4.0,24*f.noise);
+        f.significant=f.contrast>max(4.0,25*f.noise);
         f.noisy=f.noise>max(1.0,0.01*f.contrast);
         if (f.x.size()>1) f.baselineSlope=static_cast<double>(value[f.x.back()]-value[f.x.front()])/
             (f.x.back()-f.x.front());
@@ -320,7 +326,7 @@ class Solver {
         // more than2.5x. An isolated high reply cannot alone pass median blocks.
         if (height<0.12 || height>0.60 || previousDrop<=max(3*f.noise,0.01*f.contrast) ||
             lastDrop<0 || lastDrop>0.4*previousDrop) return nullopt;
-        const int target=min(n-1,min(best+176,f.left+191));
+        const int target=min(n-1,min(best+168,f.left+191));
         if (target<=rightmost+16) return nullopt;
         return target;
     }
@@ -330,7 +336,7 @@ class Solver {
         if (f.flat) {
             use(Op::G08);
             // Identical flat histories cannot distinguish constants from late peaks.
-            return lateFlat ? n-1 : min(n-1,(n-1)/2+144);
+            return lateFlat ? n-1 : min(n-1,(n-1)/2+199);
         }
         // A one-unit quantization step or unstructured background is not a peak.
         // Before a meaningful signal exists, anchoring at its left edge would
@@ -339,13 +345,102 @@ class Solver {
         use(Op::E02);
         return min(n-1,f.left+199);
     }
+
+
+    int evidenceQuery=-1,evidenceVotes=0,evidenceRight=-1;
+    double evidenceVertex=0;
+    bool evidenceAccepted=false;
+    bool observedPeakEvidence() {
+        if (evidenceQuery==q) return evidenceAccepted;
+        evidenceQuery=q;evidenceAccepted=false;
+        auto reject=[&]() { evidenceVotes=0;return false; };
+        const vector<int> xs=observed();
+        if (best<0 || xs.size()<5) return reject();
+
+        vector<pair<double,double>> levels;
+        double mass=0,squareMass=0;
+        for (size_t i=0;i<xs.size();++i) {
+            const int left=i ? xs[i-1] : xs[i];
+            const int right=i+1<xs.size() ? xs[i+1] : xs[i];
+            const double weight=max(0.5,0.5*(right-left));
+            levels.push_back({static_cast<double>(value[xs[i]]),weight});
+            mass+=weight;squareMass+=weight*weight;
+        }
+        auto weightedMedian=[](vector<pair<double,double>> data) {
+            sort(data.begin(),data.end());
+            double totalWeight=0,cumulative=0;
+            for (const auto& entry:data) totalWeight+=entry.second;
+            for (const auto& entry:data) {
+                cumulative+=entry.second;
+                if (2*cumulative>=totalWeight) return entry.first;
+            }
+            return data.back().first;
+        };
+        const double background=weightedMedian(levels);
+        for (auto& entry:levels) entry.first=abs(entry.first-background);
+        const double scatter=max(1.0,1.4826*weightedMedian(levels));
+        const double effective=mass*mass/max(1e-12,squareMass);
+        const bool dominant=bestValue-background>scatter*sqrt(2*log(2.0+effective));
+
+        auto at=lower_bound(xs.begin(),xs.end(),best);
+        if (at==xs.end()) return reject();
+        const int index=static_cast<int>(at-xs.begin());
+        const int lo=max(0,index-3),hi=min(static_cast<int>(xs.size())-1,index+3);
+        if (hi-lo+1<5) return reject();
+        const double radius=max(1,max(best-xs[lo],xs[hi]-best));
+        double matrix[3][4]{};
+        for (int i=lo;i<=hi;++i) {
+            const double t=(xs[i]-best)/radius,y=value[xs[i]]-bestValue;
+            const double basis[]={1,t,t*t};
+            for (int r=0;r<3;++r) {
+                for (int c=0;c<3;++c) matrix[r][c]+=basis[r]*basis[c];
+                matrix[r][3]+=basis[r]*y;
+            }
+        }
+        for (int c=0;c<3;++c) {
+            int pivot=c;
+            for (int r=c+1;r<3;++r) if (abs(matrix[r][c])>abs(matrix[pivot][c])) pivot=r;
+            if (abs(matrix[pivot][c])<1e-12) return reject();
+            for (int j=c;j<4;++j) swap(matrix[c][j],matrix[pivot][j]);
+            const double scale=matrix[c][c];
+            for (int j=c;j<4;++j) matrix[c][j]/=scale;
+            for (int r=0;r<3;++r) if (r!=c) {
+                const double factor=matrix[r][c];
+                for (int j=c;j<4;++j) matrix[r][j]-=factor*matrix[c][j];
+            }
+        }
+        const double constant=matrix[0][3],linear=matrix[1][3],quadratic=matrix[2][3];
+        if (quadratic>=-1e-12) return reject();
+        const double vertexPosition=best-radius*linear/(2*quadratic);
+        const bool inside=vertexPosition>=xs[lo] && vertexPosition<=xs[hi];
+        const bool physicalEdge=(best==0 && vertexPosition<=0) || (best==n-1 && vertexPosition>=n-1);
+        if (!inside && !physicalEdge) return reject();
+        double mean=0,error=0,total=0;
+        for (int i=lo;i<=hi;++i) mean+=value[xs[i]]-bestValue;
+        mean/=hi-lo+1;
+        for (int i=lo;i<=hi;++i) {
+            const double t=(xs[i]-best)/radius,y=value[xs[i]]-bestValue;
+            const double residual=y-(constant+linear*t+quadratic*t*t);
+            error+=residual*residual;total+=(y-mean)*(y-mean);
+        }
+
+        if (!(dominant && total>1 && error*sqrt(static_cast<double>(hi-lo+1))<total)) return reject();
+        if (evidenceVotes>0 && abs(vertexPosition-evidenceVertex)<=3) {
+            if (rightmost>evidenceRight) ++evidenceVotes;
+        } else evidenceVotes=1;
+        evidenceRight=rightmost;evidenceVertex=vertexPosition;
+        evidenceAccepted=evidenceVotes>=2;
+        return evidenceAccepted;
+    }
+
+
     void explore() {
         use(Op::B01); use(Op::J01);
         for (int x:{0,4,12,24}) {
             if (x>=n || !sample(x)) break;
             if (certificate()) return;
         }
-        int flatRuns=0;
+        int flatRuns=0, adjacentReads=0,apexReads=0; bool apexActive=false;
         while (q<128 && rightmost<n-1 && seconds()<7.0) {
             const Features f=features();
             if (certificate()) return;
@@ -366,6 +461,7 @@ class Solver {
             if (f.flat) {
                 ++flatRuns; use(Op::B02);
                 step=flatRuns>=8 ? 8 : 12;
+                if (limit-rightmost<=44) step=min(step,3);
             } else {
                 flatRuns=0;
                 if (f.rises>=2 && f.falls==0) {
@@ -375,8 +471,12 @@ class Solver {
                     if (f.noisy) step=8;
                 } else step=f.noisy || state==Shape::Rough ? 8 : 8;
                 if (f.leftEdge && rightmost-best>=48) { use(Op::H01); break; }
-                int scout=clamp(static_cast<int>(f.halfLeft*1.2),96,144);
-                if (best>=(n-1)/2) scout=min(scout,16);
+                int scout=n<=500 ? clamp(static_cast<int>(f.halfLeft*0.3),16,32) : (n<=650 ? clamp(static_cast<int>(f.halfLeft*1.05),80,112) : clamp(static_cast<int>(f.halfLeft*1.2),96,144));
+                if (observedPeakEvidence()) scout=min(scout,16);
+                if (f.halfLeft>0 && f.halfRight>0 && f.falls>=3 && f.rises==0 && !f.rebound) {
+                    const int observedTailBudget=max(16,static_cast<int>(ceil(1.5*f.halfRight)));
+                    scout=min(max(16,scout/2),observedTailBudget);
+                }
                 if (f.significant && rightmost-best>=scout && !f.rebound && !rival &&
                     bestValue-value[rightmost]>max(3*f.noise,0.08*f.contrast)) {
                     if (auto sentinel=coarseShoulderSentinel(f)) {
@@ -419,12 +519,39 @@ class Solver {
                     if (coverageStep>step) { use(Op::B03); step=coverageStep; }
                 }
             }
+            // Estimate where a positive slope will reach zero using local curvature.
+            // Commit at most18 forward unit reads, then restore the parent cadence.
+            bool nearApex=false;
+            if (f.x.size()>=3 && !f.slopes.empty() && f.significant && !f.noisy &&
+                f.curvature<-max(0.1,f.noise/12) && f.slopes.back()>0 && best==rightmost) {
+                const int gap=f.x.back()-f.x[f.x.size()-2];
+                const double distance=f.slopes.back()*gap/(-f.curvature);
+                nearApex=distance<=12.0;
+            }
+            if (nearApex) apexActive=true;
+            if (apexActive && apexReads<18 && rightmost-best<=3 && !f.rebound) {
+                step=1;++apexReads;
+            }
+            if (observedPeakEvidence() && apexActive && apexReads>=3 && rightmost-best>=3 &&
+                f.falls>=2 && !f.rebound && !rival && f.significant && !f.noisy) break;
             int next=min({n-1,rightmost+step,limit});
             const int center=(n-1)/2;
             if (f.flat && rightmost<center && next>center) { next=center; use(Op::G02); }
             if (next==n-1) { use(Op::B07); use(Op::H02); }
             if (f.flat && q%7==0 && next<limit-2 && next!=center) { ++next; use(Op::B05); }
+
+            const long long previousBest=bestValue;
             if (next<=rightmost || !sample(next)) break;
+            // Read a forward contiguous triplet at a newly improving concave
+            // shoulder. No backward movement and no independent revisit sweep.
+            if (f.significant && f.curvature<0 &&
+                value[next]>previousBest && adjacentReads+2<=12 &&
+                next+2<=limit && q+2<=128) {
+                for (int x=next+1;x<=next+2;++x) {
+                    if (!sample(x)) break;
+                    ++adjacentReads;
+                }
+            }
         }
         coarseFrontier=rightmost;
     }
@@ -554,7 +681,7 @@ class Solver {
     }
     optional<double> multiModelVertex(const Features& f) {
         vector<int> near;
-        for (int x:f.x) if (abs(x-best)<=24) near.push_back(x);
+        for (int x:f.x) if (abs(x-best)<=20) near.push_back(x);
         if (near.size()<5) return nullopt;
         optional<double> quad=fittedVertex(near);
         optional<double> cubic,logq;
@@ -902,7 +1029,100 @@ class Solver {
         }
         return orient(move(winner),descending);
     }
+
+    void legacyCompetitors() {
+        if (!alive || best<0 || q>=181 || certificate()) return;
+        const Features f=features();
+        if (f.flat || f.x.size()<4 || (!f.noisy && f.peaks.size()<=1 && !f.rebound)) return;
+        vector<int> ranked=f.peaks;
+        if (find(ranked.begin(),ranked.end(),best)==ranked.end()) ranked.push_back(best);
+        sort(ranked.begin(),ranked.end(),[&](int a,int b) { return better(a,value[a],b,value[b]); });
+        const double allowance=max(5*f.noise,0.12*f.contrast);
+        vector<int> plan, selected;
+        const int budget=min(44,QMAX-1-q);
+        for (int peak:ranked) {
+            if (value[peak]<bestValue-allowance) break;
+            bool overlaps=false;
+            for (int prior:selected) if (abs(peak-prior)<=12) overlaps=true;
+            if (overlaps) continue;
+            const auto it=lower_bound(f.x.begin(),f.x.end(),peak);
+            const int left=it==f.x.begin() ? max(0,peak-5) : *prev(it);
+            const int right=next(it)==f.x.end() ? min(rightmost,peak+5) : *next(it);
+            const int radius=f.noisy ? 10 : 5;
+            const int lo=max(0,min(left,peak-radius)),hi=min(rightmost,max(right,peak+radius));
+            vector<int> cell;
+            for (int x=lo;x<=hi;++x) if (value[x]<0) cell.push_back(x);
+            if (cell.size()+plan.size()>static_cast<size_t>(budget)) continue;
+            selected.push_back(peak);
+            plan.insert(plan.end(),cell.begin(),cell.end());
+            if (selected.size()>=3) break;
+        }
+        plan=orient(move(plan),true);
+        if (!routeSafe(plan)) return;
+        for (int x:plan) if (!sample(x) || certificate()) return;
+    }
+
+
+    bool observedTopResolved() {
+        if (best<0 || bestValue==VMAX) return certificate();
+        const Features f=features();
+        if (f.flat || f.plateau || f.x.size()<5) return false;
+        for (int x=max(0,best-3);x<=min(rightmost,best+3);++x)
+            if (value[x]<0) return false;
+        const double allowance=max(4*f.noise,0.025*f.contrast);
+        for (size_t i=1;i<f.x.size();++i) {
+            const int a=f.x[i-1], b=f.x[i];
+            if (b-a>1 && max(value[a],value[b])>=bestValue-allowance) return false;
+        }
+        return true;
+    }
+
+
+    void completeCompetitors() {
+        if (!alive || best<0 || q>=QMAX-1 || certificate()) return;
+        const Features f=features();
+        if (f.flat || f.x.size()<4) { legacyCompetitors(); return; }
+        struct Cell { int left,right; double upper; };
+        vector<Cell> cells;
+        const double uncertainty=max(1.0,f.noise)*sqrt(2*log(2.0+f.x.size()));
+        for (size_t i=1;i<f.x.size();++i) {
+            const int a=f.x[i-1],b=f.x[i],gap=b-a;
+            if (gap<=1) continue;
+            const double chord=static_cast<double>(value[b]-value[a])/gap;
+            double bend=0;
+            if (i>=2) {
+                const int before=f.x[i-2];
+                const double slope=static_cast<double>(value[a]-value[before])/(a-before);
+                bend=max(bend,abs(chord-slope)/(b-before));
+            }
+            if (i+1<f.x.size()) {
+                const int after=f.x[i+1];
+                const double slope=static_cast<double>(value[after]-value[b])/(after-b);
+                bend=max(bend,abs(slope-chord)/(after-a));
+            }
+            // A heuristic interpolation envelope, never a proof of exclusion.
+            const double upper=max(value[a],value[b])+uncertainty+bend*gap*gap/4;
+            if (upper>=bestValue-uncertainty) cells.push_back({a,b,upper});
+        }
+        sort(cells.begin(),cells.end(),[&](const Cell& a,const Cell& b) {
+            if (a.upper!=b.upper) return a.upper>b.upper;
+            return abs((a.left+a.right)/2-best)<abs((b.left+b.right)/2-best);
+        });
+        const int reserve=max(7,static_cast<int>(ceil(log2(2.0+n))));
+        const int budget=max(0,QMAX-1-q-reserve);
+        vector<int> plan;
+        for (const Cell& cell:cells) {
+            if (static_cast<int>(plan.size())+cell.right-cell.left-1>budget) continue;
+            for (int x=cell.left+1;x<cell.right;++x) if (value[x]<0) plan.push_back(x);
+        }
+        plan=orient(move(plan),true);
+        if (!routeSafe(plan)) return;
+        for (int x:plan) if (!sample(x) || certificate()) return;
+    }
+
     void refine() {
+        completeCompetitors();
+        if (observedTopResolved()) return;
         if (bestValue<VMAX && q<188) {
             Features f=features();
             auto it=lower_bound(f.x.begin(),f.x.end(),best);

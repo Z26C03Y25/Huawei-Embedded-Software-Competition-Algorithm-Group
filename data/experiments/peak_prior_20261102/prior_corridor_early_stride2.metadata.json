@@ -1,0 +1,13 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\peak_prior_20261102\\prior_corridor_early_stride2.cpp",
+  "sha256": "7c3f935f77c623b4ba978344adca4d3ba2ad8528125a741db6741337bca3ffb3",
+  "histogram": {
+    "50_100": 29,
+    "500_550": 32,
+    "total": 102
+  },
+  "mode": "early",
+  "description": "Preserve216258 step8 structural anchors and all stop/refine logic. Monotonically insert stride2 raw samples only inside target-position prior corridor mode early. Tag inserts out of structural noise/trend sketch; raw maxima and refinement still see them. At most40 extra reads, charged outside128 anchor budget, leaving parking reserve."
+}

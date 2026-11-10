@@ -1,0 +1,20 @@
+{
+  "name": "wave37_evidencescout_tailprobe",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective",
+    "tailprobe"
+  ],
+  "operators": [
+    "evidencescout",
+    "tailprobe"
+  ],
+  "sha256": "6e3e09c6ee3f22ad3c3a14aaeb192f5317f53b18e2f0aedcc72a726e31730f52",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; After a local summit, probe a geometry-derived right shoulder and continue only on measured recovery.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave37_evidencescout_tailprobe.cpp",
+  "created_at": "2026-11-08T17:16:23+08:00"
+}

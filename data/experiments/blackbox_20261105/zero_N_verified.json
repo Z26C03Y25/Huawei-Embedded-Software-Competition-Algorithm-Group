@@ -1,0 +1,39 @@
+{
+  "confirmed_unique": true,
+  "lengths": [
+    592,
+    599,
+    599,
+    600,
+    600
+  ],
+  "unique_lengths": [
+    592,
+    599,
+    600
+  ],
+  "count": 5,
+  "peak_interval": [
+    498,
+    522
+  ],
+  "baseline_score": 224148,
+  "oracle_base_score": 110826,
+  "observations": {
+    "base": 110826,
+    "count": 5,
+    "quotient_sum": 122,
+    "remainder_sum": 14,
+    "length_sum": 2990,
+    "hash_sums": [
+      208,
+      177,
+      147
+    ]
+  },
+  "adaptive_seed": 4,
+  "adaptive_loss": 218,
+  "prior_candidate_count": 9,
+  "remaining_candidate_count": 1,
+  "note": "Identity features for diagnosed zero cohort, not original server case ordinals; repeated lengths may also have other positive cases."
+}

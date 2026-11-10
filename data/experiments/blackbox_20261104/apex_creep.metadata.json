@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223836.cpp",
+  "parent_sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\apex_creep.cpp",
+  "sha256": "3fc3e72b079f59ab01545c3c0ce3fe882ced9f1cc93765131a0ad3058691fb7a",
+  "description": "Adaptive near-apex unit sweep: slope/curvature predicts summit<=12 positions ahead, spend<=18 forward unit reads through a3-position descent, then retain parent search. All length/signature experts preserved. No backward repeated noise samples."
+}

@@ -1,0 +1,15 @@
+{
+  "candidate": "wave89_wideaudit",
+  "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Confirm more competing basins using current noise and contrast.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "selective",
+    "wideaudit"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

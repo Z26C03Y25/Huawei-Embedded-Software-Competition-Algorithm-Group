@@ -1,0 +1,8 @@
+{
+  "name": "median_frontier_lease",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\median_frontier_lease_487a1cdb0f93.cpp",
+  "sha256": "aacd119d39414e3c8d123cb50dfb85ea38dc320062a1652f22b1d81d3a3fcfe7",
+  "description": "At an expiring high-band boundary, three rising median blocks plus a frontier raw winner strictly beating older observed points allow a24-cell bracketing lease. This handles modest raw wiggles that blocked the prior clean-rise experiment; raw values define the winner and all parent stop/parking guards remain. No universal R guarantee."
+}

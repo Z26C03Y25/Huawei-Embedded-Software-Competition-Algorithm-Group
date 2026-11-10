@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\live_known6.cpp",
+  "sha256": "3abd96c3514e3394bf52079a206f4a8c6f111bae5b71dc03c75abc39a310f6ff",
+  "description": "Live sparse known-point insertion on original forward cells: 30,202,213,586,662,774. Extra reads charged outside128 coarse budget; raw maxima immediately influence original features/stops/refinement. Tests whether allowing the observed known peak to control the scout improves over deferred coverage."
+}

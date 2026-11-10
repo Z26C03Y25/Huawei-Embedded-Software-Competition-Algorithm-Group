@@ -1,0 +1,17 @@
+{
+  "candidate": "wave107_fitstop",
+  "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Permit short right confirmation only when the sampled maximum dominates the background and has coherent concave fit support; replace the array-center shortcut with waveform evidence.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "fitstop",
+    "frontier",
+    "quantilefloor",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent216532. Official score alone decides adoption."
+}

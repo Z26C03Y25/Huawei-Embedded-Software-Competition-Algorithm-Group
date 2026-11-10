@@ -1,0 +1,37 @@
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261106\rounds\wave_sentinel_3e58aa4555c3\main.cpp: In member function 'void af::Solver::auditFrontier()':
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261106\rounds\wave_sentinel_3e58aa4555c3\main.cpp:941:28: error: no matching function for call to 'max(int, double)'
+  941 |         const int width=max(16,f.halfLeft+f.halfRight);
+      |                         ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+  • there are 4 candidates
+In file included from D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/algorithm:62,
+                 from D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:51,
+                 from D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261106\rounds\wave_sentinel_3e58aa4555c3\main.cpp:2:
+    • candidate 1: 'template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)'
+      D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_algobase.h:256:5:
+        256 |     max(const _Tp& __a, const _Tp& __b)
+            |     ^~~
+      • template argument deduction/substitution failed:
+        •   deduced conflicting types for parameter 'const _Tp' ('int' and 'double')
+          D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261106\rounds\wave_sentinel_3e58aa4555c3\main.cpp:941:28:
+            941 |         const int width=max(16,f.halfLeft+f.halfRight);
+                |                         ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+    • candidate 2: 'template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)'
+      D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_algobase.h:302:5:
+        302 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+            |     ^~~
+      • candidate expects 3 arguments, 2 provided
+In file included from D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/algorithm:63:
+    • candidate 3: 'template<class _Tp> constexpr _Tp std::max(initializer_list<_Tp>)'
+      D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_algo.h:5746:5:
+       5746 |     max(initializer_list<_Tp> __l)
+            |     ^~~
+      • candidate expects 1 argument, 2 provided
+    • candidate 4: 'template<class _Tp, class _Compare> constexpr _Tp std::max(initializer_list<_Tp>, _Compare)'
+      D:/code/Huawei-Embedded-Software-Competition-Algorithm-Group-main/Huawei-Embedded-Software-Competition-Algorithm-Group-main/dev/toolchains/w64devkit/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/bits/stl_algo.h:5756:5:
+       5756 |     max(initializer_list<_Tp> __l, _Compare __comp)
+            |     ^~~
+      • template argument deduction/substitution failed:
+        •   mismatched types 'std::initializer_list<_Tp>' and 'int'
+          D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\blackbox_20261106\rounds\wave_sentinel_3e58aa4555c3\main.cpp:941:28:
+            941 |         const int width=max(16,f.halfLeft+f.halfRight);
+                |                         ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~

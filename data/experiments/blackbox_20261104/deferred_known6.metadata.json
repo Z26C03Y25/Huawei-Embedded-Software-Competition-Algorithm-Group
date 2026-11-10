@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\deferred_known6.cpp",
+  "sha256": "efcc034841d3e2f26f08d71a63f51600998110733aeb3bd53739ea5ba57454d6",
+  "description": "Read known30/202/213/586/662/774 only when original forward cell crosses them. Defer their values and winner/RNG effects until scout completes; retain original structural feature and coarse budget cadence. Actual physical query/turn/parking ledger remains active. Then raw deferred values enter original refinement. Isolates sparse prior coverage without new fast stopping."
+}

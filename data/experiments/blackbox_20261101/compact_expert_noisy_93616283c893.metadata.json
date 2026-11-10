@@ -1,0 +1,8 @@
+{
+  "name": "compact_expert_noisy",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\compact_expert_noisy_93616283c893.cpp",
+  "sha256": "46127aac5d2739c9867e4b6c04bf4c92160186c9bfe9438e59b028c7034e76b8",
+  "description": "Enable the scored compact fine-route algorithm only when f.noisy at plan selection; preserve original planner otherwise. No extra features() calls or coarse changes. Measure shape contribution rather than globally shrinking fine search."
+}

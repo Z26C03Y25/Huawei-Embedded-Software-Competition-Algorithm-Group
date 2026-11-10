@@ -1,0 +1,8 @@
+{
+  "name": "reserved_final_core",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\reserved_final_core_c48867bd9b1c.cpp",
+  "description": "Reserve 12 reads from general refinement plans for an explicit final raw best+-6 audit within covered frontier; route and parking checks remain; does not prove global d<=3",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212066.cpp",
+  "parent_sha256": "c48867bd9b1c1572bcbf25a2c4b1c076cb171180b556e74a465cdc0cbcab00a6",
+  "sha256": "49973d71b75b91a5c68d8c2a3ae428b488fe247656826f34e0d083ce88c1c736"
+}

@@ -1,0 +1,15 @@
+{
+  "candidate": "trial01_competitor_contour",
+  "sha256": "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Expand waveform-selected competing-peak cell completion from3 to5 contenders, uncertainty threshold relative to current contrast/noise. No fixed coordinates, length identities or response signatures.",
+  "flags": [
+    "core",
+    "frontier",
+    "efficient",
+    "selective",
+    "contour"
+  ],
+  "baseline_note": "Official214783 table-free parent"
+}

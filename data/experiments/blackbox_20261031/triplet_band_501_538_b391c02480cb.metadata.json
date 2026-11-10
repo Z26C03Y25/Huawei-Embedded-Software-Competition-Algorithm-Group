@@ -1,0 +1,8 @@
+{
+  "name": "triplet_band_501_538",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\triplet_band_501_538_b391c02480cb.cpp",
+  "description": "Official-total disjoint interval fit: enable the unchanged three-point action only for [(501, 538)]; every other N retains original baseline behavior",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "d08328848f7b3789991e1395506883119705714e8fd6b55ccd0a15df31d2af4a"
+}

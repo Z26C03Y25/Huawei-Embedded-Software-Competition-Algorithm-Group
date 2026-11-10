@@ -1,0 +1,12 @@
+{
+  "job_id": "20261031T180128179361Z_a7c49c70c7b4",
+  "state": "timed_out",
+  "sha256": "90033fa06b7f3c6b4fbaf381dec162f1af2b9c8f4d104951e234f797b6c740ed",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\rounds\\halve_postpeak_scout_90033fa06b7f\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T180128179361Z_a7c49c70c7b4\\main.cpp",
+  "score": null,
+  "record": null,
+  "last_error": "No new main.cpp submission row is visible yet; do not re-upload",
+  "resume": "python automation/judge.py wait 20261031T180128179361Z_a7c49c70c7b4",
+  "note": "The requested polling window ended, not the judge result; resume this work ID without uploading again."
+}

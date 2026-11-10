@@ -1,0 +1,28 @@
+{
+  "job_id": "20261102T161751895789Z_f78b36984963",
+  "state": "timed_out",
+  "sha256": "794d71bf4642cab0fac0cae1f28bcb48a49388409ad6101616c18aef1dfda4d7",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261103\\rounds\\absolute_frontier_560_794d71bf4642\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261102T161751895789Z_f78b36984963\\main.cpp",
+  "score": null,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-03 00:17:53",
+    "score": 216258,
+    "status": "success",
+    "status_text": "success",
+    "score_text": "216258",
+    "row_id": null,
+    "submission_id": "ab2baf1a8cb84bcabbb60e1579762648",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-03 00:17:53"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-03 00:17:53\"]"
+  },
+  "last_error": "Waiting for a second identical final score observation",
+  "resume": "python automation/judge.py wait 20261102T161751895789Z_f78b36984963",
+  "note": "The requested polling window ended, not the judge result; resume this work ID without uploading again."
+}

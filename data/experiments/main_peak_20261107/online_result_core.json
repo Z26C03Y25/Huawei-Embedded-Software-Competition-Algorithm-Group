@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "job_id": "20261107T070901117706Z_4ddc208aa1e5",
+  "state": "completed",
+  "created_at": "2026-11-07T07:09:01+00:00",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261107\\peak_core.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261107T070901117706Z_4ddc208aa1e5\\main.cpp",
+  "sha256": "7bb54fad507f3cd38ec96d252865891ecadf94ba17d35522a338373f118e4901",
+  "size": 50324,
+  "baseline": [
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-07 14:59:17",
+      "score": 177469,
+      "status": "success",
+      "status_text": "success",
+      "score_text": "177469",
+      "row_id": null,
+      "submission_id": "6dc22f055e3b4f21aa92062a340495ef",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-07 14:59:17"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-07 14:59:17\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:39:01",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "1157e56da8bd46f1b0e7c98ddf7d38ad",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:39:01"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:39:01\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:38:36",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "4148550d33594b478cad865b5cb66449",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:38:36"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:38:36\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:38:10",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "86d7dfbf99144b4abcb6a943e825993c",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:38:10"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:38:10\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:37:38",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "3a7f4382480242aeac8be5a29df6e2ac",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:37:38"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:37:38\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:37:12",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "c01b8426c75b414db0c1d82fdaa55b3a",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:37:12"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:37:12\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:36:39",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "383f81c821714773a253aad49c6ce474",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:36:39"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:36:39\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:36:14",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "434431564e3f401ab9e06315df5604c7",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:36:14"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:36:14\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:35:49",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "3d744d7abe3e4b07bc55d397d21098b6",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:35:49"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:35:49\"]"
+    },
+    {
+      "filename": "main.cpp",
+      "submission_type": "赛事",
+      "submitted_at": "2026-11-06 22:35:23",
+      "score": null,
+      "status": "failed",
+      "status_text": "internal_error",
+      "score_text": "",
+      "row_id": null,
+      "submission_id": "b982b446ee20482687a1d93e3655fbce",
+      "source": "api",
+      "identity": [
+        "main.cpp",
+        "2026-11-06 22:35:23"
+      ],
+      "identity_key": "[\"main.cpp\",\"2026-11-06 22:35:23\"]"
+    }
+  ],
+  "baseline_identities": [
+    [
+      "main.cpp",
+      "2026-11-07 14:59:17"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:39:01"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:38:36"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:38:10"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:37:38"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:37:12"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:36:39"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:36:14"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:35:49"
+    ],
+    [
+      "main.cpp",
+      "2026-11-06 22:35:23"
+    ]
+  ],
+  "baseline_submission_ids": [
+    "1157e56da8bd46f1b0e7c98ddf7d38ad",
+    "383f81c821714773a253aad49c6ce474",
+    "3a7f4382480242aeac8be5a29df6e2ac",
+    "3d744d7abe3e4b07bc55d397d21098b6",
+    "4148550d33594b478cad865b5cb66449",
+    "434431564e3f401ab9e06315df5604c7",
+    "6dc22f055e3b4f21aa92062a340495ef",
+    "86d7dfbf99144b4abcb6a943e825993c",
+    "b982b446ee20482687a1d93e3655fbce",
+    "c01b8426c75b414db0c1d82fdaa55b3a"
+  ],
+  "bound_identity": [
+    "main.cpp",
+    "2026-11-07 15:08:58"
+  ],
+  "bound_submission_id": "d3c41240227e4da3a817fa0c1acd609b",
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-07 15:08:58",
+    "score": 213822,
+    "status": "success",
+    "status_text": "success",
+    "score_text": "213822",
+    "row_id": null,
+    "submission_id": "d3c41240227e4da3a817fa0c1acd609b",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-07 15:08:58"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-07 15:08:58\"]"
+  },
+  "score": 213822,
+  "last_error": null,
+  "submission_attempt_at": "2026-11-07T15:09:01.126705+08:00",
+  "submission_url": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+  "profile_directory": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\.chrome-profile",
+  "upload_action_finished": true,
+  "last_observed_at": "2026-11-07T07:15:25+00:00",
+  "finished_at": "2026-11-07T07:15:25+00:00",
+  "ranking_after": {
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261107T070335679051Z_5a28e3f0.json",
+    "captured_at": "2026-11-07T15:03:35+08:00",
+    "refreshed_at": "2026-11-07T13:15:01+08:00",
+    "total": 236,
+    "complete": false,
+    "scope": "first_page",
+    "row_count": 10,
+    "leader": {
+      "rank": 1,
+      "team_name": "ZZBBAI",
+      "score": 257000
+    },
+    "current_team": {
+      "rank": 38,
+      "team_name": "落榜生",
+      "score": 224148
+    },
+    "gap_to_leader": 32852,
+    "gap_to_next_higher_score": null,
+    "csv_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261107T070335679051Z_5a28e3f0.csv",
+    "cache_hit": true,
+    "stale": false,
+    "next_check_at": "2026-11-07T17:03:35+08:00",
+    "gap_from_submission_to_leader": 43178,
+    "note": "Leaderboard reference only; its refresh time may precede this submission"
+  }
+}

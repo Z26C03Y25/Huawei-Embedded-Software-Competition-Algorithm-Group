@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\rank_hill_stop_long.cpp",
+  "sha256": "128a0081556293a147011199d37bc6d40309e0ef1d1253ad01a2deb76f38e4a9",
+  "description": "Weak-SNR long curves: use tie-corrected Mann-Kendall rising and falling evidence around a5-point median apex, not raw prominence25*noise. Stop only after two separated rank trends pass|Z|>2, raw winner is near that apex, and64..144 cells of tail exist. Existing significant curves unchanged; default R remains heuristic."
+}

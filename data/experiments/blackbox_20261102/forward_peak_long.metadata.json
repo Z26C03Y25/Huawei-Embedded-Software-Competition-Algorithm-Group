@@ -1,0 +1,8 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "e416905b464aa3cbb323d4ac87311b676f22b834aa339384b21f716f6f8f13dc",
+  "component": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\forward_peak_window.cpp",
+  "component_sha256": "5e74c8463844bb8d0cea19b69d9151da83ca785c83886171071b96ffd4328974",
+  "description": "Disjoint N gating: enable the formally scored213755 forward-fine window only on N>650; other inputs retain216258 trajectory, as dense mode stays inactive and fineReads remains zero. Compare against global-2503 without assuming per-case labels."
+}

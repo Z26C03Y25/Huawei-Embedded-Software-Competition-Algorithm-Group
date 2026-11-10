@@ -1,0 +1,5 @@
+20261031T075819830987Z_933f7c747df5: pending
+TimeoutError: Locator.wait_for: Timeout 40000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="上传作品", exact=True) to be visible
+

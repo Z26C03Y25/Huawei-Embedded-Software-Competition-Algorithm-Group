@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\forward_peak_window.cpp",
+  "parent_sha256": "5e74c8463844bb8d0cea19b69d9151da83ca785c83886171071b96ffd4328974",
+  "sha256": "5c9b9bf1dad1d339bc5b1f724feb49d69444e977a533e4c0718437753059568b",
+  "description": "Forward-fine dual representation: retain all raw points for max/geometry/refinement, but noise residuals and recent trend use anchor sketch; tag dense points auxiliary except each8-cell anchor. Test spatial-scale coupling independently on the scored213755 forward-window parent."
+}

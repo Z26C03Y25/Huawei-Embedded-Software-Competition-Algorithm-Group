@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-08",
+  "authorization": "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数",
+  "maximum_actual_team_uploads": 30,
+  "selection": "official aggregate score only",
+  "constraints": [
+    "No known-case coordinate or length-to-peak dispatch",
+    "No response fingerprints",
+    "No duplicate uploaded source",
+    "One unresolved current task at a time",
+    "Keep exact official source bytes and all failed experiments",
+    "Only26 protocol/query/turn/parking checks gate uploads; no synthetic performance qualification"
+  ]
+}

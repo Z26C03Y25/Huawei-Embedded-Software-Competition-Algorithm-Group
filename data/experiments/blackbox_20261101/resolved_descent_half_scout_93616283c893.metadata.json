@@ -1,0 +1,8 @@
+{
+  "name": "resolved_descent_half_scout",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\resolved_descent_half_scout_93616283c893.cpp",
+  "sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "description": "Reduce post-peak M/R only after observing both half-height flanks and at least three recent significant falls with no rises/rebound; retain original scout on ambiguous, broad unresolved or rising tails. A new conditional policy, not a repeat of the unconfirmed global half-scout source."
+}

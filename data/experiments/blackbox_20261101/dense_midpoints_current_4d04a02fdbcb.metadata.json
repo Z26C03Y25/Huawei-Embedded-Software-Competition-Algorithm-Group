@@ -1,0 +1,8 @@
+{
+  "name": "dense_midpoints_current",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216233.cpp",
+  "parent_sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\dense_midpoints_current_4d04a02fdbcb.cpp",
+  "sha256": "9b168147f64a01e21b8f4ab0c152ce673eadab91e7d46ea9f0f6dc6d839fd66d",
+  "description": "Preserve the scored parent coarse/stop policy, insert every8-cell interval midpoint only on nonflat N<=500, and estimate noise from anchor provenance. Other N follow the parent exactly. Coarse cap160 for short arrays retains fine/parking budget; no random point placement."
+}

@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\direct_155.cpp",
+  "sha256": "f91550388465a9128b256f3148ed5f9606530a775dcc641e8b5938abf90bc3f9",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Direct fixed-point155 diagnostic on same unresolved length set as bands. Score bound per positive [2999-p-603,2999-p]; exact multiples at upper bound can establish repeated same-position targets when count bounds agree. No claim from raw quotient without bounds."
+}

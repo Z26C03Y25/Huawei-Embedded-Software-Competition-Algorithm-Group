@@ -1,0 +1,8 @@
+{
+  "name": "hybrid_random_only",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\hybrid_random_only_93616283c893.cpp",
+  "sha256": "1e07b5b753fdd20dd435bf29960fd2a42765561e5dac12ec6e144d571018f897",
+  "description": "Random-skeleton ablation only: fixed32 anchors and two stratified fixed-seed random points; original adjacent gate, fine model window and candidate planner unchanged."
+}

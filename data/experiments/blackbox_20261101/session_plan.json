@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-01",
+  "authorization": ["继续优化，创新思路不要畏手畏脚，争取获取最高分", "线上三十次机会用完"],
+  "maximum_attempts": 30,
+  "no_further_same_source_repeat": true,
+  "repeat_note": "Baseline control at attempt3 was already delivered before the user's no-repeat steering. Do not submit another repeat. Resume pending work IDs only.",
+  "initial_score": 212686,
+  "initial_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "selection": "Official aggregate score only; local checks are compile/protocol/Q/O/parking admission, not performance qualification.",
+  "execution": "One concrete frozen source at a time. Complete or resume each delivered job before the next upload. Preserve immutable archives. Adopt only confirmed improvements via november_report.py --adopt.",
+  "families": ["complete-cell model validation", "fixed-anchor plus stratified random exploration", "upper-hull raw candidate intervals", "auxiliary sample provenance", "flat-region random adjacent bursts", "optimistic complete-cell refinement", "curvature-paced exploration", "disjoint N experts and direct combination validation"],
+  "tools": ["dev/tools/november_candidates.py", "dev/tools/blackbox_round_20261101.py", "dev/tools/november_report.py"],
+  "caveats": ["Raw maximum and official tie rule remain authoritative", "Unobserved spikes cannot be excluded from sparse samples", "Total score does not expose per-case zero counts or causes", "R/d remain unknown-target risks"]
+}

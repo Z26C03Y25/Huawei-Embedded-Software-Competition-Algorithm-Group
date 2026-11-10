@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223836.cpp",
+  "parent_sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\turn_priced_plan.cpp",
+  "sha256": "fe461268cf76a58283c9094c8b5958f4f4273fb31d06abaa807c60d60317e942",
+  "description": "Empirical turn pricing30 in route orientation and scenario plan scoring only. Protocol O<=6 and official-paper local ledger unchanged. Preserve all prior dispatch/signature rules and coarse/fine candidate generation. Measures full-total benefit of corrected planning cost rather than changing scored archives."
+}

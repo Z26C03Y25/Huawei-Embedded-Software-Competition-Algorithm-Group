@@ -1,0 +1,8 @@
+{
+  "name": "preserve_coarse_grid",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\preserve_coarse_grid_4f3005d79cc3.cpp",
+  "description": "Mechanism control on a scored inline-triplet parent: keep coarse anchor phase after adjacent reads; preserve all neighbor observations and raw targets",
+  "parent": "data\\versions\\main_online_212058.cpp",
+  "parent_sha256": "4f3005d79cc3f21be64b3633960a8e3cf0014203017b5d86264d653a97b9853a",
+  "sha256": "c593eb5af497ba6c10c9dc37002ebc7f390ce38e0cba067a1778cdeba746686e"
+}

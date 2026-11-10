@@ -1,0 +1,8 @@
+{
+  "prepared_at": "2026-11-08T17:10:39",
+  "source": "probe03_cellbudget",
+  "sha256": "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+  "existing_attempts": 2,
+  "max_fresh_probe_attempts": 1,
+  "continue_optimization_only_after_numeric_official_result": true
+}

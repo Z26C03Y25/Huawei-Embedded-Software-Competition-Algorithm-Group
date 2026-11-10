@@ -1,0 +1,59 @@
+[
+  {
+    "flags": [
+      "core",
+      "frontier",
+      "efficient",
+      "selective",
+      "flatreach"
+    ],
+    "accepted": true
+  },
+  {
+    "flags": [
+      "core",
+      "frontier",
+      "efficient",
+      "selective",
+      "tailprobe"
+    ],
+    "accepted": true
+  },
+  {
+    "flags": [
+      "core",
+      "intervalfine"
+    ],
+    "accepted": true
+  },
+  {
+    "flags": [
+      "core",
+      "efficient",
+      "evidencescout",
+      "cellbudget",
+      "selective"
+    ],
+    "accepted": true
+  },
+  {
+    "negative_test": "query_limit",
+    "rejected": true,
+    "reason": "Protected kernel changed: transport_constants"
+  },
+  {
+    "negative_test": "parking",
+    "rejected": true,
+    "reason": "Protected kernel changed: physical_parking"
+  },
+  {
+    "negative_test": "unguarded_q",
+    "rejected": true,
+    "reason": "Ledger write outside protected kernel"
+  },
+  {
+    "negative_test": "unprotected_output",
+    "rejected": true,
+    "reason": "Output/query outside protected transport"
+  }
+]

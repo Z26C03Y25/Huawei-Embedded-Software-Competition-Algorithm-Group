@@ -1,0 +1,10 @@
+{
+  "job_id": "20261105T043200325408Z_7875d88589b2",
+  "state": "delivery_uncertain",
+  "sha256": "e5166ae4cc8f5ca8c2081197c89f1cd89a4d633e5fd31f648de0bc933f510fe7",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\rounds\\direct_157_e5166ae4cc8f\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261105T043200325408Z_7875d88589b2\\main.cpp",
+  "score": null,
+  "record": null,
+  "last_error": "Expected exactly one Upload Work button; inspect the page before retrying."
+}

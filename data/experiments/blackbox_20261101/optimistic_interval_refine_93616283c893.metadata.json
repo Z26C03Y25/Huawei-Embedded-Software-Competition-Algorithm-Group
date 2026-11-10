@@ -1,0 +1,8 @@
+{
+  "name": "optimistic_interval_refine",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\optimistic_interval_refine_93616283c893.cpp",
+  "sha256": "895726c91db4c5b1a3543d7f5398a6575841f33282ca7c2b9389b8b940ff1801",
+  "description": "Keep scored coarse search; rank every unread observed cell by empirical Lipschitz cone upper value, choose only complete cells within two monotone-pass budgets, rescore after real observations. No finite-scenario annealing; optimism is heuristic, not a proof."
+}

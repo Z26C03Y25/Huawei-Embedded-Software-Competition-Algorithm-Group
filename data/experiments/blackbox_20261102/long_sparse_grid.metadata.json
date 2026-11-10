@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\long_sparse_grid.cpp",
+  "sha256": "1d62cfc50c08159e93a0b146551cc01af018f5c775fd4ca5d0555330e4163f7f",
+  "description": "Regular-resolution specialist on n>650: use10-cell nonflat anchors and coarse budget128, keeping uniform geometry instead of mixing auxiliary points. Other N retain216258. Dense long budget preserves full-array coverage and at least22 fine/parking reads; scout/stop/fine models otherwise unchanged."
+}

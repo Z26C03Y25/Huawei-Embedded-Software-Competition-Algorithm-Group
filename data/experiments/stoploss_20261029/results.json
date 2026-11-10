@@ -1,0 +1,1524 @@
+{
+  "official": false,
+  "date": "2026-10-29",
+  "baseline_score": 210599,
+  "baseline_sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+  "selected_source": "data/experiments/stoploss_20261029/safe_short_suffix.cpp",
+  "selected_sha256": "52a8c3f8ee4a70abe52f2fc873a6fe54fd30e9984fa382d1c54baabeff4a24c5",
+  "selection": "Predefined short fallback; fixed source before fresh development, chosen after selection and before reading blind results.",
+  "generator": "V4 mixed, all 28 families including four novel, seed_tag 20261029402",
+  "independent_base_cases": 2100,
+  "transform_siblings": 252,
+  "robust_qualification": {
+    "eligible": true,
+    "reasons": [],
+    "note": "For limited online validation only. Total score includes zeros; individual losses allowed. Held-out mean, aggregate zero rate and CVaR25 checked. Synthetic cohorts do not identify official performance."
+  },
+  "heldout_macro_delta_ci95": [
+    0.425,
+    0.9914285714285714
+  ],
+  "overall": {
+    "cases": 2100,
+    "mean_score": 1385.0204761904763,
+    "baseline_mean_score": 1384.4738095238095,
+    "mean_delta": 0.5466666666668516,
+    "zero_scores": 863,
+    "baseline_zero_scores": 863,
+    "new_zeros": 0,
+    "resolved_zeros": 0,
+    "cvar25": 0.0,
+    "baseline_cvar25": 0.0,
+    "cvar25_delta": 0.0,
+    "mean_redundancy_delta": 0.0,
+    "mean_distance_delta": 0.0,
+    "all_counter_costs": {
+      "cases": 2100,
+      "mean": {
+        "queries": 75.4047619047619,
+        "travel": 540.8438095238096,
+        "oscillations": 2.216190476190476,
+        "redundancy": 63.18666666666667,
+        "distance_cost": 22177.904761904763,
+        "counter_cost": 22859.55619047619,
+        "score_loss": 1614.9795238095237
+      },
+      "baseline_mean": {
+        "queries": 75.59857142857143,
+        "travel": 541.3895238095238,
+        "oscillations": 2.220952380952381,
+        "redundancy": 63.18666666666667,
+        "distance_cost": 22177.904761904763,
+        "counter_cost": 22860.300476190478,
+        "score_loss": 1615.5261904761905
+      },
+      "mean_delta": {
+        "queries": -0.1938095238095343,
+        "travel": -0.5457142857142117,
+        "oscillations": -0.004761904761904745,
+        "redundancy": 0.0,
+        "distance_cost": 0.0,
+        "counter_cost": -0.7442857142887078,
+        "score_loss": -0.5466666666668516
+      }
+    },
+    "paired_positive_score_costs": {
+      "cases": 1237,
+      "mean": {
+        "queries": 79.464025869038,
+        "travel": 508.03152789005657,
+        "oscillations": 2.1867421180274857,
+        "redundancy": 56.92805173807599,
+        "distance_cost": 2.1018593371059016,
+        "counter_cost": 648.712206952304,
+        "score_loss": 648.712206952304
+      },
+      "baseline_mean": {
+        "queries": 79.71705739692806,
+        "travel": 508.7025060630558,
+        "oscillations": 2.190784155214228,
+        "redundancy": 56.92805173807599,
+        "distance_cost": 2.1018593371059016,
+        "counter_cost": 649.6402586903799,
+        "score_loss": 649.6402586903799
+      },
+      "mean_delta": {
+        "queries": -0.2530315278900588,
+        "travel": -0.6709781729992415,
+        "oscillations": -0.004042037186742231,
+        "redundancy": 0.0,
+        "distance_cost": 0.0,
+        "counter_cost": -0.9280517380759647,
+        "score_loss": -0.9280517380759647
+      }
+    },
+    "changed_paired_positive_score_costs": {
+      "cases": 36,
+      "mean": {
+        "queries": 52.94444444444444,
+        "travel": 312.94444444444446,
+        "oscillations": 2.75,
+        "redundancy": 32.166666666666664,
+        "distance_cost": 0.0,
+        "counter_cost": 400.80555555555554,
+        "score_loss": 400.80555555555554
+      },
+      "baseline_mean": {
+        "queries": 61.638888888888886,
+        "travel": 336.0,
+        "oscillations": 2.888888888888889,
+        "redundancy": 32.166666666666664,
+        "distance_cost": 0.0,
+        "counter_cost": 432.69444444444446,
+        "score_loss": 432.69444444444446
+      },
+      "mean_delta": {
+        "queries": -8.694444444444443,
+        "travel": -23.055555555555543,
+        "oscillations": -0.13888888888888884,
+        "redundancy": 0.0,
+        "distance_cost": 0.0,
+        "counter_cost": -31.888888888888914,
+        "score_loss": -31.888888888888914
+      }
+    }
+  },
+  "by_n": {
+    "N<=500": {
+      "cases": 492,
+      "mean_score": 1398.060975609756,
+      "baseline_mean_score": 1395.7276422764228,
+      "mean_delta": 2.3333333333332575,
+      "zero_scores": 229,
+      "baseline_zero_scores": 229,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25": 0.0,
+      "baseline_cvar25": 0.0,
+      "cvar25_delta": 0.0,
+      "mean_redundancy_delta": 0.0,
+      "mean_distance_delta": 0.0,
+      "all_counter_costs": {
+        "cases": 492,
+        "mean": {
+          "queries": 46.46951219512195,
+          "travel": 296.6626016260163,
+          "oscillations": 2.1666666666666665,
+          "redundancy": 33.41260162601626,
+          "distance_cost": 17128.861788617887,
+          "counter_cost": 17507.573170731706,
+          "score_loss": 1601.939024390244
+        },
+        "baseline_mean": {
+          "queries": 47.296747967479675,
+          "travel": 298.9918699186992,
+          "oscillations": 2.186991869918699,
+          "redundancy": 33.41260162601626,
+          "distance_cost": 17128.861788617887,
+          "counter_cost": 17510.75,
+          "score_loss": 1604.2723577235772
+        },
+        "mean_delta": {
+          "queries": -0.8272357723577244,
+          "travel": -2.3292682926829116,
+          "oscillations": -0.020325203252032686,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": -3.176829268293659,
+          "score_loss": -2.3333333333332575
+        }
+      },
+      "paired_positive_score_costs": {
+        "cases": 263,
+        "mean": {
+          "queries": 49.80988593155894,
+          "travel": 303.6958174904943,
+          "oscillations": 2.155893536121673,
+          "redundancy": 28.954372623574145,
+          "distance_cost": 0.0,
+          "counter_cost": 384.615969581749,
+          "score_loss": 384.615969581749
+        },
+        "baseline_mean": {
+          "queries": 51.0,
+          "travel": 306.851711026616,
+          "oscillations": 2.1749049429657794,
+          "redundancy": 28.954372623574145,
+          "distance_cost": 0.0,
+          "counter_cost": 388.98098859315587,
+          "score_loss": 388.98098859315587
+        },
+        "mean_delta": {
+          "queries": -1.190114068441062,
+          "travel": -3.1558935361217095,
+          "oscillations": -0.019011406844106293,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": -4.365019011406844,
+          "score_loss": -4.365019011406844
+        }
+      },
+      "changed_paired_positive_score_costs": {
+        "cases": 36,
+        "mean": {
+          "queries": 52.94444444444444,
+          "travel": 312.94444444444446,
+          "oscillations": 2.75,
+          "redundancy": 32.166666666666664,
+          "distance_cost": 0.0,
+          "counter_cost": 400.80555555555554,
+          "score_loss": 400.80555555555554
+        },
+        "baseline_mean": {
+          "queries": 61.638888888888886,
+          "travel": 336.0,
+          "oscillations": 2.888888888888889,
+          "redundancy": 32.166666666666664,
+          "distance_cost": 0.0,
+          "counter_cost": 432.69444444444446,
+          "score_loss": 432.69444444444446
+        },
+        "mean_delta": {
+          "queries": -8.694444444444443,
+          "travel": -23.055555555555543,
+          "oscillations": -0.13888888888888884,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": -31.888888888888914,
+          "score_loss": -31.888888888888914
+        }
+      }
+    },
+    "501<=N<=650": {
+      "cases": 501,
+      "mean_score": 1496.9700598802394,
+      "baseline_mean_score": 1496.9700598802394,
+      "mean_delta": 0.0,
+      "zero_scores": 193,
+      "baseline_zero_scores": 193,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25": 0.0,
+      "baseline_cvar25": 0.0,
+      "cvar25_delta": 0.0,
+      "mean_redundancy_delta": 0.0,
+      "mean_distance_delta": 0.0,
+      "all_counter_costs": {
+        "cases": 501,
+        "mean": {
+          "queries": 66.10778443113773,
+          "travel": 463.0678642714571,
+          "oscillations": 2.1996007984031936,
+          "redundancy": 56.43712574850299,
+          "distance_cost": 17334.530938123753,
+          "counter_cost": 17922.343313373254,
+          "score_loss": 1503.0299401197606
+        },
+        "baseline_mean": {
+          "queries": 66.10778443113773,
+          "travel": 463.0678642714571,
+          "oscillations": 2.1996007984031936,
+          "redundancy": 56.43712574850299,
+          "distance_cost": 17334.530938123753,
+          "counter_cost": 17922.343313373254,
+          "score_loss": 1503.0299401197606
+        },
+        "mean_delta": {
+          "queries": 0.0,
+          "travel": 0.0,
+          "oscillations": 0.0,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": 0.0,
+          "score_loss": 0.0
+        }
+      },
+      "paired_positive_score_costs": {
+        "cases": 308,
+        "mean": {
+          "queries": 66.71428571428571,
+          "travel": 438.1168831168831,
+          "oscillations": 2.1623376623376624,
+          "redundancy": 56.05194805194805,
+          "distance_cost": 1.948051948051948,
+          "counter_cost": 564.9935064935065,
+          "score_loss": 564.9935064935065
+        },
+        "baseline_mean": {
+          "queries": 66.71428571428571,
+          "travel": 438.1168831168831,
+          "oscillations": 2.1623376623376624,
+          "redundancy": 56.05194805194805,
+          "distance_cost": 1.948051948051948,
+          "counter_cost": 564.9935064935065,
+          "score_loss": 564.9935064935065
+        },
+        "mean_delta": {
+          "queries": 0.0,
+          "travel": 0.0,
+          "oscillations": 0.0,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": 0.0,
+          "score_loss": 0.0
+        }
+      },
+      "changed_paired_positive_score_costs": {
+        "cases": 0
+      }
+    },
+    "N>650": {
+      "cases": 1107,
+      "mean_score": 1328.5591689250225,
+      "baseline_mean_score": 1328.5591689250225,
+      "mean_delta": 0.0,
+      "zero_scores": 441,
+      "baseline_zero_scores": 441,
+      "new_zeros": 0,
+      "resolved_zeros": 0,
+      "cvar25": 0.0,
+      "baseline_cvar25": 0.0,
+      "cvar25_delta": 0.0,
+      "mean_redundancy_delta": 0.0,
+      "mean_distance_delta": 0.0,
+      "all_counter_costs": {
+        "cases": 1107,
+        "mean": {
+          "queries": 92.4724480578139,
+          "travel": 684.5682023486902,
+          "oscillations": 2.245709123757904,
+          "redundancy": 79.47425474254743,
+          "distance_cost": 26613.911472448057,
+          "counter_cost": 27472.672086720868,
+          "score_loss": 1671.4408310749775
+        },
+        "baseline_mean": {
+          "queries": 92.4724480578139,
+          "travel": 684.5682023486902,
+          "oscillations": 2.245709123757904,
+          "redundancy": 79.47425474254743,
+          "distance_cost": 26613.911472448057,
+          "counter_cost": 27472.672086720868,
+          "score_loss": 1671.4408310749775
+        },
+        "mean_delta": {
+          "queries": 0.0,
+          "travel": 0.0,
+          "oscillations": 0.0,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": 0.0,
+          "score_loss": 0.0
+        }
+      },
+      "paired_positive_score_costs": {
+        "cases": 666,
+        "mean": {
+          "queries": 97.07057057057057,
+          "travel": 621.0555555555555,
+          "oscillations": 2.21021021021021,
+          "redundancy": 68.37987987987988,
+          "distance_cost": 3.003003003003003,
+          "counter_cost": 791.7192192192192,
+          "score_loss": 791.7192192192192
+        },
+        "baseline_mean": {
+          "queries": 97.07057057057057,
+          "travel": 621.0555555555555,
+          "oscillations": 2.21021021021021,
+          "redundancy": 68.37987987987988,
+          "distance_cost": 3.003003003003003,
+          "counter_cost": 791.7192192192192,
+          "score_loss": 791.7192192192192
+        },
+        "mean_delta": {
+          "queries": 0.0,
+          "travel": 0.0,
+          "oscillations": 0.0,
+          "redundancy": 0.0,
+          "distance_cost": 0.0,
+          "counter_cost": 0.0,
+          "score_loss": 0.0
+        }
+      },
+      "changed_paired_positive_score_costs": {
+        "cases": 0
+      }
+    }
+  },
+  "by_phase": {
+    "development": {
+      "overall": {
+        "cases": 700,
+        "mean_score": 1392.0214285714285,
+        "baseline_mean_score": 1391.7757142857142,
+        "mean_delta": 0.24571428571425713,
+        "zero_scores": 287,
+        "baseline_zero_scores": 287,
+        "new_zeros": 0,
+        "resolved_zeros": 0,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "mean_redundancy_delta": 0.0,
+        "mean_distance_delta": 0.0,
+        "all_counter_costs": {
+          "cases": 700,
+          "mean": {
+            "queries": 72.82,
+            "travel": 538.4342857142857,
+            "oscillations": 2.1757142857142857,
+            "redundancy": 64.84,
+            "distance_cost": 22292.0,
+            "counter_cost": 22970.27,
+            "score_loss": 1607.9785714285715
+          },
+          "baseline_mean": {
+            "queries": 72.89714285714285,
+            "travel": 538.72,
+            "oscillations": 2.1785714285714284,
+            "redundancy": 64.84,
+            "distance_cost": 22292.0,
+            "counter_cost": 22970.635714285716,
+            "score_loss": 1608.2242857142858
+          },
+          "mean_delta": {
+            "queries": -0.07714285714286007,
+            "travel": -0.28571428571433444,
+            "oscillations": -0.0028571428571426694,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -0.36571428571551223,
+            "score_loss": -0.24571428571425713
+          }
+        },
+        "paired_positive_score_costs": {
+          "cases": 413,
+          "mean": {
+            "queries": 74.86440677966101,
+            "travel": 507.10653753026634,
+            "oscillations": 2.1404358353510897,
+            "redundancy": 55.56174334140436,
+            "distance_cost": 0.9685230024213075,
+            "counter_cost": 640.6416464891041,
+            "score_loss": 640.6416464891041
+          },
+          "baseline_mean": {
+            "queries": 74.953995157385,
+            "travel": 507.4309927360775,
+            "oscillations": 2.142857142857143,
+            "redundancy": 55.56174334140436,
+            "distance_cost": 0.9685230024213075,
+            "counter_cost": 641.0581113801453,
+            "score_loss": 641.0581113801453
+          },
+          "mean_delta": {
+            "queries": -0.08958837772398454,
+            "travel": -0.32445520581114806,
+            "oscillations": -0.002421307506053072,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -0.416464891041187,
+            "score_loss": -0.416464891041187
+          }
+        },
+        "changed_paired_positive_score_costs": {
+          "cases": 5,
+          "mean": {
+            "queries": 55.2,
+            "travel": 332.6,
+            "oscillations": 3.0,
+            "redundancy": 36.8,
+            "distance_cost": 0.0,
+            "counter_cost": 427.6,
+            "score_loss": 427.6
+          },
+          "baseline_mean": {
+            "queries": 62.6,
+            "travel": 359.4,
+            "oscillations": 3.2,
+            "redundancy": 36.8,
+            "distance_cost": 0.0,
+            "counter_cost": 462.0,
+            "score_loss": 462.0
+          },
+          "mean_delta": {
+            "queries": -7.399999999999999,
+            "travel": -26.799999999999955,
+            "oscillations": -0.20000000000000018,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -34.39999999999998,
+            "score_loss": -34.39999999999998
+          }
+        }
+      },
+      "by_n": {
+        "N<=500": {
+          "cases": 134,
+          "mean_score": 1398.6641791044776,
+          "baseline_mean_score": 1397.3805970149253,
+          "mean_delta": 1.283582089552283,
+          "zero_scores": 62,
+          "baseline_zero_scores": 62,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 134,
+            "mean": {
+              "queries": 51.90298507462686,
+              "travel": 346.8955223880597,
+              "oscillations": 2.1194029850746268,
+              "redundancy": 44.35820895522388,
+              "distance_cost": 17479.10447761194,
+              "counter_cost": 17924.380597014926,
+              "score_loss": 1601.3358208955224
+            },
+            "baseline_mean": {
+              "queries": 52.30597014925373,
+              "travel": 348.3880597014925,
+              "oscillations": 2.1343283582089554,
+              "redundancy": 44.35820895522388,
+              "distance_cost": 17479.10447761194,
+              "counter_cost": 17926.29104477612,
+              "score_loss": 1602.6194029850747
+            },
+            "mean_delta": {
+              "queries": -0.4029850746268693,
+              "travel": -1.4925373134328197,
+              "oscillations": -0.014925373134328623,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -1.9104477611945185,
+              "score_loss": -1.283582089552283
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 72,
+            "mean": {
+              "queries": 49.763888888888886,
+              "travel": 316.72222222222223,
+              "oscillations": 2.0972222222222223,
+              "redundancy": 28.34722222222222,
+              "distance_cost": 0.0,
+              "counter_cost": 396.93055555555554,
+              "score_loss": 396.93055555555554
+            },
+            "baseline_mean": {
+              "queries": 50.27777777777778,
+              "travel": 318.5833333333333,
+              "oscillations": 2.111111111111111,
+              "redundancy": 28.34722222222222,
+              "distance_cost": 0.0,
+              "counter_cost": 399.31944444444446,
+              "score_loss": 399.31944444444446
+            },
+            "mean_delta": {
+              "queries": -0.5138888888888928,
+              "travel": -1.8611111111110858,
+              "oscillations": -0.01388888888888884,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -2.388888888888914,
+              "score_loss": -2.388888888888914
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 5,
+            "mean": {
+              "queries": 55.2,
+              "travel": 332.6,
+              "oscillations": 3.0,
+              "redundancy": 36.8,
+              "distance_cost": 0.0,
+              "counter_cost": 427.6,
+              "score_loss": 427.6
+            },
+            "baseline_mean": {
+              "queries": 62.6,
+              "travel": 359.4,
+              "oscillations": 3.2,
+              "redundancy": 36.8,
+              "distance_cost": 0.0,
+              "counter_cost": 462.0,
+              "score_loss": 462.0
+            },
+            "mean_delta": {
+              "queries": -7.399999999999999,
+              "travel": -26.799999999999955,
+              "oscillations": -0.20000000000000018,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -34.39999999999998,
+              "score_loss": -34.39999999999998
+            }
+          }
+        },
+        "501<=N<=650": {
+          "cases": 192,
+          "mean_score": 1528.8229166666667,
+          "baseline_mean_score": 1528.8229166666667,
+          "mean_delta": 0.0,
+          "zero_scores": 71,
+          "baseline_zero_scores": 71,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 192,
+            "mean": {
+              "queries": 63.838541666666664,
+              "travel": 457.7291666666667,
+              "oscillations": 2.203125,
+              "redundancy": 56.916666666666664,
+              "distance_cost": 16967.708333333332,
+              "counter_cost": 17548.395833333332,
+              "score_loss": 1471.1770833333333
+            },
+            "baseline_mean": {
+              "queries": 63.838541666666664,
+              "travel": 457.7291666666667,
+              "oscillations": 2.203125,
+              "redundancy": 56.916666666666664,
+              "distance_cost": 16967.708333333332,
+              "counter_cost": 17548.395833333332,
+              "score_loss": 1471.1770833333333
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 121,
+            "mean": {
+              "queries": 64.71900826446281,
+              "travel": 449.7190082644628,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 57.47933884297521,
+              "distance_cost": 0.0,
+              "counter_cost": 574.099173553719,
+              "score_loss": 574.099173553719
+            },
+            "baseline_mean": {
+              "queries": 64.71900826446281,
+              "travel": 449.7190082644628,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 57.47933884297521,
+              "distance_cost": 0.0,
+              "counter_cost": 574.099173553719,
+              "score_loss": 574.099173553719
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        },
+        "N>650": {
+          "cases": 374,
+          "mean_score": 1319.4117647058824,
+          "baseline_mean_score": 1319.4117647058824,
+          "mean_delta": 0.0,
+          "zero_scores": 154,
+          "baseline_zero_scores": 154,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 374,
+            "mean": {
+              "queries": 84.92513368983957,
+              "travel": 648.4919786096257,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 76.24598930481284,
+              "distance_cost": 26749.732620320854,
+              "counter_cost": 27561.57754010695,
+              "score_loss": 1680.5882352941176
+            },
+            "baseline_mean": {
+              "queries": 84.92513368983957,
+              "travel": 648.4919786096257,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 76.24598930481284,
+              "distance_cost": 26749.732620320854,
+              "counter_cost": 27561.57754010695,
+              "score_loss": 1680.5882352941176
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 220,
+            "mean": {
+              "queries": 88.6590909090909,
+              "travel": 600.9772727272727,
+              "oscillations": 2.131818181818182,
+              "redundancy": 63.413636363636364,
+              "distance_cost": 1.8181818181818181,
+              "counter_cost": 757.0,
+              "score_loss": 757.0
+            },
+            "baseline_mean": {
+              "queries": 88.6590909090909,
+              "travel": 600.9772727272727,
+              "oscillations": 2.131818181818182,
+              "redundancy": 63.413636363636364,
+              "distance_cost": 1.8181818181818181,
+              "counter_cost": 757.0,
+              "score_loss": 757.0
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        }
+      }
+    },
+    "selection": {
+      "overall": {
+        "cases": 700,
+        "mean_score": 1415.7542857142857,
+        "baseline_mean_score": 1415.4271428571428,
+        "mean_delta": 0.3271428571429169,
+        "zero_scores": 276,
+        "baseline_zero_scores": 276,
+        "new_zeros": 0,
+        "resolved_zeros": 0,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "mean_redundancy_delta": 0.0,
+        "mean_distance_delta": 0.0,
+        "all_counter_costs": {
+          "cases": 700,
+          "mean": {
+            "queries": 77.72857142857143,
+            "travel": 569.4085714285715,
+            "oscillations": 2.2214285714285715,
+            "redundancy": 70.79,
+            "distance_cost": 20537.428571428572,
+            "counter_cost": 21257.577142857142,
+            "score_loss": 1584.2457142857143
+          },
+          "baseline_mean": {
+            "queries": 77.81428571428572,
+            "travel": 569.6857142857143,
+            "oscillations": 2.2257142857142855,
+            "redundancy": 70.79,
+            "distance_cost": 20537.428571428572,
+            "counter_cost": 21257.944285714286,
+            "score_loss": 1584.5728571428572
+          },
+          "mean_delta": {
+            "queries": -0.08571428571428896,
+            "travel": -0.2771428571428487,
+            "oscillations": -0.004285714285714004,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -0.3671428571433353,
+            "score_loss": -0.3271428571429169
+          }
+        },
+        "paired_positive_score_costs": {
+          "cases": 424,
+          "mean": {
+            "queries": 80.23349056603773,
+            "travel": 518.497641509434,
+            "oscillations": 2.17688679245283,
+            "redundancy": 59.403301886792455,
+            "distance_cost": 2.358490566037736,
+            "counter_cost": 662.6698113207547,
+            "score_loss": 662.6698113207547
+          },
+          "baseline_mean": {
+            "queries": 80.35613207547169,
+            "travel": 518.9080188679245,
+            "oscillations": 2.1839622641509435,
+            "redundancy": 59.403301886792455,
+            "distance_cost": 2.358490566037736,
+            "counter_cost": 663.2099056603773,
+            "score_loss": 663.2099056603773
+          },
+          "mean_delta": {
+            "queries": -0.12264150943396146,
+            "travel": -0.4103773584905639,
+            "oscillations": -0.0070754716981134,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -0.5400943396226694,
+            "score_loss": -0.5400943396226694
+          }
+        },
+        "changed_paired_positive_score_costs": {
+          "cases": 10,
+          "mean": {
+            "queries": 43.4,
+            "travel": 257.6,
+            "oscillations": 2.6,
+            "redundancy": 35.6,
+            "distance_cost": 0.0,
+            "counter_cost": 339.2,
+            "score_loss": 339.2
+          },
+          "baseline_mean": {
+            "queries": 48.6,
+            "travel": 275.0,
+            "oscillations": 2.9,
+            "redundancy": 35.6,
+            "distance_cost": 0.0,
+            "counter_cost": 362.1,
+            "score_loss": 362.1
+          },
+          "mean_delta": {
+            "queries": -5.200000000000003,
+            "travel": -17.399999999999977,
+            "oscillations": -0.2999999999999998,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -22.900000000000034,
+            "score_loss": -22.900000000000034
+          }
+        }
+      },
+      "by_n": {
+        "N<=500": {
+          "cases": 112,
+          "mean_score": 1407.5714285714287,
+          "baseline_mean_score": 1405.5267857142858,
+          "mean_delta": 2.0446428571428896,
+          "zero_scores": 52,
+          "baseline_zero_scores": 52,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 112,
+            "mean": {
+              "queries": 43.9375,
+              "travel": 282.85714285714283,
+              "oscillations": 2.1607142857142856,
+              "redundancy": 30.571428571428573,
+              "distance_cost": 16608.928571428572,
+              "counter_cost": 16968.45535714286,
+              "score_loss": 1592.4285714285713
+            },
+            "baseline_mean": {
+              "queries": 44.473214285714285,
+              "travel": 284.5892857142857,
+              "oscillations": 2.1875,
+              "redundancy": 30.571428571428573,
+              "distance_cost": 16608.928571428572,
+              "counter_cost": 16970.75,
+              "score_loss": 1594.4732142857142
+            },
+            "mean_delta": {
+              "queries": -0.5357142857142847,
+              "travel": -1.7321428571428896,
+              "oscillations": -0.026785714285714413,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -2.294642857141298,
+              "score_loss": -2.0446428571428896
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 60,
+            "mean": {
+              "queries": 47.65,
+              "travel": 295.25,
+              "oscillations": 2.15,
+              "redundancy": 27.483333333333334,
+              "distance_cost": 0.0,
+              "counter_cost": 372.53333333333336,
+              "score_loss": 372.53333333333336
+            },
+            "baseline_mean": {
+              "queries": 48.516666666666666,
+              "travel": 298.15,
+              "oscillations": 2.2,
+              "redundancy": 27.483333333333334,
+              "distance_cost": 0.0,
+              "counter_cost": 376.35,
+              "score_loss": 376.35
+            },
+            "mean_delta": {
+              "queries": -0.8666666666666671,
+              "travel": -2.8999999999999773,
+              "oscillations": -0.050000000000000266,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -3.816666666666663,
+              "score_loss": -3.816666666666663
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 10,
+            "mean": {
+              "queries": 43.4,
+              "travel": 257.6,
+              "oscillations": 2.6,
+              "redundancy": 35.6,
+              "distance_cost": 0.0,
+              "counter_cost": 339.2,
+              "score_loss": 339.2
+            },
+            "baseline_mean": {
+              "queries": 48.6,
+              "travel": 275.0,
+              "oscillations": 2.9,
+              "redundancy": 35.6,
+              "distance_cost": 0.0,
+              "counter_cost": 362.1,
+              "score_loss": 362.1
+            },
+            "mean_delta": {
+              "queries": -5.200000000000003,
+              "travel": -17.399999999999977,
+              "oscillations": -0.2999999999999998,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -22.900000000000034,
+              "score_loss": -22.900000000000034
+            }
+          }
+        },
+        "501<=N<=650": {
+          "cases": 187,
+          "mean_score": 1461.5080213903743,
+          "baseline_mean_score": 1461.5080213903743,
+          "mean_delta": 0.0,
+          "zero_scores": 75,
+          "baseline_zero_scores": 75,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 187,
+            "mean": {
+              "queries": 64.95187165775401,
+              "travel": 472.3422459893048,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 51.844919786096256,
+              "distance_cost": 18767.914438502674,
+              "counter_cost": 19359.235294117647,
+              "score_loss": 1538.4919786096257
+            },
+            "baseline_mean": {
+              "queries": 64.95187165775401,
+              "travel": 472.3422459893048,
+              "oscillations": 2.1818181818181817,
+              "redundancy": 51.844919786096256,
+              "distance_cost": 18767.914438502674,
+              "counter_cost": 19359.235294117647,
+              "score_loss": 1538.4919786096257
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 112,
+            "mean": {
+              "queries": 64.99107142857143,
+              "travel": 438.49107142857144,
+              "oscillations": 2.1339285714285716,
+              "redundancy": 54.1875,
+              "distance_cost": 0.0,
+              "counter_cost": 559.8035714285714,
+              "score_loss": 559.8035714285714
+            },
+            "baseline_mean": {
+              "queries": 64.99107142857143,
+              "travel": 438.49107142857144,
+              "oscillations": 2.1339285714285716,
+              "redundancy": 54.1875,
+              "distance_cost": 0.0,
+              "counter_cost": 559.8035714285714,
+              "score_loss": 559.8035714285714
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        },
+        "N>650": {
+          "cases": 401,
+          "mean_score": 1396.703241895262,
+          "baseline_mean_score": 1396.703241895262,
+          "mean_delta": 0.0,
+          "zero_scores": 149,
+          "baseline_zero_scores": 149,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 401,
+            "mean": {
+              "queries": 93.12468827930175,
+              "travel": 694.708229426434,
+              "oscillations": 2.256857855361596,
+              "redundancy": 90.85785536159601,
+              "distance_cost": 22459.850374064838,
+              "counter_cost": 23340.79800498753,
+              "score_loss": 1603.296758104738
+            },
+            "baseline_mean": {
+              "queries": 93.12468827930175,
+              "travel": 694.708229426434,
+              "oscillations": 2.256857855361596,
+              "redundancy": 90.85785536159601,
+              "distance_cost": 22459.850374064838,
+              "counter_cost": 23340.79800498753,
+              "score_loss": 1603.296758104738
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 252,
+            "mean": {
+              "queries": 94.76587301587301,
+              "travel": 607.2103174603175,
+              "oscillations": 2.2023809523809526,
+              "redundancy": 69.32142857142857,
+              "distance_cost": 3.9682539682539684,
+              "counter_cost": 777.468253968254,
+              "score_loss": 777.468253968254
+            },
+            "baseline_mean": {
+              "queries": 94.76587301587301,
+              "travel": 607.2103174603175,
+              "oscillations": 2.2023809523809526,
+              "redundancy": 69.32142857142857,
+              "distance_cost": 3.9682539682539684,
+              "counter_cost": 777.468253968254,
+              "score_loss": 777.468253968254
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        }
+      }
+    },
+    "blind_shift": {
+      "overall": {
+        "cases": 700,
+        "mean_score": 1347.2857142857142,
+        "baseline_mean_score": 1346.2185714285715,
+        "mean_delta": 1.0671428571426986,
+        "zero_scores": 300,
+        "baseline_zero_scores": 300,
+        "new_zeros": 0,
+        "resolved_zeros": 0,
+        "cvar25": 0.0,
+        "baseline_cvar25": 0.0,
+        "cvar25_delta": 0.0,
+        "mean_redundancy_delta": 0.0,
+        "mean_distance_delta": 0.0,
+        "all_counter_costs": {
+          "cases": 700,
+          "mean": {
+            "queries": 75.66571428571429,
+            "travel": 514.6885714285714,
+            "oscillations": 2.2514285714285713,
+            "redundancy": 53.93,
+            "distance_cost": 23704.285714285714,
+            "counter_cost": 24350.821428571428,
+            "score_loss": 1652.7142857142858
+          },
+          "baseline_mean": {
+            "queries": 76.08428571428571,
+            "travel": 515.7628571428571,
+            "oscillations": 2.2585714285714285,
+            "redundancy": 53.93,
+            "distance_cost": 23704.285714285714,
+            "counter_cost": 24352.321428571428,
+            "score_loss": 1653.7814285714285
+          },
+          "mean_delta": {
+            "queries": -0.4185714285714255,
+            "travel": -1.0742857142856792,
+            "oscillations": -0.0071428571428571175,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -1.5,
+            "score_loss": -1.0671428571426986
+          }
+        },
+        "paired_positive_score_costs": {
+          "cases": 400,
+          "mean": {
+            "queries": 83.3975,
+            "travel": 497.8925,
+            "oscillations": 2.245,
+            "redundancy": 55.715,
+            "distance_cost": 3.0,
+            "counter_cost": 642.25,
+            "score_loss": 642.25
+          },
+          "baseline_mean": {
+            "queries": 83.9575,
+            "travel": 499.1975,
+            "oscillations": 2.2475,
+            "redundancy": 55.715,
+            "distance_cost": 3.0,
+            "counter_cost": 644.1175,
+            "score_loss": 644.1175
+          },
+          "mean_delta": {
+            "queries": -0.5600000000000023,
+            "travel": -1.3050000000000068,
+            "oscillations": -0.0024999999999999467,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -1.86749999999995,
+            "score_loss": -1.86749999999995
+          }
+        },
+        "changed_paired_positive_score_costs": {
+          "cases": 21,
+          "mean": {
+            "queries": 56.95238095238095,
+            "travel": 334.6190476190476,
+            "oscillations": 2.761904761904762,
+            "redundancy": 29.428571428571427,
+            "distance_cost": 0.0,
+            "counter_cost": 423.76190476190476,
+            "score_loss": 423.76190476190476
+          },
+          "baseline_mean": {
+            "queries": 67.61904761904762,
+            "travel": 359.4761904761905,
+            "oscillations": 2.8095238095238093,
+            "redundancy": 29.428571428571427,
+            "distance_cost": 0.0,
+            "counter_cost": 459.3333333333333,
+            "score_loss": 459.3333333333333
+          },
+          "mean_delta": {
+            "queries": -10.666666666666671,
+            "travel": -24.85714285714289,
+            "oscillations": -0.04761904761904745,
+            "redundancy": 0.0,
+            "distance_cost": 0.0,
+            "counter_cost": -35.571428571428555,
+            "score_loss": -35.571428571428555
+          }
+        }
+      },
+      "by_n": {
+        "N<=500": {
+          "cases": 246,
+          "mean_score": 1393.4024390243903,
+          "baseline_mean_score": 1390.3658536585365,
+          "mean_delta": 3.0365853658538526,
+          "zero_scores": 115,
+          "baseline_zero_scores": 115,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 246,
+            "mean": {
+              "queries": 44.66260162601626,
+              "travel": 275.5853658536585,
+              "oscillations": 2.1951219512195124,
+              "redundancy": 28.74390243902439,
+              "distance_cost": 17174.79674796748,
+              "counter_cost": 17525.983739837397,
+              "score_loss": 1606.5975609756097
+            },
+            "baseline_mean": {
+              "queries": 45.853658536585364,
+              "travel": 278.6422764227642,
+              "oscillations": 2.2154471544715446,
+              "redundancy": 28.74390243902439,
+              "distance_cost": 17174.79674796748,
+              "counter_cost": 17530.252032520326,
+              "score_loss": 1609.6341463414635
+            },
+            "mean_delta": {
+              "queries": -1.1910569105691025,
+              "travel": -3.056910569105696,
+              "oscillations": -0.020325203252032242,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -4.268292682929314,
+              "score_loss": -3.0365853658538526
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 131,
+            "mean": {
+              "queries": 50.82442748091603,
+              "travel": 300.40458015267177,
+              "oscillations": 2.1908396946564888,
+              "redundancy": 29.9618320610687,
+              "distance_cost": 0.0,
+              "counter_cost": 383.381679389313,
+              "score_loss": 383.381679389313
+            },
+            "baseline_mean": {
+              "queries": 52.534351145038165,
+              "travel": 304.3893129770992,
+              "oscillations": 2.198473282442748,
+              "redundancy": 29.9618320610687,
+              "distance_cost": 0.0,
+              "counter_cost": 389.08396946564886,
+              "score_loss": 389.08396946564886
+            },
+            "mean_delta": {
+              "queries": -1.7099236641221367,
+              "travel": -3.9847328244274536,
+              "oscillations": -0.007633587786259444,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -5.702290076335885,
+              "score_loss": -5.702290076335885
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 21,
+            "mean": {
+              "queries": 56.95238095238095,
+              "travel": 334.6190476190476,
+              "oscillations": 2.761904761904762,
+              "redundancy": 29.428571428571427,
+              "distance_cost": 0.0,
+              "counter_cost": 423.76190476190476,
+              "score_loss": 423.76190476190476
+            },
+            "baseline_mean": {
+              "queries": 67.61904761904762,
+              "travel": 359.4761904761905,
+              "oscillations": 2.8095238095238093,
+              "redundancy": 29.428571428571427,
+              "distance_cost": 0.0,
+              "counter_cost": 459.3333333333333,
+              "score_loss": 459.3333333333333
+            },
+            "mean_delta": {
+              "queries": -10.666666666666671,
+              "travel": -24.85714285714289,
+              "oscillations": -0.04761904761904745,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": -35.571428571428555,
+              "score_loss": -35.571428571428555
+            }
+          }
+        },
+        "501<=N<=650": {
+          "cases": 122,
+          "mean_score": 1501.1967213114754,
+          "baseline_mean_score": 1501.1967213114754,
+          "mean_delta": 0.0,
+          "zero_scores": 47,
+          "baseline_zero_scores": 47,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 122,
+            "mean": {
+              "queries": 71.45081967213115,
+              "travel": 457.25409836065575,
+              "oscillations": 2.221311475409836,
+              "redundancy": 62.721311475409834,
+              "distance_cost": 15714.754098360656,
+              "counter_cost": 16308.401639344262,
+              "score_loss": 1498.8032786885246
+            },
+            "baseline_mean": {
+              "queries": 71.45081967213115,
+              "travel": 457.25409836065575,
+              "oscillations": 2.221311475409836,
+              "redundancy": 62.721311475409834,
+              "distance_cost": 15714.754098360656,
+              "counter_cost": 16308.401639344262,
+              "score_loss": 1498.8032786885246
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 75,
+            "mean": {
+              "queries": 72.50666666666666,
+              "travel": 418.84,
+              "oscillations": 2.1733333333333333,
+              "redundancy": 56.53333333333333,
+              "distance_cost": 8.0,
+              "counter_cost": 558.0533333333333,
+              "score_loss": 558.0533333333333
+            },
+            "baseline_mean": {
+              "queries": 72.50666666666666,
+              "travel": 418.84,
+              "oscillations": 2.1733333333333333,
+              "redundancy": 56.53333333333333,
+              "distance_cost": 8.0,
+              "counter_cost": 558.0533333333333,
+              "score_loss": 558.0533333333333
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        },
+        "N>650": {
+          "cases": 332,
+          "mean_score": 1256.5572289156626,
+          "baseline_mean_score": 1256.5572289156626,
+          "mean_delta": 0.0,
+          "zero_scores": 138,
+          "baseline_zero_scores": 138,
+          "new_zeros": 0,
+          "resolved_zeros": 0,
+          "cvar25": 0.0,
+          "baseline_cvar25": 0.0,
+          "cvar25_delta": 0.0,
+          "mean_redundancy_delta": 0.0,
+          "mean_distance_delta": 0.0,
+          "all_counter_costs": {
+            "cases": 332,
+            "mean": {
+              "queries": 100.1867469879518,
+              "travel": 712.960843373494,
+              "oscillations": 2.3042168674698793,
+              "redundancy": 69.36144578313252,
+              "distance_cost": 31478.31325301205,
+              "counter_cost": 32363.126506024095,
+              "score_loss": 1743.4427710843374
+            },
+            "baseline_mean": {
+              "queries": 100.1867469879518,
+              "travel": 712.960843373494,
+              "oscillations": 2.3042168674698793,
+              "redundancy": 69.36144578313252,
+              "distance_cost": 31478.31325301205,
+              "counter_cost": 32363.126506024095,
+              "score_loss": 1743.4427710843374
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "paired_positive_score_costs": {
+            "cases": 194,
+            "mean": {
+              "queries": 109.60309278350516,
+              "travel": 661.8092783505155,
+              "oscillations": 2.3092783505154637,
+              "redundancy": 72.78865979381443,
+              "distance_cost": 3.0927835051546393,
+              "counter_cost": 849.6030927835052,
+              "score_loss": 849.6030927835052
+            },
+            "baseline_mean": {
+              "queries": 109.60309278350516,
+              "travel": 661.8092783505155,
+              "oscillations": 2.3092783505154637,
+              "redundancy": 72.78865979381443,
+              "distance_cost": 3.0927835051546393,
+              "counter_cost": 849.6030927835052,
+              "score_loss": 849.6030927835052
+            },
+            "mean_delta": {
+              "queries": 0.0,
+              "travel": 0.0,
+              "oscillations": 0.0,
+              "redundancy": 0.0,
+              "distance_cost": 0.0,
+              "counter_cost": 0.0,
+              "score_loss": 0.0
+            }
+          },
+          "changed_paired_positive_score_costs": {
+            "cases": 0
+          }
+        }
+      }
+    }
+  },
+  "hard_failures": [],
+  "study_manifest_sha256": "fdb47fa59a76cae06d8a5cd43e38418de0c503ea9162affba9094c2167866dab",
+  "raw_evidence": "dev/build/stoploss_mandatory_fresh_20261029",
+  "vmax_path_regressions": 12,
+  "smoke": "26 cases, 0 protocol errors, 3 existing score zeros",
+  "online_submissions": 1,
+  "ranking_requests": 1,
+  "main_preserved": true,
+  "note": "Small local cost improvement only; no official score prediction. CVaR25 is zero for both because this stress set has >25% zero scores; the unchanged CVaR does not establish tail safety.",
+  "online_result": {
+    "state": "completed",
+    "job_id": "20261029T032329929166Z_c32134f9f6d4",
+    "submission_id": "9ea8c640f10c43e0a029663c681dcdcf",
+    "submitted_at": "2026-10-29 11:23:25",
+    "score": 210599,
+    "quota_before": "29/30 used; authorized single upload",
+    "delta_from_baseline": 0,
+    "confirmation": "two identical terminal observations by bound submission ID",
+    "ranking_leader": 230023,
+    "ranking_refreshed_at": "2026-10-29T10:30:00+08:00",
+    "ranking_gap": 19424
+  },
+  "decision": "No official improvement; main.cpp retains the original 210599 source bytes."
+}

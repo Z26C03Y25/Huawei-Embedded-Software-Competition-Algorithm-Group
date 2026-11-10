@@ -1,0 +1,8 @@
+{
+  "name": "compact_fine_routes",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\compact_fine_routes_93616283c893.cpp",
+  "sha256": "15148f0a31e69c22e110f73cd2e9451af3a15536e7353fab22b8f50486e1bdec",
+  "description": "Keep coarse lookahead and model-first refinement. Replace automatic all-candidate fine sweeps by cost-scored competition between original full routes, ranked compact routes and the complete raw-winner bracket; permit smaller annealing plans. Existing six scenario estimates are heuristic, not certified peak bounds."
+}

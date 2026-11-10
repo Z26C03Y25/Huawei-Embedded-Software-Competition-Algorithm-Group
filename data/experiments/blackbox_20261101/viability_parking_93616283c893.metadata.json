@@ -1,0 +1,8 @@
+{
+  "name": "viability_parking",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\viability_parking_93616283c893.cpp",
+  "sha256": "10f949da1c52b65d1a5315e47a746b708a4e9f1189e02055d20d758d39333724",
+  "description": "Keep the entire212686 trajectory until finish. Only when old raw-best parking is mathematically impossible to score (best<rightmost-202), select a legal observed candidate in the viable parking window. Old positive-score parking cases are unchanged."
+}

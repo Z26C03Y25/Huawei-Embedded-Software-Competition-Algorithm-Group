@@ -1,0 +1,21 @@
+{
+  "name": "wave98_maincoherent",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "maincoherent",
+    "quantilefloor",
+    "selective"
+  ],
+  "operators": [
+    "maincoherent"
+  ],
+  "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+  "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+  "parent_score": 216531,
+  "rationale": "Peak confirmation requires both background dominance and coherent local curvature; an isolated raw high cannot bypass unresolved-gap coverage.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave98_maincoherent.cpp",
+  "created_at": "2026-11-08T18:17:32+08:00",
+  "same_diagnostic_trajectories_as": null
+}

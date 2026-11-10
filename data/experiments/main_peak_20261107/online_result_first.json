@@ -1,0 +1,12 @@
+{
+  "name": "peak_frontier_efficient_selective",
+  "job_id": "20261107T065919885800Z_279afde295ba",
+  "sha256": "59d0e4ae95a01ed438736714451900d463c9e8eec17c2fb43c1b0817f472d8e8",
+  "score": 177469,
+  "submission_id": "6dc22f055e3b4f21aa92062a340495ef",
+  "submitted_at": "2026-11-07 14:59:17",
+  "source_path": "data/versions/online_search/scored_177469_59d0e4ae95a0.cpp",
+  "parent_score": null,
+  "official_benchmark": 224148,
+  "parent_note": "Previous wave-only baseline had no numeric official result"
+}

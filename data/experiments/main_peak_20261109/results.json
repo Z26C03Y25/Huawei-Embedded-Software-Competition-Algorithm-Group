@@ -1,0 +1,2026 @@
+[
+  {
+    "name": "carry_20261108_wave88_paired",
+    "description": "Prior day original work: read/register only, never re-upload.",
+    "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave88_paired.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\carry_20261108_wave88_paired_0c6bec8231e8\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:45:02+08:00",
+    "state": "failed",
+    "imported_existing_job": true,
+    "parent_reconstructed_on_resume": true,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "job_id": "20261108T093735322945Z_ed3c79bf9b3d",
+    "submission_id": "5817250cfe234a8aae2c870d1204d927",
+    "submitted_at": "2026-11-08 17:37:36",
+    "prior_day": true,
+    "score": null,
+    "finished_at": "2026-11-09T01:45:28+00:00",
+    "delta": null,
+    "accepted": false
+  },
+  {
+    "name": "short_rebound",
+    "description": "Resolve the16position quick-stop versus24position rebound blind spot: use the latest observed gap to decide when rebound evidence is available; retain amplitude/noise thresholds.",
+    "sha256": "1f9d2883e369f5fa3dcc3523364025b504d9f443ddce6f7dfdee16ea644cc297",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\short_rebound.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\short_rebound_1f9d2883e369\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:45:09+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T09:45:28+08:00",
+    "quota_before": {
+      "used": 0,
+      "maximum": 30,
+      "remaining": 30,
+      "quote": "团队已经上传 0 次(0/30)",
+      "captured_at": "2026-11-09T09:45:28+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T014528790856Z_ff3cc8dfa61e",
+    "submission_id": "9eb87e9cf91b42bba4d9f498d5517a2f",
+    "submitted_at": "2026-11-09 09:45:28",
+    "score": 216982,
+    "finished_at": "2026-11-09T01:46:50+00:00",
+    "delta": -632,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_216982_1f9d2883e369.cpp"
+  },
+  {
+    "name": "confirmed_apex",
+    "description": "The unit-read apex exit must meet the same waveform evidence as the short scout; a few descending unit samples alone cannot bypass peak confirmation.",
+    "sha256": "92162eaa7cfed0db8d7ced44f654fcb1b153926f9c3c6ffeb0fd57daa3c371c7",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\confirmed_apex.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\confirmed_apex_92162eaa7cfe\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:45:43+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T09:45:57+08:00",
+    "quota_before": {
+      "used": 1,
+      "maximum": 30,
+      "remaining": 29,
+      "quote": "团队已经上传 1 次(1/30)",
+      "captured_at": "2026-11-09T09:45:57+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T014557640743Z_7937f74e5fe7",
+    "submission_id": "11fd16c39ecb49f09e398601f484644c",
+    "submitted_at": "2026-11-09 09:45:56",
+    "score": 216857,
+    "finished_at": "2026-11-09T01:47:01+00:00",
+    "delta": -757,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_216857_92162eaa7cfe.cpp"
+  },
+  {
+    "name": "rival_veto",
+    "description": "A coherent local fit cannot authorize short confirmation while a measured competing basin has a quadratic upper estimate comparable with the raw winner.",
+    "sha256": "d977403b9e30ab6f6dce4547a0ea63972b76e078a675209969ed679fbaeb9e6b",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rival_veto.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\rival_veto_d977403b9e30\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:46:51+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "b51146a77ed85efce3682ca5a2f1f7727a5985fd4e23b8127f3a42d932609120",
+      "static_review": {
+        "passed": true,
+        "sha256": "d977403b9e30ab6f6dce4547a0ea63972b76e078a675209969ed679fbaeb9e6b",
+        "checked_at": "2026-11-09T09:46:51+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T09:46:59+08:00"
+    },
+    "submit_started_at": "2026-11-09T09:47:01+08:00",
+    "quota_before": {
+      "used": 2,
+      "maximum": 30,
+      "remaining": 28,
+      "quote": "团队已经上传 2 次(2/30)",
+      "captured_at": "2026-11-09T09:47:01+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T014701809039Z_68a06a79ea6c",
+    "submission_id": "f01b4b682025496f8ea25183b4193656",
+    "submitted_at": "2026-11-09 09:47:01",
+    "score": 217614,
+    "finished_at": "2026-11-09T01:47:54+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217614_d977403b9e30.cpp"
+  },
+  {
+    "name": "predictive_fit",
+    "description": "Require leave-one-out quadratic prediction to beat constant-level error; a fitted peak must predict unused observations before authorizing short confirmation.",
+    "sha256": "6b8ce8993fa2c34cbc6c1c639b465d392c5bcb96d0b450de80c044ae90902887",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\predictive_fit.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\predictive_fit_6b8ce8993fa2\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:49:07+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 25,
+      "native_cases_blocked": 1,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T09:49:21+08:00",
+    "quota_before": {
+      "used": 3,
+      "maximum": 30,
+      "remaining": 27,
+      "quote": "团队已经上传 3 次(3/30)",
+      "captured_at": "2026-11-09T09:49:21+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T014921989488Z_c0154eb3cb07",
+    "submission_id": "4fd2dd89594b4e38a3ac8eb44de4adf4",
+    "submitted_at": "2026-11-09 09:49:21",
+    "score": 216195,
+    "finished_at": "2026-11-09T01:51:05+00:00",
+    "delta": -1419,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_216195_6b8ce8993fa2.cpp"
+  },
+  {
+    "name": "scale_confirmation",
+    "description": "Local peak confirmation requires an independently spaced wider shoulder quadratic to place its maximum within the allowed3position parking tolerance of the local fit.",
+    "sha256": "939cef78ee010eaa1604638401dd659128f975cf639a345d2c7344dea0754f24",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\scale_confirmation.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\scale_confirmation_939cef78ee01\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:49:37+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T09:49:56+08:00",
+    "quota_before": {
+      "used": 4,
+      "maximum": 30,
+      "remaining": 26,
+      "quote": "团队已经上传 4 次(4/30)",
+      "captured_at": "2026-11-09T09:49:56+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T014956455649Z_bab160931879",
+    "submission_id": "f52e7578cc2b440db803cdf4fda99d5b",
+    "submitted_at": "2026-11-09 09:49:55",
+    "score": 213782,
+    "finished_at": "2026-11-09T01:51:05+00:00",
+    "delta": -3832,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_213782_939cef78ee01.cpp"
+  },
+  {
+    "name": "edge_recovery",
+    "description": "A winner at the right search boundary is unbracketed; spend remaining budget on forward coverage with a reserved fine cell, then verify again if refinement exposes a new open boundary.",
+    "sha256": "e76d07ae511b0e5d4c6b6a5b3f12736083dc2f0989c0e8d2cea4318d46f1f471",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\edge_recovery.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\edge_recovery_e76d07ae511b\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:52:58+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "e3ac8b28860d986b6176fd4eb55a20f8c1fa643c3f827ba32032d611db34f4a8",
+      "static_review": {
+        "passed": true,
+        "sha256": "e76d07ae511b0e5d4c6b6a5b3f12736083dc2f0989c0e8d2cea4318d46f1f471",
+        "checked_at": "2026-11-09T09:52:58+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T09:53:07+08:00"
+    },
+    "submit_started_at": "2026-11-09T09:53:09+08:00",
+    "quota_before": {
+      "used": 5,
+      "maximum": 30,
+      "remaining": 25,
+      "quote": "团队已经上传 5 次(5/30)",
+      "captured_at": "2026-11-09T09:53:09+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T015309142496Z_53edcec91469",
+    "submission_id": "6d7a29b3202f4a979192eb5d1801e882",
+    "submitted_at": "2026-11-09 09:53:08",
+    "score": 217614,
+    "finished_at": "2026-11-09T01:54:52+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217614_e76d07ae511b.cpp"
+  },
+  {
+    "name": "persistent_confirmation",
+    "description": "Require coherent fitted peak location to persist across two distinct forward measurements; all fast apex exits use the same cached confirmation instead of a one-frame fit.",
+    "sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\persistent_confirmation.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\persistent_confirmation_be6201dc825a\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:57:46+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T09:58:06+08:00",
+    "quota_before": {
+      "used": 6,
+      "maximum": 30,
+      "remaining": 24,
+      "quote": "团队已经上传 6 次(6/30)",
+      "captured_at": "2026-11-09T09:58:06+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T015806144106Z_246879890288",
+    "submission_id": "84779863d55c4f08bd50dc03248791fc",
+    "submitted_at": "2026-11-09 09:58:05",
+    "score": 218389,
+    "finished_at": "2026-11-09T01:59:55+00:00",
+    "delta": 775,
+    "accepted": true,
+    "archive": "data/versions/online_search/scored_218389_be6201dc825a.cpp"
+  },
+  {
+    "name": "shoulder_recovery",
+    "description": "A right shoulder still rising toward a predicted value above the winner is also unconfirmed, even if its last sampled value has not become the raw maximum; probe within the current winner lease.",
+    "sha256": "50abe36ffbb935b2a9dca3ac7089afa331035005897636770d696fd15e9ae7cc",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\shoulder_recovery.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\shoulder_recovery_50abe36ffbb9\\main.cpp",
+    "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "parent_score": 217614,
+    "created_at": "2026-11-09T09:58:25+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "d9c5e1c5bf4729887a14d68fbea061995e6c3884483263a5834c7d7ade6a02f9",
+      "static_review": {
+        "passed": true,
+        "sha256": "50abe36ffbb935b2a9dca3ac7089afa331035005897636770d696fd15e9ae7cc",
+        "checked_at": "2026-11-09T09:58:26+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T09:58:33+08:00"
+    },
+    "submit_started_at": "2026-11-09T09:58:38+08:00",
+    "quota_before": {
+      "used": 7,
+      "maximum": 30,
+      "remaining": 23,
+      "quote": "团队已经上传 7 次(7/30)",
+      "captured_at": "2026-11-09T09:58:38+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T015838517269Z_6625fe15f663",
+    "submission_id": "7cc075ecd8f341a1985124e78af7746c",
+    "submitted_at": "2026-11-09 09:58:37",
+    "score": 217614,
+    "finished_at": "2026-11-09T01:59:55+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217614_50abe36ffbb9.cpp"
+  },
+  {
+    "name": "challenge_marginal",
+    "description": "Falsify a statistically marginal fitted summit with a short right interval survey before accepting it; retain ordinary quick stopping for strongly separated single peaks.",
+    "sha256": "fd7ad86a53c6fd0f17a4f290e52ea7bc5f2c5c2a0c5d6ef767bd4ef29a72016c",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\challenge_marginal.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\challenge_marginal_fd7ad86a53c6\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:01:46+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:02:05+08:00",
+    "quota_before": {
+      "used": 8,
+      "maximum": 30,
+      "remaining": 22,
+      "quote": "团队已经上传 8 次(8/30)",
+      "captured_at": "2026-11-09T10:02:05+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020205290273Z_0ea678cb7ce5",
+    "submission_id": "eff181d3bde54f3a87c55bddeb715849",
+    "submitted_at": "2026-11-09 10:02:04",
+    "score": 218135,
+    "finished_at": "2026-11-09T02:04:05+00:00",
+    "delta": -254,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218135_fd7ad86a53c6.cpp"
+  },
+  {
+    "name": "weak_companions",
+    "description": "Add a small stratified set of auxiliary reads only in weak-signal intervals, always preserving the parent outer endpoint and its logical coarse budget to avoid global grid phase drift.",
+    "sha256": "a1e8e169dda89c100b4db49364c31639768e3a8d4c32123d6926eb31e9a0dddd",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\weak_companions.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\weak_companions_a1e8e169dda8\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:02:20+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:02:38+08:00",
+    "quota_before": {
+      "used": 9,
+      "maximum": 30,
+      "remaining": 21,
+      "quote": "团队已经上传 9 次(9/30)",
+      "captured_at": "2026-11-09T10:02:38+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020238892944Z_d305625fd271",
+    "submission_id": "3c03c151de694b938588fc1172b91c24",
+    "submitted_at": "2026-11-09 10:02:38",
+    "score": 210778,
+    "finished_at": "2026-11-09T02:04:43+00:00",
+    "delta": -7611,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_210778_a1e8e169dda8.cpp"
+  },
+  {
+    "name": "persistent_challenge",
+    "description": "Combine the two individually beneficial mechanisms: temporally persistent peak confirmation and active interval falsification for marginal candidates.",
+    "sha256": "7dacca800cef566d20beb4673b322e55fbcd0a8631dbd3728a7338872f83c947",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\persistent_challenge.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\persistent_challenge_7dacca800cef\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:05:46+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "4c1dbaaad7a250c05810899c00d4682db85e4220b1cb800e02bc8d71ae675b3d",
+      "static_review": {
+        "passed": true,
+        "sha256": "7dacca800cef566d20beb4673b322e55fbcd0a8631dbd3728a7338872f83c947",
+        "checked_at": "2026-11-09T10:05:47+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T10:05:54+08:00"
+    },
+    "submit_started_at": "2026-11-09T10:05:56+08:00",
+    "quota_before": {
+      "used": 10,
+      "maximum": 30,
+      "remaining": 20,
+      "quote": "团队已经上传 10 次(10/30)",
+      "captured_at": "2026-11-09T10:05:56+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020556030834Z_a0dc9bb2094c",
+    "submission_id": "3cbf06236b7c47829fe3e68ce2a7cb59",
+    "submitted_at": "2026-11-09 10:05:55",
+    "score": 215951,
+    "finished_at": "2026-11-09T02:06:56+00:00",
+    "delta": -2438,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_215951_7dacca800cef.cpp"
+  },
+  {
+    "name": "spatial_background",
+    "description": "Weight confirmation background and dispersion by the physical interval represented by each sample; dense summit bursts must not inflate their apparent statistical support.",
+    "sha256": "25c299394c02209e11aa0ff1d7ec5fbd501714a7fbdca34047c16c65e550ea9f",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\spatial_background.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\spatial_background_25c299394c02\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:06:11+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "9191d511be1df8c7b5c421e19cefb48d8ed349bef3137e7096a65480c9878813",
+      "static_review": {
+        "passed": true,
+        "sha256": "25c299394c02209e11aa0ff1d7ec5fbd501714a7fbdca34047c16c65e550ea9f",
+        "checked_at": "2026-11-09T10:06:11+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T10:06:18+08:00"
+    },
+    "submit_started_at": "2026-11-09T10:06:20+08:00",
+    "quota_before": {
+      "used": 11,
+      "maximum": 30,
+      "remaining": 19,
+      "quote": "团队已经上传 11 次(11/30)",
+      "captured_at": "2026-11-09T10:06:20+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020620280836Z_5779b81c2470",
+    "submission_id": "94d30643df7f4879957719c82e1a3f7a",
+    "submitted_at": "2026-11-09 10:06:19",
+    "score": 217714,
+    "finished_at": "2026-11-09T02:07:50+00:00",
+    "delta": -675,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217714_25c299394c02.cpp"
+  },
+  {
+    "name": "spatial_persistent",
+    "description": "Combine spacing-weighted background evidence with confirmation persistence across distinct forward samples.",
+    "sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\spatial_persistent.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\spatial_persistent_5dcce0efd1f9\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:06:57+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:07:14+08:00",
+    "quota_before": {
+      "used": 12,
+      "maximum": 30,
+      "remaining": 18,
+      "quote": "团队已经上传 12 次(12/30)",
+      "captured_at": "2026-11-09T10:07:14+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020714418579Z_e2bf5b5ca9e0",
+    "submission_id": "60746bdd9c8646f48825771567b91939",
+    "submitted_at": "2026-11-09 10:07:13",
+    "score": 218796,
+    "finished_at": "2026-11-09T02:08:57+00:00",
+    "delta": 407,
+    "accepted": true,
+    "archive": "data/versions/online_search/scored_218796_5dcce0efd1f9.cpp"
+  },
+  {
+    "name": "curvature_noise",
+    "description": "Estimate noise from four-point quadratic interpolation residuals normalized for irregular sample spacing; smooth curvature is not independent measurement noise.",
+    "sha256": "dba8bbd0eed2e27f1d91fec6873d9af04de449be81c1792bde509a6302e6d718",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\curvature_noise.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\curvature_noise_dba8bbd0eed2\\main.cpp",
+    "parent_sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+    "parent_score": 218389,
+    "created_at": "2026-11-09T10:07:51+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 25,
+      "native_cases_blocked": 1,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:08:04+08:00",
+    "quota_before": {
+      "used": 13,
+      "maximum": 30,
+      "remaining": 17,
+      "quote": "团队已经上传 13 次(13/30)",
+      "captured_at": "2026-11-09T10:08:04+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020804525345Z_9e167d4258ec",
+    "submission_id": "e78beea821fb4ccfaba5af681d19c67a",
+    "submitted_at": "2026-11-09 10:08:03",
+    "score": 210082,
+    "finished_at": "2026-11-09T02:09:55+00:00",
+    "delta": -8307,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_210082_dba8bbd0eed2.cpp"
+  },
+  {
+    "name": "persistent_curvature_noise",
+    "description": "Combine temporal confirmation with a noise estimate that removes the effect of smooth curvature and nonuniform query gaps.",
+    "sha256": "ac3f6d34ee35a7bbca3d9f9c5870746be55a3246dbdac16aa0b0e16bf99eb31e",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\persistent_curvature_noise.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\persistent_curvature_noise_ac3f6d34ee35\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:08:58+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:09:18+08:00",
+    "quota_before": {
+      "used": 14,
+      "maximum": 30,
+      "remaining": 16,
+      "quote": "团队已经上传 14 次(14/30)",
+      "captured_at": "2026-11-09T10:09:18+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T020918798857Z_0c63ba82ec07",
+    "submission_id": "cdb663369f3c425dbf2b09d18ba81878",
+    "submitted_at": "2026-11-09 10:09:18",
+    "score": 210416,
+    "finished_at": "2026-11-09T02:10:49+00:00",
+    "delta": -8380,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_210416_ac3f6d34ee35.cpp"
+  },
+  {
+    "name": "spatial_fit",
+    "description": "Fit local curvature using the physical support interval of each observation rather than counting dense summit reads as independent broad support.",
+    "sha256": "f5849028f6d43d01c773059ed49736d3b2fd8af04a08c4586f6c1509b3361dac",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\spatial_fit.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\spatial_fit_f5849028f6d4\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:11:46+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:12:06+08:00",
+    "quota_before": {
+      "used": 15,
+      "maximum": 30,
+      "remaining": 15,
+      "quote": "团队已经上传 15 次(15/30)",
+      "captured_at": "2026-11-09T10:12:06+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021206545877Z_1d41d39040b4",
+    "submission_id": "8c3fa6fc76cb498a8d1c52a5ceeddf2c",
+    "submitted_at": "2026-11-09 10:12:05",
+    "score": 217457,
+    "finished_at": "2026-11-09T02:14:05+00:00",
+    "delta": -1339,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217457_f5849028f6d4.cpp"
+  },
+  {
+    "name": "spatial_all",
+    "description": "Correct spacing bias in both background dominance and the local quadratic confirmation.",
+    "sha256": "d9ee8b5c2fb31c3825b946b9ce2a89865e0a4fe71223fd52b2b9e6a3de1c4817",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\spatial_all.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\spatial_all_d9ee8b5c2fb3\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:12:22+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:12:40+08:00",
+    "quota_before": {
+      "used": 16,
+      "maximum": 30,
+      "remaining": 14,
+      "quote": "团队已经上传 16 次(16/30)",
+      "captured_at": "2026-11-09T10:12:40+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021240240618Z_dc33fb511e54",
+    "submission_id": "65cfb3ba386c47e5b535281c7a16c63e",
+    "submitted_at": "2026-11-09 10:12:39",
+    "score": 217557,
+    "finished_at": "2026-11-09T02:14:06+00:00",
+    "delta": -1239,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217557_d9ee8b5c2fb3.cpp"
+  },
+  {
+    "name": "persistent_spatial_fit",
+    "description": "Combine temporal persistence with spacing-weighted local curvature confirmation.",
+    "sha256": "567574ddb959104efa8f7b7bb09bbbf2d55519efb65712f44b42cf805090a4a4",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\persistent_spatial_fit.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\persistent_spatial_fit_567574ddb959\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:14:06+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:14:26+08:00",
+    "quota_before": {
+      "used": 17,
+      "maximum": 30,
+      "remaining": 13,
+      "quote": "团队已经上传 17 次(17/30)",
+      "captured_at": "2026-11-09T10:14:26+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021426036024Z_33290a0dbd89",
+    "submission_id": "c9bd6913d3db415f9cf9df4b75c7e82a",
+    "submitted_at": "2026-11-09 10:14:25",
+    "score": 217704,
+    "finished_at": "2026-11-09T02:15:51+00:00",
+    "delta": -1092,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217704_567574ddb959.cpp"
+  },
+  {
+    "name": "persistent_spatial_all",
+    "description": "Combine temporal persistence, spacing-weighted background and spacing-weighted local curvature.",
+    "sha256": "2190f76cf26f982aee5149daa4c827f92105112a6b00a07d5e769f37fd3357f8",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\persistent_spatial_all.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\persistent_spatial_all_2190f76cf26f\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:14:41+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:14:59+08:00",
+    "quota_before": {
+      "used": 18,
+      "maximum": 30,
+      "remaining": 12,
+      "quote": "团队已经上传 18 次(18/30)",
+      "captured_at": "2026-11-09T10:14:59+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021459500891Z_cccaa938b0a7",
+    "submission_id": "bfb3f3d2b6574fc0875a7c91dd0cd152",
+    "submitted_at": "2026-11-09 10:14:59",
+    "score": 218111,
+    "finished_at": "2026-11-09T02:15:52+00:00",
+    "delta": -685,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218111_2190f76cf26f.cpp"
+  },
+  {
+    "name": "robust_confirmation",
+    "description": "Require the ordinary local quadratic and an existing iteratively reweighted fit to locate their maxima within the allowed parking tolerance.",
+    "sha256": "34052c2e9ea785184935b36c0ddda81e161fdd9512cb37ed835c592fa4b054df",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\robust_confirmation.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\robust_confirmation_34052c2e9ea7\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:15:52+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": true,
+      "cases": 26,
+      "zero_scores": 3,
+      "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+      "executable_sha256": "55c58a459c351bcda73dc28645812044e178b45d916e648e7521aed8dda50937",
+      "static_review": {
+        "passed": true,
+        "sha256": "34052c2e9ea785184935b36c0ddda81e161fdd9512cb37ed835c592fa4b054df",
+        "checked_at": "2026-11-09T10:15:52+08:00",
+        "checks": [
+          "network URL",
+          "credential marker",
+          "file/network/process/environment API",
+          "external I/O include",
+          "external preprocessor include"
+        ],
+        "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+      },
+      "completed_at": "2026-11-09T10:15:59+08:00"
+    },
+    "submit_started_at": "2026-11-09T10:16:01+08:00",
+    "quota_before": {
+      "used": 19,
+      "maximum": 30,
+      "remaining": 11,
+      "quote": "团队已经上传 19 次(19/30)",
+      "captured_at": "2026-11-09T10:16:01+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021601691361Z_896b99b80be4",
+    "submission_id": "f44f6a2609b5472aa2d59c7f9155efa7",
+    "submitted_at": "2026-11-09 10:16:01",
+    "score": 217614,
+    "finished_at": "2026-11-09T02:16:57+00:00",
+    "delta": -1182,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217614_34052c2e9ea7.cpp"
+  },
+  {
+    "name": "robust_persistent",
+    "description": "Use both temporal stability and agreement with a robust curvature fit before quick stopping.",
+    "sha256": "dc321a9107e3fa09952b687b04c31bae2caaf163b0d4853c6e369fa95d80ac61",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\robust_persistent.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\robust_persistent_dc321a9107e3\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:16:17+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:16:37+08:00",
+    "quota_before": {
+      "used": 20,
+      "maximum": 30,
+      "remaining": 10,
+      "quote": "团队已经上传 20 次(20/30)",
+      "captured_at": "2026-11-09T10:16:37+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021637766020Z_3cc852d0f740",
+    "submission_id": "cc13df8d8bb640c081ee6d5f3f622440",
+    "submitted_at": "2026-11-09 10:16:36",
+    "score": 218389,
+    "finished_at": "2026-11-09T02:17:52+00:00",
+    "delta": -407,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218389_dc321a9107e3.cpp"
+  },
+  {
+    "name": "sharp_or_fit",
+    "description": "A unique raw spike with verified lower adjacent integer values and an extreme lead over every other observed value is a separate confirmation path; retain the smooth-fit path.",
+    "sha256": "5f5b66ac83ae7345d2d9697dd63feb7b4f64e600792990164ee7b1c032ab81ec",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\sharp_or_fit.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\sharp_or_fit_5f5b66ac83ae\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:16:58+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:17:16+08:00",
+    "quota_before": {
+      "used": 21,
+      "maximum": 30,
+      "remaining": 9,
+      "quote": "团队已经上传 21 次(21/30)",
+      "captured_at": "2026-11-09T10:17:16+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021716325020Z_1ddb707b646b",
+    "submission_id": "9c90265c71d847458bbbe92072d065c4",
+    "submitted_at": "2026-11-09 10:17:15",
+    "score": 217614,
+    "finished_at": "2026-11-09T02:19:04+00:00",
+    "delta": -1182,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217614_5f5b66ac83ae.cpp"
+  },
+  {
+    "name": "hybrid_sharp",
+    "description": "Retain temporally stable smooth-peak confirmation while admitting a separately verified dominant raw spike; no raw maximum is removed as noise.",
+    "sha256": "4aaded85d2cd8f448053f827e8f4488214cd6fad34858cd009b55a1909b7d82a",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\hybrid_sharp.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\hybrid_sharp_4aaded85d2cd\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:17:53+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:18:11+08:00",
+    "quota_before": {
+      "used": 22,
+      "maximum": 30,
+      "remaining": 8,
+      "quote": "团队已经上传 22 次(22/30)",
+      "captured_at": "2026-11-09T10:18:11+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T021811619689Z_67db21b263a4",
+    "submission_id": "4b5002315f8e42eab92a9eebddc28e1a",
+    "submitted_at": "2026-11-09 10:18:11",
+    "score": 218389,
+    "finished_at": "2026-11-09T02:19:58+00:00",
+    "delta": -407,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218389_4aaded85d2cd.cpp"
+  },
+  {
+    "name": "after_challenge",
+    "description": "From the frozen best confirmed parent, challenge only marginal fitted peaks with a right interval survey.",
+    "sha256": "1319058c44ecd9da802475e2ec905adaa5b7d23b9075594d2a4d90ed31ffdde1",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_challenge.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_challenge_1319058c44ec\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:21:03+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:21:19+08:00",
+    "quota_before": {
+      "used": 23,
+      "maximum": 30,
+      "remaining": 7,
+      "quote": "团队已经上传 23 次(23/30)",
+      "captured_at": "2026-11-09T10:21:19+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022119656484Z_2b023afb63b3",
+    "submission_id": "bd1fd14dfbee4c1fb931fe6191992f98",
+    "submitted_at": "2026-11-09 10:21:19",
+    "score": 215931,
+    "finished_at": "2026-11-09T02:23:00+00:00",
+    "delta": -2865,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_215931_1319058c44ec.cpp"
+  },
+  {
+    "name": "after_rebound",
+    "description": "From the frozen best parent, remove the short-stop versus rebound-distance blind interval.",
+    "sha256": "225e93e613337d526739114310beda76cd24e7a56f1467037c55a74a954b8e5f",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_rebound.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_rebound_225e93e61333\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:21:35+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:21:50+08:00",
+    "quota_before": {
+      "used": 24,
+      "maximum": 30,
+      "remaining": 6,
+      "quote": "团队已经上传 24 次(24/30)",
+      "captured_at": "2026-11-09T10:21:50+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022150630005Z_731d13544f38",
+    "submission_id": "dba4499e2c5e4ecfad1e845df8732c9b",
+    "submitted_at": "2026-11-09 10:21:49",
+    "score": 218196,
+    "finished_at": "2026-11-09T02:23:00+00:00",
+    "delta": -600,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218196_225e93e61333.cpp"
+  },
+  {
+    "name": "after_edge",
+    "description": "From the frozen best parent, recover an unresolved right boundary before and after refinement.",
+    "sha256": "5f4a856b7483ff6d0919b7a202894ef7af93d55e3bfc24d823c8e109118f7903",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_edge.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_edge_5f4a856b7483\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:23:01+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:23:20+08:00",
+    "quota_before": {
+      "used": 25,
+      "maximum": 30,
+      "remaining": 5,
+      "quote": "团队已经上传 25 次(25/30)",
+      "captured_at": "2026-11-09T10:23:20+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022320610676Z_c9baef57af3a",
+    "submission_id": "620021d48df84f519ede278c50a2503d",
+    "submitted_at": "2026-11-09 10:23:19",
+    "score": 218796,
+    "finished_at": "2026-11-09T02:25:04+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218796_5f4a856b7483.cpp"
+  },
+  {
+    "name": "after_width",
+    "description": "Use observed half-height peak width to choose the short confirmation horizon instead of a universal16position cap.",
+    "sha256": "b6f4a1623d5b556026800773f8a0caca5a8e17dad1530d026ddc72786ddce767",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_width.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_width_b6f4a1623d5b\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:23:36+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:23:53+08:00",
+    "quota_before": {
+      "used": 26,
+      "maximum": 30,
+      "remaining": 4,
+      "quote": "团队已经上传 26 次(26/30)",
+      "captured_at": "2026-11-09T10:23:53+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022353937249Z_cd9d5fefcdfa",
+    "submission_id": "2cba8a9f903a4283b2e5f96a7591147d",
+    "submitted_at": "2026-11-09 10:23:53",
+    "score": 217870,
+    "finished_at": "2026-11-09T02:25:04+00:00",
+    "delta": -926,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_217870_b6f4a1623d5b.cpp"
+  },
+  {
+    "name": "after_plateau",
+    "description": "Directly query the center-preferred point between equal observed maxima before refinement, rather than leaving that tie-critical point to randomized planning.",
+    "sha256": "4fe89367911e2f5794b431a1157cb5325f10aa85e68acbc83e12ddc0214d082f",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_plateau.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_plateau_4fe89367911e\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:25:05+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:25:22+08:00",
+    "quota_before": {
+      "used": 27,
+      "maximum": 30,
+      "remaining": 3,
+      "quote": "团队已经上传 27 次(27/30)",
+      "captured_at": "2026-11-09T10:25:22+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022522887563Z_2dbfc31d06af",
+    "submission_id": "47ae1df05bcd430792eb54d81348c8ae",
+    "submitted_at": "2026-11-09 10:25:22",
+    "score": 218796,
+    "finished_at": "2026-11-09T02:27:00+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218796_4fe89367911e.cpp"
+  },
+  {
+    "name": "after_robust",
+    "description": "Add robust local-model agreement to the frozen best confirmation mechanism.",
+    "sha256": "b97d1eac7f0ce637b828b8520aad4e55307cc7860cfce8e18f3a5374a5a0cbc6",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_robust.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_robust_b97d1eac7f0c\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:25:38+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 25,
+      "native_cases_blocked": 1,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:25:50+08:00",
+    "quota_before": {
+      "used": 28,
+      "maximum": 30,
+      "remaining": 2,
+      "quote": "团队已经上传 28 次(28/30)",
+      "captured_at": "2026-11-09T10:25:50+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022550692926Z_fb6f2337b374",
+    "submission_id": "b368abd549634c648b6bbe986c1996fd",
+    "submitted_at": "2026-11-09 10:25:49",
+    "score": 218796,
+    "finished_at": "2026-11-09T02:27:00+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218796_b97d1eac7f0c.cpp"
+  },
+  {
+    "name": "after_sharp",
+    "description": "Add a verified dominant-spike confirmation path to the frozen best smooth-peak mechanism.",
+    "sha256": "c35b348f4cb0950c810350ddce00070b17a09ea85bbc6fcb937e6acd548dd132",
+    "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\after_sharp.cpp",
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261109\\rounds\\after_sharp_c35b348f4cb0\\main.cpp",
+    "parent_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+    "parent_score": 218796,
+    "created_at": "2026-11-09T10:27:01+08:00",
+    "state": "completed",
+    "imported_existing_job": false,
+    "parent_reconstructed_on_resume": false,
+    "authorization_verbatim": [
+      "继续优化，目前看着还有零分，试着改珠峰确认方案",
+      "你可以通过线上提交来确定，你设计的主峰识别对不对"
+    ],
+    "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+    "preflight": {
+      "passed": false,
+      "native_cases_passed": 0,
+      "native_cases_blocked": 26,
+      "alternate_static_admission": true,
+      "native_error": "Windows4551before queries only",
+      "source_guard_certificate": {
+        "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+        "protected_sections": {
+          "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+          "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+          "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+          "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+          "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+          "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+          "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+        },
+        "query_bound": 199,
+        "turn_bound": 6,
+        "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+        "assumptions": [
+          "Normal execution and valid judge replies within the problem domain",
+          "Catalog-only changes to exploration, fitting and query planning"
+        ],
+        "not_certified": [
+          "Global peak identity",
+          "Redundancy<=199 on arbitrary arrays",
+          "Native runtime behavior or score"
+        ],
+        "native_execution": "not claimed",
+        "verification": "source_kernel_equivalence"
+      }
+    },
+    "submit_started_at": "2026-11-09T10:27:20+08:00",
+    "quota_before": {
+      "used": 29,
+      "maximum": 30,
+      "remaining": 1,
+      "quote": "团队已经上传 29 次(29/30)",
+      "captured_at": "2026-11-09T10:27:20+08:00",
+      "beijing_date": "2026-11-09",
+      "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+    },
+    "job_id": "20261109T022720379945Z_c53a7f03c079",
+    "submission_id": "15a8aef25129405a8f93a4f3e6f713f3",
+    "submitted_at": "2026-11-09 10:27:19",
+    "score": 218796,
+    "finished_at": "2026-11-09T02:29:05+00:00",
+    "delta": 0,
+    "accepted": false,
+    "archive": "data/versions/online_search/scored_218796_c35b348f4cb0.cpp"
+  }
+]

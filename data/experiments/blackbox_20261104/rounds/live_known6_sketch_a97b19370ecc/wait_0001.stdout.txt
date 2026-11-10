@@ -1,0 +1,4 @@
+{
+  "error": "Expected exactly one Upload Work button; inspect the page before retrying.",
+  "error_type": "BrowserError"
+}

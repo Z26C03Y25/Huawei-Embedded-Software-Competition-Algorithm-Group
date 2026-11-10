@@ -1,0 +1,20 @@
+{
+  "name": "wave88_paired",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "paired",
+    "selective"
+  ],
+  "operators": [
+    "paired"
+  ],
+  "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Alternate coarse gaps on measured signal to expose narrow shoulders.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave88_paired.cpp",
+  "created_at": "2026-11-08T17:37:22+08:00",
+  "same_diagnostic_trajectories_as": null
+}

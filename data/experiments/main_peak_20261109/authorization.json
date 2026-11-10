@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-09",
+  "user_request": [
+    "继续优化，目前看着还有零分，试着改珠峰确认方案",
+    "你可以通过线上提交来确定，你设计的主峰识别对不对"
+  ],
+  "maximum_platform_daily_attempts": 30,
+  "plan": [
+    "after_challenge",
+    "after_rebound",
+    "after_edge",
+    "after_width",
+    "after_plateau",
+    "after_robust",
+    "after_sharp"
+  ],
+  "selection": "Online formal scores only; local checks for protocol/budget/parking",
+  "no_case_lookup": true,
+  "scope": "Original Huawei contest only, new uploads stop at date change or zero actual remaining quota",
+  "runs": [
+    {
+      "started_at": "2026-11-09T10:05:44+08:00",
+      "modes": [
+        "persistent_challenge",
+        "spatial_background",
+        "spatial_persistent",
+        "curvature_noise",
+        "persistent_curvature_noise"
+      ]
+    },
+    {
+      "started_at": "2026-11-09T10:11:43+08:00",
+      "modes": [
+        "spatial_fit",
+        "spatial_all",
+        "persistent_spatial_fit",
+        "persistent_spatial_all",
+        "robust_confirmation",
+        "robust_persistent",
+        "sharp_or_fit",
+        "hybrid_sharp"
+      ]
+    },
+    {
+      "started_at": "2026-11-09T10:21:01+08:00",
+      "modes": [
+        "after_challenge",
+        "after_rebound",
+        "after_edge",
+        "after_width",
+        "after_plateau",
+        "after_robust",
+        "after_sharp"
+      ]
+    }
+  ],
+  "actual_used": 30,
+  "actual_remaining": 0,
+  "completed_today": 30,
+  "executed_modes": [
+    "short_rebound",
+    "confirmed_apex",
+    "rival_veto",
+    "predictive_fit",
+    "scale_confirmation",
+    "edge_recovery",
+    "persistent_confirmation",
+    "shoulder_recovery",
+    "challenge_marginal",
+    "weak_companions",
+    "persistent_challenge",
+    "spatial_background",
+    "spatial_persistent",
+    "curvature_noise",
+    "persistent_curvature_noise",
+    "spatial_fit",
+    "spatial_all",
+    "persistent_spatial_fit",
+    "persistent_spatial_all",
+    "robust_confirmation",
+    "robust_persistent",
+    "sharp_or_fit",
+    "hybrid_sharp",
+    "after_challenge",
+    "after_rebound",
+    "after_edge",
+    "after_width",
+    "after_plateau",
+    "after_robust",
+    "after_sharp"
+  ],
+  "finished_at": "2026-11-09T10:31:50+08:00"
+}

@@ -1,0 +1,53 @@
+{
+  "job_id": "20261105T055408165235Z_dd07b179f761",
+  "state": "completed",
+  "sha256": "ef9c832a962d708cdef22b3e95add4a61c9a63431de31de19132e816e525abec",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\rounds\\oracle_495_525_nhash_3_ef9c832a962d\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261105T055408165235Z_dd07b179f761\\main.cpp",
+  "score": 110679,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-05 13:54:04",
+    "score": 110679,
+    "status": "success",
+    "status_text": "success",
+    "score_text": "110679",
+    "row_id": null,
+    "submission_id": "4ae7a6a2112f453ab8fc78a28ee355c4",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-05 13:54:04"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-05 13:54:04\"]"
+  },
+  "last_error": null,
+  "ranking_after": {
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261105T042347994172Z_13768b3f.json",
+    "captured_at": "2026-11-05T12:23:47+08:00",
+    "refreshed_at": "2026-11-05T11:15:01+08:00",
+    "total": 210,
+    "complete": false,
+    "scope": "first_page",
+    "row_count": 10,
+    "leader": {
+      "rank": 1,
+      "team_name": "ZZBBAI",
+      "score": 255332
+    },
+    "current_team": {
+      "rank": 31,
+      "team_name": "落榜生",
+      "score": 224148
+    },
+    "gap_to_leader": 31184,
+    "gap_to_next_higher_score": null,
+    "csv_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261105T042347994172Z_13768b3f.csv",
+    "cache_hit": true,
+    "stale": false,
+    "next_check_at": "2026-11-05T14:23:47+08:00",
+    "gap_from_submission_to_leader": 144653,
+    "note": "Leaderboard reference only; its refresh time may precede this submission"
+  }
+}

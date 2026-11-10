@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\live_known6_sketch.cpp",
+  "sha256": "a97b19370ecc08ddba60ab2dad959fb73962bfa3a037f93c301605967206c2f6",
+  "description": "Live six-point prior with structural-anchor sketch: raw known maxima enter all winner/refinement logic immediately; auxiliary points do not distort residual noise or recent rise/fall geometry."
+}

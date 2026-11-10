@@ -1,0 +1,272 @@
+[
+  {
+    "name": "wave_baseline",
+    "sha256": "0681c8fc69beec025597ce9fe3327211cead28d519ebe16f7dc1fc355f879a2c",
+    "job_id": "20261106T141716541757Z_5aba9a17b147",
+    "work": "6f5203e4a85c4c41b9e0c750c1491f67",
+    "submitted_at": "2026-11-06 22:17:18",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_adaptive",
+    "sha256": "1988a1a8f311ce3449670ed30891d8f8b84f01fcff41e7528c54d66b7273f120",
+    "job_id": "20261106T142214128031Z_94e65dc8aa76",
+    "work": "565d6436d5cb4d81bca0d65a018b2160",
+    "submitted_at": "2026-11-06 22:22:15",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_exact",
+    "sha256": "0d11c750775e008bd39c2ff88053749ed2ed7d66b9bf79248380164b4b12b55b",
+    "job_id": "20261106T142235427397Z_7ae2877b2401",
+    "work": "2dc5da8e0a0d410193390a52816ad2dd",
+    "submitted_at": "2026-11-06 22:22:36",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_ladder",
+    "sha256": "b553eb7670272ba2b227b3fb9bfd880d67760d06f8661dc4a39c8f6a79f248ab",
+    "job_id": "20261106T142259135932Z_d47aadb4b3cc",
+    "work": "95120286528f446a8469fa2ba7606d64",
+    "submitted_at": "2026-11-06 22:23:00",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_paired",
+    "sha256": "56f68adfbd02f703bea580015bab4c15695f15238300cf308dcf1fa5e4e7fff6",
+    "job_id": "20261106T142711791075Z_0ae587540a28",
+    "work": "69453e1c6a864f419d586f4dbc3b9c73",
+    "submitted_at": "2026-11-06 22:27:13",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_blank",
+    "sha256": "1a5bffc06c39f22870e88262a40e10d5e2c2ad63bf993d9186d2df45e6f57b97",
+    "job_id": "20261106T142734094449Z_864d68df11cc",
+    "work": "24e38dafb09d448cad5472849c1467b2",
+    "submitted_at": "2026-11-06 22:27:35",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_envelope",
+    "sha256": "0719f7ecc8b81f0b88f2cd40feea9e5c3f091f2310f58e13e8379292024d3adb",
+    "job_id": "20261106T142756327939Z_c119301dc7f9",
+    "work": "342a6f85f8244065bd75ccb38d1c8450",
+    "submitted_at": "2026-11-06 22:27:57",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_phase",
+    "sha256": "c1aa047caa6c61e5aa7ba0b569905342860948fa766024383ec45ecbd6836d71",
+    "job_id": "20261106T142818546598Z_4ec9b8788394",
+    "work": "fe79d6d3d8764608b3e77c1faa7ea4d7",
+    "submitted_at": "2026-11-06 22:28:19",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_triad",
+    "sha256": "113d53b44d369276f99bf9b81e80a33e236f42509cc574243634157c2b74abe3",
+    "job_id": "20261106T142840484132Z_4bc87a1b4a62",
+    "work": "cfb13eaf98204b6ca59b5764ab66b03b",
+    "submitted_at": "2026-11-06 22:28:41",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_asymmetry",
+    "sha256": "f45278d85165841af826120387e3bce8b11b1b9776ee7629ea24abce8f17901f",
+    "job_id": "20261106T142904681879Z_f0418fefa16e",
+    "work": "c45770e81bc141c7976c7467210e2230",
+    "submitted_at": "2026-11-06 22:29:05",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_modelgate",
+    "sha256": "b839844c215658f89d82a759e53f340e71ccc1242ed1aca67463f352d89e3ac1",
+    "job_id": "20261106T142929060403Z_34ba24ed3bc0",
+    "work": "20b1c4a273294007af5f419965a12b2e",
+    "submitted_at": "2026-11-06 22:29:30",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_scale",
+    "sha256": "4d37c495a38873af145ea4ce52be9178965ad1cfbf185d1af0c066aa06d282e9",
+    "job_id": "20261106T142953233003Z_5c38f5e2dfa3",
+    "work": "cdc5d6e2c7aa4ad19dfdc8ffc9c11e07",
+    "submitted_at": "2026-11-06 22:29:54",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_midcell",
+    "sha256": "31f8fff202c98afa7e37de71b4eccae640ff55d229d5a563cdafd7ac92195b7f",
+    "job_id": "20261106T143018192075Z_6e512e9cdc7c",
+    "work": "77a64566c98542e5be6427389be96cf3",
+    "submitted_at": "2026-11-06 22:30:19",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_sentinel_v2",
+    "sha256": "7bc9b1d553f3618bce63b011fbb89f6c6aad27c519aa1925ddecc2a4c2b1aeee",
+    "job_id": "20261106T143042142134Z_04bf612254cd",
+    "work": "9e726d7bf08847fcb79983d403527e01",
+    "submitted_at": "2026-11-06 22:30:43",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_shoulder_v2",
+    "sha256": "7c14d9020b8ea00a75718078d5138f2683eb735fd54aeed1c91a45171b9c5f38",
+    "job_id": "20261106T143106365770Z_6e0941f9cd65",
+    "work": "0c0e983d67fa4e5a8e8deabb67794587",
+    "submitted_at": "2026-11-06 22:31:07",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_two_scale_v2",
+    "sha256": "9ade3067f2948c582b43dd27a352de7a56ad09129dc10137cb25bcf44df7b06a",
+    "job_id": "20261106T143130298178Z_f91dfa99d9a6",
+    "work": "c87f9a42b9db4464af01ecde751fb4f7",
+    "submitted_at": "2026-11-06 22:31:31",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_turn_pricing",
+    "sha256": "58709d10ecc764696bff507cebcc35e4d812e38788f43a7a74d3a38464b6d5fa",
+    "job_id": "20261106T143154247112Z_1154ab5240b2",
+    "work": "71289e141ed14a6aa18d6df8b52d32ad",
+    "submitted_at": "2026-11-06 22:31:55",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_plateau_walk",
+    "sha256": "30a5c854018fa4a75dc40ef8e9595c92f372712b37ea63baa21ab51463a3d977",
+    "job_id": "20261106T143219522906Z_ef7e5c923f5f",
+    "work": "9e26cc5f34664ca5996446107c073e87",
+    "submitted_at": "2026-11-06 22:32:20",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_crest_run",
+    "sha256": "e79a8a5f913116ddeba2c94c2da085cf0826f1c96436ba9ea1b87123053d75d7",
+    "job_id": "20261106T143246023043Z_beb703e7f12b",
+    "work": "5b5a255e46c449c5bd5f284846caa48c",
+    "submitted_at": "2026-11-06 22:32:47",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_persistence_v2",
+    "sha256": "7332bd0e1df0d0042c7be96635b72b5a2a24467ef2b376e7c9244924862e8170",
+    "job_id": "20261106T143311317252Z_f38d507750d8",
+    "work": "559e5d8d646641f5a86a7461bd6d5798",
+    "submitted_at": "2026-11-06 22:33:12",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_robust_slope_v2",
+    "sha256": "27e259b5a6d342b47452cd4bca1f1a655e0aadda4597e27a21c2c46db7d603b6",
+    "job_id": "20261106T143451230468Z_2b2fd6ebcac8",
+    "work": "d5dda6f9deaa44beb705468e741a9f51",
+    "submitted_at": "2026-11-06 22:34:52",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_adapt_ladder_v2",
+    "sha256": "13fc614d95499f5c2d8e15ec228aeadb12c6bb4645eb47f18c778c43cbed8d26",
+    "job_id": "20261106T143522592429Z_94a509fe1c11",
+    "work": "b982b446ee20482687a1d93e3655fbce",
+    "submitted_at": "2026-11-06 22:35:23",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_two_scale_envelope_v2",
+    "sha256": "79cb43d048cea149fcf8343e6f99b87fe400fe52db7c6200b7013e43eda4e2c8",
+    "job_id": "20261106T143548463576Z_8d648b2d0231",
+    "work": "3d744d7abe3e4b07bc55d397d21098b6",
+    "submitted_at": "2026-11-06 22:35:49",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_two_scale_exact_v2",
+    "sha256": "5cabe27c97d818909a56dcdbd8098b39232383ed01719e63d50cb94cee837efe",
+    "job_id": "20261106T143613656961Z_7de8a8a92df8",
+    "work": "434431564e3f401ab9e06315df5604c7",
+    "submitted_at": "2026-11-06 22:36:14",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_persist_triad_v2",
+    "sha256": "72796c69e5031a7a412c67401e0621449e53137497a45bf19d41ba28ff4c25b5",
+    "job_id": "20261106T143638762982Z_c4d3e375bf64",
+    "work": "383f81c821714773a253aad49c6ce474",
+    "submitted_at": "2026-11-06 22:36:39",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_sentinel_exact_v2",
+    "sha256": "d937e1e1878374afa1288b96d2688974ef67af37a2c97b32e76a467f0a9994c9",
+    "job_id": "20261106T143711565892Z_e043f2870cdf",
+    "work": "c01b8426c75b414db0c1d82fdaa55b3a",
+    "submitted_at": "2026-11-06 22:37:12",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_phase_blank_midcell",
+    "sha256": "dce0f71c4e38aedd356e81fecd8f01f5138e164726ff9ccdc7eb92c002b8d334",
+    "job_id": "20261106T143736770940Z_c660bfc60368",
+    "work": "3a7f4382480242aeac8be5a29df6e2ac",
+    "submitted_at": "2026-11-06 22:37:38",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_robust_slope_exact_v2",
+    "sha256": "8b2c23053645f1cc1edc622cbe0c3cc8ab8484783a33371fc58590c1d61c8059",
+    "job_id": "20261106T143809686935Z_4ddead4a2967",
+    "work": "86d7dfbf99144b4abcb6a943e825993c",
+    "submitted_at": "2026-11-06 22:38:10",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_adapt_ladder_envelope_v2",
+    "sha256": "a979a7bc0c615b37ae053d6c6c5a02b7a23e465262f0a831a1618eafdb2d7cf0",
+    "job_id": "20261106T143835530129Z_3ceae6d0a7a8",
+    "work": "4148550d33594b478cad865b5cb66449",
+    "submitted_at": "2026-11-06 22:38:36",
+    "state": "failed",
+    "score": null
+  },
+  {
+    "name": "wave_ladder_model",
+    "sha256": "373977da1940a45daed08ddc923e745f062da293ffe96c282ab488bf03d03585",
+    "job_id": "20261106T143900793828Z_d8fc15783090",
+    "work": "1157e56da8bd46f1b0e7c98ddf7d38ad",
+    "submitted_at": "2026-11-06 22:39:01",
+    "state": "failed",
+    "score": null
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\length_30_rem4.cpp",
+  "sha256": "b208c09b75036a7e806da161fcbaa4a5398cdc546979aead9f6170a33f4addf7",
+  "description": "Singleton length probe at30, matching original N>50 eligibility. Repeat stationary point floor((N-400)/4) or residue%4 extra times. Max151 queries, no travel/turn/redundancy change; sole scoring case total difference decodes length component. Compare measured singleton baseline before any assumption."
+}

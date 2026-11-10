@@ -1,0 +1,22 @@
+{
+  "name": "wave104_tailvalley",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "tailvalley"
+  ],
+  "operators": [
+    "tailvalley"
+  ],
+  "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+  "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+  "parent_score": 216532,
+  "rationale": "Fit the robust descending tail curvature to locate a possible coming valley; choose the right sentinel from that geometry within the observed-winner redundancy lease.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave104_tailvalley.cpp",
+  "created_at": "2026-11-08T18:31:04+08:00",
+  "same_diagnostic_trajectories_as": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45"
+}

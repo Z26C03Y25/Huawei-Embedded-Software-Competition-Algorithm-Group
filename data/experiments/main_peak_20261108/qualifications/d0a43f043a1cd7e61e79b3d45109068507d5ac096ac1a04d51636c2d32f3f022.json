@@ -1,0 +1,15 @@
+{
+  "candidate": "wave94_quantilefloor",
+  "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Estimate background from a low empirical order statistic to reduce isolated low-outlier distortion.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

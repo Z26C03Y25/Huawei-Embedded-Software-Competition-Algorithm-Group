@@ -1,0 +1,8 @@
+{
+  "name": "anchored_random_audit",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\anchored_random_audit_93616283c893.cpp",
+  "sha256": "5ad00983b2644b413a9804f473b51e8e968cb430503cb78b3b9d70e3bcad95a5",
+  "description": "Keep fixed incumbent anchors; add one reproducible random position per32-cell block on the forward path, outside the already profitable539..613 band. Reserve39 reads by coarse cap160; no extra right reach or reversal for each audit."
+}

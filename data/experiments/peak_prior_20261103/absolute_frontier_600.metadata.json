@@ -1,0 +1,8 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\peak_prior_20261103\\absolute_frontier_600.cpp",
+  "sha256": "d96e76cc330c0cbd3ad25977c74e73df4a1bbdb4d13feaea1ce4ac5362ccfc83",
+  "cap": 600,
+  "description": "Preserve216258 sampling, features, refinement and evidence-based early stops; clamp only coarse right frontier to absolute index600 using revealed102-target histogram. No extra reads; knowingly trades far-tail outliers for Q/M/R savings."
+}

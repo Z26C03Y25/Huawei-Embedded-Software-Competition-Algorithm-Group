@@ -13,5 +13,5 @@
   "file_input_selector": "input[type=file]",
   "poll_interval_seconds": 5,
   "timeout_seconds": 600,
-  "action_timeout_ms": 15000
+  "action_timeout_ms": 40000
 }

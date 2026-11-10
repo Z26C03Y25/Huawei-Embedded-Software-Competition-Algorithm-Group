@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\travel_length30_calibration.cpp",
+  "sha256": "d9f3f99c855ffd674c1ecb87a469e6aadde49a70b87039bdacfd6ea2d4124843",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Calibrate single-grade N encoding on known singleton30/N479/replymod127=7. Offset L=min(199,(N-400)/3), repeated reads encode remainder; if target30 stays winner, total loss from2969 is32+(N-400), predicted2858. Other matches park raw observed winner so extra positives cause an out-of-range/inconclusive total. Q<=35,O<=1."
+}

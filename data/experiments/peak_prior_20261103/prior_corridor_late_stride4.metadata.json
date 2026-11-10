@@ -1,0 +1,8 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\peak_prior_20261103\\prior_corridor_late_stride4.cpp",
+  "sha256": "52054ddfaa572d5d1cbd1b7cc49b4543451231c93fa6176a9dfc41557b63f4c8",
+  "mode": "late_stride4",
+  "description": "Preserve216258 structural8-grid. Insert one midpoint in selected prior cells (late_stride4); exclude insertions from structural trend/noise, retain raw winner; cap16 extra reads."
+}

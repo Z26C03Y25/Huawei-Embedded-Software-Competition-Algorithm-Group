@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\triplet_fast_late.cpp",
+  "sha256": "1fe2e9c1d093ebb93e8a18002f1b746b26746b7a8175996c1b636b5b61734bee",
+  "description": "Live six-point prior with structural-anchor sketch: raw known maxima enter all winner/refinement logic immediately; auxiliary points do not distort residual noise or recent rise/fall geometry. Add contiguous prior-neighbor validation and early scout handoff to original refinement on strict known summit, significant preceding rise and noise<3% contrast; gate p>=550. Default ledger and real parking retained."
+}

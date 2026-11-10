@@ -1,0 +1,53 @@
+{
+  "job_id": "20261104T061817952919Z_0cdc281990a9",
+  "state": "completed",
+  "sha256": "6fc0f0ae54e00c05fb596689277d27eaf87625ba1a6f531481e700e924b0c0a0",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\rounds\\dispatch_774_n978_6fc0f0ae54e0\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261104T061817952919Z_0cdc281990a9\\main.cpp",
+  "score": 220820,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-04 14:18:19",
+    "score": 220820,
+    "status": "success",
+    "status_text": "success",
+    "score_text": "220820",
+    "row_id": null,
+    "submission_id": "b72aa59927724d7aade50a79a43a7704",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-04 14:18:19"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-04 14:18:19\"]"
+  },
+  "last_error": null,
+  "ranking_after": {
+    "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261104T060051363324Z_aa66d2a2.json",
+    "captured_at": "2026-11-04T14:00:51+08:00",
+    "refreshed_at": "2026-11-04T12:20:01+08:00",
+    "total": 202,
+    "complete": false,
+    "scope": "first_page",
+    "row_count": 10,
+    "leader": {
+      "rank": 1,
+      "team_name": "ZZBBAI",
+      "score": 255332
+    },
+    "current_team": {
+      "rank": 38,
+      "team_name": "落榜生",
+      "score": 216258
+    },
+    "gap_to_leader": 39074,
+    "gap_to_next_higher_score": null,
+    "csv_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\rankings\\20261104T060051363324Z_aa66d2a2.csv",
+    "cache_hit": true,
+    "stale": false,
+    "next_check_at": "2026-11-04T16:00:51+08:00",
+    "gap_from_submission_to_leader": 34512,
+    "note": "Leaderboard reference only; its refresh time may precede this submission"
+  }
+}

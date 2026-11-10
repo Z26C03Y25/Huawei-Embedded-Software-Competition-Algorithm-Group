@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\peak_prior_20261103\\band_probe_550_599.cpp",
+  "sha256": "032f689dbc7800cba31f60245f16809765d05e52d0ba270cef8608941229abc0",
+  "description": "Scan every point550..599, park at tie-correct raw maximum. Diagnostic aggregate probe, intentionally zeros outside band; no claim of universal peak identification."
+}

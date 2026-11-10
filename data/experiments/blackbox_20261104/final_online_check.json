@@ -1,0 +1,18 @@
+{
+  "quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-04T16:43:07+08:00",
+    "beijing_date": "2026-11-04",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "records": [
+    {
+      "id": "57475c72cc0a4f9889b10f033400783d",
+      "status": "success",
+      "score": 224148
+    }
+  ]
+}

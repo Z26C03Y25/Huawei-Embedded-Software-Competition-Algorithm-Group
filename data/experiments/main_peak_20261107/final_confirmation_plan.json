@@ -1,0 +1,10 @@
+{
+  "candidate": "peak_core_frontier_efficient_selective_contour",
+  "sha256": "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+  "baseline": "peak_core",
+  "baseline_official_score": 213822,
+  "phase": "final_confirmation",
+  "fresh_seed": 20261107719,
+  "selection_rule": "Test frozen contour candidate against the officially scored generic core. Qualify with repository robust_total_score checks in both cost models, classic controls and protocol/parking checks. If it fails, keep the previously frozen independently qualified three-cell candidate as fallback; never claim the failing candidate won.",
+  "note": "Development chose larger contour to reduce missed competing peaks. All new zeros and per-family regressions remain visible."
+}

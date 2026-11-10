@@ -1,0 +1,17 @@
+{
+  "candidate": "probe03_cellbudget",
+  "sha256": "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Current-measurement cell budget: reserve fine queries according to unobserved high-value intervals; spend the remaining budget on geometry-based full flat-prefix coverage. Also a single fresh evaluation-health check after the two morning internal errors. No fixed peak locations, input identity mapping or response fingerprints.",
+  "flags": [
+    "cellbudget",
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective"
+  ],
+  "baseline_note": "Official table-free214783; two morning trials produced internal_error and no numeric score.",
+  "maximum_new_probe_uploads": 1,
+  "authorization_context": "User requested continuation at17:06 under the existing30-trial direct-online authorization."
+}

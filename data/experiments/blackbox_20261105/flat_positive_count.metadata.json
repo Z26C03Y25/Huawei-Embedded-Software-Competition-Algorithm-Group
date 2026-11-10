@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\flat_positive_count.cpp",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "sha256": "74c1e2e093d8fd1665619e5e96268532661782e6fd46b21c83375823f10d8aff",
+  "description": "Terminal-only1 extra stationary query when every observed reply equal and best<VMAX, preserving original224148 trajectory. Score loss counts positive fully-flat observed cases with spareQ. Measures how much of total gap may be unnecessary flat-tail overhead rather than assuming zeros; no claim about unsampled hidden peaks."
+}

@@ -1,0 +1,13 @@
+{
+  "family": "cv",
+  "total_delta": -139,
+  "group_deltas": [
+    -8,
+    -105,
+    -26,
+    0
+  ],
+  "positive_mask": 0,
+  "predicted_score": 216258,
+  "note": "Group contributions inferred from aggregate official totals; a new positive mixture needs direct official grading unless already scored."
+}

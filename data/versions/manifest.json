@@ -1,7 +1,7 @@
 {
-  "recorded_at": "2026-10-27",
+  "recorded_at": "2026-11-10",
   "entry_point": "main.cpp",
-  "recorded_best_score": 207650,
+  "recorded_best_score": 224148,
   "note": "Scores are recorded online totals; immutable source bytes are verified locally. This is not a hidden-dataset reproduction.",
   "files": [
     {
@@ -65,6 +65,1636 @@
       "path": "data/versions/main_online_207650.cpp",
       "score": 207650,
       "sha256": "19e8c6db476f82fbd2261f0940393fbaf02da9da914c052e4ce7b32e0bda42c4"
+    },
+    {
+      "path": "data/versions/main_online_209403.cpp",
+      "score": 209403,
+      "sha256": "9857633eaa0cf79aabc168a6bc70861773017ed9cb7f927ff9fc703c003fe3f7",
+      "change": "significance 24->25, fit window 24->20, shoulder sentinel 176->168"
+    },
+    {
+      "path": "data/versions/main_online_210599.cpp",
+      "score": 210599,
+      "sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+      "change": "length-dependent confirmation band: n<=500 0.3x/16..32, n<=650 1.05x/80..112, else 1.2x/96..144"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_55f74d74926c.cpp",
+      "score": 210599,
+      "sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_52a8c3f8ee4a.cpp",
+      "score": 210599,
+      "sha256": "52a8c3f8ee4a70abe52f2fc873a6fe54fd30e9984fa382d1c54baabeff4a24c5"
+    },
+    {
+      "path": "data/versions/online_search/scored_210571_28197c5b86c9.cpp",
+      "score": 210571,
+      "sha256": "28197c5b86c93d32d026fd5532298a5042c1b5a600ffbcee176a1d1146da38be",
+      "job_id": "20261029T181511283218Z_cc63836aeea1"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_db8bab3d05d8.cpp",
+      "score": 210599,
+      "sha256": "db8bab3d05d8570935ddfc1fd78f9cbd64ab276cf05fb2f26e8831a541960027",
+      "job_id": "20261029T181830346318Z_dd3b323e83d6"
+    },
+    {
+      "path": "data/versions/online_search/scored_202826_e2eb48a66176.cpp",
+      "score": 202826,
+      "sha256": "e2eb48a66176f72a86fec11d8b243750c819bc3e6ae6b73e45ba25dfeba84422",
+      "job_id": "20261029T182255344354Z_25e56d83aa32"
+    },
+    {
+      "path": "data/versions/online_search/scored_210567_28f89a58bb08.cpp",
+      "score": 210567,
+      "sha256": "28f89a58bb083d3b37d4cbd349e40d9ddf884bc6e4ec46372d2c800fd558e515",
+      "job_id": "20261029T182417214495Z_a070ded18eda"
+    },
+    {
+      "path": "data/versions/online_search/scored_210250_63ed3b1e7017.cpp",
+      "score": 210250,
+      "sha256": "63ed3b1e7017e8107c29cbbe34846c6af3070e0bce14c7e8c0bc1c253fcea31d",
+      "job_id": "20261029T182612943091Z_1c2a8a8e79f7"
+    },
+    {
+      "path": "data/versions/online_search/scored_195439_bea7f6a70f47.cpp",
+      "score": 195439,
+      "sha256": "bea7f6a70f477e358e355985d93ba73959d10f7ad5efdaf59004f02d61b224a7",
+      "job_id": "20261029T182807820474Z_f6dbe4551b75"
+    },
+    {
+      "path": "data/versions/online_search/scored_207684_bd8d54d74441.cpp",
+      "score": 207684,
+      "sha256": "bd8d54d7444121591222067f69cc7a7071b92fd295f21da1effdc66598a8e89a",
+      "job_id": "20261029T183021653620Z_edd2c308717a"
+    },
+    {
+      "path": "data/versions/online_search/scored_210563_03c97f0391a6.cpp",
+      "score": 210563,
+      "sha256": "03c97f0391a6533c93f6697dd0e067b9b7fe3bda3b60fd3bc2b09c7f65d0c0fd",
+      "job_id": "20261029T183209223066Z_5e95405c411a"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_0157477d9e66.cpp",
+      "score": 210599,
+      "sha256": "0157477d9e667cd296ac0ffb46ffb3e339a9a28eee4f11c9ee605391f3981f20",
+      "job_id": "20261029T183420257120Z_6d843f901c1c"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_b919a7d230f5.cpp",
+      "score": 210599,
+      "sha256": "b919a7d230f5133558a3dda97dd927bc8d30288f5b472d137211dcb72fc7aea7",
+      "job_id": "20261029T183607616365Z_1955d213869f"
+    },
+    {
+      "path": "data/versions/online_search/scored_205271_d372983215e5.cpp",
+      "score": 205271,
+      "sha256": "d372983215e591b92dd1fc063890585ba13107f520218e93a86d284cde00882e",
+      "job_id": "20261029T183844496167Z_a21e1476c9c0"
+    },
+    {
+      "path": "data/versions/online_search/scored_188629_acebb0ee7fa2.cpp",
+      "score": 188629,
+      "sha256": "acebb0ee7fa2d7c56b0b648d91266ff1cd136ab1c618828f9a17a9e9ca7992f2",
+      "job_id": "20261029T184011124564Z_3ff49ca76f2b"
+    },
+    {
+      "path": "data/versions/online_search/scored_194582_e8b16c791714.cpp",
+      "score": 194582,
+      "sha256": "e8b16c7917146a5d1d0025ec318ba145fc4620019dde4801ee979aced1343979",
+      "job_id": "20261029T184107125766Z_4a1fc257e5d5"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_f38de21a6a4f.cpp",
+      "score": 210599,
+      "sha256": "f38de21a6a4f17c3b1d105ab4ee8b4ed17516707b4a4230e9218219809ca90ee",
+      "job_id": "20261029T184208450397Z_26f774767997"
+    },
+    {
+      "path": "data/versions/online_search/scored_210561_49f9f83300d3.cpp",
+      "score": 210561,
+      "sha256": "49f9f83300d393b33d626f511df7839e70df69d68c1b6f73838156c853ccb66b",
+      "job_id": "20261029T184454101226Z_973b9c13ca73"
+    },
+    {
+      "path": "data/versions/online_search/scored_210224_2eee96f82018.cpp",
+      "score": 210224,
+      "sha256": "2eee96f8201847f876508046c7f33dfc43109ddeeb66b5b3f2ddd22273a8186b",
+      "job_id": "20261029T184607302079Z_36e190e6c396"
+    },
+    {
+      "path": "data/versions/online_search/scored_210499_d4e6b8735ca3.cpp",
+      "score": 210499,
+      "sha256": "d4e6b8735ca3e3232b69724ee29bc393d205a3265d94897bc07ba6b5edbada6c",
+      "job_id": "20261029T184720190578Z_614aeaaba208"
+    },
+    {
+      "path": "data/versions/online_search/scored_206019_8aa580c84b99.cpp",
+      "score": 206019,
+      "sha256": "8aa580c84b997d1b65a75f27036162a6056980b324258cbe28616656d9c339e7",
+      "job_id": "20261029T184912288333Z_6c5b82ebee9f"
+    },
+    {
+      "path": "data/versions/online_search/scored_210309_2eb016fa1a4b.cpp",
+      "score": 210309,
+      "sha256": "2eb016fa1a4b50f93635f25894dc5a75f5cc71a75b4bf5435b9135378b6341c5",
+      "job_id": "20261029T185227767935Z_2ace7088cefe"
+    },
+    {
+      "path": "data/versions/online_search/scored_208251_394c059bd1a3.cpp",
+      "score": 208251,
+      "sha256": "394c059bd1a3d18c16511bba171d9eb6f56bb2ab10bf9f4252e062c9fa422bde",
+      "job_id": "20261029T185408561677Z_34e242ab52ad"
+    },
+    {
+      "path": "data/versions/online_search/scored_207748_3e38e532d909.cpp",
+      "score": 207748,
+      "sha256": "3e38e532d90962699e2823e894b99f93a22fea425e94dea02633709f4d5d3fce",
+      "job_id": "20261029T185522205584Z_dab533a32031"
+    },
+    {
+      "path": "data/versions/online_search/scored_191491_98772cfd7ca9.cpp",
+      "score": 191491,
+      "sha256": "98772cfd7ca98357f866233ff7b2920736e8526e32c61940fe9723b3007bff0c",
+      "job_id": "20261029T185709383269Z_e22594359146"
+    },
+    {
+      "path": "data/versions/online_search/scored_210599_aac687301b98.cpp",
+      "score": 210599,
+      "sha256": "aac687301b98c2e39e3586079734f458895ae075ef2c8dd513409c7e4b1bda06",
+      "job_id": "20261029T185943132548Z_1b11e203061d"
+    },
+    {
+      "path": "data/versions/online_search/scored_205085_0ed3d1215733.cpp",
+      "score": 205085,
+      "sha256": "0ed3d12157331c249efa1793c0df317df43340b729b953feec99c3645d4c80d3",
+      "job_id": "20261031T074234803521Z_70c81b72ed68"
+    },
+    {
+      "path": "data/versions/online_search/scored_210279_30f2fca7477b.cpp",
+      "score": 210279,
+      "sha256": "30f2fca7477b115880b8cbca6fc6dc1c269a8bdc8573db9b0227858eb9350c92",
+      "job_id": "20261031T074420238158Z_b7e785612639"
+    },
+    {
+      "path": "data/versions/online_search/scored_182519_e55988c07569.cpp",
+      "score": 182519,
+      "sha256": "e55988c07569a91592c38ef139d80dda39cd8bec77981aa384dda66cf92f9a68",
+      "job_id": "20261031T074915383146Z_3f7696a9cc57"
+    },
+    {
+      "path": "data/versions/online_search/scored_212058_4f3005d79cc3.cpp",
+      "score": 212058,
+      "sha256": "4f3005d79cc3f21be64b3633960a8e3cf0014203017b5d86264d653a97b9853a",
+      "job_id": "20261031T075325387888Z_ddf2e7ee28d9"
+    },
+    {
+      "path": "data/versions/main_online_212058.cpp",
+      "score": 212058,
+      "sha256": "4f3005d79cc3f21be64b3633960a8e3cf0014203017b5d86264d653a97b9853a",
+      "job_id": "20261031T075325387888Z_ddf2e7ee28d9"
+    },
+    {
+      "path": "data/versions/online_search/scored_212058_0586b64dafd6.cpp",
+      "score": 212058,
+      "sha256": "0586b64dafd62d216d7bac9a80bfb80afce96dfdc7c8d1661b6a347570d56a7f",
+      "job_id": "20261031T075533974390Z_c08cb437e0f6"
+    },
+    {
+      "path": "data/versions/online_search/scored_210591_29b093011368.cpp",
+      "score": 210591,
+      "sha256": "29b0930113684393001d1177d7642e14a5eca1555b1372c93e47056b270b0445",
+      "job_id": "20261031T075819830987Z_933f7c747df5"
+    },
+    {
+      "path": "data/versions/online_search/scored_212066_c48867bd9b1c.cpp",
+      "score": 212066,
+      "sha256": "c48867bd9b1c1572bcbf25a2c4b1c076cb171180b556e74a465cdc0cbcab00a6",
+      "job_id": "20261031T080446922869Z_c4432c01f43d"
+    },
+    {
+      "path": "data/versions/main_online_212066.cpp",
+      "score": 212066,
+      "sha256": "c48867bd9b1c1572bcbf25a2c4b1c076cb171180b556e74a465cdc0cbcab00a6",
+      "job_id": "20261031T080446922869Z_c4432c01f43d"
+    },
+    {
+      "path": "data/versions/online_search/scored_212320_b391c02480cb.cpp",
+      "score": 212320,
+      "sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+      "job_id": "20261031T081227504812Z_0472fa8b08b4"
+    },
+    {
+      "path": "data/versions/main_online_212320.cpp",
+      "score": 212320,
+      "sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+      "job_id": "20261031T081227504812Z_0472fa8b08b4"
+    },
+    {
+      "path": "data/versions/online_search/scored_171145_4bc3f068ac4c.cpp",
+      "score": 171145,
+      "sha256": "4bc3f068ac4c75160f05d2242e8a93ba4ab8e093eca3d89b70e179e136ac9a76",
+      "job_id": "20261031T081725463261Z_f732094fd490"
+    },
+    {
+      "path": "data/versions/online_search/scored_208965_91219e086bf3.cpp",
+      "score": 208965,
+      "sha256": "91219e086bf3cb0456d6d9c6b63bc2b92cedc51399caa7fd54c771048a3afcd7",
+      "job_id": "20261031T082003782129Z_de37317e0d53"
+    },
+    {
+      "path": "data/versions/online_search/scored_212320_1e7ebe59e47d.cpp",
+      "score": 212320,
+      "sha256": "1e7ebe59e47d3ab028cf7dbef30f3578d8bf92704477ba0609acacc7e616c15b",
+      "job_id": "20261031T082318968844Z_bc69ba6e61b4"
+    },
+    {
+      "path": "data/versions/online_search/scored_208056_a1b0bd5dceda.cpp",
+      "score": 208056,
+      "sha256": "a1b0bd5dceda93dcdd6a3d3f0c0ad743fb95ee09badb0f6b414ee2a5daaeaceb",
+      "job_id": "20261031T114344047853Z_6ed6568ffe1b"
+    },
+    {
+      "path": "data/versions/online_search/scored_209780_a2778d1c6c29.cpp",
+      "score": 209780,
+      "sha256": "a2778d1c6c29e288283d75c19c97d5c26e8e261e560caa37b0e7ae74bcee6b13",
+      "job_id": "20261031T114525018548Z_582382ac527c"
+    },
+    {
+      "path": "data/versions/online_search/scored_212320_14691bd6b94f.cpp",
+      "score": 212320,
+      "sha256": "14691bd6b94f02e6ccb7c51112cd80d767581715309725bd4e8dce681a28cfce",
+      "job_id": "20261031T114738586047Z_03cf9de17e99"
+    },
+    {
+      "path": "data/versions/online_search/scored_205685_8364f24e18ba.cpp",
+      "score": 205685,
+      "sha256": "8364f24e18bafcca1596d42806a365569ac55600e8533d8b7ca5cc174723fe1f",
+      "job_id": "20261031T115043258576Z_43174f89c580"
+    },
+    {
+      "path": "data/versions/online_search/scored_209621_e24814c8d0b1.cpp",
+      "score": 209621,
+      "sha256": "e24814c8d0b19f9d52bb418bd42fd414079fc3749734f1e911845a0c6f800014",
+      "job_id": "20261031T115311979621Z_db5748f88ed9"
+    },
+    {
+      "path": "data/versions/online_search/scored_206770_d8dff690ea3f.cpp",
+      "score": 206770,
+      "sha256": "d8dff690ea3f2e95b9b5520d0c38396ce33c1433e26763717b735446dc71d161",
+      "job_id": "20261031T115624959713Z_5521442ae4cf"
+    },
+    {
+      "path": "data/versions/online_search/scored_211817_5909839927be.cpp",
+      "score": 211817,
+      "sha256": "5909839927bec808e2bb9b7c8322a67c45d963f50368e319ac4386c45747847b",
+      "job_id": "20261031T115933084573Z_c67f92f45db7"
+    },
+    {
+      "path": "data/versions/online_search/scored_159964_484618f7dbe9.cpp",
+      "score": 159964,
+      "sha256": "484618f7dbe93e8d50b8d998462e4ed50c725fffb5355b915df41cd4fdc04656",
+      "job_id": "20261031T120136047448Z_ff73cf1db3a9"
+    },
+    {
+      "path": "data/versions/online_search/scored_210298_5f21e6b0e260.cpp",
+      "score": 210298,
+      "sha256": "5f21e6b0e2606c41913995472dca83fe57d7e3145731a2ac7a220252ee86feba",
+      "job_id": "20261031T121146772113Z_7b166c0be4b6"
+    },
+    {
+      "path": "data/versions/online_search/scored_212668_b216bf1ff8f1.cpp",
+      "score": 212668,
+      "sha256": "b216bf1ff8f1ee5580cb8118fa99d8af5a9689c988a01e867850c01d1a5d36ad",
+      "job_id": "20261031T121439196230Z_c287be48bcdf"
+    },
+    {
+      "path": "data/versions/main_online_212668.cpp",
+      "score": 212668,
+      "sha256": "b216bf1ff8f1ee5580cb8118fa99d8af5a9689c988a01e867850c01d1a5d36ad",
+      "job_id": "20261031T121439196230Z_c287be48bcdf"
+    },
+    {
+      "path": "data/versions/online_search/scored_210233_d08328848f7b.cpp",
+      "score": 210233,
+      "sha256": "d08328848f7b3789991e1395506883119705714e8fd6b55ccd0a15df31d2af4a",
+      "job_id": "20261031T121758609121Z_b70e2f1b2a4a"
+    },
+    {
+      "path": "data/versions/online_search/scored_212668_f5ebeb0a8b2c.cpp",
+      "score": 212668,
+      "sha256": "f5ebeb0a8b2cf7ca74113e9a09437cfd2f0d40eea6a224ad7df9a6959821d939",
+      "job_id": "20261031T122128241430Z_4c690b6f4af0"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_93616283c893.cpp",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+      "job_id": "20261031T122331491832Z_e84bc1d9c229"
+    },
+    {
+      "path": "data/versions/main_online_212686.cpp",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+      "job_id": "20261031T122331491832Z_e84bc1d9c229"
+    },
+    {
+      "path": "data/versions/online_search/scored_210724_bc5a6dbd4896.cpp",
+      "score": 210724,
+      "sha256": "bc5a6dbd489675d50acd465159697b9b7b66ac68e94c17e0ccb0cd9bd920439e",
+      "job_id": "20261031T122541032025Z_337ce22984e6"
+    },
+    {
+      "path": "data/versions/online_search/scored_210573_a828aa0d9251.cpp",
+      "score": 210573,
+      "sha256": "a828aa0d9251190cd914a2653aeb9dfb9796d2843451d499c8fe891207f58c93",
+      "job_id": "20261031T122746145036Z_1e4f0bf8312a"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_02018afdcab3.cpp",
+      "score": 212686,
+      "sha256": "02018afdcab3a767e195a98f85f1d118dfe3b1cd19be70c263e000297eb57862",
+      "job_id": "20261031T122942251208Z_e6fbe5bf7a37"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_0c30753897bc.cpp",
+      "score": 212686,
+      "sha256": "0c30753897bc5610afd11c206e59be07c8a9add82e14a4eaf800af58067a3906",
+      "job_id": "20261031T123135521530Z_18482f124684"
+    },
+    {
+      "path": "data/versions/online_search/scored_211743_06d117628333.cpp",
+      "score": 211743,
+      "sha256": "06d117628333d7ce6fc5847078c2b291de317fd6780bfefb4bac2967ec40ac44",
+      "job_id": "20261031T161916323631Z_1690655d07e5"
+    },
+    {
+      "path": "data/versions/online_search/scored_191736_21aa93594cd3.cpp",
+      "score": 191736,
+      "sha256": "21aa93594cd371bddbbc17074c86ea4898aa0bc2ff91057c684966827dcf85ef",
+      "job_id": "20261031T162610292544Z_d390078395a8"
+    },
+    {
+      "path": "data/versions/online_search/scored_209783_5ad00983b264.cpp",
+      "score": 209783,
+      "sha256": "5ad00983b2644b413a9804f473b51e8e968cb430503cb78b3b9d70e3bcad95a5",
+      "job_id": "20261031T163432960246Z_8afd2f46e6d5"
+    },
+    {
+      "path": "data/versions/online_search/scored_184652_f3c3c081b41c.cpp",
+      "score": 184652,
+      "sha256": "f3c3c081b41c61bd99ef2d361b58af5ede6181fc3a6692d672b32b9f90510408",
+      "job_id": "20261031T164018880211Z_1236026597de"
+    },
+    {
+      "path": "data/versions/online_search/scored_212243_bacbbba94c9d.cpp",
+      "score": 212243,
+      "sha256": "bacbbba94c9dbed9861803d0db130bc72c232c50bec9fcec0f9e12ad26261759",
+      "job_id": "20261031T164741497829Z_bafa2ebb0ff3"
+    },
+    {
+      "path": "data/versions/online_search/scored_212321_52b5e8d25842.cpp",
+      "score": 212321,
+      "sha256": "52b5e8d25842e4fcb01a313ce6292adedc3752bb861cdf7aacb8b682a4d47012",
+      "job_id": "20261031T165319940508Z_3060f1444346"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_9cb081aea2fb.cpp",
+      "score": 212686,
+      "sha256": "9cb081aea2fbe5a0f671aa5f80bd5cceb490b731807a9cc5611381ca1e3932c8",
+      "job_id": "20261031T165923726837Z_c82dc44cc6f8"
+    },
+    {
+      "path": "data/versions/online_search/scored_191562_895726c91db4.cpp",
+      "score": 191562,
+      "sha256": "895726c91db4c5b1a3543d7f5398a6575841f33282ca7c2b9389b8b940ff1801",
+      "job_id": "20261031T170907819526Z_5f1b3f6bd8a7"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_a373e9c3a3b9.cpp",
+      "score": 212686,
+      "sha256": "a373e9c3a3b9367a5504765ce7d470682584a23d7ec80125d9f0f8c5589af5b8",
+      "job_id": "20261031T172721006620Z_fc4d82e02f57"
+    },
+    {
+      "path": "data/versions/online_search/scored_212624_5093fb08b2a1.cpp",
+      "score": 212624,
+      "sha256": "5093fb08b2a15710350f91bef778becbea3f40bfa4489c05e89c964ae9cb40ec",
+      "job_id": "20261031T173513821997Z_a01d0ff936f8"
+    },
+    {
+      "path": "data/versions/online_search/scored_210233_467d3ae11a57.cpp",
+      "score": 210233,
+      "sha256": "467d3ae11a578218b490c3020709d4f8588c92e37a1264cfa52da2282ebda2f1",
+      "job_id": "20261031T174722383856Z_2cd39dcfb5ea"
+    },
+    {
+      "path": "data/versions/online_search/scored_212354_a228778b3b89.cpp",
+      "score": 212354,
+      "sha256": "a228778b3b8917132b4f559bd35f19b854e9c0cd6f527d2ecb16f1824231979f",
+      "job_id": "20261031T180705119085Z_0c788266dcc9"
+    },
+    {
+      "path": "data/versions/online_search/scored_212535_15148f0a31e6.cpp",
+      "score": 212535,
+      "sha256": "15148f0a31e69c22e110f73cd2e9451af3a15536e7353fab22b8f50486e1bdec",
+      "job_id": "20261031T233511710711Z_81790792fab5"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_db12ba3c2334.cpp",
+      "score": 212686,
+      "sha256": "db12ba3c2334526b2a581fb5c37864f6fc04399cd0dcdf7957c4a16b0f1d8e8b",
+      "job_id": "20261031T233733759110Z_5c18e9dfbce0"
+    },
+    {
+      "path": "data/versions/online_search/scored_212686_f5ee5a998102.cpp",
+      "score": 212686,
+      "sha256": "f5ee5a998102bd8e70591cf510fad2bd1242f50a65fa36e52f0b67227dc83635",
+      "job_id": "20261031T233913231377Z_542c82f82ef5"
+    },
+    {
+      "path": "data/versions/online_search/scored_191308_367aae3edfa0.cpp",
+      "score": 191308,
+      "sha256": "367aae3edfa03c665a3afb7e363c87cd378203e8e39d73e7a0b11bb6be222c60",
+      "job_id": "20261031T234157985853Z_fac045108462"
+    },
+    {
+      "path": "data/versions/online_search/scored_208572_622824c0d20d.cpp",
+      "score": 208572,
+      "sha256": "622824c0d20dc354da62d02b954fc3e4299406e33856c7f8cbc3b9a3b581c55f",
+      "job_id": "20261031T234601895535Z_836ec4ef573f"
+    },
+    {
+      "path": "data/versions/online_search/scored_216233_4d04a02fdbcb.cpp",
+      "score": 216233,
+      "sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+      "job_id": "20261031T234727637645Z_b86993407f92"
+    },
+    {
+      "path": "data/versions/main_online_216233.cpp",
+      "score": 216233,
+      "sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+      "job_id": "20261031T234727637645Z_b86993407f92"
+    },
+    {
+      "path": "data/versions/online_search/scored_213161_634d666d4638.cpp",
+      "score": 213161,
+      "sha256": "634d666d46388f341f654cb5eddbfbfa11cb0df374123abf0ff66d5774672b16",
+      "job_id": "20261031T235015782635Z_92556c4da737"
+    },
+    {
+      "path": "data/versions/online_search/scored_216233_07466893ac3b.cpp",
+      "score": 216233,
+      "sha256": "07466893ac3bdfc84b5918e819330f78d4f71614a4866bd2374a003f0781b115",
+      "job_id": "20261031T235242988835Z_d68bd31e9639"
+    },
+    {
+      "path": "data/versions/online_search/scored_216114_9b168147f64a.cpp",
+      "score": 216114,
+      "sha256": "9b168147f64a01e21b8f4ab0c152ce673eadab91e7d46ea9f0f6dc6d839fd66d",
+      "job_id": "20261031T235430603770Z_3e6d4c9d341b"
+    },
+    {
+      "path": "data/versions/online_search/scored_204728_11acef5b3251.cpp",
+      "score": 204728,
+      "sha256": "11acef5b3251adea8468216db55fb60295d81fa45bda416f8e87488f0db6ad33",
+      "job_id": "20261031T235656157181Z_9c5bb6ecd4ea"
+    },
+    {
+      "path": "data/versions/online_search/scored_216233_b4270dac45c9.cpp",
+      "score": 216233,
+      "sha256": "b4270dac45c971c882b910c8ee793a263d29f3d0d55501a1e1ff27daf4e53bfa",
+      "job_id": "20261031T235859587612Z_f31a645f6beb"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_487a1cdb0f93.cpp",
+      "score": 216258,
+      "sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+      "job_id": "20261101T000040791978Z_94af048da880"
+    },
+    {
+      "path": "data/versions/main_online_216258.cpp",
+      "score": 216258,
+      "sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+      "job_id": "20261101T000040791978Z_94af048da880"
+    },
+    {
+      "path": "data/versions/online_search/scored_216217_2738dd8bbbab.cpp",
+      "score": 216217,
+      "sha256": "2738dd8bbbab91e6fb06f189f10990b20609ec3fffe93de7fcad0583c9af34e1",
+      "job_id": "20261101T000313681133Z_5209b8b51360"
+    },
+    {
+      "path": "data/versions/online_search/scored_211218_2d3ab7aec384.cpp",
+      "score": 211218,
+      "sha256": "2d3ab7aec384a8cfc563c92480ae569d8aa625b5a6517ac9c6c31e172a98aa14",
+      "job_id": "20261101T000510309972Z_1e16714757ec"
+    },
+    {
+      "path": "data/versions/online_search/scored_216051_252956458164.cpp",
+      "score": 216051,
+      "sha256": "25295645816476bda7ebd7a6992f97541fc5c81adcbcd06e796f04949f9470a7",
+      "job_id": "20261101T000724744390Z_6ec53b2d3951"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_aacd119d3941.cpp",
+      "score": 216258,
+      "sha256": "aacd119d39414e3c8d123cb50dfb85ea38dc320062a1652f22b1d81d3a3fcfe7",
+      "job_id": "20261101T000913593784Z_22eb4d23bbc0"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_39b4340fc551.cpp",
+      "score": 216258,
+      "sha256": "39b4340fc5517aab3fef16e91376aac7df592bd315c250af873e27e71a0c15e7",
+      "job_id": "20261102T040258271521Z_0b26497efd22"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_0c8987f9d3fc.cpp",
+      "score": 216258,
+      "sha256": "0c8987f9d3fcb3d0e3556980571e17f8d6c6bc3ab5e6e9d15d06fbd08ae88f38",
+      "job_id": "20261102T040557111380Z_ba014fe39090"
+    },
+    {
+      "path": "data/versions/online_search/scored_210250_9750d268b23b.cpp",
+      "score": 210250,
+      "sha256": "9750d268b23b9ee6e8b2cded5585137c1ac6162caebe85ac5895f22073650587",
+      "job_id": "20261102T041340732143Z_408f3abc1d97"
+    },
+    {
+      "path": "data/versions/online_search/scored_211608_9800f6356197.cpp",
+      "score": 211608,
+      "sha256": "9800f6356197119b8e8c690cf26b914072f491ab9e96d8df700d69d6900cabb5",
+      "job_id": "20261102T041551148369Z_fdbfb8e63de2"
+    },
+    {
+      "path": "data/versions/online_search/scored_216119_d5f53d188883.cpp",
+      "score": 216119,
+      "sha256": "d5f53d188883e7e3d4bf9516ec62cc13943094ef9cfed38e086d5ca4f0ab42bb",
+      "job_id": "20261102T042246357126Z_5cfe9f83cbdb"
+    },
+    {
+      "path": "data/versions/online_search/scored_213755_5e74c8463844.cpp",
+      "score": 213755,
+      "sha256": "5e74c8463844bb8d0cea19b69d9151da83ca785c83886171071b96ffd4328974",
+      "job_id": "20261102T042627500269Z_7def74fd68b6"
+    },
+    {
+      "path": "data/versions/online_search/scored_213626_5c9b9bf1dad1.cpp",
+      "score": 213626,
+      "sha256": "5c9b9bf1dad1d339bc5b1f724feb49d69444e977a533e4c0718437753059568b",
+      "job_id": "20261102T043202973154Z_f3d98bcfda62"
+    },
+    {
+      "path": "data/versions/online_search/scored_216229_e416905b464a.cpp",
+      "score": 216229,
+      "sha256": "e416905b464aa3cbb323d4ac87311b676f22b834aa339384b21f716f6f8f13dc",
+      "job_id": "20261102T043608430546Z_238857a00a5e"
+    },
+    {
+      "path": "data/versions/online_search/scored_216200_1c030f2f518c.cpp",
+      "score": 216200,
+      "sha256": "1c030f2f518c13ed0e250770e8cc87dee9dd79cf29ecdded16242f289fa80448",
+      "job_id": "20261102T044835880119Z_a32ee984c326"
+    },
+    {
+      "path": "data/versions/online_search/scored_168395_7e8d7ec06ee5.cpp",
+      "score": 168395,
+      "sha256": "7e8d7ec06ee5c3e7e5962a83501da272eaaa1247dbb6dbd8c43260279a4c35f5",
+      "job_id": "20261102T060541488884Z_087690496679"
+    },
+    {
+      "path": "data/versions/online_search/scored_216234_bf6d40bfc44d.cpp",
+      "score": 216234,
+      "sha256": "bf6d40bfc44d648a38763d23f7dd54bde76403faa63f7eaaa271113d55fa201d",
+      "job_id": "20261102T060923056645Z_be2fdafb68b8"
+    },
+    {
+      "path": "data/versions/online_search/scored_214772_a09d4a3e130c.cpp",
+      "score": 214772,
+      "sha256": "a09d4a3e130cb83e1bde4fa98ba988017314c2e9c33e96b471d9d4a8d595a862",
+      "job_id": "20261102T061218372065Z_92964472db1d"
+    },
+    {
+      "path": "data/versions/online_search/scored_213911_128a00815562.cpp",
+      "score": 213911,
+      "sha256": "128a0081556293a147011199d37bc6d40309e0ef1d1253ad01a2deb76f38e4a9",
+      "job_id": "20261102T062321447176Z_8bc404b386b5"
+    },
+    {
+      "path": "data/versions/online_search/scored_216025_4308ce0b37cb.cpp",
+      "score": 216025,
+      "sha256": "4308ce0b37cb7e44cd38ea49746b1f4f478b74b26570d7e052d07be7ffb3b54f",
+      "job_id": "20261102T063539177870Z_60e9390592de"
+    },
+    {
+      "path": "data/versions/online_search/scored_214888_3529ff7214a6.cpp",
+      "score": 214888,
+      "sha256": "3529ff7214a6db70e4e91eb40e50c320d560e44726e9acef2231413d43887d24",
+      "job_id": "20261102T064237424911Z_92651345d36a"
+    },
+    {
+      "path": "data/versions/online_search/scored_213936_eda9fc0a7eaa.cpp",
+      "score": 213936,
+      "sha256": "eda9fc0a7eaa6c1b50d771b1d2553188214f174b2b9d7cbc7e43995d74acea0f",
+      "job_id": "20261102T064508910984Z_58601f6de91b"
+    },
+    {
+      "path": "data/versions/online_search/scored_213786_52d2c1a868ae.cpp",
+      "score": 213786,
+      "sha256": "52d2c1a868ae679cba7d2ca01b4c4804065e65cf866dc1efdee98a9b808f6f14",
+      "job_id": "20261102T065203740735Z_dec2670b61ee"
+    },
+    {
+      "path": "data/versions/online_search/scored_196999_9c95e9a44fb2.cpp",
+      "score": 196999,
+      "sha256": "9c95e9a44fb26ae6a02d3fd268cd2f26e0bf237cf86f835b1489cbd4e22f77b1",
+      "job_id": "20261102T071653962354Z_7203a7e14d85"
+    },
+    {
+      "path": "data/versions/online_search/scored_198701_2d92bbd63751.cpp",
+      "score": 198701,
+      "sha256": "2d92bbd637511d3f89fccf3fe4c66697098eb1f3351073ea8c1a012ebc675204",
+      "job_id": "20261102T072536552099Z_fb8a63661759"
+    },
+    {
+      "path": "data/versions/online_search/scored_176180_a1d7486883ee.cpp",
+      "score": 176180,
+      "sha256": "a1d7486883ee8e6d227c29973b526f6dd30553625e0065ba9d63052326c23070",
+      "job_id": "20261102T073017868011Z_b0fdd912b738"
+    },
+    {
+      "path": "data/versions/online_search/scored_213546_44c72366facc.cpp",
+      "score": 213546,
+      "sha256": "44c72366faccc1471c4986aa1c8855ee7138101e84c3262e3f56f87b46a60873",
+      "job_id": "20261102T073339720381Z_7070e48420c2"
+    },
+    {
+      "path": "data/versions/online_search/scored_216224_360e602cda56.cpp",
+      "score": 216224,
+      "sha256": "360e602cda5676ffdfa9c1304b9c5e0f8881dad74b158115f2d444c4bf391950",
+      "job_id": "20261102T073601997258Z_b7ab41519796"
+    },
+    {
+      "path": "data/versions/online_search/scored_216145_c94296a9b699.cpp",
+      "score": 216145,
+      "sha256": "c94296a9b699758c6a8dfbd5e00f191a87134d5799058c326433612c2f524def",
+      "job_id": "20261102T073843496011Z_4d4b49af6fa3"
+    },
+    {
+      "path": "data/versions/online_search/scored_216250_66e22d68c668.cpp",
+      "score": 216250,
+      "sha256": "66e22d68c668628e564e0efbdcf99e9dbf0453eb3be034b6c8892e22611fe30a",
+      "job_id": "20261102T074106922394Z_ac3b9d09985a"
+    },
+    {
+      "path": "data/versions/online_search/scored_207408_91e68bb759ef.cpp",
+      "score": 207408,
+      "sha256": "91e68bb759efe85ca54afb98c914b19bfd5d3b635e3d2bb73bc7f5952617c2a1",
+      "job_id": "20261102T074354722146Z_853da8d46558"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_c8c39549586e.cpp",
+      "score": 216258,
+      "sha256": "c8c39549586ed77d4157932c251eb6150e200d3014556b87edd3abb974553f09",
+      "job_id": "20261102T074842579986Z_77ffbc1e5708"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_440fc85ece8b.cpp",
+      "score": 216258,
+      "sha256": "440fc85ece8bba3aee4d59cdb6886e22c43a1246f372041ff032bb85c4d90b44",
+      "job_id": "20261102T075050691880Z_118be04a47f0"
+    },
+    {
+      "path": "data/versions/online_search/scored_216234_577d596406f5.cpp",
+      "score": 216234,
+      "sha256": "577d596406f58502f7203b4d694d6b339ea2667ec4ba377d1f8b4e2bd8618b67",
+      "job_id": "20261102T075427072435Z_3d63bae73766"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_a53fa9f964ce.cpp",
+      "score": 216258,
+      "sha256": "a53fa9f964ce243aaf3eb0f6b6741ba4a93afd60cb334c6ff4af1073445db73b",
+      "job_id": "20261102T075657992654Z_904069fcb8e5"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_ad92bb38057a.cpp",
+      "score": 216258,
+      "sha256": "ad92bb38057ae80e7a162a8ca7fc74c608e12e490fdbcef922f5b9fd3e53788d",
+      "job_id": "20261102T080548208990Z_72d0cab4c298"
+    },
+    {
+      "path": "data/versions/online_search/scored_212098_b66878f3b7ac.cpp",
+      "score": 212098,
+      "sha256": "b66878f3b7acff8018a7339d7719acb5a1446a7cfae3c9a6eeef76f606928905",
+      "job_id": "20261102T160327740406Z_019196cf7603"
+    },
+    {
+      "path": "data/versions/online_search/scored_212534_7c3f935f77c6.cpp",
+      "score": 212534,
+      "sha256": "7c3f935f77c623b4ba978344adca4d3ba2ad8528125a741db6741337bca3ffb3",
+      "job_id": "20261102T160520961085Z_a36a0794d59b"
+    },
+    {
+      "path": "data/versions/online_search/scored_215788_7c004a82117a.cpp",
+      "score": 215788,
+      "sha256": "7c004a82117a072a966d1ef396feb22451462091b1620eb1e9c8d36fd59ec252",
+      "job_id": "20261102T160715314463Z_97141e81fe11"
+    },
+    {
+      "path": "data/versions/online_search/scored_216011_52054ddfaa57.cpp",
+      "score": 216011,
+      "sha256": "52054ddfaa572d5d1cbd1b7cc49b4543451231c93fa6176a9dfc41557b63f4c8",
+      "job_id": "20261102T161031915326Z_d827cb36f477"
+    },
+    {
+      "path": "data/versions/online_search/scored_216146_8b1d4168d4af.cpp",
+      "score": 216146,
+      "sha256": "8b1d4168d4af57ee8184ec7ad44ffbe18f0ff11abf126489a4adb778c627182c",
+      "job_id": "20261102T161250484739Z_536ab36c476c"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_d96e76cc330c.cpp",
+      "score": 216258,
+      "sha256": "d96e76cc330c0cbd3ad25977c74e73df4a1bbdb4d13feaea1ce4ac5362ccfc83",
+      "job_id": "20261102T161520259384Z_877d8ba555be"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_794d71bf4642.cpp",
+      "score": 216258,
+      "sha256": "794d71bf4642cab0fac0cae1f28bcb48a49388409ad6101616c18aef1dfda4d7",
+      "job_id": "20261102T161751895789Z_f78b36984963"
+    },
+    {
+      "path": "data/versions/online_search/scored_216019_f79c725fe0ca.cpp",
+      "score": 216019,
+      "sha256": "f79c725fe0ca2958074de752baefebb423f9725bb75d575658f9fb22804edc71",
+      "job_id": "20261102T162023873836Z_d96e9ef8e395"
+    },
+    {
+      "path": "data/versions/online_search/scored_211523_54520665a8c0.cpp",
+      "score": 211523,
+      "sha256": "54520665a8c03a850c35f5995673ffd17ec712832e80a60bdfc875620b47258b",
+      "job_id": "20261102T162341288226Z_ed9594ece0d9"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_2719ae957451.cpp",
+      "score": 216258,
+      "sha256": "2719ae957451ab59da4da53e040be6baa0f3ac1209df5fb9df37c23cf1e3181b",
+      "job_id": "20261102T162524215698Z_961320dcf112"
+    },
+    {
+      "path": "data/versions/online_search/scored_216258_1c0ed2f92c84.cpp",
+      "score": 216258,
+      "sha256": "1c0ed2f92c84ba9458c5fed37049cfc85d54210a580aa3f8328e6085bc49a381",
+      "job_id": "20261102T162749504852Z_39fafb527e72"
+    },
+    {
+      "path": "data/versions/online_search/scored_2832_c8734c29c1f0.cpp",
+      "score": 2832,
+      "sha256": "c8734c29c1f032be84fc821e9ac5374adc1ba9c438cd81abb2802196141ed909",
+      "job_id": "20261102T162952690651Z_abac2cdd0dda"
+    },
+    {
+      "path": "data/versions/online_search/scored_2836_d8f36879d423.cpp",
+      "score": 2836,
+      "sha256": "d8f36879d42389209d506eafc741d66acb792788a7fccebd50b101e27d652948",
+      "job_id": "20261102T163149607110Z_828a76bdcf57"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_d743cc45490b.cpp",
+      "score": 0,
+      "sha256": "d743cc45490b64d62ea2bec0b6a552923bfa26bb6b3b0df120c10f478450cbf9",
+      "job_id": "20261102T163402611135Z_6c50289a3d0f"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_c08c9a67e65c.cpp",
+      "score": 0,
+      "sha256": "c08c9a67e65cd60788d089448009e5e5248d42b3c08cecf43a440c3b42256e77",
+      "job_id": "20261102T163649071957Z_173474e5ec2a"
+    },
+    {
+      "path": "data/versions/online_search/scored_2766_7bcd8e82f3e0.cpp",
+      "score": 2766,
+      "sha256": "7bcd8e82f3e0162ce2818c4b0e92df65d4ed6b797ebc19fee5fb45242a80fded",
+      "job_id": "20261102T164011404830Z_5a10b2850672"
+    },
+    {
+      "path": "data/versions/online_search/scored_2968_d181da320423.cpp",
+      "score": 2968,
+      "sha256": "d181da320423aa3e31cf689ff2bec28652f4b2680af91c6d5116011cd32103cb",
+      "job_id": "20261102T164429309384Z_c54e20e28a3e"
+    },
+    {
+      "path": "data/versions/online_search/scored_210591_b8afa2fb064e.cpp",
+      "score": 210591,
+      "sha256": "b8afa2fb064ed3c17b4a1449b70a6b01b023cb32fff6a5245dbdab4f68bbfcd5",
+      "job_id": "20261102T164648050808Z_fce6395a0347"
+    },
+    {
+      "path": "data/versions/online_search/scored_4523_a84fd07c98e8.cpp",
+      "score": 4523,
+      "sha256": "a84fd07c98e89faaeff9e6769d2556d4b3cc46d21c52132654335572c0a18168",
+      "job_id": "20261103T011401766774Z_fb8112df1017"
+    },
+    {
+      "path": "data/versions/online_search/scored_216137_efcc034841d3.cpp",
+      "score": 216137,
+      "sha256": "efcc034841d3e2f26f08d71a63f51600998110733aeb3bd53739ea5ba57454d6",
+      "job_id": "20261104T055906186924Z_36a616c95713"
+    },
+    {
+      "path": "data/versions/online_search/scored_200176_3abd96c3514e.cpp",
+      "score": 200176,
+      "sha256": "3abd96c3514e3394bf52079a206f4a8c6f111bae5b71dc03c75abc39a310f6ff",
+      "job_id": "20261104T060128510921Z_c0658880b2e0"
+    },
+    {
+      "path": "data/versions/online_search/scored_216137_a97b19370ecc.cpp",
+      "score": 216137,
+      "sha256": "a97b19370ecc08ddba60ab2dad959fb73962bfa3a037f93c301605967206c2f6",
+      "job_id": "20261104T060338870333Z_f05235d74fa5"
+    },
+    {
+      "path": "data/versions/online_search/scored_215755_1fe2e9c1d093.cpp",
+      "score": 215755,
+      "sha256": "1fe2e9c1d093ebb93e8a18002f1b746b26746b7a8175996c1b636b5b61734bee",
+      "job_id": "20261104T060543318948Z_463885a6522d"
+    },
+    {
+      "path": "data/versions/online_search/scored_2238_1c3be59b15ee.cpp",
+      "score": 2238,
+      "sha256": "1c3be59b15ee14bbeff1cbffceacc3ef6dd9f882c6f0c2cdbc45d54557aae821",
+      "job_id": "20261104T060724893286Z_d8c23e18bd1c"
+    },
+    {
+      "path": "data/versions/online_search/scored_2336_c54d89d9cfc4.cpp",
+      "score": 2336,
+      "sha256": "c54d89d9cfc4bf1335e6da3fdb3df958844af8e8b71c20ed6fb7607bd20a608a",
+      "job_id": "20261104T060920094812Z_0275b18837ec"
+    },
+    {
+      "path": "data/versions/online_search/scored_218595_a4c4e13fb6c3.cpp",
+      "score": 218595,
+      "sha256": "a4c4e13fb6c337212f3d0c3bf74d022ec446501526424e3acd2c948b32945acf",
+      "job_id": "20261104T061153888870Z_baaf8d56b14e"
+    },
+    {
+      "path": "data/versions/main_online_218595.cpp",
+      "score": 218595,
+      "sha256": "a4c4e13fb6c337212f3d0c3bf74d022ec446501526424e3acd2c948b32945acf",
+      "job_id": "20261104T061153888870Z_baaf8d56b14e"
+    },
+    {
+      "path": "data/versions/online_search/scored_2081_38273ed9eb5b.cpp",
+      "score": 2081,
+      "sha256": "38273ed9eb5b7f4fc41cef6766152eda65cfb281c577aa487deb18b466316d7a",
+      "job_id": "20261104T061412638930Z_a95f20a590e8"
+    },
+    {
+      "path": "data/versions/online_search/scored_2223_1359f4e35b1e.cpp",
+      "score": 2223,
+      "sha256": "1359f4e35b1e1560aa7bc0b0b4321121823a91e858836a4b0582ad840cc66280",
+      "job_id": "20261104T061632822941Z_9111f307a7a1"
+    },
+    {
+      "path": "data/versions/online_search/scored_220820_6fc0f0ae54e0.cpp",
+      "score": 220820,
+      "sha256": "6fc0f0ae54e00c05fb596689277d27eaf87625ba1a6f531481e700e924b0c0a0",
+      "job_id": "20261104T061817952919Z_0cdc281990a9"
+    },
+    {
+      "path": "data/versions/main_online_220820.cpp",
+      "score": 220820,
+      "sha256": "6fc0f0ae54e00c05fb596689277d27eaf87625ba1a6f531481e700e924b0c0a0",
+      "job_id": "20261104T061817952919Z_0cdc281990a9"
+    },
+    {
+      "path": "data/versions/online_search/scored_2950_865fc08b9418.cpp",
+      "score": 2950,
+      "sha256": "865fc08b94181a8143746614994964267b957bd3afbb93a86896ff202c020787",
+      "job_id": "20261104T062158375173Z_8354cb42afcb"
+    },
+    {
+      "path": "data/versions/online_search/scored_2966_b208c09b7503.cpp",
+      "score": 2966,
+      "sha256": "b208c09b75036a7e806da161fcbaa4a5398cdc546979aead9f6170a33f4addf7",
+      "job_id": "20261104T062417409621Z_60a6e36a81d1"
+    },
+    {
+      "path": "data/versions/online_search/scored_215678_9d152e0a1d43.cpp",
+      "score": 215678,
+      "sha256": "9d152e0a1d438f3cab92ce21ed47bab433cd1d7966ae3bd1d32c4eb5f65371c7",
+      "job_id": "20261104T062618327091Z_6cfff1391560"
+    },
+    {
+      "path": "data/versions/online_search/scored_2306_e58ff6fbbe16.cpp",
+      "score": 2306,
+      "sha256": "e58ff6fbbe1644649cefd5e3f358c1a0b36f34618316c57af89274d0cded005e",
+      "job_id": "20261104T063036651160Z_d7724b31fbed"
+    },
+    {
+      "path": "data/versions/online_search/scored_2412_a7a2f0ac0632.cpp",
+      "score": 2412,
+      "sha256": "a7a2f0ac0632820ed91249d0e20859f97608ac3e1c2216ffd61d73a6864380a5",
+      "job_id": "20261104T063234039307Z_748fef4aed3f"
+    },
+    {
+      "path": "data/versions/online_search/scored_223233_46713cec9d2e.cpp",
+      "score": 223233,
+      "sha256": "46713cec9d2e9429af6aa6b975b5c7c71758531da7194d6f94a2c7d319a2b40f",
+      "job_id": "20261104T063501786166Z_79ed89a09c73"
+    },
+    {
+      "path": "data/versions/main_online_223233.cpp",
+      "score": 223233,
+      "sha256": "46713cec9d2e9429af6aa6b975b5c7c71758531da7194d6f94a2c7d319a2b40f",
+      "job_id": "20261104T063501786166Z_79ed89a09c73"
+    },
+    {
+      "path": "data/versions/online_search/scored_2797_bc1c79c6cdee.cpp",
+      "score": 2797,
+      "sha256": "bc1c79c6cdeeed4151d3b636d87c77976c0f573c8e269f1ed3299190dff97427",
+      "job_id": "20261104T074522253386Z_253a3d4a9457"
+    },
+    {
+      "path": "data/versions/online_search/scored_2796_97a60286dd5b.cpp",
+      "score": 2796,
+      "sha256": "97a60286dd5b455df6a2b92f68b4e50003a176d381c6d7ec3f15922707da0e4f",
+      "job_id": "20261104T080507153310Z_033022a10d4e"
+    },
+    {
+      "path": "data/versions/online_search/scored_223378_dcb07a5eddb7.cpp",
+      "score": 223378,
+      "sha256": "dcb07a5eddb7ee2b8dea4a998c75a1190824334661d582130b1aa719919f5bd2",
+      "job_id": "20261104T080759290867Z_dc0bcb9a39e1"
+    },
+    {
+      "path": "data/versions/main_online_223378.cpp",
+      "score": 223378,
+      "sha256": "dcb07a5eddb7ee2b8dea4a998c75a1190824334661d582130b1aa719919f5bd2",
+      "job_id": "20261104T080759290867Z_dc0bcb9a39e1"
+    },
+    {
+      "path": "data/versions/online_search/scored_2962_ccbb59e0ae60.cpp",
+      "score": 2962,
+      "sha256": "ccbb59e0ae60591a04073b7e753fe868aa45b2be3933a6ad6a8bc09c8cc85e61",
+      "job_id": "20261104T080959983314Z_67495aae4003"
+    },
+    {
+      "path": "data/versions/online_search/scored_223678_fdef3e9934d8.cpp",
+      "score": 223678,
+      "sha256": "fdef3e9934d868d47970296b9ef25af05ee6086a45805f701ce8ddf006358c22",
+      "job_id": "20261104T081233365230Z_8da3cf54be0c"
+    },
+    {
+      "path": "data/versions/main_online_223678.cpp",
+      "score": 223678,
+      "sha256": "fdef3e9934d868d47970296b9ef25af05ee6086a45805f701ce8ddf006358c22",
+      "job_id": "20261104T081233365230Z_8da3cf54be0c"
+    },
+    {
+      "path": "data/versions/online_search/scored_2773_33c329f79fcf.cpp",
+      "score": 2773,
+      "sha256": "33c329f79fcf2a0010dfb13667ab1dad706aa1429b2041b1974f7d98cc5725f7",
+      "job_id": "20261104T081608764836Z_5a0a1a5c7940"
+    },
+    {
+      "path": "data/versions/online_search/scored_2784_96b334992bab.cpp",
+      "score": 2784,
+      "sha256": "96b334992bab34af5f616bb7f73a7215f047e50ff02ec10e19f8d245a43f3c60",
+      "job_id": "20261104T081941759314Z_e331d9f8431f"
+    },
+    {
+      "path": "data/versions/online_search/scored_223836_e4cea79a023e.cpp",
+      "score": 223836,
+      "sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+      "job_id": "20261104T082221097246Z_70e49b8d9f83"
+    },
+    {
+      "path": "data/versions/main_online_223836.cpp",
+      "score": 223836,
+      "sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+      "job_id": "20261104T082221097246Z_70e49b8d9f83"
+    },
+    {
+      "path": "data/versions/online_search/scored_2934_1fe0acbb42cb.cpp",
+      "score": 2934,
+      "sha256": "1fe0acbb42cb732a5a1c6a4b2e282d377c9e190884aaf5e8012582de62c950f8",
+      "job_id": "20261104T082701754274Z_37d7acb17251"
+    },
+    {
+      "path": "data/versions/online_search/scored_223836_fe461268cf76.cpp",
+      "score": 223836,
+      "sha256": "fe461268cf76a58283c9094c8b5958f4f4273fb31d06abaa807c60d60317e942",
+      "job_id": "20261104T083115373118Z_6712663fff5d"
+    },
+    {
+      "path": "data/versions/online_search/scored_221300_1e39c11303d6.cpp",
+      "score": 221300,
+      "sha256": "1e39c11303d63841c0681a1d87d61bbb09c75bdffc9150f2feaa3d326f4c800d",
+      "job_id": "20261104T083441432218Z_4f05f027abfc"
+    },
+    {
+      "path": "data/versions/online_search/scored_223536_3fc3e72b079f.cpp",
+      "score": 223536,
+      "sha256": "3fc3e72b079f59ab01545c3c0ce3fe882ced9f1cc93765131a0ad3058691fb7a",
+      "job_id": "20261104T083700602437Z_d7c5e61238f6"
+    },
+    {
+      "path": "data/versions/online_search/scored_224148_84d272c2a099.cpp",
+      "score": 224148,
+      "sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "job_id": "20261104T084004808835Z_4b219ec7ce95"
+    },
+    {
+      "path": "data/versions/main_online_224148.cpp",
+      "score": 224148,
+      "sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+      "job_id": "20261104T084004808835Z_4b219ec7ce95"
+    },
+    {
+      "path": "data/versions/online_search/scored_2858_d9f3f99c855f.cpp",
+      "score": 2858,
+      "sha256": "d9f3f99c855ffd674c1ecb87a469e6aadde49a70b87039bdacfd6ea2d4124843",
+      "job_id": "20261105T042223807703Z_0841d56bdad2"
+    },
+    {
+      "path": "data/versions/online_search/scored_8184_903d472dd02b.cpp",
+      "score": 8184,
+      "sha256": "903d472dd02b60258c0e2eeffe823f39ba29cda25b6413fc62cb20a20e68f04f",
+      "job_id": "20261105T042442200461Z_11f7f19fc931"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_57b880de5d3e.cpp",
+      "score": 0,
+      "sha256": "57b880de5d3efd4591fc3bf45aaaab446bd304c4a4a2aae4c03aa07de31f858e",
+      "job_id": "20261105T042726618303Z_8ad59b80a3ca"
+    },
+    {
+      "path": "data/versions/online_search/scored_4888_f91550388465.cpp",
+      "score": 4888,
+      "sha256": "f91550388465a9128b256f3148ed5f9606530a775dcc641e8b5938abf90bc3f9",
+      "job_id": "20261105T042938763287Z_9fabb27e9375"
+    },
+    {
+      "path": "data/versions/online_search/scored_5684_e5166ae4cc8f.cpp",
+      "score": 5684,
+      "sha256": "e5166ae4cc8f5ca8c2081197c89f1cd89a4d633e5fd31f648de0bc933f510fe7",
+      "job_id": "20261105T043200325408Z_7875d88589b2"
+    },
+    {
+      "path": "data/versions/online_search/scored_2417_b431c1ab464d.cpp",
+      "score": 2417,
+      "sha256": "b431c1ab464d661e97a2ec5e617691affc356bf1ab8939b27fcda2a00b4073ba",
+      "job_id": "20261105T043344441413Z_d7483e8bc915"
+    },
+    {
+      "path": "data/versions/online_search/scored_2107_a77b92feb71e.cpp",
+      "score": 2107,
+      "sha256": "a77b92feb71e6f96d5103725ec1f4631717a7c6f36e4512fffdd70cfe91917e7",
+      "job_id": "20261105T043825024624Z_0981a0183fcd"
+    },
+    {
+      "path": "data/versions/online_search/scored_224142_0ee998234c78.cpp",
+      "score": 224142,
+      "sha256": "0ee998234c785dba2a6205e6567401919b5121da851fc26b5d10662e16fffbe9",
+      "job_id": "20261105T044229940176Z_96c8b34be0f7"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_9fac373c884b.cpp",
+      "score": 0,
+      "sha256": "9fac373c884b0f0595869aa518b3055d2df786465a7699f14bef19ebd7fc1b2c",
+      "job_id": "20261105T044636426420Z_d4a5076e2f7f"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_2905486693e9.cpp",
+      "score": 0,
+      "sha256": "2905486693e9200fbd1e3df26bc08447768a0de1bcc5cd44866980da1731ac38",
+      "job_id": "20261105T044819716683Z_53d1c3297b44"
+    },
+    {
+      "path": "data/versions/online_search/scored_0_6d7a52abbfa5.cpp",
+      "score": 0,
+      "sha256": "6d7a52abbfa5c2aa02003dfc3488aff3218bb53e321b635e13cc7956f35ee3b0",
+      "job_id": "20261105T045124969075Z_749b68a12659"
+    },
+    {
+      "path": "data/versions/online_search/scored_224058_3f5c94cdd56e.cpp",
+      "score": 224058,
+      "sha256": "3f5c94cdd56eea53b515eb445f0e55329923364b4631c4fd2bb4a6ea91816d79",
+      "job_id": "20261105T045438227362Z_0603f2a9a8ac"
+    },
+    {
+      "path": "data/versions/online_search/scored_79837_1f571ca3dd5f.cpp",
+      "score": 79837,
+      "sha256": "1f571ca3dd5f7c8bf71b077af07a24c48cbb340d9ba65aed06bca7608290341f",
+      "job_id": "20261105T050751933898Z_72c411c78dde"
+    },
+    {
+      "path": "data/versions/online_search/scored_79837_cc4fc888408a.cpp",
+      "score": 79837,
+      "sha256": "cc4fc888408a9cce3c8c254051c4bfb4aa9513715958d214dee97020bfe05af5",
+      "job_id": "20261105T051214410629Z_a452863375e5"
+    },
+    {
+      "path": "data/versions/online_search/scored_110826_bc77344736ee.cpp",
+      "score": 110826,
+      "sha256": "bc77344736ee6dd09be5d4753f05d33376ed793cccddca9ba818b173bfbb3bf6",
+      "job_id": "20261105T051651080825Z_df0c6f56fb79"
+    },
+    {
+      "path": "data/versions/online_search/scored_110821_5e15cd4c5331.cpp",
+      "score": 110821,
+      "sha256": "5e15cd4c5331c14d5dbc2e8a51b30d178382dcbd8bc18ab2eaa73ed44d5613b4",
+      "job_id": "20261105T051929264395Z_4a354ad65f2c"
+    },
+    {
+      "path": "data/versions/online_search/scored_110826_52cba2e79207.cpp",
+      "score": 110826,
+      "sha256": "52cba2e79207e88f1a2184d14b101ca10f6e4ecee47a77fa8fec4c56018c26b4",
+      "job_id": "20261105T052836813421Z_dbe53e4f20be"
+    },
+    {
+      "path": "data/versions/online_search/scored_110704_c229f23783c4.cpp",
+      "score": 110704,
+      "sha256": "c229f23783c48717569a52f5caf7c2ad13b7479f1a37fe9ad58fc3923533cf60",
+      "job_id": "20261105T053713269715Z_331e68ef61c9"
+    },
+    {
+      "path": "data/versions/online_search/scored_110812_c402cc958e18.cpp",
+      "score": 110812,
+      "sha256": "c402cc958e18fce382c11b0ca52bbabdb5ec728b4ec10eacd3b2627fb74188f5",
+      "job_id": "20261105T054720674535Z_3f3496d4b785"
+    },
+    {
+      "path": "data/versions/online_search/scored_110618_3c84a4466851.cpp",
+      "score": 110618,
+      "sha256": "3c84a44668513e5af02eecbd40b3f0d02079af1b790b48b42a1cd6b5eeb2a2cc",
+      "job_id": "20261105T055039169139Z_59b89ec7b982"
+    },
+    {
+      "path": "data/versions/online_search/scored_110649_b121285e71c2.cpp",
+      "score": 110649,
+      "sha256": "b121285e71c238cb8a0f5b47800eed81be6b356c1ce3f22e01027ce41ef94396",
+      "job_id": "20261105T055215172743Z_9fd301c68350"
+    },
+    {
+      "path": "data/versions/online_search/scored_110679_ef9c832a962d.cpp",
+      "score": 110679,
+      "sha256": "ef9c832a962d708cdef22b3e95add4a61c9a63431de31de19132e816e525abec",
+      "job_id": "20261105T055408165235Z_dd07b179f761"
+    },
+    {
+      "path": "data/versions/online_search/scored_110608_cddac827cff6.cpp",
+      "score": 110608,
+      "sha256": "cddac827cff60b32be4013316d5927094b9383814f077e12b91f0cbb8f2ae68e",
+      "job_id": "20261105T055912094664Z_0c8bd54cc540"
+    },
+    {
+      "path": "data/versions/online_search/scored_224148_6aceb98f164d.cpp",
+      "score": 224148,
+      "sha256": "6aceb98f164dd7c1588a71315df0140b64b428cc8b3015377fc1ff2f2f93352c",
+      "job_id": "20261105T063650981194Z_9c4c116f1e25"
+    },
+    {
+      "path": "data/versions/online_search/scored_177469_59d0e4ae95a0.cpp",
+      "sha256": "59d0e4ae95a01ed438736714451900d463c9e8eec17c2fb43c1b0817f472d8e8",
+      "score": 177469,
+      "job_id": "20261107T065919885800Z_279afde295ba"
+    },
+    {
+      "path": "data/versions/online_search/scored_213822_7bb54fad507f.cpp",
+      "sha256": "7bb54fad507f3cd38ec96d252865891ecadf94ba17d35522a338373f118e4901",
+      "score": 213822,
+      "job_id": "20261107T070901117706Z_4ddc208aa1e5"
+    },
+    {
+      "path": "data/versions/online_search/scored_214783_3ccdb7d04e21.cpp",
+      "score": 214783,
+      "sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "job_id": "20261107T072451188455Z_8edb6f4913ec"
+    },
+    {
+      "path": "data/versions/main_online_214783.cpp",
+      "score": 214783,
+      "sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "job_id": "20261107T072451188455Z_8edb6f4913ec"
+    },
+    {
+      "path": "data/versions/online_search/scored_212837_d0160cf64a6b.cpp",
+      "score": 212837,
+      "sha256": "d0160cf64a6bfe87010df854a8adaf16ab08822644e32f1f544465a0b3e72807",
+      "job_id": "20261107T073216544087Z_2ebac68ebde6"
+    },
+    {
+      "path": "data/versions/online_search/scored_138801_e012aaf3abf0.cpp",
+      "score": 138801,
+      "sha256": "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+      "job_id": "20261108T091055331632Z_5b9ddf86888d"
+    },
+    {
+      "path": "data/versions/online_search/scored_214783_c3f673b839d7.cpp",
+      "score": 214783,
+      "sha256": "c3f673b839d7c60057bb5d56d866c077a8a5058806dde1103dc5b0a3fec07e5d",
+      "job_id": "20261108T093100801254Z_c041cdd5624d"
+    },
+    {
+      "path": "data/versions/online_search/scored_209116_af7ea1e358ee.cpp",
+      "score": 209116,
+      "sha256": "af7ea1e358ee0771592ed649a9a203f32edd36979a225d75317c9b4c418c000f",
+      "job_id": "20261108T093131271224Z_5214e9640911"
+    },
+    {
+      "path": "data/versions/online_search/scored_214596_5aa13e965b30.cpp",
+      "score": 214596,
+      "sha256": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+      "job_id": "20261108T093302673550Z_b93314bf7fd0"
+    },
+    {
+      "path": "data/versions/online_search/scored_207996_22bdf260ae37.cpp",
+      "score": 207996,
+      "sha256": "22bdf260ae37722a9b1eedb04cb263eb7610da8dc92911a17521526cfe4027f3",
+      "job_id": "20261108T093327546944Z_66de5fb78244"
+    },
+    {
+      "path": "data/versions/online_search/scored_214671_8e7144bae95a.cpp",
+      "score": 214671,
+      "sha256": "8e7144bae95aa56bdea9a937f92c4f512b33d44e0fc6c68ef82588c704d89ef3",
+      "job_id": "20261108T093506307767Z_c94cc44dd4f4"
+    },
+    {
+      "path": "data/versions/online_search/scored_214774_d9b25f8e3c6c.cpp",
+      "score": 214774,
+      "sha256": "d9b25f8e3c6c1be15005256930c77d0f86753a925aaf58cee467d3dac6338fe8",
+      "job_id": "20261108T093535075715Z_11c5af3154da"
+    },
+    {
+      "path": "data/versions/online_search/scored_191694_629021ca9364.cpp",
+      "score": 191694,
+      "sha256": "629021ca9364d25452a296ebfdfb0683491a5648add382532bd8203c068e47dd",
+      "job_id": "20261108T093709492701Z_7028de989af1"
+    },
+    {
+      "path": "data/versions/online_search/scored_214210_3ea8f1582dcd.cpp",
+      "score": 214210,
+      "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+      "job_id": "20261108T093912980173Z_aca4fe13f9d0"
+    },
+    {
+      "path": "data/versions/online_search/scored_212450_657255ecd05c.cpp",
+      "score": 212450,
+      "sha256": "657255ecd05ce54e2f113ee17dc4c3c70302f19aad1c74c6266160d75e02a371",
+      "job_id": "20261108T100444457493Z_f146e6566617"
+    },
+    {
+      "path": "data/versions/online_search/scored_177260_d47006f88321.cpp",
+      "score": 177260,
+      "sha256": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+      "job_id": "20261108T100621323451Z_c2e88d6812f2"
+    },
+    {
+      "path": "data/versions/online_search/scored_216531_d0a43f043a1c.cpp",
+      "score": 216531,
+      "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "job_id": "20261108T100817757883Z_3b9375718bce"
+    },
+    {
+      "path": "data/versions/main_online_216531.cpp",
+      "score": 216531,
+      "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "job_id": "20261108T100817757883Z_3b9375718bce"
+    },
+    {
+      "path": "data/versions/online_search/scored_197498_f92b15ee5e5c.cpp",
+      "score": 197498,
+      "sha256": "f92b15ee5e5c4309f7e5ef42dc9351b4b82c41b1293be3d9c2551fe88bcc98eb",
+      "job_id": "20261108T101018758928Z_1d8272692a06"
+    },
+    {
+      "path": "data/versions/online_search/scored_214783_064facf44cc3.cpp",
+      "score": 214783,
+      "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+      "job_id": "20261108T101314199679Z_60e57d6e67d7"
+    },
+    {
+      "path": "data/versions/online_search/scored_212923_081c7cbde9a4.cpp",
+      "score": 212923,
+      "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+      "job_id": "20261108T101510706013Z_7bac42f5767b"
+    },
+    {
+      "path": "data/versions/online_search/scored_213406_49292a7d0246.cpp",
+      "score": 213406,
+      "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+      "job_id": "20261108T101747417662Z_fc18bc4fd651"
+    },
+    {
+      "path": "data/versions/online_search/scored_216532_0bacd870a114.cpp",
+      "score": 216532,
+      "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "job_id": "20261108T102040854871Z_d2f603045348"
+    },
+    {
+      "path": "data/versions/main_online_216532.cpp",
+      "score": 216532,
+      "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "job_id": "20261108T102040854871Z_d2f603045348"
+    },
+    {
+      "path": "data/versions/online_search/scored_216532_63e48f00ad55.cpp",
+      "score": 216532,
+      "sha256": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+      "job_id": "20261108T102221446305Z_e57403ffd407"
+    },
+    {
+      "path": "data/versions/online_search/scored_184026_43ff3aed5890.cpp",
+      "score": 184026,
+      "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+      "job_id": "20261108T102423512575Z_6bc2cbce62fd"
+    },
+    {
+      "path": "data/versions/online_search/scored_173232_bd80c52deae4.cpp",
+      "score": 173232,
+      "sha256": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+      "job_id": "20261108T102718077837Z_131360dfe0af"
+    },
+    {
+      "path": "data/versions/online_search/scored_204586_82440a29e7fe.cpp",
+      "score": 204586,
+      "sha256": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+      "job_id": "20261108T102918057465Z_c2f032a61188"
+    },
+    {
+      "path": "data/versions/online_search/scored_216475_ffed85141e27.cpp",
+      "score": 216475,
+      "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+      "job_id": "20261108T103118023302Z_61e3872cbe71"
+    },
+    {
+      "path": "data/versions/online_search/scored_215888_4f9a6622768c.cpp",
+      "score": 215888,
+      "sha256": "4f9a6622768c8e91157c1fc45b7e0bd54fdc76f6dcfc6cf5066723dfee5e96fc",
+      "job_id": "20261108T103319432410Z_9d8a5ea739f0"
+    },
+    {
+      "path": "data/versions/online_search/scored_213682_e9d82acc3c28.cpp",
+      "score": 213682,
+      "sha256": "e9d82acc3c28a6c7ca9641ad0a196af2fab826370eb92bfc59ac59deec140164",
+      "job_id": "20261108T103602257806Z_0779be823bf6"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_a87714acc894.cpp",
+      "score": 217614,
+      "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "job_id": "20261108T103802570295Z_175e930d7170"
+    },
+    {
+      "path": "data/versions/main_online_217614.cpp",
+      "score": 217614,
+      "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "job_id": "20261108T103802570295Z_175e930d7170"
+    },
+    {
+      "path": "data/versions/online_search/scored_201690_9da978d174f3.cpp",
+      "score": 201690,
+      "sha256": "9da978d174f3f520813d586ba51db5c1e67f8dd48bee0bff63c340b725db049a",
+      "job_id": "20261108T104004004639Z_8b1063affabd"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_f6844076a484.cpp",
+      "score": 217614,
+      "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+      "job_id": "20261108T104600217568Z_6698a96198cd"
+    },
+    {
+      "path": "data/versions/online_search/scored_216982_1f9d2883e369.cpp",
+      "score": 216982,
+      "sha256": "1f9d2883e369f5fa3dcc3523364025b504d9f443ddce6f7dfdee16ea644cc297",
+      "job_id": "20261109T014528790856Z_ff3cc8dfa61e"
+    },
+    {
+      "path": "data/versions/online_search/scored_216857_92162eaa7cfe.cpp",
+      "score": 216857,
+      "sha256": "92162eaa7cfed0db8d7ced44f654fcb1b153926f9c3c6ffeb0fd57daa3c371c7",
+      "job_id": "20261109T014557640743Z_7937f74e5fe7"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_d977403b9e30.cpp",
+      "score": 217614,
+      "sha256": "d977403b9e30ab6f6dce4547a0ea63972b76e078a675209969ed679fbaeb9e6b",
+      "job_id": "20261109T014701809039Z_68a06a79ea6c"
+    },
+    {
+      "path": "data/versions/online_search/scored_216195_6b8ce8993fa2.cpp",
+      "score": 216195,
+      "sha256": "6b8ce8993fa2c34cbc6c1c639b465d392c5bcb96d0b450de80c044ae90902887",
+      "job_id": "20261109T014921989488Z_c0154eb3cb07"
+    },
+    {
+      "path": "data/versions/online_search/scored_213782_939cef78ee01.cpp",
+      "score": 213782,
+      "sha256": "939cef78ee010eaa1604638401dd659128f975cf639a345d2c7344dea0754f24",
+      "job_id": "20261109T014956455649Z_bab160931879"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_e76d07ae511b.cpp",
+      "score": 217614,
+      "sha256": "e76d07ae511b0e5d4c6b6a5b3f12736083dc2f0989c0e8d2cea4318d46f1f471",
+      "job_id": "20261109T015309142496Z_53edcec91469"
+    },
+    {
+      "path": "data/versions/online_search/scored_218389_be6201dc825a.cpp",
+      "score": 218389,
+      "sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+      "job_id": "20261109T015806144106Z_246879890288"
+    },
+    {
+      "path": "data/versions/main_online_218389.cpp",
+      "score": 218389,
+      "sha256": "be6201dc825a4b8c1d03fe7e5247b79d6899e9e2832949b4c629f084cb9364e4",
+      "job_id": "20261109T015806144106Z_246879890288"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_50abe36ffbb9.cpp",
+      "score": 217614,
+      "sha256": "50abe36ffbb935b2a9dca3ac7089afa331035005897636770d696fd15e9ae7cc",
+      "job_id": "20261109T015838517269Z_6625fe15f663"
+    },
+    {
+      "path": "data/versions/online_search/scored_218135_fd7ad86a53c6.cpp",
+      "score": 218135,
+      "sha256": "fd7ad86a53c6fd0f17a4f290e52ea7bc5f2c5c2a0c5d6ef767bd4ef29a72016c",
+      "job_id": "20261109T020205290273Z_0ea678cb7ce5"
+    },
+    {
+      "path": "data/versions/online_search/scored_210778_a1e8e169dda8.cpp",
+      "score": 210778,
+      "sha256": "a1e8e169dda89c100b4db49364c31639768e3a8d4c32123d6926eb31e9a0dddd",
+      "job_id": "20261109T020238892944Z_d305625fd271"
+    },
+    {
+      "path": "data/versions/online_search/scored_215951_7dacca800cef.cpp",
+      "score": 215951,
+      "sha256": "7dacca800cef566d20beb4673b322e55fbcd0a8631dbd3728a7338872f83c947",
+      "job_id": "20261109T020556030834Z_a0dc9bb2094c"
+    },
+    {
+      "path": "data/versions/online_search/scored_217714_25c299394c02.cpp",
+      "score": 217714,
+      "sha256": "25c299394c02209e11aa0ff1d7ec5fbd501714a7fbdca34047c16c65e550ea9f",
+      "job_id": "20261109T020620280836Z_5779b81c2470"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_5dcce0efd1f9.cpp",
+      "score": 218796,
+      "sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+      "job_id": "20261109T020714418579Z_e2bf5b5ca9e0"
+    },
+    {
+      "path": "data/versions/main_online_218796.cpp",
+      "score": 218796,
+      "sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+      "job_id": "20261109T020714418579Z_e2bf5b5ca9e0"
+    },
+    {
+      "path": "data/versions/online_search/scored_210082_dba8bbd0eed2.cpp",
+      "score": 210082,
+      "sha256": "dba8bbd0eed2e27f1d91fec6873d9af04de449be81c1792bde509a6302e6d718",
+      "job_id": "20261109T020804525345Z_9e167d4258ec"
+    },
+    {
+      "path": "data/versions/online_search/scored_210416_ac3f6d34ee35.cpp",
+      "score": 210416,
+      "sha256": "ac3f6d34ee35a7bbca3d9f9c5870746be55a3246dbdac16aa0b0e16bf99eb31e",
+      "job_id": "20261109T020918798857Z_0c63ba82ec07"
+    },
+    {
+      "path": "data/versions/online_search/scored_217457_f5849028f6d4.cpp",
+      "score": 217457,
+      "sha256": "f5849028f6d43d01c773059ed49736d3b2fd8af04a08c4586f6c1509b3361dac",
+      "job_id": "20261109T021206545877Z_1d41d39040b4"
+    },
+    {
+      "path": "data/versions/online_search/scored_217557_d9ee8b5c2fb3.cpp",
+      "score": 217557,
+      "sha256": "d9ee8b5c2fb31c3825b946b9ce2a89865e0a4fe71223fd52b2b9e6a3de1c4817",
+      "job_id": "20261109T021240240618Z_dc33fb511e54"
+    },
+    {
+      "path": "data/versions/online_search/scored_217704_567574ddb959.cpp",
+      "score": 217704,
+      "sha256": "567574ddb959104efa8f7b7bb09bbbf2d55519efb65712f44b42cf805090a4a4",
+      "job_id": "20261109T021426036024Z_33290a0dbd89"
+    },
+    {
+      "path": "data/versions/online_search/scored_218111_2190f76cf26f.cpp",
+      "score": 218111,
+      "sha256": "2190f76cf26f982aee5149daa4c827f92105112a6b00a07d5e769f37fd3357f8",
+      "job_id": "20261109T021459500891Z_cccaa938b0a7"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_34052c2e9ea7.cpp",
+      "score": 217614,
+      "sha256": "34052c2e9ea785184935b36c0ddda81e161fdd9512cb37ed835c592fa4b054df",
+      "job_id": "20261109T021601691361Z_896b99b80be4"
+    },
+    {
+      "path": "data/versions/online_search/scored_218389_dc321a9107e3.cpp",
+      "score": 218389,
+      "sha256": "dc321a9107e3fa09952b687b04c31bae2caaf163b0d4853c6e369fa95d80ac61",
+      "job_id": "20261109T021637766020Z_3cc852d0f740"
+    },
+    {
+      "path": "data/versions/online_search/scored_217614_5f5b66ac83ae.cpp",
+      "score": 217614,
+      "sha256": "5f5b66ac83ae7345d2d9697dd63feb7b4f64e600792990164ee7b1c032ab81ec",
+      "job_id": "20261109T021716325020Z_1ddb707b646b"
+    },
+    {
+      "path": "data/versions/online_search/scored_218389_4aaded85d2cd.cpp",
+      "score": 218389,
+      "sha256": "4aaded85d2cd8f448053f827e8f4488214cd6fad34858cd009b55a1909b7d82a",
+      "job_id": "20261109T021811619689Z_67db21b263a4"
+    },
+    {
+      "path": "data/versions/online_search/scored_215931_1319058c44ec.cpp",
+      "score": 215931,
+      "sha256": "1319058c44ecd9da802475e2ec905adaa5b7d23b9075594d2a4d90ed31ffdde1",
+      "job_id": "20261109T022119656484Z_2b023afb63b3"
+    },
+    {
+      "path": "data/versions/online_search/scored_218196_225e93e61333.cpp",
+      "score": 218196,
+      "sha256": "225e93e613337d526739114310beda76cd24e7a56f1467037c55a74a954b8e5f",
+      "job_id": "20261109T022150630005Z_731d13544f38"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_5f4a856b7483.cpp",
+      "score": 218796,
+      "sha256": "5f4a856b7483ff6d0919b7a202894ef7af93d55e3bfc24d823c8e109118f7903",
+      "job_id": "20261109T022320610676Z_c9baef57af3a"
+    },
+    {
+      "path": "data/versions/online_search/scored_217870_b6f4a1623d5b.cpp",
+      "score": 217870,
+      "sha256": "b6f4a1623d5b556026800773f8a0caca5a8e17dad1530d026ddc72786ddce767",
+      "job_id": "20261109T022353937249Z_cd9d5fefcdfa"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_4fe89367911e.cpp",
+      "score": 218796,
+      "sha256": "4fe89367911e2f5794b431a1157cb5325f10aa85e68acbc83e12ddc0214d082f",
+      "job_id": "20261109T022522887563Z_2dbfc31d06af"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_b97d1eac7f0c.cpp",
+      "score": 218796,
+      "sha256": "b97d1eac7f0ce637b828b8520aad4e55307cc7860cfce8e18f3a5374a5a0cbc6",
+      "job_id": "20261109T022550692926Z_fb6f2337b374"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_c35b348f4cb0.cpp",
+      "score": 218796,
+      "sha256": "c35b348f4cb0950c810350ddce00070b17a09ea85bbc6fcb937e6acd548dd132",
+      "job_id": "20261109T022720379945Z_c53a7f03c079"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_9ec9f274de1f.cpp",
+      "score": 218796,
+      "sha256": "9ec9f274de1ff57779630ec177003933cb1c5c6a714f2de59d214feda2a2c9c7",
+      "job_id": "20261109T164247478909Z_cc28a8c2f781"
+    },
+    {
+      "path": "data/versions/online_search/scored_218775_bebd76089706.cpp",
+      "score": 218775,
+      "sha256": "bebd7608970663216e0db7e90c535f6ae62520db8bd9471bdb70eb78841aa83e",
+      "job_id": "20261109T164308543873Z_3117bf17b86e"
+    },
+    {
+      "path": "data/versions/online_search/scored_218024_0d080b93d617.cpp",
+      "score": 218024,
+      "sha256": "0d080b93d617eb6dc02e219e12a0612569c17632eaed53b5ff23a3f171dfc58b",
+      "job_id": "20261109T164406738111Z_94c1802bfc45"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_fe7584979f8c.cpp",
+      "score": 218796,
+      "sha256": "fe7584979f8c6f159978ca68f61d57fe23d6fdd0af57a4e9147b16848c1c7416",
+      "job_id": "20261109T164507019608Z_a5fc582f1d11"
+    },
+    {
+      "path": "data/versions/online_search/scored_218796_4c67bcbae953.cpp",
+      "score": 218796,
+      "sha256": "4c67bcbae953bc839f09b6296e5a0feb1fdfa4e4076fd173fb3074bf67969fcb",
+      "job_id": "20261109T164606410028Z_75afff7ef01a"
+    },
+    {
+      "path": "data/versions/online_search/scored_218036_c0a7d0ef9bbf.cpp",
+      "score": 218036,
+      "sha256": "c0a7d0ef9bbf66e1ccc05b966a5321850f79fee803626ca6bb8d97ce3709a685",
+      "job_id": "20261109T164705735385Z_76d13d65a703"
     }
   ]
 }

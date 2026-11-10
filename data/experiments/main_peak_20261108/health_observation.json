@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-11-08T07:17:37",
+  "http_status": 200,
+  "records": [
+    {
+      "id": "359e67a7ec894baaa70925e8bb600edf",
+      "status": "tobe_processing",
+      "message": "",
+      "score": null
+    },
+    {
+      "id": "65b816c4aa1e4c30bc6305aa8fc9e23d",
+      "status": "tobe_processing",
+      "message": "",
+      "score": null
+    }
+  ],
+  "source": "Recognized enums only from page-owned response; no request or login data read"
+}

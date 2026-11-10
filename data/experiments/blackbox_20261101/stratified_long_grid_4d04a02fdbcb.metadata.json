@@ -1,0 +1,8 @@
+{
+  "name": "stratified_long_grid",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216233.cpp",
+  "parent_sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\stratified_long_grid_4d04a02fdbcb.cpp",
+  "sha256": "b51f516c70a014f792818a4b0cb7260b071a00790d13ed2542323b45f88f21bc",
+  "description": "Long-array sampling expert: N>650 nonflat intervals use a fixed32-cell endpoint plus two fixed-seed stratified random interiors; retain parent adjacent bursts, winner, stopping and fine planner. Other N and flat histories remain on parent trajectory. Independent of prior hull/model-cell changes."
+}

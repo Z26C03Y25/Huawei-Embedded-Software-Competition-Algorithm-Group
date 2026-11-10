@@ -1,0 +1,8 @@
+{
+  "name": "skeleton_noise_audit",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\online_search\\scored_209783_5ad00983b264.cpp",
+  "parent_sha256": "5ad00983b2644b413a9804f473b51e8e968cb430503cb78b3b9d70e3bcad95a5",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\skeleton_noise_audit_5ad00983b264.cpp",
+  "sha256": "bacbbba94c9dbed9861803d0db130bc72c232c50bec9fcec0f9e12ad26261759",
+  "description": "On scored anchored random audit, tag auxiliary sample provenance and estimate residual roughness from the non-auxiliary skeleton only; retain every random raw value for winner ranking, slopes and contrast."
+}

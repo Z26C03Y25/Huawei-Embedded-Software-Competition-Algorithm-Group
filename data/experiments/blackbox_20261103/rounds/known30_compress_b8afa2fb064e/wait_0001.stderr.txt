@@ -1,0 +1,5 @@
+20261102T164648050808Z_fce6395a0347: pending
+TargetClosedError: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("button", name="上传作品", exact=True) to be visible
+

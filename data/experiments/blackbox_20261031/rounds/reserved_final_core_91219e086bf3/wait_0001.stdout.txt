@@ -1,0 +1,28 @@
+{
+  "job_id": "20261031T082003782129Z_de37317e0d53",
+  "state": "timed_out",
+  "sha256": "91219e086bf3cb0456d6d9c6b63bc2b92cedc51399caa7fd54c771048a3afcd7",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\rounds\\reserved_final_core_91219e086bf3\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T082003782129Z_de37317e0d53\\main.cpp",
+  "score": null,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-10-31 16:20:05",
+    "score": null,
+    "status": "unknown",
+    "status_text": "unknown",
+    "score_text": "",
+    "row_id": null,
+    "submission_id": "dad4bf9ddc6540d2a3bd6e6ddb1c41b9",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-10-31 16:20:05"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-10-31 16:20:05\"]"
+  },
+  "last_error": "Unknown submission status: unknown",
+  "resume": "python automation/judge.py wait 20261031T082003782129Z_de37317e0d53",
+  "note": "The requested polling window ended, not the judge result; resume this work ID without uploading again."
+}

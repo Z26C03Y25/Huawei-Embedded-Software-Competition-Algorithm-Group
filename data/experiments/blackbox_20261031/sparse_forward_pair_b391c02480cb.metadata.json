@@ -1,0 +1,8 @@
+{
+  "name": "sparse_forward_pair",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\sparse_forward_pair_b391c02480cb.cpp",
+  "description": "Keep the original two-cell forward reach and six-event cap, but query only the outer auxiliary point; omit the middle query to test its information/cost tradeoff; same learned N gate",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "1f2e92595067b4e4dfe1a4f883b169dfaf5c43c51ad09e63fcc9aef17346a7cb"
+}

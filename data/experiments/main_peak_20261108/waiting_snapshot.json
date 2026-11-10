@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-11-08T07:31:16",
+  "actual_used": 2,
+  "remaining": 28,
+  "best_score": 214783,
+  "best_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "pending": [
+    {
+      "name": "trial01_competitor_contour",
+      "job_id": "20261107T222837916574Z_45692b7a82f7",
+      "submission_id": "65b816c4aa1e4c30bc6305aa8fc9e23d",
+      "state": "pending",
+      "score": null
+    },
+    {
+      "name": "wave01_evidencescout",
+      "job_id": "20261107T230104078964Z_2a7d80cabbd5",
+      "submission_id": "359e67a7ec894baaa70925e8bb600edf",
+      "state": "pending",
+      "score": null
+    }
+  ],
+  "new_numeric_scores": [],
+  "constraint_audit": "No known coordinates, exact-N dispatch or response fingerprints"
+}

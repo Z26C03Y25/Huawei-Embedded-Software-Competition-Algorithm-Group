@@ -1,0 +1,8 @@
+{
+  "name": "interval_early_handoff",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\interval_early_handoff_b391c02480cb.cpp",
+  "description": "Predict a candidate interval, exhaust its raw integer cells, reserve49 reads/three turns for first-pass retry; on unresolved right edge continue right and verify a second interval; preserve cached fallback and final parking; early coarse handoff on two declines and always a bounded right audit before accepting first interval; gate true",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "484618f7dbe93e8d50b8d998462e4ed50c725fffb5355b915df41cd4fdc04656"
+}

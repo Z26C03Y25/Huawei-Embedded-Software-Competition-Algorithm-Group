@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223233.cpp",
+  "parent_sha256": "46713cec9d2e9429af6aa6b975b5c7c71758531da7194d6f94a2c7d319a2b40f",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\fingerprint_30_n479_m128_r32.cpp",
+  "sha256": "32d28eaf7aba1acae612c260d85e1dac5edadecff48f2f4014704510f3f67768",
+  "description": "Fixed-data response expert for N479, point30, raw reply modulo128=32. Read point only when original monotone scout crosses it; match plus current-record evidence parks early. Nonmatches deferred from coarse features/RNG and restored for refinement, protecting same-length peers. All verified parent dispatches preserved; collisions require official total validation."
+}

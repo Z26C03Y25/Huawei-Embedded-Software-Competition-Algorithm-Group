@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "9800f6356197119b8e8c690cf26b914072f491ab9e96d8df700d69d6900cabb5",
+  "description": "Mixture of fine-search experts: original216258 on clean histories, interval pilot-and-exhaust tournament on noisy histories. Restore all feature state/vote/counter effects after dispatch classification, so clean trajectories follow parent without added query decisions."
+}

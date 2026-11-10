@@ -1,0 +1,8 @@
+{
+  "name": "median_descent_stop",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216233.cpp",
+  "parent_sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\median_descent_stop_4d04a02fdbcb.cpp",
+  "sha256": "07466893ac3bdfc84b5918e819330f78d4f71614a4866bd2374a003f0781b115",
+  "description": "On the improved resolved-stop parent, retain all existing clean descent triggers; additionally allow three strictly declining post-peak median blocks to establish trend despite isolated modest rises. Both half-height flanks and original significance/rebound/rival checks remain mandatory; raw maxima untouched."
+}

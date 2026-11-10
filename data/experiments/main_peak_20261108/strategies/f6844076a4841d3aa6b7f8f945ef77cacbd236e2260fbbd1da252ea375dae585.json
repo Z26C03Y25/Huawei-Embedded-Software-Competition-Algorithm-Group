@@ -1,0 +1,23 @@
+{
+  "name": "wave109_zerosalvage",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "fitstop",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "zerosalvage"
+  ],
+  "operators": [
+    "zerosalvage"
+  ],
+  "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+  "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+  "parent_score": 217614,
+  "rationale": "If the current winner lies left of rightmost minus the allowed199redundancy and3parking error, returning there is provably zero. Redirect refinement into unresolved feasible cells, reserving queries to refine any new higher winner.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave109_zerosalvage.cpp",
+  "created_at": "2026-11-08T18:45:45+08:00",
+  "same_diagnostic_trajectories_as": null
+}

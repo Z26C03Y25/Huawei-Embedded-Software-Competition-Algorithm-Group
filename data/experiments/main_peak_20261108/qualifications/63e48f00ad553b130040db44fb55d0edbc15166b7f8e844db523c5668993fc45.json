@@ -1,0 +1,17 @@
+{
+  "candidate": "wave100_winnerfrontier",
+  "sha256": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Test whether a high-value band anchored too far left prematurely truncates the right search; anchor the redundancy lease at the observed raw winner instead.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "winnerfrontier"
+  ],
+  "baseline_note": "Current confirmed table-free parent216532. Official score alone decides adoption."
+}

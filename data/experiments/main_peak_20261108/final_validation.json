@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-08T18:49:19.527475+08:00",
+  "quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-08T18:48:54+08:00",
+    "beijing_date": "2026-11-08",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "official_table_free_best": 217614,
+  "source_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+  "official_job_id": "20261108T103802570295Z_175e930d7170",
+  "executable": "dev/build/main.exe",
+  "executable_sha256": "416b435728c3cc9eee7476b94c55445f7c09611cc7d87259bc2d5fae5b87b2ef",
+  "compile_command": [
+    "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\dev\\toolchains\\w64devkit\\bin\\g++.exe",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-std=c++17",
+    "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\main.cpp",
+    "-o",
+    "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\dev\\build\\main.exe"
+  ],
+  "compile_exit": 0,
+  "compile_warnings": false,
+  "best_native_preflight": {
+    "passed": true,
+    "cases": 26,
+    "zero_scores": 3,
+    "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+    "executable_sha256": "416b435728c3cc9eee7476b94c55445f7c09611cc7d87259bc2d5fae5b87b2ef",
+    "static_review": {
+      "passed": true,
+      "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "checked_at": "2026-11-08T18:37:55+08:00",
+      "checks": [
+        "network URL",
+        "credential marker",
+        "file/network/process/environment API",
+        "external I/O include",
+        "external preprocessor include"
+      ],
+      "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+    },
+    "completed_at": "2026-11-08T18:38:00+08:00"
+  },
+  "official_counts": {
+    "failed": 2,
+    "completed": 27,
+    "pending": 1
+  },
+  "pending_at_check": [
+    {
+      "name": "wave88_paired",
+      "job_id": "20261108T093735322945Z_ed3c79bf9b3d",
+      "submission_id": "5817250cfe234a8aae2c870d1204d927",
+      "submitted_at": "2026-11-08 17:37:36"
+    }
+  ],
+  "monitor_policy": "No further uploads; original known pending job only, no re-upload; stop at Beijing day boundary.",
+  "no_lookup": true,
+  "limitation": "Aggregate totals do not establish that every zero case recovered."
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\tour_on_reference_scout.cpp",
+  "parent_sha256": "a09d4a3e130cb83e1bde4fa98ba988017314c2e9c33e96b471d9d4a8d595a862",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\tour_partial_credit.cpp",
+  "sha256": "0d867953388d45d492f3c0cc6af662f0434e75882d058f17b4d1a17ca919fe2b",
+  "description": "Correct expected utility to include partial credit when parking within3 of an unqueried true target, with actual200*d penalty, rather than treating every unsearched target as zero. Score every selected/unselected target hypothesis under the complete tour cost; keep interval search space unchanged."
+}

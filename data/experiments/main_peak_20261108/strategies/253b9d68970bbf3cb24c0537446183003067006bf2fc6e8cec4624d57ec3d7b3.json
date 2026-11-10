@@ -1,0 +1,19 @@
+{
+  "name": "wave14_ladder",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "ladder",
+    "selective"
+  ],
+  "operators": [
+    "ladder"
+  ],
+  "sha256": "253b9d68970bbf3cb24c0537446183003067006bf2fc6e8cec4624d57ec3d7b3",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Use increasing right probes to detect a higher basin after local descent.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave14_ladder.cpp",
+  "created_at": "2026-11-08T17:14:10+08:00"
+}

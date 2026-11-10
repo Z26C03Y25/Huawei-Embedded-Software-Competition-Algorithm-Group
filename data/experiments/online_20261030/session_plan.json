@@ -1,0 +1,33 @@
+{
+  "authorization": "User explicitly authorized 30 online optimizations today and confirmed login. No further confirmation is needed within this 30 upload limit.",
+  "date": "2026-10-30",
+  "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+  "active_exec_session": 55316,
+  "active_batch": [
+    "economic_suffix_allN"
+  ],
+  "driver": "dev/tools/online_variants_20261030.py",
+  "single_round_driver": "dev/tools/online_round_20261030.py",
+  "reporter": "dev/tools/report_online_20261030.py",
+  "rules": [
+    "Each job needs two identical terminal observations. Unknown upload only resume its job; never submit again.",
+    "Each source static scan, strict compile and 26 protocol/parking smoke checks; local score is not used to reject as user prioritized official results.",
+    "Promote main.cpp only strictly higher confirmed score. Keep all scored archives immutable.",
+    "Platform quota checked before each unique upload; max30 total including the 2 initial manual uploads.",
+    "User explicitly overrides old automatic 3/day/local qualification policy for this run.",
+    "Shared ranking cache >=2h; no extra ranking calls."
+  ],
+  "remaining_candidates_priority": [
+    "mid_factor08_keep80",
+    "mid_cap96_keep80",
+    "long_scout80",
+    "long_scout64",
+    "long_rising16",
+    "model_gap_audit",
+    "cluster_height_025",
+    "mid_scout64"
+  ],
+  "plan_note": "22 trials completed with no improvement. Phase grouping shows all bands of +1/+4 lose. Remaining eight uploads prioritize actual motion-budget/scout factor isolation, keeping minimum80 in mid band for shoulder sentinel eligibility. Do not spend more phase shifts. Active trial23 economic_suffix_allN; next pick at most7 more.",
+  "user_steering": "Stop micro-tuning and further uploads. Analyze multidimensional observable features first, then design a structurally new algorithm.",
+  "new_uploads_allowed_in_current_phase": false
+}

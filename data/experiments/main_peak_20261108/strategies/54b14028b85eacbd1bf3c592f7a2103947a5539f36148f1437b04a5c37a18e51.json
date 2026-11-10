@@ -1,0 +1,19 @@
+{
+  "name": "wave25_adaptive",
+  "flags": [
+    "adaptive",
+    "core",
+    "efficient",
+    "frontier",
+    "selective"
+  ],
+  "operators": [
+    "adaptive"
+  ],
+  "sha256": "54b14028b85eacbd1bf3c592f7a2103947a5539f36148f1437b04a5c37a18e51",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Choose gap from slope deceleration and remaining coverage budget.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave25_adaptive.cpp",
+  "created_at": "2026-11-08T17:15:22+08:00"
+}

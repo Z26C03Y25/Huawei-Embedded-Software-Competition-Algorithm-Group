@@ -1,0 +1,195 @@
+{
+  "clock": "2026-11-01T00:17:38.474235+08:00",
+  "main_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "best_jobs": [
+    {
+      "job_id": "20261031T122331491832Z_e84bc1d9c229",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T122331491832Z_e84bc1d9c229\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:23:31",
+        "score": 212686,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212686",
+        "row_id": null,
+        "submission_id": "12021d82e2bf459cb5b8cc1441232bff",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:23:31"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:23:31\"]"
+      }
+    },
+    {
+      "job_id": "20261031T122942251208Z_e6fbe5bf7a37",
+      "score": 212686,
+      "sha256": "02018afdcab3a767e195a98f85f1d118dfe3b1cd19be70c263e000297eb57862",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T122942251208Z_e6fbe5bf7a37\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:29:42",
+        "score": 212686,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212686",
+        "row_id": null,
+        "submission_id": "c2b69bb390864602bf86661020818856",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:29:42"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:29:42\"]"
+      }
+    },
+    {
+      "job_id": "20261031T123135521530Z_18482f124684",
+      "score": 212686,
+      "sha256": "0c30753897bc5610afd11c206e59be07c8a9add82e14a4eaf800af58067a3906",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T123135521530Z_18482f124684\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:31:35",
+        "score": 212686,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212686",
+        "row_id": null,
+        "submission_id": "9ae9f62552b14c53b643ff80cbdc784e",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:31:35"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:31:35\"]"
+      }
+    },
+    {
+      "job_id": "20261031T123338049575Z_6721da6c1d0a",
+      "score": 212686,
+      "sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T123338049575Z_6721da6c1d0a\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:33:37",
+        "score": 212686,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212686",
+        "row_id": null,
+        "submission_id": "21fc77095cfa4b9c938e6ad99cbfa6a0",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:33:37"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:33:37\"]"
+      }
+    },
+    {
+      "job_id": "20261031T121439196230Z_c287be48bcdf",
+      "score": 212668,
+      "sha256": "b216bf1ff8f1ee5580cb8118fa99d8af5a9689c988a01e867850c01d1a5d36ad",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T121439196230Z_c287be48bcdf\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:14:40",
+        "score": 212668,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212668",
+        "row_id": null,
+        "submission_id": "c4e4e6fc36cb480185baf181f5683067",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:14:40"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:14:40\"]"
+      }
+    },
+    {
+      "job_id": "20261031T122128241430Z_4c690b6f4af0",
+      "score": 212668,
+      "sha256": "f5ebeb0a8b2cf7ca74113e9a09437cfd2f0d40eea6a224ad7df9a6959821d939",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T122128241430Z_4c690b6f4af0\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 20:21:28",
+        "score": 212668,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212668",
+        "row_id": null,
+        "submission_id": "42837ef155f44c528ee94ccf3df8fd99",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 20:21:28"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 20:21:28\"]"
+      }
+    },
+    {
+      "job_id": "20261031T081227504812Z_0472fa8b08b4",
+      "score": 212320,
+      "sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T081227504812Z_0472fa8b08b4\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 16:12:29",
+        "score": 212320,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212320",
+        "row_id": null,
+        "submission_id": "2ff88b788a044ba8b548ff8fed2f3a16",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 16:12:29"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 16:12:29\"]"
+      }
+    },
+    {
+      "job_id": "20261031T082318968844Z_bc69ba6e61b4",
+      "score": 212320,
+      "sha256": "1e7ebe59e47d3ab028cf7dbef30f3578d8bf92704477ba0609acacc7e616c15b",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T082318968844Z_bc69ba6e61b4\\main.cpp",
+      "record": {
+        "filename": "main.cpp",
+        "submission_type": "赛事",
+        "submitted_at": "2026-10-31 16:23:20",
+        "score": 212320,
+        "status": "success",
+        "status_text": "success",
+        "score_text": "212320",
+        "row_id": null,
+        "submission_id": "2c0dab492ef4456795eafcf1112a1406",
+        "source": "api",
+        "identity": [
+          "main.cpp",
+          "2026-10-31 16:23:20"
+        ],
+        "identity_key": "[\"main.cpp\",\"2026-10-31 16:23:20\"]"
+      }
+    }
+  ],
+  "unfinished": [],
+  "quota_text": [
+    "团队已经上传 0 次（0/30）"
+  ],
+  "pending_records": []
+}

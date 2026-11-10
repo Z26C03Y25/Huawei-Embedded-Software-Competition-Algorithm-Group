@@ -1,0 +1,22 @@
+{
+  "name": "wave101_mainall",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "mainall",
+    "quantilefloor",
+    "selective"
+  ],
+  "operators": [
+    "mainall"
+  ],
+  "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+  "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+  "parent_score": 216532,
+  "rationale": "Diagnostic structural probe: audit unresolved midpoint gaps regardless of apparent peak confidence, retaining exact cell verification and physical parking.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave101_mainall.cpp",
+  "created_at": "2026-11-08T18:24:09+08:00",
+  "same_diagnostic_trajectories_as": null
+}

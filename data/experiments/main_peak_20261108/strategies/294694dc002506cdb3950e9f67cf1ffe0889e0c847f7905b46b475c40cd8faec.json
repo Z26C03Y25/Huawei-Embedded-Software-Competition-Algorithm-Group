@@ -1,0 +1,19 @@
+{
+  "name": "wave16_noisehalf",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "noisehalf",
+    "selective"
+  ],
+  "operators": [
+    "noisehalf"
+  ],
+  "sha256": "294694dc002506cdb3950e9f67cf1ffe0889e0c847f7905b46b475c40cd8faec",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Test sensitivity to curvature entering the noise estimate.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave16_noisehalf.cpp",
+  "created_at": "2026-11-08T17:14:24+08:00"
+}

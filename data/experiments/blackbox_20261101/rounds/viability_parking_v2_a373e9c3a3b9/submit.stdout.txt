@@ -1,0 +1,10 @@
+{
+  "job_id": "20261031T172721006620Z_fc4d82e02f57",
+  "state": "delivery_uncertain",
+  "sha256": "a373e9c3a3b9367a5504765ce7d470682584a23d7ec80125d9f0f8c5589af5b8",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\rounds\\viability_parking_v2_a373e9c3a3b9\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T172721006620Z_fc4d82e02f57\\main.cpp",
+  "score": null,
+  "record": null,
+  "last_error": null
+}

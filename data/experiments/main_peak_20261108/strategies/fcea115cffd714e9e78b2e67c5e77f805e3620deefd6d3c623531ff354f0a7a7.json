@@ -1,0 +1,19 @@
+{
+  "name": "wave13_midscout",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "midscout",
+    "selective"
+  ],
+  "operators": [
+    "midscout"
+  ],
+  "sha256": "fcea115cffd714e9e78b2e67c5e77f805e3620deefd6d3c623531ff354f0a7a7",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Use continuous observed-width scouting in place of length tiers.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave13_midscout.cpp",
+  "created_at": "2026-11-08T17:14:04+08:00"
+}

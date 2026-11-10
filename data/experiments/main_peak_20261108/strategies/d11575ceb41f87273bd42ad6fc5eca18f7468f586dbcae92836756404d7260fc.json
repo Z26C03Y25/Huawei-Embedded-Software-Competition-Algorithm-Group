@@ -1,0 +1,20 @@
+{
+  "name": "wave59_evidencescout_blank",
+  "flags": [
+    "blank",
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective"
+  ],
+  "operators": [
+    "evidencescout",
+    "blank"
+  ],
+  "sha256": "d11575ceb41f87273bd42ad6fc5eca18f7468f586dbcae92836756404d7260fc",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Add budgeted coverage when weak measurements do not establish a peak.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave59_evidencescout_blank.cpp",
+  "created_at": "2026-11-08T17:17:52+08:00"
+}

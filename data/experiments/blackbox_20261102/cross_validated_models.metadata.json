@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "d5f53d188883e7e3d4bf9516ec62cc13943094ef9cfed38e086d5ca4f0ab42bb",
+  "description": "Replace vertex averaging by leave-one-out family selection: quadratic/raw cubic/log-quadratic predictions judged in raw units, reject unstable jackknife roots, then fit chosen family. Preserve coarse216258, real exhaustive model window, original raw winners and route/budget guards."
+}

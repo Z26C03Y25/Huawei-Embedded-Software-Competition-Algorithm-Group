@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\rank_hill_stop_long.cpp",
+  "parent_sha256": "128a0081556293a147011199d37bc6d40309e0ef1d1253ad01a2deb76f38e4a9",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\rank_verified_checkpoint.cpp",
+  "sha256": "4308ce0b37cb7e44cd38ea49746b1f4f478b74b26570d7e052d07be7ffb3b54f",
+  "description": "Value-of-information checkpoint on weak rank hill: at most once, exhaust the raw-winner bracket before making irreversible stopping decision. Only stop if verified raw height clears original25*noise significance; otherwise physically return to saved frontier and resume. Tag verification points out of trend/noise sketch, charge extra reads separately, retain turn/parking reserve."
+}

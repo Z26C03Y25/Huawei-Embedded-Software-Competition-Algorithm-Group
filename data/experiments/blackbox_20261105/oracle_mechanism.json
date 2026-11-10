@@ -1,0 +1,85 @@
+{
+  "official": false,
+  "rows": [
+    {
+      "kind": "needle",
+      "n": 500,
+      "target": 80,
+      "old_score": 0,
+      "base_score": 2283,
+      "label": true,
+      "count_delta": 1,
+      "position_delta": 6,
+      "trace": {
+        "band": 80,
+        "winner": 80,
+        "label": true,
+        "virtual_q": 32,
+        "virtual_pos": 273,
+        "virtual_right": 273,
+        "physical_q": 57,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "smooth",
+      "n": 500,
+      "target": 80,
+      "old_score": 2853,
+      "base_score": 2822,
+      "label": false,
+      "count_delta": 0,
+      "position_delta": 0,
+      "trace": {
+        "band": 80,
+        "winner": 80,
+        "label": false,
+        "virtual_q": 21,
+        "virtual_pos": 80,
+        "virtual_right": 92,
+        "physical_q": 37,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "dispatch_zero",
+      "n": 401,
+      "target": 80,
+      "old_score": 0,
+      "base_score": 2525,
+      "label": true,
+      "count_delta": 1,
+      "position_delta": 6,
+      "trace": {
+        "band": 80,
+        "winner": 80,
+        "label": true,
+        "virtual_q": 1,
+        "virtual_pos": 202,
+        "virtual_right": 202,
+        "physical_q": 28,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "edge",
+      "n": 500,
+      "target": 75,
+      "old_score": 0,
+      "base_score": 2814,
+      "label": false,
+      "count_delta": 0,
+      "position_delta": 0,
+      "trace": {
+        "band": 75,
+        "winner": 75,
+        "label": false,
+        "virtual_q": 8,
+        "virtual_pos": 73,
+        "virtual_right": 73,
+        "physical_q": 35,
+        "pad": 0
+      }
+    }
+  ]
+}

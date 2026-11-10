@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-11-09T10:31:50+08:00",
+  "quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-09T10:29:05+08:00",
+    "beijing_date": "2026-11-09",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "official_score": 218796,
+  "gain_today": 1182,
+  "best_source_sha256": "5dcce0efd1f94b7b7d602d31f956ba70d4292d6c0e8d2e09af9feff9c80a0b4f",
+  "best_job_id": "20261109T020714418579Z_e2bf5b5ca9e0",
+  "today_official_counts": {
+    "completed": 30
+  },
+  "source_snapshot_archive_triples_verified": 30,
+  "all_sources_unique": true,
+  "no_case_lookup": true,
+  "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+  "executable": "dev/build/main.exe",
+  "executable_sha256": "8024ce39e4764c4001a765a1a3d1251b46b4c103ee1907d2bbad1546cb978ebb",
+  "compile_exit": 0,
+  "compile_warnings": false,
+  "native_attempted": 26,
+  "native_protocol_passed": 5,
+  "native_launch_blocked": 21,
+  "native_hard_failures": [],
+  "native_all26_passed": false,
+  "source_guard_certificate": {
+    "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+    "protected_sections": {
+      "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+      "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+      "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+      "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+      "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+      "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+      "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+    },
+    "query_bound": 199,
+    "turn_bound": 6,
+    "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+    "assumptions": [
+      "Normal execution and valid judge replies within the problem domain",
+      "Catalog-only changes to exploration, fitting and query planning"
+    ],
+    "not_certified": [
+      "Global peak identity",
+      "Redundancy<=199 on arbitrary arrays",
+      "Native runtime behavior or score"
+    ],
+    "native_execution": "not claimed",
+    "verification": "source_kernel_equivalence"
+  },
+  "limitation": "Official aggregate score does not locate zero cases or prove all peaks are correct."
+}

@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\oracle_495_525_count.cpp",
+  "sha256": "5e15cd4c5331c14d5dbc2e8a51b30d178382dcbd8bc18ab2eaa73ed44d5613b4",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Cached-parent replay band495..525, modecount. Inject full band before original first request into it, or after original stop. Virtual solver receives only originally requested real/cache replies and original virtual ledger. Physical reads have independentQ/O/final parking, reserve80 for all modes. Label only interior band winner still global observed best, quick replay, and parent would have d>3/R>=200/nonpositive score for that reference. Positive actual marker case implies true target equals fully scanned interior winner. Compare same-band base versus count/position/Ncode markers; total alone is not original per-case score."
+}

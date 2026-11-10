@@ -1,0 +1,1946 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "maximum_unique_delivered_sources": 30,
+  "authorization_verbatim": [
+    "持续优化30次",
+    "保证不打表，但是突破目前的分数"
+  ],
+  "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+  "approval_note": "Concrete-source upload approval is still required by the calling tool; this helper cannot bypass it.",
+  "initial_best_score": 214783,
+  "initial_best_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "best_score": 217614,
+  "best_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+  "rounds": [
+    {
+      "name": "trial01_competitor_contour",
+      "description": "Direct online comparison from214783: expand waveform-selected competing-peak confirmation. No known-case lookups or reply fingerprints. Synthetic scores do not select this trial.",
+      "sha256": "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\trial01_competitor_contour.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\trial01_competitor_contour_834b4b6ea5aa\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T06:28:25+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "持续优化30次",
+        "保证不打表，但是突破目前的分数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "ca152620c176ca70d626e1ce00c070e13b705aa56fcb3a549a19b7723449d8d1",
+        "static_review": {
+          "passed": true,
+          "sha256": "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+          "checked_at": "2026-11-08T06:28:25+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T06:28:29+08:00"
+      },
+      "quota_before": {
+        "used": 0,
+        "maximum": 30,
+        "remaining": 30,
+        "quote": "团队已经上传 0 次(0/30)",
+        "captured_at": "2026-11-08T06:28:33+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field.",
+        "local_unique_delivered_sources": 0,
+        "local_attempt_jobs": 0
+      },
+      "submit_started_at": "2026-11-08T06:28:33+08:00",
+      "job_id": "20261107T222837916574Z_45692b7a82f7",
+      "wait_windows": 35,
+      "smoke_path_sha256": "f0ce5f2b48249adec470b2801e74580b1678875197b26d902ef0ff892c8ed1e1",
+      "submission_id": "65b816c4aa1e4c30bc6305aa8fc9e23d",
+      "submitted_at": "2026-11-08 06:28:36",
+      "score": null,
+      "finished_at": "2026-11-08T03:00:30+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave01_evidencescout",
+      "description": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; direct online comparison; no case lookups.",
+      "sha256": "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave01_evidencescout.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave01_evidencescout_f5bf953e5af7\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T07:00:57+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 5,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "0f7cb544ea222d6c91db417c2dbf762c10ce8fd5b02efdb1ea826ec4e8dfeb03",
+        "static_review": {
+          "passed": true,
+          "sha256": "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+          "checked_at": "2026-11-08T07:00:57+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T07:01:02+08:00"
+      },
+      "submit_started_at": "2026-11-08T07:01:04+08:00",
+      "quota_before": {
+        "used": 1,
+        "maximum": 30,
+        "remaining": 29,
+        "quote": "团队已经上传 1 次(1/30)",
+        "captured_at": "2026-11-08T07:01:04+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261107T230104078964Z_2a7d80cabbd5",
+      "submission_id": "359e67a7ec894baaa70925e8bb600edf",
+      "submitted_at": "2026-11-08 07:01:02",
+      "smoke_path_sha256": "7cef0fcebfb537b526a57c0eae21689f40f53bf242ec3bc9f35e614a1933822c",
+      "score": null,
+      "finished_at": "2026-11-08T09:09:11+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "probe03_cellbudget",
+      "description": "Single fresh service check and real algorithm trial after morning internal errors: dynamically allocate refinement budget from observed unresolved high-value cells. No known-case tables. Only a confirmed numeric official result unlocks further authorized trials.",
+      "sha256": "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\probe03_cellbudget.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\probe03_cellbudget_e012aaf3abf0\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:10:43+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "持续优化30次",
+        "保证不打表，但是突破目前的分数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 5,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "15ab60391621bec58952bb4a220d464af8a5a3e1e291c6ee8065f49784470162",
+        "static_review": {
+          "passed": true,
+          "sha256": "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+          "checked_at": "2026-11-08T17:10:44+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:10:48+08:00"
+      },
+      "quota_before": {
+        "used": 2,
+        "maximum": 30,
+        "remaining": 28,
+        "quote": "团队已经上传 2 次(2/30)",
+        "captured_at": "2026-11-08T17:10:50+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field.",
+        "local_unique_delivered_sources": 2,
+        "local_attempt_jobs": 2
+      },
+      "submit_started_at": "2026-11-08T17:10:50+08:00",
+      "job_id": "20261108T091055331632Z_5b9ddf86888d",
+      "wait_windows": 3,
+      "score": 138801,
+      "submission_id": "fcc4559d42dc4185a1f71c543e134bb7",
+      "submitted_at": "2026-11-08 17:10:56",
+      "finished_at": "2026-11-08T09:12:56+00:00",
+      "delta": -75982,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_138801_e012aaf3abf0.cpp",
+      "smoke_path_sha256": "9dbc267e3fa0a4c35c0d3680a3312e2c0c1747f0ad22f12b9dadd009f861b74e"
+    },
+    {
+      "name": "wave81_flatreach",
+      "description": "A flat prefix cannot prove no late peak; continue measured flat coverage using remaining query budget.; direct online comparison; no case lookups.",
+      "sha256": "c3f673b839d7c60057bb5d56d866c077a8a5058806dde1103dc5b0a3fec07e5d",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave81_flatreach.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave81_flatreach_c3f673b839d7\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:30:48+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+            "entry": "e47930de6aa8207dcc0190dd170c84e2591f16ada17b25355c6e0c762777010c"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "c3f673b839d7c60057bb5d56d866c077a8a5058806dde1103dc5b0a3fec07e5d",
+          "flags": [
+            "core",
+            "efficient",
+            "flatreach",
+            "frontier",
+            "selective"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T17:31:00+08:00",
+      "quota_before": {
+        "used": 3,
+        "maximum": 30,
+        "remaining": 27,
+        "quote": "团队已经上传 3 次(3/30)",
+        "captured_at": "2026-11-08T17:31:00+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093100801254Z_c041cdd5624d",
+      "submission_id": "bcabb163a4f248a0bf946beaf5ce2474",
+      "submitted_at": "2026-11-08 17:31:02",
+      "score": 214783,
+      "finished_at": "2026-11-08T09:32:52+00:00",
+      "delta": 0,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214783_c3f673b839d7.cpp"
+    },
+    {
+      "name": "wave82_tailprobe",
+      "description": "After a local summit, probe a geometry-derived right shoulder and continue only on measured recovery.; direct online comparison; no case lookups.",
+      "sha256": "af7ea1e358ee0771592ed649a9a203f32edd36979a225d75317c9b4c418c000f",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave82_tailprobe.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave82_tailprobe_af7ea1e358ee\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:31:18+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "374b3444c6e014959e3e478a1d86dff163979ff37623d1224fd520d6840fef41",
+            "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "af7ea1e358ee0771592ed649a9a203f32edd36979a225d75317c9b4c418c000f",
+          "flags": [
+            "core",
+            "efficient",
+            "frontier",
+            "selective",
+            "tailprobe"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T17:31:31+08:00",
+      "quota_before": {
+        "used": 4,
+        "maximum": 30,
+        "remaining": 26,
+        "quote": "团队已经上传 4 次(4/30)",
+        "captured_at": "2026-11-08T17:31:31+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093131271224Z_5214e9640911",
+      "submission_id": "d5d9191471b348539e8ffbfe77f66c3b",
+      "submitted_at": "2026-11-08 17:31:32",
+      "score": 209116,
+      "finished_at": "2026-11-08T09:32:52+00:00",
+      "delta": -5667,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_209116_af7ea1e358ee.cpp"
+    },
+    {
+      "name": "wave83_intervalfine",
+      "description": "Replace fitted-vertex stopping and randomized refinement with measured interval uncertainty and exact promising-cell completion.; direct online comparison; no case lookups.",
+      "sha256": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave83_intervalfine.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave83_intervalfine_5aa13e965b30\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:32:57+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "b432af86516eb8e3388bfcccbc701ed4208704345e797bcd110065e3fa87cd7e",
+        "static_review": {
+          "passed": true,
+          "sha256": "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+          "checked_at": "2026-11-08T17:32:57+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:33:01+08:00"
+      },
+      "submit_started_at": "2026-11-08T17:33:02+08:00",
+      "quota_before": {
+        "used": 5,
+        "maximum": 30,
+        "remaining": 25,
+        "quote": "团队已经上传 5 次(5/30)",
+        "captured_at": "2026-11-08T17:33:02+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093302673550Z_b93314bf7fd0",
+      "submission_id": "b9f12fb1612647d2aded35cb641e4c47",
+      "submitted_at": "2026-11-08 17:33:03",
+      "score": 214596,
+      "finished_at": "2026-11-08T09:34:48+00:00",
+      "delta": -187,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214596_5aa13e965b30.cpp",
+      "smoke_path_sha256": "840a04a5a70f940c93ad08cb9c9784dc79333b7a180d77bf95980d8c4c65d707"
+    },
+    {
+      "name": "wave84_shapescout",
+      "description": "Use observed half-width to determine scouting extent instead of coarse length tiers.; direct online comparison; no case lookups.",
+      "sha256": "22bdf260ae37722a9b1eedb04cb263eb7610da8dc92911a17521526cfe4027f3",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave84_shapescout.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave84_shapescout_22bdf260ae37\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:33:20+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "7e9c159070c2b6ede5f99fee3204068760ef7b30d12b11b7dde013242453564d",
+        "static_review": {
+          "passed": true,
+          "sha256": "22bdf260ae37722a9b1eedb04cb263eb7610da8dc92911a17521526cfe4027f3",
+          "checked_at": "2026-11-08T17:33:20+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:33:26+08:00"
+      },
+      "submit_started_at": "2026-11-08T17:33:27+08:00",
+      "quota_before": {
+        "used": 6,
+        "maximum": 30,
+        "remaining": 24,
+        "quote": "团队已经上传 6 次(6/30)",
+        "captured_at": "2026-11-08T17:33:27+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093327546944Z_66de5fb78244",
+      "submission_id": "721f771e24524b4cbd455309e8818dd4",
+      "submitted_at": "2026-11-08 17:33:28",
+      "score": 207996,
+      "finished_at": "2026-11-08T09:34:48+00:00",
+      "delta": -6787,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_207996_22bdf260ae37.cpp",
+      "smoke_path_sha256": "203a338d1c666e7666904f5c33a5170bf5cc315cc52fc9e1b70c52ca6a5646bb"
+    },
+    {
+      "name": "wave85_modeltight",
+      "description": "Require closer agreement of independent fitted vertices before stopping.; direct online comparison; no case lookups.",
+      "sha256": "8e7144bae95aa56bdea9a937f92c4f512b33d44e0fc6c68ef82588c704d89ef3",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave85_modeltight.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave85_modeltight_8e7144bae95a\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:34:54+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+            "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "8e7144bae95aa56bdea9a937f92c4f512b33d44e0fc6c68ef82588c704d89ef3",
+          "flags": [
+            "core",
+            "efficient",
+            "frontier",
+            "modeltight",
+            "selective"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T17:35:06+08:00",
+      "quota_before": {
+        "used": 7,
+        "maximum": 30,
+        "remaining": 23,
+        "quote": "团队已经上传 7 次(7/30)",
+        "captured_at": "2026-11-08T17:35:06+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093506307767Z_c94cc44dd4f4",
+      "submission_id": "2a093d52234045a88d7186cb5c20147f",
+      "submitted_at": "2026-11-08 17:35:07",
+      "score": 214671,
+      "finished_at": "2026-11-08T09:36:56+00:00",
+      "delta": -112,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214671_8e7144bae95a.cpp"
+    },
+    {
+      "name": "wave86_modelguard",
+      "description": "Require a verified interior summit before model-based early termination.; direct online comparison; no case lookups.",
+      "sha256": "d9b25f8e3c6c1be15005256930c77d0f86753a925aaf58cee467d3dac6338fe8",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave86_modelguard.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave86_modelguard_d9b25f8e3c6c\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:35:23+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+            "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "d9b25f8e3c6c1be15005256930c77d0f86753a925aaf58cee467d3dac6338fe8",
+          "flags": [
+            "core",
+            "efficient",
+            "frontier",
+            "modelguard",
+            "selective"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T17:35:35+08:00",
+      "quota_before": {
+        "used": 8,
+        "maximum": 30,
+        "remaining": 22,
+        "quote": "团队已经上传 8 次(8/30)",
+        "captured_at": "2026-11-08T17:35:35+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093535075715Z_11c5af3154da",
+      "submission_id": "3d8b27744d4e4987884d217e6f174384",
+      "submitted_at": "2026-11-08 17:35:36",
+      "score": 214774,
+      "finished_at": "2026-11-08T09:36:56+00:00",
+      "delta": -9,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214774_d9b25f8e3c6c.cpp"
+    },
+    {
+      "name": "wave87_startdense",
+      "description": "Use a geometric initial grid to reduce early narrow-peak aliasing.; direct online comparison; no case lookups.",
+      "sha256": "629021ca9364d25452a296ebfdfb0683491a5648add382532bd8203c068e47dd",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave87_startdense.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave87_startdense_629021ca9364\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:37:02+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 5,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "abac13df6b25345b6532b123f0945a06065b19bcd41de3273a8eae789aff69a2",
+        "static_review": {
+          "passed": true,
+          "sha256": "629021ca9364d25452a296ebfdfb0683491a5648add382532bd8203c068e47dd",
+          "checked_at": "2026-11-08T17:37:02+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:37:07+08:00"
+      },
+      "submit_started_at": "2026-11-08T17:37:09+08:00",
+      "quota_before": {
+        "used": 9,
+        "maximum": 30,
+        "remaining": 21,
+        "quote": "团队已经上传 9 次(9/30)",
+        "captured_at": "2026-11-08T17:37:09+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093709492701Z_7028de989af1",
+      "submission_id": "a50117c22a1f4f898b27643349b50993",
+      "submitted_at": "2026-11-08 17:37:10",
+      "score": 191694,
+      "finished_at": "2026-11-08T09:38:56+00:00",
+      "delta": -23089,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_191694_629021ca9364.cpp",
+      "smoke_path_sha256": "2bbf1967495b3516b32c1709d06077417dbccb32ea6324ec291945b5475819c5"
+    },
+    {
+      "name": "wave88_paired",
+      "description": "Alternate coarse gaps on measured signal to expose narrow shoulders.; direct online comparison; no case lookups.",
+      "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave88_paired.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave88_paired_0c6bec8231e8\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:37:28+08:00",
+      "state": "failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 7,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "d1abea158caa3d7515d6ad5df6374dfe8b9b1afd9a29216f17e3aa30dda5462d",
+        "static_review": {
+          "passed": true,
+          "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+          "checked_at": "2026-11-08T17:37:28+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:37:33+08:00"
+      },
+      "submit_started_at": "2026-11-08T17:37:35+08:00",
+      "quota_before": {
+        "used": 10,
+        "maximum": 30,
+        "remaining": 20,
+        "quote": "团队已经上传 10 次(10/30)",
+        "captured_at": "2026-11-08T17:37:35+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093735322945Z_ed3c79bf9b3d",
+      "submission_id": "5817250cfe234a8aae2c870d1204d927",
+      "submitted_at": "2026-11-08 17:37:36",
+      "smoke_path_sha256": "b5d32b3db7e8e4595762f09ff86aaba993d076c66d548c337a3b2d96d8e047b7",
+      "score": null,
+      "finished_at": "2026-11-09T01:45:28+00:00",
+      "delta": null,
+      "accepted": false
+    },
+    {
+      "name": "wave89_wideaudit",
+      "description": "Confirm more competing basins using current noise and contrast.; direct online comparison; no case lookups.",
+      "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave89_wideaudit.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave89_wideaudit_3ea8f1582dcd\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T17:39:04+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "63b0fde364cad6002c73ff8e1da8ee6af8fa7a40a3644994908636ad76ac54aa",
+        "static_review": {
+          "passed": true,
+          "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+          "checked_at": "2026-11-08T17:39:04+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T17:39:11+08:00"
+      },
+      "submit_started_at": "2026-11-08T17:39:12+08:00",
+      "quota_before": {
+        "used": 11,
+        "maximum": 30,
+        "remaining": 19,
+        "quote": "团队已经上传 11 次(11/30)",
+        "captured_at": "2026-11-08T17:39:12+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T093912980173Z_aca4fe13f9d0",
+      "submission_id": "609c79d06b764a2c8b56197ccef95cc7",
+      "submitted_at": "2026-11-08 17:39:14",
+      "score": 214210,
+      "finished_at": "2026-11-08T09:40:55+00:00",
+      "delta": -573,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214210_3ea8f1582dcd.cpp",
+      "smoke_path_sha256": "f0ce5f2b48249adec470b2801e74580b1678875197b26d902ef0ff892c8ed1e1"
+    },
+    {
+      "name": "wave90_maincover",
+      "description": "An unconfirmed observed maximum triggers a complete midpoint sweep of unresolved coarse gaps, then exact winner-cell refinement and right-boundary recovery. Strong established curves retain the prior refinement.; direct online comparison; no case lookups.",
+      "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave90_maincover.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave90_maincover_064facf44cc3\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T18:04:11+08:00",
+      "state": "preflight_failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "last_error": "26-case preflight protocol/query/turn/parking check failed"
+    },
+    {
+      "name": "wave91_mainverify",
+      "description": "Replace model agreement as peak confirmation with observed background dominance or coherent peak support; audit unresolved gaps and verify the full winning cell before permitting the old refiner to finish.; direct online comparison; no case lookups.",
+      "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave91_mainverify.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave91_mainverify_081c7cbde9a4\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T18:04:24+08:00",
+      "state": "preflight_failed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "last_error": "26-case preflight protocol/query/turn/parking check failed"
+    },
+    {
+      "name": "wave92_relativetolerance",
+      "description": "Derive the high-value uncertainty band from sample count, current noise and contrast instead of a fixed contrast fraction.; direct online comparison; no case lookups.",
+      "sha256": "657255ecd05ce54e2f113ee17dc4c3c70302f19aad1c74c6266160d75e02a371",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave92_relativetolerance.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave92_relativetolerance_657255ecd05c\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T18:04:37+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "a53e61df85c9a054adcafd79ef080039e880b1d39e7a83a505ef88a9cc28bd44",
+        "static_review": {
+          "passed": true,
+          "sha256": "657255ecd05ce54e2f113ee17dc4c3c70302f19aad1c74c6266160d75e02a371",
+          "checked_at": "2026-11-08T18:04:37+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:04:42+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:04:44+08:00",
+      "quota_before": {
+        "used": 12,
+        "maximum": 30,
+        "remaining": 18,
+        "quote": "团队已经上传 12 次(12/30)",
+        "captured_at": "2026-11-08T18:04:44+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T100444457493Z_f146e6566617",
+      "submission_id": "f8a8d25ece1046308e4d59f000b5561d",
+      "submitted_at": "2026-11-08 18:04:45",
+      "score": 212450,
+      "finished_at": "2026-11-08T10:06:07+00:00",
+      "delta": -2333,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_212450_657255ecd05c.cpp",
+      "smoke_path_sha256": "f0ce5f2b48249adec470b2801e74580b1678875197b26d902ef0ff892c8ed1e1"
+    },
+    {
+      "name": "wave93_statisticalsignal",
+      "description": "Scale signal confidence with the number of measurements and measured noise rather than a fixed noise multiplier.; direct online comparison; no case lookups.",
+      "sha256": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave93_statisticalsignal.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave93_statisticalsignal_d47006f88321\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T18:06:14+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "dcd595ac1afea4578d1fc38c59768821247aa617af37d25f44b26bbaa5438b2f",
+        "static_review": {
+          "passed": true,
+          "sha256": "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+          "checked_at": "2026-11-08T18:06:14+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:06:19+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:06:21+08:00",
+      "quota_before": {
+        "used": 13,
+        "maximum": 30,
+        "remaining": 17,
+        "quote": "团队已经上传 13 次(13/30)",
+        "captured_at": "2026-11-08T18:06:21+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T100621323451Z_c2e88d6812f2",
+      "submission_id": "240e72d025da4472bf5cfc2d79f38777",
+      "submitted_at": "2026-11-08 18:06:22",
+      "score": 177260,
+      "finished_at": "2026-11-08T10:08:05+00:00",
+      "delta": -37523,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_177260_d47006f88321.cpp",
+      "smoke_path_sha256": "ccde0ebc7ddd17abe8b9434bc6526a3e76db7697d24f5ec0929b3f93cd6026fa"
+    },
+    {
+      "name": "wave94_quantilefloor",
+      "description": "Estimate background from a low empirical order statistic to reduce isolated low-outlier distortion.; direct online comparison; no case lookups.",
+      "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave94_quantilefloor.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave94_quantilefloor_d0a43f043a1c\\main.cpp",
+      "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+      "parent_score": 214783,
+      "created_at": "2026-11-08T18:08:11+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "5716022c04d1e3ac1913295b6c560413db92c0fa161995e694514340136b3bfb",
+        "static_review": {
+          "passed": true,
+          "sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+          "checked_at": "2026-11-08T18:08:11+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:08:16+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:08:17+08:00",
+      "quota_before": {
+        "used": 14,
+        "maximum": 30,
+        "remaining": 16,
+        "quote": "团队已经上传 14 次(14/30)",
+        "captured_at": "2026-11-08T18:08:17+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T100817757883Z_3b9375718bce",
+      "submission_id": "00e7091ad3b34f9ca70dbeacbdfac3cf",
+      "submitted_at": "2026-11-08 18:08:19",
+      "score": 216531,
+      "finished_at": "2026-11-08T10:10:02+00:00",
+      "delta": 1748,
+      "accepted": true,
+      "archive": "data/versions/online_search/scored_216531_d0a43f043a1c.cpp",
+      "smoke_path_sha256": "4ace7b2784fd43457b4d3f1d942a9eb952759882cfc421570c500edf570cd925"
+    },
+    {
+      "name": "wave95_noiselocal",
+      "description": "Compare global and recent residual dispersion for noisy peak recognition.; direct online comparison; no case lookups.",
+      "sha256": "f92b15ee5e5c4309f7e5ef42dc9351b4b82c41b1293be3d9c2551fe88bcc98eb",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave95_noiselocal.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave95_noiselocal_f92b15ee5e5c\\main.cpp",
+      "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "parent_score": 216531,
+      "created_at": "2026-11-08T18:10:07+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+            "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "f92b15ee5e5c4309f7e5ef42dc9351b4b82c41b1293be3d9c2551fe88bcc98eb",
+          "flags": [
+            "core",
+            "efficient",
+            "frontier",
+            "noiselocal",
+            "quantilefloor",
+            "selective"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T18:10:18+08:00",
+      "quota_before": {
+        "used": 15,
+        "maximum": 30,
+        "remaining": 15,
+        "quote": "团队已经上传 15 次(15/30)",
+        "captured_at": "2026-11-08T18:10:18+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T101018758928Z_1d8272692a06",
+      "submission_id": "504c2054c7334eb8a108b6b9500e8d2b",
+      "submitted_at": "2026-11-08 18:10:20",
+      "score": 197498,
+      "finished_at": "2026-11-08T10:12:03+00:00",
+      "delta": -19033,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_197498_f92b15ee5e5c.cpp"
+    },
+    {
+      "name": "wave96_maincover",
+      "description": "An unconfirmed observed maximum triggers a complete midpoint sweep of unresolved coarse gaps, then exact winner-cell refinement and right-boundary recovery. Strong established curves retain the prior refinement.; direct online comparison; no case lookups.",
+      "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave96_maincover.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave96_maincover_064facf44cc3\\main.cpp",
+      "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "parent_score": 216531,
+      "created_at": "2026-11-08T18:13:08+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "1b5241ed898db79bf5261f35de43a29a04951c0226173080fe5b77907bbc68a6",
+        "static_review": {
+          "passed": true,
+          "sha256": "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+          "checked_at": "2026-11-08T18:13:08+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:13:12+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:13:14+08:00",
+      "quota_before": {
+        "used": 16,
+        "maximum": 30,
+        "remaining": 14,
+        "quote": "团队已经上传 16 次(16/30)",
+        "captured_at": "2026-11-08T18:13:14+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T101314199679Z_60e57d6e67d7",
+      "submission_id": "cffdf0ace2db40b5b75b55a50586e299",
+      "submitted_at": "2026-11-08 18:13:15",
+      "score": 214783,
+      "finished_at": "2026-11-08T10:14:58+00:00",
+      "delta": -1748,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_214783_064facf44cc3.cpp",
+      "smoke_path_sha256": "2c352b815bd85381dc96ed3bc039253a055821ea381ed03edc023730970623b2"
+    },
+    {
+      "name": "wave97_mainverify",
+      "description": "Replace model agreement as peak confirmation with observed background dominance or coherent peak support; audit unresolved gaps and verify the full winning cell before permitting the old refiner to finish.; direct online comparison; no case lookups.",
+      "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave97_mainverify.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave97_mainverify_081c7cbde9a4\\main.cpp",
+      "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "parent_score": 216531,
+      "created_at": "2026-11-08T18:15:04+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 4,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "faa6904e069a0d2501354234dbed4c2f6d4886fa06388d34c4a87c98d1a81009",
+        "static_review": {
+          "passed": true,
+          "sha256": "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+          "checked_at": "2026-11-08T18:15:04+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:15:09+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:15:10+08:00",
+      "quota_before": {
+        "used": 17,
+        "maximum": 30,
+        "remaining": 13,
+        "quote": "团队已经上传 17 次(17/30)",
+        "captured_at": "2026-11-08T18:15:10+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T101510706013Z_7bac42f5767b",
+      "submission_id": "56681e1076154d9892d470aadcff8a39",
+      "submitted_at": "2026-11-08 18:15:11",
+      "score": 212923,
+      "finished_at": "2026-11-08T10:16:54+00:00",
+      "delta": -3608,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_212923_081c7cbde9a4.cpp",
+      "smoke_path_sha256": "e98385bb63907106dd9d48875d938a6124b50351f658bdbcd3b266c6b5a21c7a"
+    },
+    {
+      "name": "wave98_maincoherent",
+      "description": "Peak confirmation requires both background dominance and coherent local curvature; an isolated raw high cannot bypass unresolved-gap coverage.; direct online comparison; no case lookups.",
+      "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave98_maincoherent.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave98_maincoherent_49292a7d0246\\main.cpp",
+      "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "parent_score": 216531,
+      "created_at": "2026-11-08T18:17:39+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 5,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "09e3bc6b5a7bf9208e398706d653901c4aecf27ec320f4ab6b035a30925a7183",
+        "static_review": {
+          "passed": true,
+          "sha256": "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+          "checked_at": "2026-11-08T18:17:39+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:17:45+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:17:47+08:00",
+      "quota_before": {
+        "used": 18,
+        "maximum": 30,
+        "remaining": 12,
+        "quote": "团队已经上传 18 次(18/30)",
+        "captured_at": "2026-11-08T18:17:47+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T101747417662Z_fc18bc4fd651",
+      "wait_windows": 1,
+      "score": 213406,
+      "submission_id": "32fc3766c163483ab6f68b0a91a7b49a",
+      "submitted_at": "2026-11-08 18:17:49",
+      "finished_at": "2026-11-08T10:20:22+00:00",
+      "delta": -3125,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_213406_49292a7d0246.cpp",
+      "smoke_path_sha256": "248eecbfc19259b2a19e0b2844df1641bbcc45f7914c8fd930ffcc69a8e9d6b8"
+    },
+    {
+      "name": "wave99_basinunion",
+      "description": "Rank every measured gap by a local-curvature interpolation envelope, then exhaust competitive integer cells before the prior refiner.; direct online comparison; no case lookups.",
+      "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave99_basinunion.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave99_basinunion_0bacd870a114\\main.cpp",
+      "parent_sha256": "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+      "parent_score": 216531,
+      "created_at": "2026-11-08T18:20:31+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "074de6b3e30aa33d335838b40c0567211d857491b9304805ed20f922e0005215",
+        "static_review": {
+          "passed": true,
+          "sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+          "checked_at": "2026-11-08T18:20:31+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:20:38+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:20:40+08:00",
+      "quota_before": {
+        "used": 19,
+        "maximum": 30,
+        "remaining": 11,
+        "quote": "团队已经上传 19 次(19/30)",
+        "captured_at": "2026-11-08T18:20:40+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T102040854871Z_d2f603045348",
+      "submission_id": "aaf85a91d17f439a9517195495fbf8cc",
+      "submitted_at": "2026-11-08 18:20:42",
+      "score": 216532,
+      "finished_at": "2026-11-08T10:22:07+00:00",
+      "delta": 1,
+      "accepted": true,
+      "archive": "data/versions/online_search/scored_216532_0bacd870a114.cpp",
+      "smoke_path_sha256": "b908bcce292a3a9e24a0d24052607baabdb1d6c176221a748c366b876d6b9b82"
+    },
+    {
+      "name": "wave100_winnerfrontier",
+      "description": "Test whether a high-value band anchored too far left prematurely truncates the right search; anchor the redundancy lease at the observed raw winner instead.; direct online comparison; no case lookups.",
+      "sha256": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave100_winnerfrontier.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave100_winnerfrontier_63e48f00ad55\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:22:13+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "4524809b499912c722a99fdcfda9b21f1daeaf4ceac92510dd1040d847004c54",
+        "static_review": {
+          "passed": true,
+          "sha256": "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+          "checked_at": "2026-11-08T18:22:13+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:22:18+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:22:21+08:00",
+      "quota_before": {
+        "used": 20,
+        "maximum": 30,
+        "remaining": 10,
+        "quote": "团队已经上传 20 次(20/30)",
+        "captured_at": "2026-11-08T18:22:21+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T102221446305Z_e57403ffd407",
+      "submission_id": "b10e0e2ea7344c0eb8d61e24cc34d512",
+      "submitted_at": "2026-11-08 18:22:22",
+      "score": 216532,
+      "finished_at": "2026-11-08T10:24:09+00:00",
+      "delta": 0,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_216532_63e48f00ad55.cpp",
+      "smoke_path_sha256": "b908bcce292a3a9e24a0d24052607baabdb1d6c176221a748c366b876d6b9b82"
+    },
+    {
+      "name": "wave101_mainall",
+      "description": "Diagnostic structural probe: audit unresolved midpoint gaps regardless of apparent peak confidence, retaining exact cell verification and physical parking.; direct online comparison; no case lookups.",
+      "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave101_mainall.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave101_mainall_43ff3aed5890\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:24:16+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 5,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "a3a31576967636dae2ad2e6e13d36f8daab276234e36c23b09ae6b665521465e",
+        "static_review": {
+          "passed": true,
+          "sha256": "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+          "checked_at": "2026-11-08T18:24:16+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:24:21+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:24:23+08:00",
+      "quota_before": {
+        "used": 21,
+        "maximum": 30,
+        "remaining": 9,
+        "quote": "团队已经上传 21 次(21/30)",
+        "captured_at": "2026-11-08T18:24:23+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T102423512575Z_6bc2cbce62fd",
+      "submission_id": "01888751f746445ca46566bf8697474c",
+      "submitted_at": "2026-11-08 18:24:24",
+      "score": 184026,
+      "finished_at": "2026-11-08T10:25:48+00:00",
+      "delta": -32506,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_184026_43ff3aed5890.cpp",
+      "smoke_path_sha256": "a05c356fc06483128798e6348a4f6133072b6f016462aab7ba9f22608a4c9742"
+    },
+    {
+      "name": "wave102_sweepcover",
+      "description": "Derive the finest domain-covering stride from the query budget while reserving a complete two-sided fine cell; preserve waveform stopping and use the corresponding coarse budget.; direct online comparison; no case lookups.",
+      "sha256": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave102_sweepcover.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave102_sweepcover_bd80c52deae4\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:27:10+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "9a175a935e339a5fbdabcd7936e15c6e6125470e14acb84310152efab19cf65e",
+        "static_review": {
+          "passed": true,
+          "sha256": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+          "checked_at": "2026-11-08T18:27:10+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:27:16+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:27:18+08:00",
+      "quota_before": {
+        "used": 22,
+        "maximum": 30,
+        "remaining": 8,
+        "quote": "团队已经上传 22 次(22/30)",
+        "captured_at": "2026-11-08T18:27:18+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T102718077837Z_131360dfe0af",
+      "submission_id": "de11125c6ae54861aba455534698c85d",
+      "submitted_at": "2026-11-08 18:27:19",
+      "score": 173232,
+      "finished_at": "2026-11-08T10:29:04+00:00",
+      "delta": -43300,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_173232_bd80c52deae4.cpp",
+      "smoke_path_sha256": "1bdf346c3f4c5e916df71d31b1eedd1e7e86e885c504e3cdb07df758304f0257"
+    },
+    {
+      "name": "wave103_staggered",
+      "description": "Dither ordinary coarse gaps using a deterministic low-discrepancy phase so periodic narrow peaks cannot repeatedly align between a fixed lattice; retain unit apex reads.; direct online comparison; no case lookups.",
+      "sha256": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave103_staggered.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave103_staggered_82440a29e7fe\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:29:10+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "113fafd93fe7c4362c8e5ee21299e8d98e67204ea2cd86640d1d095de1d30c97",
+        "static_review": {
+          "passed": true,
+          "sha256": "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+          "checked_at": "2026-11-08T18:29:10+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:29:16+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:29:18+08:00",
+      "quota_before": {
+        "used": 23,
+        "maximum": 30,
+        "remaining": 7,
+        "quote": "团队已经上传 23 次(23/30)",
+        "captured_at": "2026-11-08T18:29:18+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T102918057465Z_c2f032a61188",
+      "submission_id": "b1c66010a0014ecb802fa2bf898cf5f7",
+      "submitted_at": "2026-11-08 18:29:18",
+      "score": 204586,
+      "finished_at": "2026-11-08T10:31:04+00:00",
+      "delta": -11946,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_204586_82440a29e7fe.cpp",
+      "smoke_path_sha256": "58035bbe2dc10b7c47de1d178bcfa78c260fb338b0d497e0b83f6d501502cf00"
+    },
+    {
+      "name": "wave104_tailvalley",
+      "description": "Fit the robust descending tail curvature to locate a possible coming valley; choose the right sentinel from that geometry within the observed-winner redundancy lease.; direct online comparison; no case lookups.",
+      "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave104_tailvalley.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave104_tailvalley_ffed85141e27\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:31:10+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "0fe3dbdffa97d65e54f596d628402c9fa78dbc8e0a61150d547be3e21b04e283",
+        "static_review": {
+          "passed": true,
+          "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+          "checked_at": "2026-11-08T18:31:10+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:31:15+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:31:18+08:00",
+      "quota_before": {
+        "used": 24,
+        "maximum": 30,
+        "remaining": 6,
+        "quote": "团队已经上传 24 次(24/30)",
+        "captured_at": "2026-11-08T18:31:18+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T103118023302Z_61e3872cbe71",
+      "submission_id": "3cfb7b212188498eb64cacee374c1a64",
+      "submitted_at": "2026-11-08 18:31:18",
+      "score": 216475,
+      "finished_at": "2026-11-08T10:33:04+00:00",
+      "delta": -57,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_216475_ffed85141e27.cpp",
+      "smoke_path_sha256": "b908bcce292a3a9e24a0d24052607baabdb1d6c176221a748c366b876d6b9b82"
+    },
+    {
+      "name": "wave105_multiguard",
+      "description": "A locally concave crest cannot trigger early apex stopping while measured competing maxima remain; preserve ordinary shoulder scouting for multimodal waveforms.; direct online comparison; no case lookups.",
+      "sha256": "4f9a6622768c8e91157c1fc45b7e0bd54fdc76f6dcfc6cf5066723dfee5e96fc",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave105_multiguard.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave105_multiguard_4f9a6622768c\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:33:12+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "c7102b3c50f7304052fb1f116cd0ac06ff95e5524f79670a4b861638b072a80c",
+        "static_review": {
+          "passed": true,
+          "sha256": "4f9a6622768c8e91157c1fc45b7e0bd54fdc76f6dcfc6cf5066723dfee5e96fc",
+          "checked_at": "2026-11-08T18:33:12+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:33:17+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:33:19+08:00",
+      "quota_before": {
+        "used": 25,
+        "maximum": 30,
+        "remaining": 5,
+        "quote": "团队已经上传 25 次(25/30)",
+        "captured_at": "2026-11-08T18:33:19+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T103319432410Z_9d8a5ea739f0",
+      "submission_id": "33b9a21d083a4999903d609f04aff558",
+      "submitted_at": "2026-11-08 18:33:20",
+      "score": 215888,
+      "finished_at": "2026-11-08T10:35:05+00:00",
+      "delta": -644,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_215888_4f9a6622768c.cpp",
+      "smoke_path_sha256": "38aae01fdf5e386e2d66df1defffddb29ec53cdc1985411c3950d0f72fbe07a3"
+    },
+    {
+      "name": "wave106_nocentercap",
+      "description": "Remove the assumption that a measured crest past the array center needs only16positions of right confirmation; later competing main peaks must be decided from waveform scouting.; direct online comparison; no case lookups.",
+      "sha256": "e9d82acc3c28a6c7ca9641ad0a196af2fab826370eb92bfc59ac59deec140164",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave106_nocentercap.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave106_nocentercap_e9d82acc3c28\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:35:49+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": false,
+        "native_execution_available": false,
+        "native_cases_passed": 0,
+        "native_cases_blocked": 26,
+        "native_error": "Windows App Control4551",
+        "alternate_static_admission": true,
+        "source_guard_certificate": {
+          "reference_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+          "protected_sections": {
+            "transport_constants": "009afff5b61b791a88c69b9ba0b23896dd1f61371ad7990d648b2e1a72eb7f19",
+            "ledger_cache_and_read_guards": "f963079d3e3e8b3622cc6321299ea1396da6a3f350914444a83671c7ed35a9f8",
+            "physical_parking": "932acc43e8fae9247edaeceb430ee282f7d7eb6bfdf6cc2e6eca80c7174ae4a0",
+            "constructor": "81befb619c774056bc7184e6bde5f0e0701e8459731711a91ff307d348d1b024",
+            "local_q_shadow": "939624725c2e5fb36a29325f5545192bcc015012eeabef7dfb9743ca07902dcc",
+            "run": "84fc4fe305f397b3fdf746b9acfe033487d06fd4ff2fa7e3d55133cbcf441459",
+            "entry": "075751c7107a91b8f571d0787376cd39683be22c85ff87d8dc89a9ef8ee0b0d2"
+          },
+          "query_bound": 199,
+          "turn_bound": 6,
+          "observed_raw_winner_parking": "same protected best tracking, return reservation and final physical query",
+          "assumptions": [
+            "Normal execution and valid judge replies within the problem domain",
+            "Catalog-only changes to exploration, fitting and query planning"
+          ],
+          "not_certified": [
+            "Global peak identity",
+            "Redundancy<=199 on arbitrary arrays",
+            "Native runtime behavior or score"
+          ],
+          "native_execution": "not claimed",
+          "verification": "source_kernel_equivalence",
+          "source_sha256": "e9d82acc3c28a6c7ca9641ad0a196af2fab826370eb92bfc59ac59deec140164",
+          "flags": [
+            "basinunion",
+            "core",
+            "efficient",
+            "frontier",
+            "nocentercap",
+            "quantilefloor",
+            "selective"
+          ]
+        },
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2"
+      },
+      "submit_started_at": "2026-11-08T18:36:02+08:00",
+      "quota_before": {
+        "used": 26,
+        "maximum": 30,
+        "remaining": 4,
+        "quote": "团队已经上传 26 次(26/30)",
+        "captured_at": "2026-11-08T18:36:02+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T103602257806Z_0779be823bf6",
+      "submission_id": "b5602044ed0b453f947f02f3ae839bdd",
+      "submitted_at": "2026-11-08 18:36:03",
+      "score": 213682,
+      "finished_at": "2026-11-08T10:37:48+00:00",
+      "delta": -2850,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_213682_e9d82acc3c28.cpp"
+    },
+    {
+      "name": "wave107_fitstop",
+      "description": "Permit short right confirmation only when the sampled maximum dominates the background and has coherent concave fit support; replace the array-center shortcut with waveform evidence.; direct online comparison; no case lookups.",
+      "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave107_fitstop.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave107_fitstop_a87714acc894\\main.cpp",
+      "parent_sha256": "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+      "parent_score": 216532,
+      "created_at": "2026-11-08T18:37:55+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "416b435728c3cc9eee7476b94c55445f7c09611cc7d87259bc2d5fae5b87b2ef",
+        "static_review": {
+          "passed": true,
+          "sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+          "checked_at": "2026-11-08T18:37:55+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:38:00+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:38:02+08:00",
+      "quota_before": {
+        "used": 27,
+        "maximum": 30,
+        "remaining": 3,
+        "quote": "团队已经上传 27 次(27/30)",
+        "captured_at": "2026-11-08T18:38:02+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T103802570295Z_175e930d7170",
+      "submission_id": "e38a06493ed14269a43e567d90fbfc10",
+      "submitted_at": "2026-11-08 18:38:03",
+      "score": 217614,
+      "finished_at": "2026-11-08T10:39:49+00:00",
+      "delta": 1082,
+      "accepted": true,
+      "archive": "data/versions/online_search/scored_217614_a87714acc894.cpp",
+      "smoke_path_sha256": "20997baf4284d363f307e6b276a00675211a3b99c2956e986633ad233fb20a88"
+    },
+    {
+      "name": "wave108_burstsupport",
+      "description": "A statistically meaningful local rise triggers adjacent forward reads even before it becomes the global winner; old noise spikes cannot suppress all competitor shoulder checks.; direct online comparison; no case lookups.",
+      "sha256": "9da978d174f3f520813d586ba51db5c1e67f8dd48bee0bff63c340b725db049a",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave108_burstsupport.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave108_burstsupport_9da978d174f3\\main.cpp",
+      "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "parent_score": 217614,
+      "created_at": "2026-11-08T18:39:56+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "dd110a5200eaacfe693595eb0bc8bd3ead6033ccb3109cb54e9197712af09ca1",
+        "static_review": {
+          "passed": true,
+          "sha256": "9da978d174f3f520813d586ba51db5c1e67f8dd48bee0bff63c340b725db049a",
+          "checked_at": "2026-11-08T18:39:56+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:40:01+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:40:04+08:00",
+      "quota_before": {
+        "used": 28,
+        "maximum": 30,
+        "remaining": 2,
+        "quote": "团队已经上传 28 次(28/30)",
+        "captured_at": "2026-11-08T18:40:03+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T104004004639Z_8b1063affabd",
+      "submission_id": "b0cf26bb0bc4439bb91ecb41dea49ceb",
+      "submitted_at": "2026-11-08 18:40:05",
+      "score": 201690,
+      "finished_at": "2026-11-08T10:41:51+00:00",
+      "delta": -15924,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_201690_9da978d174f3.cpp",
+      "smoke_path_sha256": "6d1f177ac07a57c56ad01b208fb2ee1cab4283011208a10a147abb07ace8a289"
+    },
+    {
+      "name": "wave109_zerosalvage",
+      "description": "If the current winner lies left of rightmost minus the allowed199redundancy and3parking error, returning there is provably zero. Redirect refinement into unresolved feasible cells, reserving queries to refine any new higher winner.; direct online comparison; no case lookups.",
+      "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+      "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave109_zerosalvage.cpp",
+      "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\rounds\\wave109_zerosalvage_f6844076a484\\main.cpp",
+      "parent_sha256": "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+      "parent_score": 217614,
+      "created_at": "2026-11-08T18:45:52+08:00",
+      "state": "completed",
+      "imported_existing_job": false,
+      "parent_reconstructed_on_resume": false,
+      "authorization_verbatim": [
+        "优化30次，全部根据线上数据，你打表的数据可以参考总结规律，但是不能写死参数"
+      ],
+      "destination": "https://developer.huaweicloud.com/competition/information/1300000312/submission",
+      "preflight": {
+        "passed": true,
+        "cases": 26,
+        "zero_scores": 3,
+        "compiler_sha256": "671ca52a98e6f0c44411f72ad1be386f03c193f83970f7dbd235f4b974e728d2",
+        "executable_sha256": "e158c994a0c087f620824043759606e1686da9207966ecfa780b3e169f3354f7",
+        "static_review": {
+          "passed": true,
+          "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+          "checked_at": "2026-11-08T18:45:52+08:00",
+          "checks": [
+            "network URL",
+            "credential marker",
+            "file/network/process/environment API",
+            "external I/O include",
+            "external preprocessor include"
+          ],
+          "note": "Static screen plus calling-agent review; not a sandbox or universal C++ safety proof."
+        },
+        "completed_at": "2026-11-08T18:45:58+08:00"
+      },
+      "submit_started_at": "2026-11-08T18:46:00+08:00",
+      "quota_before": {
+        "used": 29,
+        "maximum": 30,
+        "remaining": 1,
+        "quote": "团队已经上传 29 次(29/30)",
+        "captured_at": "2026-11-08T18:46:00+08:00",
+        "beijing_date": "2026-11-08",
+        "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+      },
+      "job_id": "20261108T104600217568Z_6698a96198cd",
+      "submission_id": "2ceb2bff06ac418690cd2bfeebdc89dc",
+      "submitted_at": "2026-11-08 18:46:01",
+      "score": 217614,
+      "finished_at": "2026-11-08T10:47:48+00:00",
+      "delta": 0,
+      "accepted": false,
+      "archive": "data/versions/online_search/scored_217614_f6844076a484.cpp"
+    }
+  ],
+  "created_at": "2026-11-08T06:28:24+08:00",
+  "updated_at": "2026-11-09T09:46:18+08:00",
+  "last_quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-08T21:40:44+08:00",
+    "beijing_date": "2026-11-08",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "last_authorized_quota": {
+    "used": 30,
+    "maximum": 30,
+    "remaining": 0,
+    "quote": "团队已经上传 30 次(30/30)",
+    "captured_at": "2026-11-08T21:40:44+08:00",
+    "beijing_date": "2026-11-08",
+    "date_basis": "Current client/host clock converted to Asia/Shanghai; quota page has no calendar date field."
+  },
+  "delivered_unique_hashes": [
+    "064facf44cc38108fd9c864703276508920531f4e3c1685cccdd4cb52d12156c",
+    "081c7cbde9a4c74844089f624d807d8dd761f7e816502ba31442ad43da62ed2e",
+    "0bacd870a1147667e7d61b0f4d34d3807257ffb18314332c977baa5a57ec60e9",
+    "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+    "22bdf260ae37722a9b1eedb04cb263eb7610da8dc92911a17521526cfe4027f3",
+    "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+    "43ff3aed589081aeb3dd55384ca2a34119ae4c762a3237cc89a8cb7621f0c1b7",
+    "49292a7d0246abb58d40685fcf34e22137ca2218b677f4535416a90f45ef809c",
+    "4f9a6622768c8e91157c1fc45b7e0bd54fdc76f6dcfc6cf5066723dfee5e96fc",
+    "5aa13e965b305afb235a9f43fce300180149e80173f3fcea76b0cbb5aa2f744b",
+    "629021ca9364d25452a296ebfdfb0683491a5648add382532bd8203c068e47dd",
+    "63e48f00ad553b130040db44fb55d0edbc15166b7f8e844db523c5668993fc45",
+    "657255ecd05ce54e2f113ee17dc4c3c70302f19aad1c74c6266160d75e02a371",
+    "82440a29e7fe46c6b275c004fa3a2e3731f0306ddc207d0b1dd7166ff308c1e5",
+    "834b4b6ea5aa6903b814070524a2a27d49c119b2a161e146a2b68242bfdd3777",
+    "8e7144bae95aa56bdea9a937f92c4f512b33d44e0fc6c68ef82588c704d89ef3",
+    "9da978d174f3f520813d586ba51db5c1e67f8dd48bee0bff63c340b725db049a",
+    "a87714acc894b2921c10a1ab65a2583916d29783c951502460d79620eff89bee",
+    "af7ea1e358ee0771592ed649a9a203f32edd36979a225d75317c9b4c418c000f",
+    "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+    "c3f673b839d7c60057bb5d56d866c077a8a5058806dde1103dc5b0a3fec07e5d",
+    "d0a43f043a1cd7e61e79b3d45109068507d5ac096ac1a04d51636c2d32f3f022",
+    "d47006f88321986de2fb7d2ac3cfd5d1de1024b1dc311945313e31c7bddc0f7a",
+    "d9b25f8e3c6c1be15005256930c77d0f86753a925aaf58cee467d3dac6338fe8",
+    "e012aaf3abf0f4bc5b6780f68502475e92c32a748c3c0d766db4fc5e5c7de9cb",
+    "e9d82acc3c28a6c7ca9641ad0a196af2fab826370eb92bfc59ac59deec140164",
+    "f5bf953e5af7186fd1899e674f04fed46f80749ae2313bc583e75c763a469bf6",
+    "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+    "f92b15ee5e5c4309f7e5ef42dc9351b4b82c41b1293be3d9c2551fe88bcc98eb",
+    "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1"
+  ],
+  "delivered_attempt_jobs": 30,
+  "best_job_id": "20261108T103802570295Z_175e930d7170"
+}

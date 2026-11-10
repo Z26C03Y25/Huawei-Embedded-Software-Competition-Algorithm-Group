@@ -1,0 +1,8 @@
+{
+  "name": "viability_parking_v2",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\viability_parking_v2_93616283c893.cpp",
+  "sha256": "a373e9c3a3b9367a5504765ce7d470682584a23d7ec80125d9f0f8c5589af5b8",
+  "description": "Keep the entire212686 trajectory until finish. Only when old raw-best parking is mathematically impossible to score (best<rightmost-202), select a legal observed candidate in the viable parking window. Old positive-score parking cases are unchanged. A rescue always emits a legal final query of an already observed point, so its unchanged right frontier and impossible-old-parking proof are verifiable from the trace."
+}

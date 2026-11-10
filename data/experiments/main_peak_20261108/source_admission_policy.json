@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-08",
+  "normal_path": "Compile and actual native protocol checks when the host permits execution",
+  "host_block_only": "All native attempts report Windows App Control4551, zero emitted queries",
+  "alternate_path": "Successful strict compilation plus exact catalog provenance and protected source-kernel equivalence",
+  "native_pass_claimed": false,
+  "guards": [
+    "transport query/message limits",
+    "physical query count and turn-return reservation",
+    "raw winner tracking",
+    "actual final parking",
+    "no unguarded ledger writes or output"
+  ],
+  "not_certified": [
+    "Global-peak correctness",
+    "Redundancy safety",
+    "Native runtime outcome"
+  ],
+  "performance_selection": "Official aggregate scores only",
+  "host_security_settings": "Unchanged"
+}

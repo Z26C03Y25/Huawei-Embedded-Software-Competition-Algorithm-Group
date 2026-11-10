@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\cruise10_fine2.cpp",
+  "sha256": "2d92bbd637511d3f89fccf3fe4c66697098eb1f3351073ea8c1a012ebc675204",
+  "description": "Independent dual-speed exploration: cruise 10 cells in all low-information regions, then switch to stride 2 near a predicted concave summit. On the first descent from a record anchor, backfill the entire skipped cell to recover narrow peaks. Failed sweeps resume cruising; at most two forward/two backward sweeps and 32 fine reads. Preserve raw winner, proven ledgers, N-dependent tail stopping, legacy refinement and parking."
+}

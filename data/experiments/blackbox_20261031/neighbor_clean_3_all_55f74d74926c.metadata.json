@@ -1,0 +1,8 @@
+{
+  "name": "neighbor_clean_3_all",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\neighbor_clean_3_all_55f74d74926c.cpp",
+  "description": "Confirm x-1 and x+1 around top 3 unmerged raw local maxima in one descending pass before refinement; raw winners retained; gate true; spatial median-of-three only for slopes and residual trend, raw best/peaks/ties unchanged",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_210599.cpp",
+  "parent_sha256": "55f74d74926c235485d16ddb31e5e073a4fbde7ad0b71159410fa80429ad23ed",
+  "sha256": "a11cc27324365c97cfa0d38244261e9f7101da21795fd0eb7d4a3a6df0e3e04f"
+}

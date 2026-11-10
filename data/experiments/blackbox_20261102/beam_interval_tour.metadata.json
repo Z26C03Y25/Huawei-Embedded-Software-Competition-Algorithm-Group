@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\tour_on_reference_scout.cpp",
+  "parent_sha256": "a09d4a3e130cb83e1bde4fa98ba988017314c2e9c33e96b471d9d4a8d595a862",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\beam_interval_tour.cpp",
+  "sha256": "3529ff7214a6db70e4e91eb40e50c320d560e44726e9acef2231413d43887d24",
+  "description": "Prize-collecting interval tours: beam-search subsets of complete cells, allowing jumps over low-belief gaps instead of forcing contiguous coverage. Evaluate both physical orientations under full Q/M/O/R and200*d partial-credit outcomes for unsearched targets. Width32/depth16 with stopping alternative and two data-replanning passes; belief weights remain uncalibrated hypotheses."
+}

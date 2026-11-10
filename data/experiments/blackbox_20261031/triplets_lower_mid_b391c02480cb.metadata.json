@@ -1,0 +1,8 @@
+{
+  "name": "triplets_lower_mid",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\triplets_lower_mid_b391c02480cb.cpp",
+  "description": "Disjoint refinement of the learned 501..650 action gate: keep forward triplets only in n>500 && n<=575; all other cases revert to original baseline sampling",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "3500f147d21f17d68c357d7ac261848626e3b1fdd9d0871662cefc713f331e24"
+}

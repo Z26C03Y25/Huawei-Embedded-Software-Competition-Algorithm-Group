@@ -1,0 +1,33 @@
+{
+  "official": false,
+  "sha256": "3ea8f1582dcda0481d0bf6287eb3e15d6baee87cc3eb6ad3fda3e55e52124cd0",
+  "rows": [
+    {
+      "name": "pdf_sample_12",
+      "family": "pdf_sample",
+      "difficulty": "standard",
+      "length": 12,
+      "target": 4,
+      "queries": 0,
+      "travel": 0,
+      "search_time": 0,
+      "oscillations": 0,
+      "redundancy": 0,
+      "distance": 4,
+      "final_position": null,
+      "score": 0,
+      "zero_reasons": [
+        "distance > 3",
+        "no query"
+      ],
+      "messages": 0,
+      "elapsed_seconds": 0.844,
+      "query_positions": [],
+      "status": "launch_error",
+      "error": "OSError: [WinError 4551] 应用程序控制策略已阻止此文件。",
+      "stderr": "",
+      "parked_observed_winner": false
+    }
+  ],
+  "classification": "host_execution_failure_not_algorithm_zero"
+}

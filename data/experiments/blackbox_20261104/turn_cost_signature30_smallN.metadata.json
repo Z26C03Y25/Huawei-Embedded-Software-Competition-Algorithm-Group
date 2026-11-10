@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_223836.cpp",
+  "parent_sha256": "e4cea79a023e81ac192ea1eab9a09622b59c5f11a260d8ebe357e5dc7c0938b1",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261104\\turn_cost_signature30_smallN.cpp",
+  "sha256": "1fe0acbb42cb732a5a1c6a4b2e282d377c9e190884aaf5e8012582de62c950f8",
+  "description": "Same controlled30->31->30 turn-cost probe on N479/signature7, with valid fallback min(30,N-1) for synthetic short lengths. Original preflight rejected short-N early exit before any upload; no quota consumed. Published predicted2963 versus empirical O30 predicted2934."
+}

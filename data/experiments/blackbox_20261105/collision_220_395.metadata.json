@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\collision_220_395.cpp",
+  "sha256": "2905486693e9200fbd1e3df26bc08447768a0de1bcc5cd44866980da1731ac38",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Zero-case witness probe only in five adopted dispatch lengths401/454/797/829/978: scan220..min(395,N-1), park raw winner. Every target within3 of any queried parking point lies>3 from that N adopted fixed stop (validated6-position halo separation). Thus every positive contribution in these groups proves a baseline zero case, apart from historical no0..3 fallback assumption. Q<=199,O<=1. Other lengths query0."
+}

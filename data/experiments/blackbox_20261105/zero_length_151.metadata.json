@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\zero_length_151.cpp",
+  "sha256": "a77b92feb71e6f96d5103725ec1f4631717a7c6f36e4512fffdd70cfe91917e7",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "description": "Fixed-0 roundtrip N encoder at151: z=N-400,c=z//193,r=z-193c. Return0->p c times then repeatp r times. Target loss c*(2p+62)+r, Q<=197,O<=6,R=0 on target. p>=66 makes code blocks disjoint. Finalp remains same direct-point contributing set; if0 wins, abort there (historical probes support no0..3 targets). No moving-auxiliary-point contamination."
+}

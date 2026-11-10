@@ -1,0 +1,5 @@
+{
+  "error": "Locator.wait_for: Timeout 40000ms exceeded.\nCall log:\n  - waiting for get_by_role(\"button\", name=\"上传作品\", exact=True) to be visible\n",
+  "error_type": "TimeoutError",
+  "note": "No upload is retried automatically. Inspect jobs before submitting again."
+}

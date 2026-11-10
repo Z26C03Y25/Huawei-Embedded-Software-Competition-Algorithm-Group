@@ -1,0 +1,4 @@
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\main_peak_20261107\peak_window.cpp: In member function 'void af::Solver::alternateExplore()':
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\main_peak_20261107\peak_window.cpp:348:13: warning: variable 'stale' set but not used [-Wunused-but-set-variable=]
+  348 |         int stale=0;
+      |             ^~~~~

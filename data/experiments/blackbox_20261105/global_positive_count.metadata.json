@@ -1,0 +1,6 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\global_positive_count.cpp",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "sha256": "3f5c94cdd56eea53b515eb445f0e55329923364b4631c4fd2bb4a6ea91816d79",
+  "description": "Transport-only diagnostic: preserve all224148 queries, including direct experts; immediately before first DONE append1 read at same last index iffQ<199 and input usable. DONE remains idempotent. Exact score loss counts originally-positive spareQ cases; Q199 positives unmarked, so zeros<=102-loss rather than equality. No search prefix/RNG/stop/physical parking change."
+}

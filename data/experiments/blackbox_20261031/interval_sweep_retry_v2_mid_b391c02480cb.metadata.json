@@ -1,0 +1,8 @@
+{
+  "name": "interval_sweep_retry_v2_mid",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\interval_sweep_retry_v2_mid_b391c02480cb.cpp",
+  "description": "Predict a candidate interval, exhaust its raw integer cells, reserve49 reads/three turns for first-pass retry; on unresolved right edge continue right and verify a second interval; preserve cached fallback and final parking; gate n>500 && n<=650",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "5909839927bec808e2bb9b7c8322a67c45d963f50368e319ac4386c45747847b"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "prefix_complete_audit",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\prefix_complete_audit_93616283c893.cpp",
+  "sha256": "622824c0d20dc354da62d02b954fc3e4299406e33856c7f8cbc3b9a3b581c55f",
+  "description": "Exhaust the entire initial0..24 bracket in ascending order, tagging21 extra points separately for noise estimation and flat-grid timing. Continue from the original final seed24; reserve fine/parking with coarse cap160, no random probes thereafter."
+}

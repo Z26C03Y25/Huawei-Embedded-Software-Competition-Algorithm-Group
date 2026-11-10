@@ -1,0 +1,10 @@
+{
+  "name": "doubao_casefix",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\doubao_casefix.cpp",
+  "sha256": "367aae3edfa03c665a3afb7e363c87cd378203e8e39d73e7a0b11bb6be222c60",
+  "user_original": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\doubao_original.cpp",
+  "user_original_sha256": "18f46b6f986c1d95fd7dc732206250e5d80a7f19e0d55275a86482aa8f4fa5b7",
+  "description": "User-supplied Doubao strategy; restore intended switch case3..6 spelling, clarify unconditional diagnostic counter, mark unused local/parameter. No sampling, fitting, weights or stopping policy changes beyond making those four intended switch branches reachable."
+}

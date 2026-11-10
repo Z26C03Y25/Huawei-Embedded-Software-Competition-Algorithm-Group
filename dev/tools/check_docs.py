@@ -11,7 +11,8 @@ import sys
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[2]
-IGNORED = {".git", ".venv", ".chrome-profile", "runs", "build", "tmp", "__pycache__"}
+IGNORED = {".git", ".venv", ".chrome-profile", "runs", "build", "tmp", "__pycache__",
+           "runtime", "toolchains"}  # Locally installed third-party dependencies.
 LINK = re.compile(r"\[[^\]\n]*\]\((<[^>]+>|[^)\s]+)(?:\s+\"[^\"]*\")?\)")
 
 

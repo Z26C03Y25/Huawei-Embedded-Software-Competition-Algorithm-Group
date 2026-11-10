@@ -1,0 +1,8 @@
+{
+  "name": "wide_expert_long",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\wide_expert_long_487a1cdb0f93.cpp",
+  "sha256": "2738dd8bbbab91e6fb06f189f10990b20609ec3fffe93de7fcad0583c9af34e1",
+  "description": "Use the wide-cruise expert only for n>650 on the explicit scored parent; other inputs keep its8-cell grid. Stopping/refinement unchanged. The old global-332 result was on212686, so a different parent requires this direct combination test rather than assuming additive gains."
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "5e74c8463844bb8d0cea19b69d9151da83ca785c83886171071b96ffd4328974",
+  "description": "User forward-fine idea: rising deceleration predicts a peak within12 cells, enter step1 window through predicted+3; stop dense mode after3 raw declines, extend4 when still rising, total24 dense reads maximum. Charge dense reads separately against128 anchor budget, retain fine/parking reserve and original right boundary."
+}

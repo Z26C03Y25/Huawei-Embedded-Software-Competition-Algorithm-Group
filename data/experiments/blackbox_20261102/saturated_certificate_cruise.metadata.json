@@ -1,0 +1,6 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "sha256": "0c8987f9d3fcb3d0e3556980571e17f8d6c6bc3ab5e6e9d15d06fbd08ae88f38",
+  "description": "AtVMAX only, use exact certified target lower bound for frontier and cruise32 toward center while the latest raw value remains saturated. Ordinary curves unchanged."
+}

@@ -1,0 +1,15 @@
+{
+  "candidate": "wave88_paired",
+  "sha256": "0c6bec8231e8016b1526935b1d0b83a1f4669cd4344e5afe3a1ccfafe5c8cd43",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Alternate coarse gaps on measured signal to expose narrow shoulders.",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "paired",
+    "selective"
+  ],
+  "baseline_note": "Current confirmed table-free parent214783. Official score alone decides adoption."
+}

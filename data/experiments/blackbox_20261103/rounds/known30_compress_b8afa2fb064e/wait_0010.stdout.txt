@@ -1,0 +1,26 @@
+{
+  "job_id": "20261102T164648050808Z_fce6395a0347",
+  "state": "timed_out",
+  "sha256": "b8afa2fb064ed3c17b4a1449b70a6b01b023cb32fff6a5245dbdab4f68bbfcd5",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261103\\rounds\\known30_compress_b8afa2fb064e\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261102T164648050808Z_fce6395a0347\\main.cpp",
+  "score": null,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-11-03 00:46:49",
+    "score": null,
+    "status": "unknown",
+    "status_text": "unknown",
+    "score_text": "",
+    "row_id": null,
+    "submission_id": "c274b4cec3e94434af8bd0edc216d798",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-11-03 00:46:49"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-11-03 00:46:49\"]"
+  },
+  "last_error": "The browser is on a different page or a login page. Complete login manually in the dedicated Chrome window."
+}

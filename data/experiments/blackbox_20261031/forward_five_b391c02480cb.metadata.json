@@ -1,0 +1,8 @@
+{
+  "name": "forward_five",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\forward_five_b391c02480cb.cpp",
+  "description": "Replace three-point forward confirmations by five-point contiguous blocks with the same 12-read auxiliary cap; unchanged learned N gate, raw maxima, frontier and parking guards",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "e24814c8d0b19f9d52bb418bd42fd414079fc3749734f1e911845a0c6f800014"
+}

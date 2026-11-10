@@ -1,0 +1,8 @@
+{
+  "name": "near_vertex_triplets",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\near_vertex_triplets_b391c02480cb.cpp",
+  "description": "Spend inline contiguous-triplet budget only when the irregular-grid quadratic extrapolated vertex is within two coarse steps; raw maximum still authoritative",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "b86a2424d491cddbc6f0ae641f769d2d25a85eb0806def50150f5940216d4ca7"
+}

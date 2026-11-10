@@ -1,0 +1,8 @@
+{
+  "name": "follow_new_peak",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\follow_new_peak_b391c02480cb.cpp",
+  "description": "Replan the remaining monotone refinement tail on a strictly higher winner displaced by >3: merge its next two directional neighbors, max six updates, drop far tail if budget full; preserve route/parking checks",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212320.cpp",
+  "parent_sha256": "b391c02480cb214f42773fa7f9c6f5893dfdbda0b91f0728fadf406562535994",
+  "sha256": "1e7ebe59e47d3ab028cf7dbef30f3578d8bf92704477ba0609acacc7e616c15b"
+}

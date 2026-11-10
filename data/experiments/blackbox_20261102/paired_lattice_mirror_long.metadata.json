@@ -1,0 +1,7 @@
+{
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216258.cpp",
+  "parent_sha256": "487a1cdb0f93e21abd09eada3a59b7e2a9f0d72b10ca4c72c161ce7541c63b5b",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261102\\paired_lattice_mirror_long.cpp",
+  "sha256": "2c5119f92f54a20184d39c6ea2a64536c7365e223f3498d5243a3966914e7e27",
+  "description": "Moment-balanced sampling lattice on n>650: alternate7/9-cell nonflat steps with mean8. For local quadratics, neighboring gap sum stays16 and product63 stays constant, retaining curvature/noise scale while perturbing aliasing. No extra query budget; preserve parent flat search, stops, fine search and physical ledgers. Reverse the lattice phase9/7 as a distinct deterministic placement policy."
+}

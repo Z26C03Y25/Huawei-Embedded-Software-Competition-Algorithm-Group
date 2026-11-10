@@ -1,0 +1,26 @@
+{
+  "job_id": "20261031T121349881025Z_4e71ee43ef6c",
+  "state": "failed",
+  "sha256": "1f2e92595067b4e4dfe1a4f883b169dfaf5c43c51ad09e63fcc9aef17346a7cb",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\rounds\\sparse_forward_pair_1f2e92595067\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T121349881025Z_4e71ee43ef6c\\main.cpp",
+  "score": null,
+  "record": {
+    "filename": "main.cpp",
+    "submission_type": "赛事",
+    "submitted_at": "2026-10-31 20:13:51",
+    "score": null,
+    "status": "failed",
+    "status_text": "internal_error",
+    "score_text": "",
+    "row_id": null,
+    "submission_id": "c14f52fe4a1f46dba31b32a6de738f8d",
+    "source": "api",
+    "identity": [
+      "main.cpp",
+      "2026-10-31 20:13:51"
+    ],
+    "identity_key": "[\"main.cpp\",\"2026-10-31 20:13:51\"]"
+  },
+  "last_error": "internal_error"
+}

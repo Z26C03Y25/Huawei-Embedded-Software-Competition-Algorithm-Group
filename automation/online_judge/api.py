@@ -58,7 +58,7 @@ def _status(status: object, message: object) -> str:
         return "failed"
     if status == "completed" and message == "success":
         return "success"
-    if status in ("pending", "queued", "waiting", "running", "processing", "scoring", "judging"):
+    if status in ("pending", "queued", "waiting", "running", "processing", "scoring", "judging", "tobe_processing"):
         return "pending"
     return "unknown"
 

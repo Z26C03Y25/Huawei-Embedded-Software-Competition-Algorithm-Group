@@ -1,0 +1,17 @@
+{
+  "candidate": "wave104_tailvalley",
+  "sha256": "ffed85141e272f56951ec1de97cc1b28cb648fac19b3162f7e41d39c207dbdf1",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Fit the robust descending tail curvature to locate a possible coming valley; choose the right sentinel from that geometry within the observed-winner redundancy lease.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "tailvalley"
+  ],
+  "baseline_note": "Current confirmed table-free parent216532. Official score alone decides adoption."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "geometry_residual",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\online_search\\scored_191736_21aa93594cd3.cpp",
+  "parent_sha256": "21aa93594cd371bddbbc17074c86ea4898aa0bc2ff91057c684966827dcf85ef",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\geometry_residual_21aa93594cd3.cpp",
+  "sha256": "f3c3c081b41c61bd99ef2d361b58af5ede6181fc3a6692d672b32b9f90510408",
+  "description": "On the scored random-hull parent, compensate unequal point spacing and local median curvature in interpolation residuals, retaining the rest of the hybrid policy. Heuristic scale estimate, not a known noise bound."
+}

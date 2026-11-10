@@ -1,0 +1,103 @@
+{
+  "official": false,
+  "selection": "official total only",
+  "rows": [
+    {
+      "kind": "late_smooth",
+      "n": 592,
+      "target": 510,
+      "old_score": 0,
+      "scores": {
+        "root": 2412,
+        "weak": 2058,
+        "flat": 2057
+      },
+      "queries": {
+        "root": 32,
+        "weak": 90,
+        "flat": 91
+      }
+    },
+    {
+      "kind": "late_needle",
+      "n": 599,
+      "target": 512,
+      "old_score": 0,
+      "scores": {
+        "root": 2416,
+        "weak": 2064,
+        "flat": 2063
+      },
+      "queries": {
+        "root": 32,
+        "weak": 90,
+        "flat": 91
+      }
+    },
+    {
+      "kind": "early_alias",
+      "n": 600,
+      "target": 80,
+      "old_score": 2744,
+      "scores": {
+        "root": 0,
+        "weak": 2744,
+        "flat": 2744
+      },
+      "queries": {
+        "root": 32,
+        "weak": 24,
+        "flat": 24
+      }
+    },
+    {
+      "kind": "center_alias",
+      "n": 600,
+      "target": 300,
+      "old_score": 2170,
+      "scores": {
+        "root": 0,
+        "weak": 2190,
+        "flat": 2170
+      },
+      "queries": {
+        "root": 32,
+        "weak": 62,
+        "flat": 68
+      }
+    },
+    {
+      "kind": "constant_alias",
+      "n": 600,
+      "target": 299,
+      "old_score": 2204,
+      "scores": {
+        "root": 0,
+        "weak": 0,
+        "flat": 0
+      },
+      "queries": {
+        "root": 32,
+        "weak": 90,
+        "flat": 91
+      }
+    },
+    {
+      "kind": "outside_scope",
+      "n": 700,
+      "target": 500,
+      "old_score": 2401,
+      "scores": {
+        "root": 2401,
+        "weak": 2401,
+        "flat": 2401
+      },
+      "queries": {
+        "root": 71,
+        "weak": 71,
+        "flat": 71
+      }
+    }
+  ],
+  "note": "Preserved counterexample: identical constant history atN600 can regress after long right probe. Weak variant protects strong early aliases, root variant does not."
+}

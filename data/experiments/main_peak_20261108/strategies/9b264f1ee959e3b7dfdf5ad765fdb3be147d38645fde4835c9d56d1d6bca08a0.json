@@ -1,0 +1,20 @@
+{
+  "name": "wave54_evidencescout_gapfill",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "gapfill",
+    "selective"
+  ],
+  "operators": [
+    "evidencescout",
+    "gapfill"
+  ],
+  "sha256": "9b264f1ee959e3b7dfdf5ad765fdb3be147d38645fde4835c9d56d1d6bca08a0",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Complete a larger neighborhood around noisy competing peaks.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave54_evidencescout_gapfill.cpp",
+  "created_at": "2026-11-08T17:17:41+08:00"
+}

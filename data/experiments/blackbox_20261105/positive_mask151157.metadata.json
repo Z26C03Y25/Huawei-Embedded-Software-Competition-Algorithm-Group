@@ -1,0 +1,7 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\positive_mask151157.cpp",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+  "sha256": "0ee998234c785dba2a6205e6567401919b5121da851fc26b5d10662e16fffbe9",
+  "description": "Unchanged224148 search with terminal-only stationary marks: N799 parked151 pays4 spare queries; unresolved lengths parked within1 of157 pay1. Loss relative224148 encodes positive contributions A*4+B (A<=1,B<=2 under discovered cohort), subject to spareQ and parking-window coverage. Zero loss is not proof of zero-score cases; no baseline scouting/refinement feedback changed."
+}

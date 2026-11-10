@@ -1,0 +1,8 @@
+{
+  "name": "early_rebound_pilot",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\online_search\\scored_212686_a373e9c3a3b9.cpp",
+  "parent_sha256": "a373e9c3a3b9367a5504765ce7d470682584a23d7ec80125d9f0f8c5589af5b8",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\early_rebound_pilot_a373e9c3a3b9.cpp",
+  "sha256": "467d3ae11a578218b490c3020709d4f8588c92e37a1264cfa52da2282ebda2f1",
+  "description": "For broad moderately noisy early peaks on N>650, pilot toward best+176 first. Only three rising median blocks with projected value beating the old peak allow renewable forward leases up to best+399. This explicitly wagers against the old peak; Q/O/parking guards remain."
+}

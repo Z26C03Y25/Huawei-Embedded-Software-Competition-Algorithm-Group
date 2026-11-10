@@ -1,0 +1,69 @@
+{
+  "official": false,
+  "rows": [
+    {
+      "kind": "double",
+      "old_score": 0,
+      "base_score": 2285,
+      "label": true,
+      "trace": {
+        "band": 510,
+        "winner": 510,
+        "label": true,
+        "virtual_q": 24,
+        "virtual_pos": 80,
+        "virtual_right": 128,
+        "physical_q": 55,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "smooth",
+      "old_score": 2370,
+      "base_score": 2354,
+      "label": false,
+      "trace": {
+        "band": 510,
+        "winner": 510,
+        "label": false,
+        "virtual_q": 71,
+        "virtual_pos": 510,
+        "virtual_right": 523,
+        "physical_q": 90,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "dispatch_zero",
+      "old_score": 0,
+      "base_score": 2228,
+      "label": true,
+      "trace": {
+        "band": 510,
+        "winner": 510,
+        "label": true,
+        "virtual_q": 1,
+        "virtual_pos": 586,
+        "virtual_right": 586,
+        "physical_q": 33,
+        "pad": 0
+      }
+    },
+    {
+      "kind": "edge",
+      "old_score": 0,
+      "base_score": 2324,
+      "label": false,
+      "trace": {
+        "band": 495,
+        "winner": 495,
+        "label": false,
+        "virtual_q": 58,
+        "virtual_pos": 492,
+        "virtual_right": 492,
+        "physical_q": 90,
+        "pad": 0
+      }
+    }
+  ]
+}

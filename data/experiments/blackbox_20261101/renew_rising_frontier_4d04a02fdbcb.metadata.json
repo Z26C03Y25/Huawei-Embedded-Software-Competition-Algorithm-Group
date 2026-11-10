@@ -1,0 +1,8 @@
+{
+  "name": "renew_rising_frontier",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_216233.cpp",
+  "parent_sha256": "4d04a02fdbcb1607c882f9b2d71c5a5150f6d005e94a834f2ba3dee763bbd4d4",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\renew_rising_frontier_4d04a02fdbcb.cpp",
+  "sha256": "b4270dac45c971c882b910c8ee793a263d29f3d0d55501a1e1ff27daf4e53bfa",
+  "description": "Repair stale high-band frontier for a newly superior rising forward shoulder: only when recent rises are consistent, best is at the frontier and exceeds all points at least24 cells behind by a noise margin, grant a renewable32-cell bracket lease. Retain resolved-descent stop and raw maxima. A heuristic release, not global R certification."
+}

@@ -1,0 +1,12 @@
+{
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261105\\cohort_flat_all.cpp",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_224148.cpp",
+  "parent_sha256": "84d272c2a09905750485b89b8e5de1f76090d6191bed2265e2d35b365dd49a51",
+  "sha256": "e0edee3844366751d2dfe7ed507f7b72dde460633798880206297cc8196389a9",
+  "description": "Flat-history late repair on [592, 599, 600]: preserve complete224148 prefix and first parking, then only equal raw replies belowVMAX trigger495..525 exhaustive audit and second real parking, Q/O guarded. Nonflat aliases protected; indistinguishable constant cases can still regress, official total selects.",
+  "lengths": [
+    592,
+    599,
+    600
+  ]
+}

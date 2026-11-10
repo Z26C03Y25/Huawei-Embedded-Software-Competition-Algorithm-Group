@@ -2,10 +2,22 @@
 
 [返回首页](../../README.md) · [字节校验清单](manifest.json) · [实验目录说明](online_search/README.md) · [复现指南](../../docs/guides/reproduction.md)
 
-本页分数是已记录的正式反馈，不是本地重放官方隐藏数据的结果。当前入口采用2026-10-27最高正式字节；历史分数保留对照。已评分源码保持原字节，新实验创建新文件。
+本页分数是已记录的正式反馈，不是本地重放官方隐藏数据的结果。当前入口见[无打表主峰识别记录](../experiments/main_peak_20261109/README.md)，当前正式218796。历史分数保留对照，已评分源码保持原字节，新实验创建新文件。
 
 | 源文件 | 说明 | 已知正式总分 |
 | --- | --- | --- |
+| [main_online_224148.cpp](main_online_224148.cpp) | 2026-11-04 线上黑盒拟合确认版 | **224148** |
+| [main_online_223836.cpp](main_online_223836.cpp) | 2026-11-04 线上黑盒拟合确认版 | **223836** |
+| [main_online_223678.cpp](main_online_223678.cpp) | 2026-11-04 线上黑盒拟合确认版 | **223678** |
+| [main_online_223378.cpp](main_online_223378.cpp) | 2026-11-04 线上黑盒拟合确认版 | **223378** |
+| [main_online_223233.cpp](main_online_223233.cpp) | 2026-11-04 线上黑盒拟合确认版 | **223233** |
+| [main_online_220820.cpp](main_online_220820.cpp) | 2026-11-04 线上黑盒拟合确认版 | **220820** |
+| [main_online_218595.cpp](main_online_218595.cpp) | 2026-11-04 线上黑盒拟合确认版 | **218595** |
+| [main_online_216258.cpp](main_online_216258.cpp) | 2026-11-01 线上黑盒拟合确认版 | **216258** |
+| [main_online_216233.cpp](main_online_216233.cpp) | 2026-11-01 线上黑盒拟合确认版 | **216233** |
+| [main_online_212686.cpp](main_online_212686.cpp) | 2026-10-31 线上黑盒拟合确认版 | **212686** |
+| [main_online_212668.cpp](main_online_212668.cpp) | 2026-10-31 线上黑盒拟合确认版 | **212668** |
+| [main_online_212320.cpp](main_online_212320.cpp) | 2026-10-31 线上黑盒拟合确认版 | **212320** |
 | [main_online_205415.cpp](main_online_205415.cpp) | 2026-10-27 保留原前探目标并加一个途中查询 | **205415** |
 | [main_online_205376.cpp](main_online_205376.cpp) | 2026-10-27 粗扫结构改进正式最高分 | **205376** |
 | [main_online_203239.cpp](main_online_203239.cpp) | 2026-10-26 最高正式分归档 | **203239** |
@@ -15,7 +27,7 @@
 | main_strategy_159487.cpp | 用户本次反馈的分层算子策略，原样归档 | 159487 |
 | main_trend_153592.cpp | 平坦期限与趋势显著性两项修正，线上任务已确认完成 | 153592 |
 | main_before_strategy.cpp | 本轮改造前实际 main.cpp 原样备份，与上述两份均不同 | 未映射，不能套用归档成绩 |
-| 仓库根目录 main.cpp | 与 main_online_205415.cpp 完全一致 | **205415** |
+| 仓库根目录 main.cpp | 无打表主峰识别候选 | 当前正式218796 |
 | main_flat199_candidate.cpp | 单独修改平坦期限的消融候选 | 未评分 |
 | main_trend_candidate.cpp | 与 main_trend_153592.cpp 相同的开发副本 | 153592 |
 | main_frontier_candidate.cpp | 多项失败/有限收益实验，保留用于消融，不推荐提交 | 未评分 |
@@ -41,4 +53,4 @@
 
 历史突破：2026-10-27 08:44:03作品0aeed21212f74e47b969b10cbf7e9389正式205376，已由恢复刷新后的普通查分流程连续确认。SHA256：bf7fa9d1d32233839783a5c743a332c831231de08cfb5c953e4fb30a4c08c5e2。
 
-当前最高：2026-10-27 09:11:40作品869ab468dec54a2f9b113f1978ae71c9正式205415，已自动刷新连续确认。SHA256：827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37。
+历史最高：2026-10-27 09:11:40作品869ab468dec54a2f9b113f1978ae71c9正式205415，已自动刷新连续确认。SHA256：827376b81ce389f67aa4aec450043eebec3cde801c914dbdf5c44bb52e390e37。

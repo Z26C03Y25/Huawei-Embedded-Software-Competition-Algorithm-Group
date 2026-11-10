@@ -1,0 +1,19 @@
+{
+  "name": "wave27_interior",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "interior",
+    "selective"
+  ],
+  "operators": [
+    "interior"
+  ],
+  "sha256": "25a5a20d91641a037c32b1858e9c56a02de7abb4e26d1b6aa3378b632f09ed10",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Reserve a margin around the model peak before accepting completion.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave27_interior.cpp",
+  "created_at": "2026-11-08T17:15:36+08:00"
+}

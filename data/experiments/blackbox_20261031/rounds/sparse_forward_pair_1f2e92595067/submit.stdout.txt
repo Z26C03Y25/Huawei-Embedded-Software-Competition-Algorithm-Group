@@ -1,0 +1,10 @@
+{
+  "job_id": "20261031T121349881025Z_4e71ee43ef6c",
+  "state": "delivery_uncertain",
+  "sha256": "1f2e92595067b4e4dfe1a4f883b169dfaf5c43c51ad09e63fcc9aef17346a7cb",
+  "source_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\rounds\\sparse_forward_pair_1f2e92595067\\main.cpp",
+  "snapshot_path": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\automation\\online_judge\\runs\\20261031T121349881025Z_4e71ee43ef6c\\main.cpp",
+  "score": null,
+  "record": null,
+  "last_error": null
+}

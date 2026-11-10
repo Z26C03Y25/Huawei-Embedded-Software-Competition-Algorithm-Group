@@ -1,0 +1,18 @@
+{
+  "candidate": "wave109_zerosalvage",
+  "sha256": "f6844076a4841d3aa6b7f8f945ef77cacbd236e2260fbbd1da252ea375dae585",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "If the current winner lies left of rightmost minus the allowed199redundancy and3parking error, returning there is provably zero. Redirect refinement into unresolved feasible cells, reserving queries to refine any new higher winner.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "fitstop",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "zerosalvage"
+  ],
+  "baseline_note": "Current confirmed table-free parent217614. Official score alone decides adoption."
+}

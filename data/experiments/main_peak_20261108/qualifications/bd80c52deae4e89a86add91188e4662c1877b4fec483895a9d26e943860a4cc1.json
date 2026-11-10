@@ -1,0 +1,17 @@
+{
+  "candidate": "wave102_sweepcover",
+  "sha256": "bd80c52deae4e89a86add91188e4662c1877b4fec483895a9d26e943860a4cc1",
+  "kind": "direct_online_blackbox",
+  "claimed_local_winner": false,
+  "rationale": "Derive the finest domain-covering stride from the query budget while reserving a complete two-sided fine cell; preserve waveform stopping and use the corresponding coarse budget.",
+  "flags": [
+    "basinunion",
+    "core",
+    "efficient",
+    "frontier",
+    "quantilefloor",
+    "selective",
+    "sweepcover"
+  ],
+  "baseline_note": "Current confirmed table-free parent216532. Official score alone decides adoption."
+}

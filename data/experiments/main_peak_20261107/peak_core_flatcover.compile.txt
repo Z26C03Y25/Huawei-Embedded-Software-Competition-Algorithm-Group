@@ -1,0 +1,4 @@
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\main_peak_20261107\peak_core_flatcover.cpp: In member function 'void af::Solver::explore()':
+D:\code\Huawei-Embedded-Software-Competition-Algorithm-Group-main\Huawei-Embedded-Software-Competition-Algorithm-Group-main\data\experiments\main_peak_20261107\peak_core_flatcover.cpp:348:13: warning: variable 'flatRuns' set but not used [-Wunused-but-set-variable=]
+  348 |         int flatRuns=0, adjacentReads=0,apexReads=0; bool apexActive=false;
+      |             ^~~~~~~~

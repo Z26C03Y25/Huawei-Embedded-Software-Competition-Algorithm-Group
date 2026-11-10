@@ -1,0 +1,8 @@
+{
+  "name": "wide_cruise_scan",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\wide_cruise_scan_93616283c893.cpp",
+  "sha256": "a228778b3b8917132b4f559bd35f19b854e9c0cd6f527d2ecb16f1824231979f",
+  "description": "Use phase-preserving16-cell cruise only for clean sustained rises with observed left-half-width>=32 and nonnegative slope change; return to8 when slowing, narrow, noisy or falling. Preserve initial anchors, stopping policy, raw winners and fine planner."
+}

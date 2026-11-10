@@ -1,0 +1,8 @@
+{
+  "name": "doubao_resolved_coarse_v2",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\online_search\\scored_191308_367aae3edfa0.cpp",
+  "parent_sha256": "367aae3edfa03c665a3afb7e363c87cd378203e8e39d73e7a0b11bb6be222c60",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\doubao_resolved_coarse_v2_367aae3edfa0.cpp",
+  "sha256": "11acef5b3251adea8468216db55fb60295d81fa45bda416f8e87488f0db6ad33",
+  "description": "Causal Doubao follow-up: retain its fine planner, ensemble, narrow model confidence and diagnostics, but graft officially scored216233 coarse sampling/budgets/frontier/sentinel/rebound/adjacent-triplet/stopping policies. Test whether its coarse rewrite dominates the observed191308 loss."
+}

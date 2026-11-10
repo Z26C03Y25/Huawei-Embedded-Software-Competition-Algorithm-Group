@@ -1,0 +1,20 @@
+{
+  "name": "wave50_evidencescout_noiselocal",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "noiselocal",
+    "selective"
+  ],
+  "operators": [
+    "evidencescout",
+    "noiselocal"
+  ],
+  "sha256": "3cc55b91b0947323a6c133973f084e2e778980775762d642512b1e687629e54b",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Compare global and recent residual dispersion for noisy peak recognition.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave50_evidencescout_noiselocal.cpp",
+  "created_at": "2026-11-08T17:17:22+08:00"
+}

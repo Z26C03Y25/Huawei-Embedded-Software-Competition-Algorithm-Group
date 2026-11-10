@@ -1,0 +1,8 @@
+{
+  "name": "validated_quadratic_stop",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261101\\validated_quadratic_stop_93616283c893.cpp",
+  "sha256": "db12ba3c2334526b2a581fb5c37864f6fc04399cd0dcdf7957c4a16b0f1d8e8b",
+  "description": "Save post-peak M/R only after clean significant nonrebounding local data fits one concave quadratic across>=7 points spanning both sides, every residual is small relative to curvature and local/multiscale vertices agree within0.75. Retain ordinary scout for all other shapes; not a global unimodality proof."
+}

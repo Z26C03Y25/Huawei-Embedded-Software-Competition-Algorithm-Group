@@ -1,0 +1,19 @@
+{
+  "name": "wave19_priced",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "priced",
+    "selective"
+  ],
+  "operators": [
+    "priced"
+  ],
+  "sha256": "ccd60d09e231c08d62e07ec53ee9f673beddafc093ee794bdadcf2819d20b31e",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Value real direction changes in refinement route planning.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave19_priced.cpp",
+  "created_at": "2026-11-08T17:14:45+08:00"
+}

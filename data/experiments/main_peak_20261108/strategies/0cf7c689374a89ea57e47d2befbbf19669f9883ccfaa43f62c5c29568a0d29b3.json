@@ -1,0 +1,20 @@
+{
+  "name": "wave66_evidencescout_statisticalsignal",
+  "flags": [
+    "core",
+    "efficient",
+    "evidencescout",
+    "selective",
+    "statisticalsignal"
+  ],
+  "operators": [
+    "evidencescout",
+    "statisticalsignal"
+  ],
+  "sha256": "0cf7c689374a89ea57e47d2befbbf19669f9883ccfaa43f62c5c29568a0d29b3",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Replace coarse length tiers with observed-width, slope, noise and remaining-budget scouting.; Scale signal confidence with the number of measurements and measured noise rather than a fixed noise multiplier.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave66_evidencescout_statisticalsignal.cpp",
+  "created_at": "2026-11-08T17:18:21+08:00"
+}

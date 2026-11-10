@@ -1,0 +1,8 @@
+{
+  "name": "single_pass_refine",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\blackbox_20261031\\single_pass_refine_93616283c893.cpp",
+  "description": "One globally planned monotone refinement pass, full shared query quota instead of reserving a second directional pass; original model completion retained",
+  "parent": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\versions\\main_online_212686.cpp",
+  "parent_sha256": "93616283c893e0fc03451decda7dc9f42130ab69b93b14e0f910f86e07a9d61c",
+  "sha256": "0c30753897bc5610afd11c206e59be07c8a9add82e14a4eaf800af58067a3906"
+}

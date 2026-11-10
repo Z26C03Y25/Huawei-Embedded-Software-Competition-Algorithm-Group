@@ -1,0 +1,19 @@
+{
+  "name": "wave15_quant",
+  "flags": [
+    "core",
+    "efficient",
+    "frontier",
+    "quant",
+    "selective"
+  ],
+  "operators": [
+    "quant"
+  ],
+  "sha256": "2d29b1e19721bceaa22328556f9de687684e2daceb46bed5c2edf0a834cf3974",
+  "parent_sha256": "3ccdb7d04e21f51444cee99f03020391befa200bcc18376d48bd73a0552ce3f9",
+  "parent_score": 214783,
+  "rationale": "Small quantized variation should not establish peak identity prematurely.",
+  "source": "D:\\code\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\Huawei-Embedded-Software-Competition-Algorithm-Group-main\\data\\experiments\\main_peak_20261108\\wave15_quant.cpp",
+  "created_at": "2026-11-08T17:14:17+08:00"
+}

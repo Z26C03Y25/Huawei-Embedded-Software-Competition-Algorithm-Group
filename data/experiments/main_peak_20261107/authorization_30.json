@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-07",
+  "authorization": "持续优化30次",
+  "constraints": [
+    "保证不打表",
+    "以正式总分保留最佳",
+    "每个源码只投递一次",
+    "未知任务只恢复",
+    "判题服务故障停止新上传"
+  ],
+  "max_actual_team_uploads": 30,
+  "supersedes": "Conservative automatic three-upload cap for this explicitly authorized date only",
+  "mode": "sequential_adaptive_blackbox",
+  "local_evidence_role": "Protocol, Q/O/parking and static review only; official aggregate scores select strategies. Synthetic performance is diagnostic and does not gate black-box trials.",
+  "selection_authorization": "本地数据不一定够好，直接测线上"
+}
