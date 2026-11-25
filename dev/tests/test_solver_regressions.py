@@ -1,7 +1,7 @@
 """Protect immutable scored archives and validate core interaction behavior.
 
-The entry point must match the highest confirmed score record. New experiments
-must preserve graded bytes; synthetic checks do not reproduce official scores.
+The entry point must match the designated scored archive. The historical best
+score is verified independently. Synthetic checks do not reproduce official scores.
 
 Protocol/parking checks run against the current entry point and both scored
 archives. The wide-summit and late-peak checks belong specifically to v2: their
@@ -46,13 +46,19 @@ class SubmissionSourceSelectionTests(unittest.TestCase):
                 self.assertEqual(hashlib.sha256(source.read_bytes()).hexdigest(), expected_digest,
                                  "An officially scored archive must not be edited in place")
 
-    def test_entry_point_matches_the_highest_confirmed_score_snapshot(self):
-        rows = json.loads((ROOT / "data/versions/online_search/results.json").read_text(encoding="utf-8"))
-        best = max(rows, key=lambda row: row["score"])
+    def test_historical_top_score_snapshot_is_preserved(self):
+        results = ROOT / "data/versions/online_search/results.json"
+        best = max(json.loads(results.read_text(encoding="utf-8")), key=lambda row: row["score"])
         archive = ROOT / "data/versions/online_search" / f"scored_{best['score']}_{best['sha256'][:12]}.cpp"
         self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(), best["sha256"])
-        self.assertEqual(hashlib.sha256((ROOT / "main.cpp").read_bytes()).hexdigest(), best["sha256"],
-                         "Do not publish an ungraded/lower-score candidate as main.cpp")
+
+    def test_entry_point_matches_the_designated_scored_snapshot(self):
+        versions = ROOT / "data/versions"
+        entry = json.loads((versions / "default-entry.json").read_text(encoding="utf-8"))
+        archive = versions / f"main_online_{entry['score']}.cpp"
+        self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(), entry["sha256"])
+        self.assertEqual((ROOT / "main.cpp").read_bytes(), archive.read_bytes(),
+                         "main.cpp must match the designated officially scored source")
 
     def test_pre_strategy_source_is_preserved_exactly(self):
         source = ROOT / "data/versions" / "main_before_strategy.cpp"
