@@ -6,7 +6,9 @@
 
 已记录最高正式总分 **224148**（2026-11-04，正式评测确认）。[最高分源码](data/versions/main_online_224148.cpp) · [本轮线上黑盒实验](data/experiments/blackbox_20261104/README.md)
 
-当前 main.cpp 采用[纯波形主峰确认版](data/experiments/main_peak_20261110/README.md)，当前正式分 **218796**。历史最高分与当前源码分开记录。
+比赛已结束，赛后实验终分和对应源码见[赛后归档](data/experiments/final_20261125/README.md)。
+
+当前 main.cpp 采用[无打表波形搜索版](data/versions/main_online_221354.cpp)，正式得分 **221354**。
 
 ## 按功能找文件
 

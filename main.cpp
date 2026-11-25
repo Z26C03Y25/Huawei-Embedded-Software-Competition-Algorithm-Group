@@ -434,6 +434,23 @@ class Solver {
     }
 
 
+
+    bool consistentBackgroundRamp(const Features& f) const {
+        if (best!=0 || f.x.size()<4 || f.x.front()!=0 || rightmost<=0) return false;
+        const double drop=static_cast<double>(value[0]-value[rightmost]);
+        if (drop<=0) return false;
+        const double slope=drop/rightmost;
+        const double tolerance=max(2.0,drop/20);
+        // Extrapolating the measured decline stays physically feasible across
+        // the domain. A steep monotone fall remains a candidate boundary peak.
+        if (value[0]-slope*(n-1)<=tolerance) return false;
+        for (int x:f.x) {
+            const double expected=value[0]-slope*x;
+            if (abs(value[x]-expected)>tolerance) return false;
+        }
+        return true;
+    }
+
     void explore() {
         use(Op::B01); use(Op::J01);
         for (int x:{0,4,12,24}) {
@@ -441,8 +458,25 @@ class Solver {
             if (certificate()) return;
         }
         int flatRuns=0, adjacentReads=0,apexReads=0; bool apexActive=false;
+        int rampFitEnd=0;
+        double rampSlope=0,rampTolerance=0;
+        bool rampRejected=false;
+        int rampCrestReads=0;
         while (q<128 && rightmost<n-1 && seconds()<7.0) {
-            const Features f=features();
+            Features f=features();
+            if (!rampRejected && !rampFitEnd && consistentBackgroundRamp(f)) {
+                rampFitEnd=rightmost;
+                const double drop=static_cast<double>(value[0]-value[rightmost]);
+                rampSlope=drop/rampFitEnd;
+                rampTolerance=max(2.0,drop/20);
+            }
+            if (rampFitEnd && !rampRejected) {
+                const double predicted=value[0]-rampSlope*rightmost;
+                const double uncertainty=rampTolerance*(1.0+static_cast<double>(rightmost)/rampFitEnd);
+                if (best!=0) { rampRejected=true;rampCrestReads=4; }
+                else if (value[rightmost]<predicted-uncertainty) rampRejected=true;
+                else { f.leftEdge=false;f.significant=false; }
+            }
             if (certificate()) return;
             int limit=frontierLimit(f);
             const bool rival=coarseRivalEvidence(f);
@@ -530,10 +564,21 @@ class Solver {
             }
             if (nearApex) apexActive=true;
             if (apexActive && apexReads<18 && rightmost-best<=3 && !f.rebound) {
-                step=1;++apexReads;
+                step=(best==rightmost && f.rises>=2 && f.falls==0) ? 2 : 1;
+                ++apexReads;
             }
             if (observedPeakEvidence() && apexActive && apexReads>=3 && rightmost-best>=3 &&
                 f.falls>=2 && !f.rebound && !rival && f.significant && !f.noisy) break;
+
+            if (rampFitEnd && !rampRejected) {
+                const double prediction=value[0]-rampSlope*rightmost;
+                const double tolerance=rampTolerance*(1.0+static_cast<double>(rightmost)/rampFitEnd);
+                if (abs(value[rightmost]-prediction)<=tolerance)
+                    step=max(step,min(24,rampFitEnd/2));
+            }
+            if (rampCrestReads>0 && rightmost-best<=4) {
+                step=min(step,2);--rampCrestReads;
+            } else rampCrestReads=0;
             int next=min({n-1,rightmost+step,limit});
             const int center=(n-1)/2;
             if (f.flat && rightmost<center && next>center) { next=center; use(Op::G02); }
@@ -1110,14 +1155,29 @@ class Solver {
         });
         const int reserve=max(7,static_cast<int>(ceil(log2(2.0+n))));
         const int budget=max(0,QMAX-1-q-reserve);
-        vector<int> plan;
-        for (const Cell& cell:cells) {
+        vector<int> plan,owner(n,-1),scan(cells.size(),-1);
+        for (size_t i=0;i<cells.size();++i) {
+            const Cell& cell=cells[i];
             if (static_cast<int>(plan.size())+cell.right-cell.left-1>budget) continue;
-            for (int x=cell.left+1;x<cell.right;++x) if (value[x]<0) plan.push_back(x);
+            for (int x=cell.left+1;x<cell.right;++x) if (value[x]<0) {
+                plan.push_back(x);
+                owner[x]=static_cast<int>(i);
+            }
         }
         plan=orient(move(plan),true);
         if (!routeSafe(plan)) return;
-        for (int x:plan) if (!sample(x) || certificate()) return;
+        for (int x:plan) {
+            const int i=owner[x];
+            // Reapply the original admission rule with the updated winner.
+            // Once started, finish the entire cell despite new records in it.
+            if (scan[i]<0) {
+                const Cell& cell=cells[i];
+                const bool behindWinner=pos>best ? cell.right<best : cell.left>best;
+                const double slack=behindWinner ? 0.0 : uncertainty;
+                scan[i]=cell.upper>=bestValue-slack;
+            }
+            if (scan[i] && (!sample(x) || certificate())) return;
+        }
     }
 
     void refine() {
